@@ -1,0 +1,1479 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "simply_swords"
+	group: "25569283B1B01A0F"
+	icon: {
+		Count: 1
+		id: "simplyswords:caelestis"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5692AC9CEBEC2EEB"
+	images: [
+		{
+			alpha: 120
+			height: 15.0d
+			image: "simplyswords:item/unique_longsword_tainted_whole_32x32"
+			order: 2
+			rotation: -45.0d
+			width: 15.0d
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			alpha: 120
+			height: 9.0d
+			image: "simplyswords:item/enigma_base"
+			order: -1
+			rotation: -90.0d
+			width: 9.0d
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			alpha: 120
+			height: 9.0d
+			image: "simplyswords:item/enigma_base"
+			order: -1
+			rotation: 0.0d
+			width: 9.0d
+			x: 14.5d
+			y: 7.0d
+		}
+		{
+			height: 5.0d
+			image: "simplyswords:item/contained_remnant_outer"
+			rotation: 45.0d
+			width: 5.0d
+			x: 6.0d
+			y: 13.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "538EDD1409083182"
+			rewards: [
+				{
+					id: "22B64F990BB45108"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "60A2ED21BDF12F3E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A3BCB1DAEF1FA61"
+				item: "simplyswords:contained_remnant"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			id: "22C9D1B9FA8067F5"
+			rewards: [
+				{
+					id: "70B08AC5FB67FD0B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "66640A1E855AF45A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6884A71A99E37EFE"
+				item: {
+					Count: 1
+					id: "simplyswords:brimstone_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			id: "27C15014E698076E"
+			rewards: [
+				{
+					id: "7D91BFE98ADC32DA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "028C1060C2FF9203"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "712FB2056237CDBB"
+				item: {
+					Count: 1
+					id: "simplyswords:watcher_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			id: "49CD865896EA770C"
+			rewards: [
+				{
+					id: "6AEF84F54347AB4B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1ACEED8096DE328D"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "761CC796C31E6D30"
+				item: {
+					Count: 1
+					id: "simplyswords:storms_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			id: "6DBC2660866A02E3"
+			rewards: [
+				{
+					id: "44B1B6E6784F8E56"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "64F9456F00E8DD53"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7928664D0AD21858"
+				item: {
+					Count: 1
+					id: "simplyswords:stormscale"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			id: "2E2459C12A1E84CF"
+			rewards: [
+				{
+					id: "603E255E3BE76FDC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "58500AC7E2F8DDF7"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "777DF442E3F3D855"
+				item: {
+					Count: 1
+					id: "simplyswords:stormbringer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			id: "6D96ABB12CBB3B3A"
+			rewards: [
+				{
+					id: "7D553A56AFC368D4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1CBE86679749D0F2"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69B505B0C19A1F60"
+				item: {
+					Count: 1
+					id: "simplyswords:bramblethorn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			id: "11F382714DCE4B07"
+			rewards: [
+				{
+					id: "377E9186138C6608"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7CF878A0B2949C97"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D5FB105DAD5A661"
+				item: {
+					Count: 1
+					id: "simplyswords:watching_warglaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			id: "07A89FD842E15D2F"
+			rewards: [
+				{
+					id: "3D57104C4DEC33DE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "06164737885685A7"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3ADC7DF8F6488511"
+				item: {
+					Count: 1
+					id: "simplyswords:toxic_longsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			id: "4C4703DAB347032C"
+			rewards: [
+				{
+					id: "53F1333055738139"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1B63A480BEA49974"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A72D949C36F4163"
+				item: {
+					Count: 1
+					id: "simplyswords:emberblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			id: "339043CC6CDCEF9F"
+			rewards: [
+				{
+					id: "0D30B4F0B5971786"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "46C4A90A99F050E6"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7319FF77AE485403"
+				item: {
+					Count: 1
+					id: "simplyswords:hearthflame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			id: "3FE7618277B099E5"
+			rewards: [
+				{
+					id: "5E7312EA3FBC00EF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1C4E06C59088E0D4"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72BD66ECD006C4F7"
+				item: {
+					Count: 1
+					id: "simplyswords:soulkeeper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			id: "66A828A2C3268078"
+			rewards: [
+				{
+					id: "338919FA4B7CFEB7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5B823C00EEAE9AFB"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "679F7815FCEE6164"
+				item: {
+					Count: 1
+					id: "simplyswords:twisted_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			id: "4FBEC9705590E240"
+			rewards: [
+				{
+					id: "55A5B4E1161C3449"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "125438EF9C6C4B96"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "41B9B61485082854"
+				item: {
+					Count: 1
+					id: "simplyswords:soulstealer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			id: "73B92DAF90C24E1F"
+			rewards: [
+				{
+					id: "128FBB7A4B9F6DEB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "54590F389DE48AB5"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "18496F81ED22B01E"
+				item: {
+					Count: 1
+					id: "simplyswords:soulrender"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			id: "5EFBFD2A26A57531"
+			rewards: [
+				{
+					id: "171DCC492A1DB8C9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1AE11BBFC45A2813"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E12D39FC51FAEA8"
+				item: {
+					Count: 1
+					id: "simplyswords:soulpyre"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			id: "07E99A22F318A7B0"
+			rewards: [
+				{
+					id: "58AD88104D41647D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3757AE467AE7A146"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5AA833BD6070128A"
+				item: {
+					Count: 1
+					id: "simplyswords:frostfall"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			id: "02EB461BDE2C459D"
+			rewards: [
+				{
+					id: "3FFCBCBED113831F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "044BC3AB277F31C4"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DFC7B2054B9BC33"
+				item: {
+					Count: 1
+					id: "simplyswords:molten_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			id: "0E579AD5E235E031"
+			rewards: [
+				{
+					id: "57EBECF2978E579F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "07AD069007F8A8C3"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4EBD7CE4E70E4C95"
+				item: {
+					Count: 1
+					id: "simplyswords:livyatan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 9.5d
+		}
+		{
+			id: "515AFA7397D5DABE"
+			rewards: [
+				{
+					id: "3EA5F90CC16116D8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0B9306018C751F8F"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1707C39C1CD0B290"
+				item: {
+					Count: 1
+					id: "simplyswords:icewhisper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 8.5d
+		}
+		{
+			id: "404BEC913F50B4AE"
+			rewards: [
+				{
+					id: "3AFBEC175E5FDD4F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "61FF368A59AC0235"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "29323EA08CFEA31F"
+				item: {
+					Count: 1
+					id: "simplyswords:arcanethyst"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 7.5d
+		}
+		{
+			id: "7CCF83F9E47C385C"
+			rewards: [
+				{
+					id: "390EA0A784084764"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "209700186E6B4B73"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2679E939A539E845"
+				item: {
+					Count: 1
+					id: "simplyswords:thunderbrand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.5d
+		}
+		{
+			id: "6F4BF27794BF2C36"
+			rewards: [
+				{
+					id: "394B856CA592A5C8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "43844746986D3E0B"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FC4B88E07BFCD4B"
+				item: {
+					Count: 1
+					id: "simplyswords:mjolnir"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 10.5d
+		}
+		{
+			id: "5336A8B239038FCB"
+			rewards: [
+				{
+					id: "4E69804561FE158D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "79C226B769FD8A17"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4416AB4817C125BC"
+				item: {
+					Count: 1
+					id: "simplyswords:slumbering_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.5d
+		}
+		{
+			id: "46E2C27B90FBCBB3"
+			rewards: [
+				{
+					id: "17192A6C0093A2D0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "67501E75CD41875A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7FCF4036515AB90F"
+				item: {
+					Count: 1
+					id: "simplyswords:shadowsting"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			id: "4BF7A9A0B4DA1A96"
+			rewards: [
+				{
+					id: "5F4508B8886E9887"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "467ABC7C35B1C2A3"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B5BED0D9964F295"
+				item: {
+					Count: 1
+					id: "simplyswords:dormant_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.5d
+		}
+		{
+			id: "36FF59729999052D"
+			rewards: [
+				{
+					id: "588F0C4DA6FE0CB9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "26A97F7441EE3874"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0432E458F016F16F"
+				item: {
+					Count: 1
+					id: "simplyswords:whisperwind"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 5.5d
+		}
+		{
+			id: "12655DFBEEFDE624"
+			rewards: [
+				{
+					id: "786B27593BE83A16"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "175CB9EFCCC08378"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D9DBC6081C4A006"
+				item: {
+					Count: 1
+					id: "simplyswords:emberlash"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			id: "0B5366C0D6FB6557"
+			rewards: [
+				{
+					id: "2FB94D5D110D04F2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "310DA2690CFF8DBB"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C4F0A249696B034"
+				item: {
+					Count: 1
+					id: "simplyswords:waxweaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.5d
+		}
+		{
+			id: "14FDE0BCC3F9130F"
+			rewards: [
+				{
+					id: "498B76A95AE34413"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "118FBDAD2827993A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B62CC97B9258B4A"
+				item: {
+					Count: 1
+					id: "simplyswords:hiveheart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			id: "2D8B7350335E4BD1"
+			rewards: [
+				{
+					id: "3C2993DF19B5B50D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2D64546418EAD6E1"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0ECA9C3C9CA74904"
+				item: {
+					Count: 1
+					id: "simplyswords:stars_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.5d
+		}
+		{
+			id: "016B2427A1083853"
+			rewards: [
+				{
+					id: "267389CB064A2E62"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6E125647D0A7F3C2"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "594F69C715AB94DA"
+				item: {
+					Count: 1
+					id: "simplyswords:wickpiercer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			id: "2F597007F4487FFD"
+			rewards: [
+				{
+					id: "1B5B04CB5D89BE9A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "08C259B73808F15A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78FF32AE64612589"
+				item: {
+					Count: 1
+					id: "simplyswords:tempest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "240E53A338DEB024"
+			rewards: [
+				{
+					id: "7344724EB173E4B0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6171FDB87FE5E171"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34F863C52A2B0FBC"
+				item: {
+					Count: 1
+					id: "simplyswords:flamewind"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			id: "295B12B8939213AD"
+			rewards: [
+				{
+					id: "540397CA925B431D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "68F201699E34A780"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A3197C4931E5D89"
+				item: {
+					Count: 1
+					id: "simplyswords:ribboncleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			id: "514E28CDB4ED99A5"
+			rewards: [
+				{
+					id: "58232382EA706DF8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "786E555BAA5C241C"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "13110A26B4E06F7D"
+				item: {
+					Count: 1
+					id: "simplyswords:decaying_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			id: "03942E19E2A6FEBD"
+			rewards: [
+				{
+					id: "64513F3C6D5F3FCF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7BA9E7EF41E4D798"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38773070A43F14C6"
+				item: {
+					Count: 1
+					id: "simplyswords:magiscythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			id: "0EC6A7238B751FD6"
+			rewards: [
+				{
+					id: "0D21426201817112"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "20C281D761457EC0"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A1DA9A7D081297C"
+				item: {
+					Count: 1
+					id: "simplyswords:enigma"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			id: "6572CEC19F4477F4"
+			rewards: [
+				{
+					id: "3EB0F4720D41ECAC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7018BDEBF7753929"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A592D6D1894BE8A"
+				item: {
+					Count: 1
+					id: "simplyswords:magispear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			id: "3698D2BA889F79DD"
+			rewards: [
+				{
+					id: "66189391FF6525D2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "27416D88F1E41BA7"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20111345D04DE183"
+				item: {
+					Count: 1
+					id: "simplyswords:magispear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			id: "347BDEA166FC7037"
+			rewards: [
+				{
+					id: "3533CE4AD1E3120B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "346D2D8603925482"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D909B1C14317491"
+				item: {
+					Count: 1
+					id: "simplyswords:magiblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			id: "509A04D009A62F4B"
+			rewards: [
+				{
+					id: "080049758A000777"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7318770AC534CF65"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0215AE6FF6B3B2D6"
+				item: {
+					Count: 1
+					id: "simplyswords:caelestis"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "115FF0DD4DA1CD19"
+			rewards: [
+				{
+					id: "6840CA6C62639232"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "05B9A2AF6C463423"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04988837EEDA5114"
+				item: {
+					Count: 1
+					id: "simplyswords:dawnquiver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "0BD2095DE4596D67"
+			rewards: [
+				{
+					id: "376C3D1081CED418"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "207D3B4C71EAC12D"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7FD78183134F82E2"
+				item: {
+					Count: 1
+					id: "simplyswords:riftmane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			id: "0C9535BEFAED0353"
+			rewards: [
+				{
+					id: "7627D1DD1CD6126F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "326F65AB3B8A9ED8"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0049B64A24AC17FE"
+				item: {
+					Count: 1
+					id: "simplyswords:wraithfang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			id: "5C6789AA54923E9B"
+			rewards: [
+				{
+					id: "168D175A65256474"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "500F436AE77276E9"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3ECDE5E14E28C6F3"
+				item: {
+					Count: 1
+					id: "simplyswords:bloodwake"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			id: "3134958A80BF2653"
+			rewards: [
+				{
+					id: "1C7C593BFBA1BE47"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "605FF0137BCFEC88"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4AB81698D5CA8908"
+				item: {
+					Count: 1
+					id: "simplyswords:chompolotl"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			id: "27FE4241426FE36E"
+			rewards: [
+				{
+					id: "5A450CD5EB2E36F1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1CE5D3140815C37B"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20E41253037AD0A9"
+				item: "simplyswords:runic_tablet"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.0d
+		}
+		{
+			id: "02E999794A647A2D"
+			rewards: [
+				{
+					id: "2BDCCA363C01D510"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "67EA618E85405954"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B049A86CA841141"
+				item: "simplyswords:runefused_gem"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 13.0d
+		}
+		{
+			id: "41972791B527C5F0"
+			rewards: [
+				{
+					id: "1DFCA1DE973749D1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "26C2EEC03C742E0A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "000A02F48A0370C8"
+				item: "simplyswords:empowered_remnant"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 13.0d
+		}
+		{
+			id: "077BB06F775E6B57"
+			rewards: [
+				{
+					id: "14679BDE3F71A97F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1C5BA1E9BEE8D933"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4FDE5FF6F0E4ACCB"
+				item: "simplyswords:netherfused_gem"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 13.0d
+		}
+		{
+			id: "32ED9F2F90BBFA59"
+			rewards: [
+				{
+					id: "1380F419F251F133"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2413EBB535A33CCB"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7CC7FF3B878F3510"
+				item: "simplyswords:runic_forge"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+	]
+	title: "Simply Swords"
+}

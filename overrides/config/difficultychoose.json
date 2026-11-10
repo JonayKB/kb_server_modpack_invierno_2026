@@ -1,0 +1,26 @@
+{
+  "EASY": {
+    "hpMultiplier": 0.5,
+    "damageMultiplier": 0.5,
+    "lootMultiplier": 0.5,
+    "aggressiveMobs": false
+  },
+  "NORMAL": {
+    "hpMultiplier": 1.0,
+    "damageMultiplier": 1.0,
+    "lootMultiplier": 1.0,
+    "aggressiveMobs": false
+  },
+  "HARD": {
+    "hpMultiplier": 1.5,
+    "damageMultiplier": 1.5,
+    "lootMultiplier": 1.5,
+    "aggressiveMobs": false
+  },
+  "NIGHTMARE": {
+    "hpMultiplier": 2.5,
+    "damageMultiplier": 2.5,
+    "lootMultiplier": 3.0,
+    "aggressiveMobs": false
+  }
+}

@@ -1,0 +1,18 @@
+filename = 'enhanced_boss_bars-1.20.1-1.0.0.jar'
+name = 'Enhanced Boss Bars (Fabric/Forge/NeoForge)'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'enhanced_boss_bars-1.20.1-1.0.0.jar'
+
+[download]
+hash = '8a709553a1eb98792b5db787dc57d132bc5b3971'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5529869
+project-id = 1063296

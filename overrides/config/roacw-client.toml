@@ -1,0 +1,5 @@
+
+["Visual Settings"]
+	#Set to true to hide the Auric Tesla cape on your client screen.
+	removeCape = false
+

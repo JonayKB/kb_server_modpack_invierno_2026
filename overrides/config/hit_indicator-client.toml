@@ -1,0 +1,28 @@
+
+[indicator]
+	#Show the gold 'press parry now' target ring on the indicator.
+	showParryNotch = true
+	#How many ticks before the hit lands the notch ring sits at on a zero ping connection.
+	#Your ping is added on top of this automatically, so the notch stays on the parry window as latency changes.
+	#Set this to your parry mod's startup ticks so pressing at the notch gives a perfect parry.
+	#Range: 0 ~ 20
+	parryNotchTicks = 3
+	#Same as parryNotchTicks, for the red heavy attacks: set it to your dodge's invulnerability ticks so dodging at the notch works.
+	#Range: 0 ~ 40
+	dodgeNotchTicks = 6
+	#Camera shake when a slam lands near you, in degrees at point blank. 0 disables it.
+	#Range: 0.0 ~ 10.0
+	screenShake = 1.2
+	#Overall size multiplier for the indicator.
+	#Range: 0.25 ~ 3.0
+	indicatorScale = 1.0
+	#Freeze the attacker's animation mid-pose while it winds up (hitstop style).
+	freezeAnimations = true
+
+[sounds]
+	#Play audio cues: a woosh when a windup starts and a bell at the parry moment.
+	soundsEnabled = true
+	#Volume multiplier for the indicator sounds.
+	#Range: 0.0 ~ 2.0
+	soundVolume = 1.0
+

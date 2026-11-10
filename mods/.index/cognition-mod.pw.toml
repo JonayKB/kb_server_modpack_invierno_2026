@@ -1,0 +1,25 @@
+filename = 'Cognition-v2.4.12-1.20.1.jar'
+name = 'Cognition (Experience Obelisk)'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Cognition-v2.4.12-1.20.1.jar'
+
+[download]
+hash = '51f43857c6056ad281da36a61b3b6bd65a7306a4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8127025
+project-id = 579484
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '309927'
+type = 'OPTIONAL'

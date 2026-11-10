@@ -1,0 +1,1 @@
+item=just_parry:justparryiteminhand canparry=false itemknockback=0.8 itemparrydamage=2.0 canprojectileboost=false canprojectileparry=false itemspeedmultiplier=2.0 itemaccurancypercentage=0.0 parrydamageabsorptionpercentage=100.0 parrywindow=13.0 parrycooldown=65.0 damageformula=0.0

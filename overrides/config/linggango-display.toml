@@ -1,0 +1,5 @@
+
+[display_tweaks]
+	#Automatically locks max framerate to your monitor's refresh rate and enables VSync.
+	autoFpsSync = false
+

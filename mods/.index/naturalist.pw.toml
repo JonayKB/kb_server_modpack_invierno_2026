@@ -1,0 +1,18 @@
+filename = 'naturalist-5.0pre2+forge-1.20.1.jar'
+name = 'Naturalist'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Naturalist 5.0pre2 (Forge 1.20.1)'
+
+[download]
+hash = 'e0ddee72643c92f2b4754fa4d24c16d79eba343a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6322818
+project-id = 627986

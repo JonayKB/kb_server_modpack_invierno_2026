@@ -1,0 +1,54 @@
+
+["Sampling multiple"]
+	#Range: 0.0 ~ 1.0
+	multiple = 0.5
+
+["Culling Map update delay"]
+	#Range: 0 ~ 10
+	"delay frame" = 1
+
+["Async search signal rate"]
+	#Highest rate, in hertz, at which the render thread wakes the occlusion culling thread.
+	#Each wake is a kernel call, so signalling once per frame costs real time at high frame rates
+	#while the culling map itself only refreshes every few frames. 0 disables the limit.
+	#Range: 0 ~ 1000
+	"max hertz" = 120
+
+["Cull entity"]
+	enabled = true
+
+["Cull block entity"]
+	enabled = true
+
+["Cull chunk"]
+	enabled = true
+
+["Tick culling"]
+	#Skips the client-side tick of entities that are currently culled.
+	#Saves CPU when many entities are loaded, but culled entities stop producing
+	#sounds, particles and animation until they become visible again.
+	#Entities close to the camera, glowing entities, vehicles and anything on the
+	#skip lists always keep ticking.
+	enabled = false
+
+["Async chunk rebuild"]
+	enabled = true
+
+["Auto disable async rebuild"]
+	enabled = true
+
+#Entity skip CULLING
+["Entity ResourceLocation"]
+	#Entities that skip culling, example: ["minecraft:creeper", "minecraft:zombie"]
+	list = ["create:stationary_contraption", "minecraft:warden"]
+
+#Block Entity skip CULLING
+["Block Entity ResourceLocation"]
+	#Block entities that skip culling, example: ["minecraft:chest", "minecraft:mob_spawner"]
+	list = ["minecraft:beacon"]
+
+#Mod namespace skip CULLING
+["Mod Namespace"]
+	#Entire mods that skip culling (matched against ResourceLocation namespace). Use this for mods whose blocks/entities flicker or behave incorrectly with culling. Example: ["ars_nouveau", "botania"]
+	list = ["ars_nouveau"]
+

@@ -1,0 +1,18 @@
+filename = 'hit_indicator-1.7.1.jar'
+name = 'Attack Indicator'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'hit_indicator-1.7.1.jar'
+
+[download]
+hash = '3095ee0d8365115e64b0d73fa1844538ab1d2fd6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8897654
+project-id = 1618105

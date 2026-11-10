@@ -1,0 +1,1497 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5C87AEDF15C354F5"
+	group: "13458AFBA70AE825"
+	icon: {
+		Count: 1
+		id: "minecraft:iron_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5C87AEDF15C354F5"
+	images: [
+		{
+			height: 1.2d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.5d
+			y: -0.7772337292534601d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: 0.22276627074653987d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: 0.22276627074653987d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.068135004182402d
+			y: -1.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.960992147039541d
+			y: 0.4642857142857082d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.5d
+			y: -0.2772337292534601d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: 0.7227662707465399d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.782830787475824d
+			y: 0.9815258395292261d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.641698331268465d
+			y: -0.37688077266522413d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.5d
+			y: 1.2227662707465399d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: 0.22276627074653987d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.425277861325249d
+			y: -0.2857142857142847d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.795338580186474d
+			y: -0.24624392494936842d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.754519155407458d
+			y: -1.224559207389575d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/diamond"
+			rotation: 50.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/diamond"
+			rotation: -50.0d
+			width: 1.0d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/diamond"
+			rotation: 50.0d
+			width: 1.0d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/diamond"
+			rotation: -50.0d
+			width: 1.0d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/obsidian"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/obsidian"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/obsidian"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/obsidian"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/obsidian"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/obsidian"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/obsidian"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/obsidian"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			alpha: 150
+			height: 7.3d
+			image: "cataclysm:textures/entity/leviathan/portal/abyss_portal_idle_3.png"
+			order: 5
+			rotation: 0.0d
+			width: 7.3d
+			x: 4.825947726836027d
+			y: -0.11741635024672092d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/obsidian"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/entity/end_portal.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: 1.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["77B2B97D07D0A8D7"]
+			description: ["Use to create &dALL&r items!"]
+			id: "7C9424CCCFBC4802"
+			rewards: [
+				{
+					count: 16
+					id: "6057F85976921C6E"
+					item: "minecraft:oak_log"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "7A59884B0690953D"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Your best friend."
+			tasks: [{
+				id: "6BAF84F2CD9FDC81"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C9424CCCFBC4802"]
+			description: ["&cBurn&r some ores and items."]
+			id: "194CE242C4288216"
+			rewards: [
+				{
+					count: 18
+					id: "414D6BA298B61090"
+					item: "minecraft:coal"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					id: "2520F5AE71304AC2"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Your second best friend."
+			tasks: [{
+				id: "39CC56CB4FC63DDA"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Furnace"
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["194CE242C4288216"]
+			description: ["Some &abasic resources&r are very useful at the &bbeginning&r of your &djourney&r."]
+			id: "74905880EAD6FA02"
+			rewards: [
+				{
+					count: 2
+					id: "3203C28707380583"
+					item: "minecraft:raw_iron_block"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3F92CD8417171B97"
+					item: "minecraft:raw_gold_block"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "329E21B24FAA6435"
+					item: "minecraft:raw_copper_block"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "101C9C34B5AE9359"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Get some resources!"
+			tasks: [
+				{
+					count: 16L
+					id: "7BB44CBBB7D8289A"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "243BA0C5BE0461E7"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0A2AB3FBB5477189"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+			]
+			title: "Go mining, now!"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F4D2CBF69E424F2"]
+			description: ["&bDiamonds&r are crucial for various crafting recipes; explore the recipes using &2JEI&r."]
+			id: "091750C8B1109710"
+			rewards: [
+				{
+					id: "02D366D5E61D009E"
+					item: "minecraft:diamond"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60FFD5B835E341D3"
+					table_id: 2501998888776764148L
+					type: "loot"
+				}
+				{
+					id: "7745D0ABC1731EB6"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Your first major achievement..."
+			tasks: [{
+				count: 3L
+				id: "562EC0FE63576E43"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Diamonds!"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74905880EAD6FA02"]
+			description: ["The basics done right, very well done."]
+			id: "4F4D2CBF69E424F2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5FEBA15525A283E2"
+					table_id: 2501998888776764148L
+					type: "loot"
+				}
+				{
+					id: "01310295C9396705"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "39CEAEF19D25EC9D"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Just iron tools."
+			tasks: [
+				{
+					id: "00CDB87A9A684288"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E10FC90862529FA"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76350012A438CD8B"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "A little upgrade"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71445B1BC610A45E"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/nether_portal"
+				}
+			}
+			id: "6CCD542815FD89E4"
+			rewards: [
+				{
+					count: 8
+					id: "71AA8D866E8EB126"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2FC21BC859DEB4DE"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					id: "6526A2A6210495F6"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.0d
+			subtitle: "It's a bit hot in here, isn't it?"
+			tasks: [
+				{
+					count: 12L
+					id: "6A65802A35CB4A22"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "61FF933EBB7103CA"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					dimension: "minecraft:the_nether"
+					icon: "minecraft:netherrack"
+					id: "0E4CD5102FF70F69"
+					title: "Visite the &cNether&r"
+					type: "dimension"
+				}
+			]
+			title: "Burn your soul!"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["091750C8B1109710"]
+			description: ["With a &bdiamond pickaxe&r, you unlock various&d new ores&r and &astages&r of the modpack, go &6explore&r!"]
+			id: "71445B1BC610A45E"
+			rewards: [
+				{
+					id: "185245279B764ACE"
+					item: "minecraft:raw_iron_block"
+					random_bonus: 7
+					type: "item"
+				}
+				{
+					id: "16A202EDFF5CFE6C"
+					item: "minecraft:diamond"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "3551BFC80C2A2D43"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Finally!"
+			tasks: [{
+				id: "73A2AE566C56F5BA"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CCD542815FD89E4"]
+			id: "32E3D26963D0F5B5"
+			rewards: [
+				{
+					id: "1F700E6FFB6AE3DF"
+					item: "minecraft:diamond"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "1173ACC11C31E71C"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Dont use beds. (trust me)"
+			tasks: [{
+				count: 4L
+				id: "7F644B8106A6D2D0"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6CCD542815FD89E4"]
+			id: "2A070C8EEA7C7AF3"
+			rewards: [
+				{
+					id: "4CE7266B455BC113"
+					item: "minecraft:diamond"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "70F280AB40586DDF"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Upgrade your diamond gear."
+			tasks: [{
+				id: "696DE7FE37930563"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2A070C8EEA7C7AF3"
+				"32E3D26963D0F5B5"
+			]
+			id: "38A830384E32F6D3"
+			rewards: [
+				{
+					id: "2A98045743C6703D"
+					item: "minecraft:netherite_scrap"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "263D8299B5CB8D8B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2B6357179B2AEC7F"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Core item for various improvements, check out &2JEI&r!"
+			tasks: [{
+				id: "025B6D3FFDF70295"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6CCD542815FD89E4"]
+			id: "54D3FBB78536D18C"
+			rewards: [
+				{
+					id: "0FD76FC7C43AF517"
+					item: "minecraft:golden_apple"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "017C2968C76A23AE"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Enchance your items!"
+			tasks: [{
+				id: "4F7F03DBA8203BCA"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["54D3FBB78536D18C"]
+			id: "51987FF2FA959F29"
+			rewards: [
+				{
+					count: 24
+					id: "0C9A3876EC987866"
+					item: "minecraft:book"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 4
+					id: "374F47EE11462079"
+					item: "minecraft:lapis_block"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "1120C26AF31FD02B"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Read ALL books, haha!"
+			tasks: [{
+				count: 18L
+				id: "62298DD59243FAE3"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			title: "Get some books"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6CCD542815FD89E4"]
+			description: ["Explore the &dEnd&r and find incredible loot, the &ebest items&r in the game are here!"]
+			icon: "minecraft:end_stone"
+			id: "50D59A2DE7998880"
+			rewards: [
+				{
+					id: "4A6BA878173742CC"
+					item: "minecraft:dragon_breath"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "57A67A51E37A68BD"
+					item: "minecraft:end_crystal"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1FDD4362CD824CE1"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.0d
+			subtitle: "Beat the dragon!"
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					icon: "minecraft:end_stone"
+					id: "0AA4FB86EEB926C8"
+					title: "Visit the &dEnd&r!"
+					type: "dimension"
+				}
+				{
+					entity: "minecraft:ender_dragon"
+					icon: "minecraft:dragon_head"
+					id: "18B6E7BF7989066F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Exploring the void"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CCD542815FD89E4"]
+			icon: "aether:aether_portal_frame"
+			id: "7F7A573AEF79E391"
+			rewards: [
+				{
+					id: "2F01E1F5E8CF8C7B"
+					item: {
+						Count: 1
+						id: "aether:golden_parachute"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56009AF48342FBB5"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4BB773307B2906A0"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Explore the legendary and unknown Aether!"
+			tasks: [
+				{
+					count: 12L
+					id: "6ED5DC4CEF29A18A"
+					item: { Count: 12, id: "minecraft:glowstone" }
+					type: "item"
+				}
+				{
+					id: "5C657F6264C33F1B"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					dimension: "aether:the_aether"
+					icon: "aether:cold_aercloud"
+					id: "5DEB609B2A29137C"
+					title: "Visit the &bAether&r"
+					type: "dimension"
+				}
+			]
+			title: "Wash your soul!"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74905880EAD6FA02"]
+			id: "523F2BA2CF8CE3B5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4813159F18BF53CD"
+					table_id: 2501998888776764148L
+					type: "loot"
+				}
+				{
+					id: "69032C051A2A0F1E"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "150034BAA5ED0C89"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Use &dFarmer's Delight&r to make very useful foods."
+			tasks: [{
+				id: "67CC5350442C7E43"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Making food!"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["091750C8B1109710"]
+			description: ["Use &dSimply Swords&r to craft your primary weapons and progress throughout your &aadventure&r."]
+			id: "5B3E7D7E75D96BF2"
+			rewards: [
+				{
+					id: "62081E7CB56E8160"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "040EC823DD951C5F"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Forge your own weapon."
+			tasks: [{
+				id: "63DEF95821C22400"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "simplyswords:diamond_gear"
+					}
+				}
+				title: "Any #simplyswords:diamond_gear"
+				type: "item"
+			}]
+			title: "Build your arsenal!"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B3E7D7E75D96BF2"]
+			description: ["Found exclusively in &eUmvuthana Groves&r, which generate naturally in &6Savanna biomes&r."]
+			id: "22DEE9C6A682BCE5"
+			rewards: [
+				{
+					id: "261C740BEE413237"
+					item: {
+						Count: 1
+						id: "threateningly_mobs:swordofcourage"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "548F8962B88D3FCF"
+					table_id: 1037199146010425381L
+					type: "loot"
+				}
+				{
+					id: "5A541407A7BA423E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "A &3bird&r? No, its your first &6challenge!&r"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:sol_visage"
+				id: "466E4F48E39248FF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Umvuthi, The Sunbird"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F4D2CBF69E424F2"]
+			id: "788A7558B10A91D5"
+			rewards: [
+				{
+					id: "520568411206F4AA"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "05D23FC1F1B4E95A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Hm...books?"
+			tasks: [{
+				count: 12L
+				id: "09854DB2290C8DA2"
+				item: { Count: 12, id: "minecraft:book" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["788A7558B10A91D5"]
+			description: ["You can attach these &6scrolls&r to your &dspellbook&r and use them permanently."]
+			id: "734B068CB0C50431"
+			rewards: [
+				{
+					id: "4A80EA532CDFCB68"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "11486750EED5FA39"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Found and keep magic scrolls."
+			tasks: [{
+				id: "5EE735C16AABA56D"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["734B068CB0C50431"]
+			id: "144CCB6D5383483B"
+			rewards: [
+				{
+					id: "6CBF5F329094EE71"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0DEC9B3E2FEAA260"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Your first &9spellbook&r!"
+			tasks: [{
+				id: "41506B126AFDC524"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7F7A573AEF79E391"]
+			id: "6BEEBB1F69EC619E"
+			rewards: [
+				{
+					id: "42CD0B2E7FEF18E7"
+					item: {
+						Count: 1
+						id: "lfs_magic_fantasy:elven_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B486823B2F2BEE3"
+					table_id: 1037199146010425381L
+					type: "loot"
+				}
+				{
+					id: "7DBAD748EC80A16D"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Prove your worth and defeat the queen."
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				icon: "aether:valkyrie_cape"
+				id: "20ED015722F40001"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Valkyrie Queen!"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["51987FF2FA959F29"]
+			description: [
+				"With &dApotheosis&r, you can manipulate your &aexperience&r and upgrade your items beyond vanilla limits."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"Use superior &benchantments&r, socket gems into your gear, and &6max&r out your upgrades before facing any boss, trust me..."
+			]
+			id: "17DE96CAA6EB8982"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DB5A27A45F1DF01"
+					table_id: 1037199146010425381L
+					type: "loot"
+				}
+				{
+					id: "2C9DBE4A2E860200"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "1A2C46927080C530"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Welcome to Apotheosis"
+			tasks: [{
+				id: "0D9329E14E362496"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			title: "Upgrade your library!"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"This &aguide&r is only useful for a &enew player&r to modpacks."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"The guide goes through simple &6mechanics&r, &cbosses&r, &denchantments&r, new &bdimensions&r and &9items&r."
+			]
+			icon: "minecraft:writable_book"
+			id: "77B2B97D07D0A8D7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01B5DBB7EDECEA75"
+					table_id: 2501998888776764148L
+					type: "loot"
+				}
+				{
+					id: "60E429FAAEE0F103"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "24F2A8347BB06DC8"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "You can ignore this"
+			tasks: [{
+				id: "74AB5B90733B4814"
+				type: "checkmark"
+			}]
+			title: "A basic guide"
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38A830384E32F6D3"]
+			id: "66820FB1AA5F5B88"
+			rewards: [
+				{
+					count: 3
+					id: "7A4A5A253D448BE4"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "1C536039D86C3AEB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5407B42C6830D0EF"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Core item for various improvements, check out &2JEI&r!"
+			tasks: [{
+				id: "5365CFF139EC0212"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["17DE96CAA6EB8982"]
+			id: "58752AD7F984066A"
+			rewards: [
+				{
+					id: "41F83C2100F68A35"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6578C1CE126018A5"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the &aitem description&r."
+			tasks: [{
+				id: "4A31C7F262B62718"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5B3E7D7E75D96BF2"]
+			id: "52EE7183180D60E9"
+			rewards: [
+				{
+					id: "7F2569C153137FFD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2B39E55BA07D9595"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "028E3D946B1E4612"
+				item: {
+					Count: 1
+					id: "simplyswords:slumbering_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52EE7183180D60E9"]
+			id: "788E31A21A965D7F"
+			rewards: [
+				{
+					id: "37791481B16719F3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "05CD5CB42066AB30"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1E6CE4D9BEAE3323"
+				item: {
+					Count: 1
+					id: "simplyswords:waking_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["788E31A21A965D7F"]
+			id: "0AAC90B3DAF0B6B4"
+			rewards: [
+				{
+					id: "1EE308C4BF6A9E5C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "79471C09A6238AE8"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "657851DB1F7F5672"
+				item: {
+					Count: 1
+					id: "simplyswords:awakened_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["194CE242C4288216"]
+			id: "4D84551E546D68CF"
+			rewards: [
+				{
+					id: "5203931F1D7547B0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "35336F33228C5B9E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Campfires can &aheal&r you!"
+			tasks: [{
+				id: "5363700819EF28B6"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D84551E546D68CF"]
+			id: "5532A019DDBE92D8"
+			rewards: [
+				{
+					count: 6
+					id: "6891A7EB4F202A3E"
+					item: "cardiac:life_bottle"
+					type: "item"
+				}
+				{
+					id: "7412958584C6EE49"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "186AEA9C87204E29"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Found &dLife Bottle&r in dungeons and structures!"
+			tasks: [{
+				id: "30B7825E99116ADC"
+				item: "cardiac:life_bottle"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38A830384E32F6D3"]
+			id: "1A0205A7F70840AF"
+			rewards: [
+				{
+					id: "75B7854535FA72D9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5CF36BDD0E729329"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Also you can upgrade your armor too!"
+			tasks: [
+				{
+					id: "4C9BE964594AAD2F"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35ADB2186BE924A4"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66C9EC892863C526"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73491566CEA3F0F8"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["66820FB1AA5F5B88"]
+			description: ["Feed &cGhastlys&r with &4Crimson Roots&r and they will point out the location of &6Azazel's Dungeon&r "]
+			id: "3FC9D9D4559CFFA8"
+			rewards: [{
+				id: "2C58DA2EE9A9F224"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Feed Ghastlys with Crimson Roots!"
+			tasks: [
+				{
+					icon: "minecraft:cracked_polished_blackstone_bricks"
+					id: "2C86842EE9D73908"
+					structure: "netherman:gast_chamber"
+					title: "Find the &cGast Chamber&r!"
+					type: "structure"
+				}
+				{
+					count: 6L
+					id: "46E384B31F32315F"
+					item: { Count: 6, id: "minecraft:crimson_roots" }
+					type: "item"
+				}
+			]
+			title: "Find the &cGast Chamber&r!"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3FC9D9D4559CFFA8"]
+			id: "35D99B11EB282F11"
+			rewards: [
+				{
+					id: "2542362AC8E36457"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "7AA514F798308B19"
+					item: {
+						Count: 1
+						id: "simplyswords:sunfire"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Get &4Azazel Mask&r by killing &cAzazel&r!"
+			tasks: [{
+				id: "2AE45BB01F612004"
+				item: "netherman:azazel_trophy"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["788A7558B10A91D5"]
+			id: "1F803CA6119BF0DD"
+			rewards: [
+				{
+					id: "1E908BBE4F04442F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4E5A3187BB3FDB6E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Use one Wisdom Scroll to get one skill point!"
+			tasks: [{
+				id: "012326C8A115B9D8"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+	]
+	title: "First Steps"
+}

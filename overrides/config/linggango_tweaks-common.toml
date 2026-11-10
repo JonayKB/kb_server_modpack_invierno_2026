@@ -1,0 +1,161 @@
+#Percentage of campfire smoke particles to eliminate (0.01 = 1%, 1.0 = 100%) to js remove it.
+#Range: 0.0 ~ 1.0
+campfire_smoke_elimination = 0.65
+
+[armageddon_bosses]
+	#Range: 0.0 ~ 10.0
+	nyxaris_multiplier = 1.0
+	#Range: 0.0 ~ 10.0
+	zoranth_newborn_multiplier = 1.0
+	#Range: 0.0 ~ 10.0
+	zoranth_multiplier = 1.0
+	#Range: 0.0 ~ 10.0
+	discord_multiplier = 1.0
+	#Range: 0.0 ~ 10.0
+	arion_ravager_multiplier = 1.0
+	#Range: 0.0 ~ 10.0
+	arion_soldat_multiplier = 1.0
+	#Range: 0.0 ~ 10.0
+	bringer_of_doom_multiplier = 1.0
+	#Range: 0.0 ~ 10.0
+	eldorath_multiplier = 1.0
+	#Range: 0.0 ~ 10.0
+	elvenite_paladin_multiplier = 1.0
+	#Range: 0.0 ~ 10.0
+	sanghor_multiplier = 1.0
+	#Range: 0.0 ~ 10.0
+	sanghor_p2_multiplier = 1.0
+	#Range: 0.0 ~ 10.0
+	chaos_multiplier = 1.0
+	#Range: 0.0 ~ 10.0
+	famine_multiplier = 1.0
+	#Range: 0.0 ~ 10.0
+	gobelin_lord_multiplier = 1.0
+	#Range: 0.0 ~ 10.0
+	iron_colossus_multiplier = 1.0
+	#Range: 0.0 ~ 10.0
+	vaedric_multiplier = 1.0
+
+[parry_system]
+	#Range: 1 ~ 100
+	parry_startup_ticks = 1
+	#Range: 1 ~ 100
+	parry_active_window = 15
+	#Range: 1 ~ 100
+	parry_perfect_ticks = 1
+	#Range: 1 ~ 100
+	parry_success_ticks = 2
+	#Range: 1 ~ 1000
+	parry_cooldown = 200
+	#Range: 1 ~ 100
+	parry_recovery = 5
+	debug_mode = false
+	parry_animation_1 = "malfu_combat_animation:two_handed_downup_rl"
+	parry_animation_2 = "malfu_combat_animation:two_handed_heavy_lr"
+	#Range: 0.1 ~ 100.0
+	animation_speed = 15.0
+	projectile_deflect_enabled = true
+	#Range: 0.0 ~ 1.0
+	projectile_deflect_chance = 1.0
+	#Range: 0.1 ~ 10.0
+	projectile_deflect_speed = 2.5
+	#Range: 0.0 ~ 100.0
+	parry_heal_amount = 4.0
+
+[perfect_hit_system]
+	#Chance for a jump/falling crit to become a Perfect Hit (0.0 to 1.0)
+	#Range: 0.0 ~ 1.0
+	perfect_hit_chance = 0.05
+	#Additional damage multiplier on top of the standard critical hit
+	#Range: 1.0 ~ 10.0
+	perfect_hit_damage_mult = 1.5
+	#Knockback multiplier for the perfect hit
+	#Range: 1.0 ~ 20.0
+	perfect_hit_knockback_mult = 4.0
+
+[goety]
+	#Re-enforce Apostle's damage cap after all LivingDamageEvent handlers run. Prevents items/traits from dealing more damage than the configured cap.
+	apostle_damage_cap_fix = true
+	#A debug statement for printing changes in Apostle title numbers.
+	apostle_title_number_log = false
+
+[orbital_particles]
+	#List of item IDs that should have custom orbital particles when lying on the ground.
+	orbital_particle_items = ["lethality:nightmare_sword", "brutality:royal_guardian_sword"]
+
+[ring_selection]
+	#Item ID for the 'None' option. Usually linggango_tweaks:nothing
+	ring_none_id = "linggango_tweaks:nothing"
+	#Item ID for the Cursed Ring
+	ring_cursed_id = "enigmaticlegacy:cursed_ring"
+	#Item ID for the Virtue Ring
+	ring_virtue_id = "covenant_of_the_seven:virtue_ring"
+	#Sound played when selecting the None option
+	ring_none_sound = "test_sound_change_this"
+	#Sound played when selecting the Cursed Ring
+	ring_cursed_sound = "test_sound_change_this"
+	#Sound played when selecting the Virtue Ring
+	ring_virtue_sound = "test_sound_change_this"
+
+[boss_hp_reset]
+	#List of mob entity IDs that should have HP reset when players who damaged them die or logout (if enabled).
+	#Format: "minecraft:zombie", "minecraft:skeleton", etc.
+	#Default: ["minecraft:wither", "minecraft:warden", "minecraft:elder_guardian"]
+	mob_to_reset_hp = ["minecraft:wither", "minecraft:warden", "minecraft:elder_guardian"]
+	#List of mob entity IDs that should be despawned (silently removed) when players who damaged them die or logout (if enabled).
+	#Format: "minecraft:zombie", "minecraft:skeleton", etc.
+	#Default: [] (empty)
+	mob_to_despawn = []
+	#When should the mob reset its HP?
+	#ANY_PLAYER_DIES - Reset HP when any player who attacked the mob dies or logs out (if enabled)
+	#ALL_PLAYERS_DIE - Reset HP only when all players who attacked the mob die or log out (if enabled)
+	#Default: ALL_PLAYERS_DIE
+	#Allowed Values: ANY_PLAYER_DIES, ALL_PLAYERS_DIE
+	reset_mode = "ALL_PLAYERS_DIE"
+	#Combat timeout in seconds. After this time with no damage, player interactions are forgotten.
+	#-1 = No timeout (combat never expires)
+	#> 0 = Combat expires after X seconds of no damage
+	#Default: -1 (no timeout)
+	#Range: > -1
+	combat_timeout_seconds = -1
+	#Should HP reset only trigger if player dies in the same dimension where they fought the mob?
+	#true = Player must die in the same dimension as the combat
+	#false = Player death in any dimension triggers reset
+	#Default: true
+	same_dimension_only = true
+	#Should boss HP reset when a player logs out?
+	#true = Boss HP resets when player logs out (does not apply to singleplayer)
+	#false = Boss HP only resets on player death, not logout
+	#Default: false
+	reset_on_logout = false
+	#Enable debug logging for troubleshooting and monitoring.
+	#true = Log detailed information about capability attachments, player interactions, and resets
+	#false = Only log HP reset events (minimal logging)
+	#Default: false
+	enable_debug_logging = false
+	#Percentage of HP to restore when a reset is triggered.
+	#Value should be between 0 and 100.
+	#Default: 50
+	#Range: 0 ~ 100
+	percentage_restored = 50
+
+[utility]
+	#Enable smooth animated inventory slot highlight instead of vanilla.
+	slot_highlight_enabled = true
+	#Enable scaling up cursor-held floating items in the inventory.
+	floating_item_scale_enabled = true
+	#Enable the breathing animation for empty hands and held items. (Disables sway too)
+	item_breathing_enabled = true
+	#Enable hand/item shaking and speed changes when player is at low health.
+	low_health_shake_enabled = true
+	#Enable the atmospheric sky color tinting and dimming when looking near the sun.
+	sun_glare_sky_enabled = true
+	#Enable the scaling up of the sun's visual size when looking directly at it.
+	sun_radius_scale_enabled = true
+	#Enable the white screen flash visual effect on a Perfect Hit.
+	perfect_hit_flash_enabled = true
+	#Enable the first-person hand sway lagging (lazy hand) effect when turning the camera.
+	look_sway_enabled = true
+	#Enable dynamic opacity for the crosshair depending on whether a target is focused.
+	dynamic_crosshair_enabled = true
+

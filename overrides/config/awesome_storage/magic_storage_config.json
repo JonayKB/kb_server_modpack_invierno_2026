@@ -1,0 +1,37 @@
+{
+  "1": {
+    "material": {
+      "id": "minecraft:iron_ingot",
+      "Count": 10
+    },
+    "extend": 10
+  },
+  "2": {
+    "material": {
+      "id": "minecraft:gold_ingot",
+      "Count": 10
+    },
+    "extend": 10
+  },
+  "3": {
+    "material": {
+      "id": "minecraft:diamond",
+      "Count": 10
+    },
+    "extend": 10
+  },
+  "4": {
+    "material": {
+      "id": "minecraft:emerald",
+      "Count": 10
+    },
+    "extend": 10
+  },
+  "5": {
+    "material": {
+      "id": "minecraft:netherite_ingot",
+      "Count": 10
+    },
+    "extend": 10
+  }
+}

@@ -1,0 +1,992 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weapons_tierlist"
+	group: "2D2E89DC5A7A91D8"
+	icon: {
+		Count: 1
+		id: "lethality:bladecrest_oathsword"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "0D7762FFE656E231"
+	images: [{
+		alpha: 100
+		height: 6.0d
+		image: "enigmaticlegacy:textures/unused/strange_book.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: 8.5d
+		y: -5.5d
+	}]
+	order_index: 3
+	parent: "6BF52126794D7192"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3ADD8352E1453008"]
+			id: "64C88D095169141B"
+			rewards: [{
+				id: "6FCFCE911F1EAB38"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "468DD3C6888FD64D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"monsterexpansion:weapon_data": { }
+					}
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["64C88D095169141B"]
+			id: "57DC1A725D4437AF"
+			rewards: [{
+				id: "53251F90650509F5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1BD5D6F95FC5BDC3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"monsterexpansion:weapon_data": { }
+					}
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64C88D095169141B"]
+			id: "6522659376CE3AD2"
+			rewards: [{
+				id: "4ADD626180EC38A7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2882CD0E1193A048"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"monsterexpansion:weapon_data": { }
+					}
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["64C88D095169141B"]
+			id: "7DFCE2649B209A1A"
+			rewards: [{
+				id: "13312E9660D1688E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "75D683D776A8CC4C"
+				item: {
+					Count: 1
+					id: "lfs_magic_fantasy:bloodline_greatsword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64C88D095169141B"]
+			id: "4382B14470B0BD32"
+			rewards: [{
+				id: "4E642C74FD56EA05"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "51E7EC8CB6174E57"
+				item: {
+					Count: 1
+					id: "terramity:exodium_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64C88D095169141B"]
+			id: "4A35947A11D59136"
+			rewards: [{
+				id: "6C649274BB001B99"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3A471D56A1C00689"
+				item: {
+					Count: 1
+					id: "terramity:hero_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["64C88D095169141B"]
+			id: "26FF76B6CF59312C"
+			rewards: [{
+				id: "7D93A3B282A5376A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E7D00F4C58D0F86"
+				item: {
+					Count: 1
+					id: "brutality:prismatic_greatsword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64C88D095169141B"]
+			id: "325608932D890B82"
+			rewards: [{
+				id: "63AEB6311968CB05"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0467743AF171732E"
+				item: {
+					Count: 1
+					id: "lethality:defiled_greatsword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["64C88D095169141B"]
+			id: "5CD7BB9EF70DB197"
+			rewards: [{
+				id: "027A797D53C1BEE1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1E2471794CE57E99"
+				item: {
+					Count: 1
+					id: "terramity:sword_of_the_imprisoned"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["64C88D095169141B"]
+			id: "71A50BC446856DB7"
+			rewards: [{
+				id: "698AA0F109FBAFB7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "07721FA8B2DDBE10"
+				item: {
+					Count: 1
+					id: "brutality:royal_guardian_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["64C88D095169141B"]
+			id: "347919EEBD66ACE4"
+			rewards: [{
+				id: "5A19B962BDDB733F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "060887B65F0DF53F"
+				item: {
+					Count: 1
+					id: "lethality:gaels_greatsword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3ADD8352E1453008"]
+			id: "006233CF2F1CD1D7"
+			rewards: [{
+				id: "25AA9B04F12208C1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "338CC0B455E1C4FF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"monsterexpansion:weapon_data": { }
+					}
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["006233CF2F1CD1D7"]
+			id: "7A24D2C3F640780A"
+			rewards: [{
+				id: "549FB2B255314843"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "521DA974D2A1F11A"
+				item: {
+					Count: 1
+					id: "experienceobelisk:cognitive_bow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["006233CF2F1CD1D7"]
+			id: "40BAE9F2C8B57305"
+			rewards: [{
+				id: "3E946CB69D6F2BE6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0198A029E6720C6A"
+				item: {
+					Count: 1
+					id: "aether:phoenix_bow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["006233CF2F1CD1D7"]
+			id: "382B0B567118E608"
+			rewards: [{
+				id: "14F44D339458FCF9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "37E4D116FF06B37B"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:dragon_bow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["006233CF2F1CD1D7"]
+			id: "370A15DD8174589B"
+			rewards: [{
+				id: "51F03C7F1561CCD7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "63183C84C8B24D6F"
+				item: {
+					Count: 1
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["006233CF2F1CD1D7"]
+			id: "5F9905F0F5CB68B3"
+			rewards: [{
+				id: "513D25A23D60A51C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "22ED5802EFFD88DE"
+				item: {
+					Count: 1
+					id: "cataclysm:cursed_bow"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["006233CF2F1CD1D7"]
+			id: "351B790A8A00460E"
+			rewards: [{
+				id: "33B0CC754C76ABA3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "46C6114DB1D98373"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "too_many_bows:bows"
+					}
+				}
+				title: "Any #too_many_bows:bows"
+				type: "item"
+			}]
+			title: "Any Too Many Bows bow!"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["006233CF2F1CD1D7"]
+			id: "4E20E7A0645B420C"
+			rewards: [{
+				id: "79CC4BC928F039FB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0FC6653E5BF9846F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:guns"
+					}
+				}
+				title: "Any #forge:guns"
+				type: "item"
+			}]
+			title: "Any Gun!"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3ADD8352E1453008"]
+			id: "5491CCD07FDFF251"
+			rewards: [{
+				id: "3AC84B4738F4A34E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4F0212B0B129D4BB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"monsterexpansion:weapon_data": { }
+					}
+					id: "monsterexpansion:iron_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5491CCD07FDFF251"]
+			id: "594C84524290438D"
+			rewards: [{
+				id: "2D9478354C69B022"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1CB4EAAAFB74C8DE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"monsterexpansion:weapon_data": { }
+					}
+					id: "monsterexpansion:diamond_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5491CCD07FDFF251"]
+			id: "2677D83002161665"
+			rewards: [{
+				id: "7124D76A3975E48A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "21F8DC13FD9ED132"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"monsterexpansion:weapon_data": { }
+					}
+					id: "monsterexpansion:netherite_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5491CCD07FDFF251"]
+			id: "54A1366926666721"
+			rewards: [{
+				id: "6A7D1CE29E57A73F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0FBA121443DCA54D"
+				item: {
+					Count: 1
+					id: "goety:philosophers_mace"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5491CCD07FDFF251"]
+			id: "1166A915823A7899"
+			rewards: [{
+				id: "77278CC70E9B0319"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "140894C71DC15498"
+				item: {
+					Count: 1
+					id: "legendary_monsters:spiky_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5491CCD07FDFF251"]
+			id: "1F1E1AF0D7286CAF"
+			rewards: [{
+				id: "2465B2C289ABE169"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "303C64327B7636E0"
+				item: {
+					Count: 1
+					id: "composite_material:etherite_shield"
+					tag: {
+						CMEtheriteUnbreakable: 1b
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5491CCD07FDFF251"]
+			id: "51A959239D344087"
+			rewards: [{
+				id: "70A6BADA9865CFAA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "62C3449FE600FA3B"
+				item: {
+					Count: 1
+					id: "dreadsteel:dreadsteel_shield"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3ADD8352E1453008"]
+			id: "369AD5A23F955AFC"
+			rewards: [{
+				id: "33DDABDF90DB9E9F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7C9707E8ABEB7876"
+				item: "irons_spellbooks:graybeard_staff"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["369AD5A23F955AFC"]
+			id: "6A266210A80B1CC6"
+			rewards: [{
+				id: "39F43ECAC2029A1F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C3D6A01E5F557F6"
+				item: "irons_spellbooks:blood_staff"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["369AD5A23F955AFC"]
+			id: "4FD62699723D8426"
+			rewards: [{
+				id: "3AE6B1A3B751DE7D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1453ACC0C62A99BB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:amethyst_rapier"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:echoing_strikes"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["369AD5A23F955AFC"]
+			id: "68834CD8F55E85C5"
+			rewards: [{
+				id: "4F0D16C8AB00E3CC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E0DF863BB89E786"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:boreal_blade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:frostbite"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["369AD5A23F955AFC"]
+			id: "06486609646960C0"
+			rewards: [{
+				id: "003A1FD6E143AE1C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0F21A349F33256A5"
+				item: {
+					Count: 1
+					id: "hazennstuff:fireblossom_rapier"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:flaming_strike"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["369AD5A23F955AFC"]
+			id: "1809ABAF99D6D240"
+			rewards: [{
+				id: "3F0BC9E7BAC818F9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1CCF1E6BAA8A9D4D"
+				item: {
+					Count: 1
+					id: "hazennstuff:draconic_splitter"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:fire_breath"
+								index: 0
+								level: 10
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["369AD5A23F955AFC"]
+			id: "4DC331BC64E8C4D1"
+			rewards: [{
+				id: "6BDF3973DCB6708C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E1BEA0B3AE3CC0F"
+				item: {
+					Count: 1
+					id: "hazennstuff:devastator"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:blood_slash"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["369AD5A23F955AFC"]
+			id: "3CE71B4F0AC33E9E"
+			rewards: [{
+				id: "23CD0C7629AA1943"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4C1B11D23ED85ACF"
+				item: {
+					Count: 1
+					id: "hazennstuff:legionnaire_warlock_axe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:raise_hell"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["369AD5A23F955AFC"]
+			id: "40FD32CA922B1BF0"
+			rewards: [{
+				id: "109D6C83B7341C76"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1E0DD3914F591818"
+				item: {
+					Count: 1
+					id: "traveloptics:abyssal_tidecaller"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:shadowed_miasma"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			icon: "minecraft:writable_book"
+			id: "3ADD8352E1453008"
+			rewards: [{
+				id: "4C8ED2CC2B0DCC67"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			subtitle: "See a little about classes."
+			tasks: [{
+				id: "4F9308592274023D"
+				type: "checkmark"
+			}]
+			title: "Guide about classes"
+			x: 8.5d
+			y: -5.5d
+		}
+	]
+	title: "Weapons Guide"
+}

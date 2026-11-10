@@ -1,0 +1,25 @@
+filename = 'dog-1.2.0.jar'
+name = 'Devourer of Gods'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'dog-1.2.0.jar'
+
+[download]
+hash = '6ec55a11b47b35c8441c37ce6ab6619bf613107c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8926915
+project-id = 1630975
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'OPTIONAL'

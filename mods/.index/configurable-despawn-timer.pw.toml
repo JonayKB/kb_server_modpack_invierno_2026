@@ -1,0 +1,21 @@
+filename = 'configurabledespawntimer-1.20.1-4.5.jar'
+name = 'Configurable Despawn Timer'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Fabric/Forge/Neo] 1.20.1-4.5 | Configurable Despawn Timer'
+
+[download]
+hash = '185ba1fb45a5b65d63beea21fb5e19f38e545730'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8212164
+project-id = 347751
+
+[[x-prismlauncher-dependencies]]
+addonId = '342584'
+type = 'REQUIRED'

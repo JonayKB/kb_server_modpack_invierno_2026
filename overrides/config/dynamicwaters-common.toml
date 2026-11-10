@@ -1,0 +1,43 @@
+
+["River Flow Speeds"]
+	#Flow speed multiplier for players in the river.
+	#Range: 0.0 ~ 10.0
+	playerSpeed = 0.2
+	#Flow speed multiplier for animals. Note: Animals have strong swimming AI, you may want to decrease this.
+	#Range: 0.0 ~ 10.0
+	animalSpeed = 0.1
+	#Flow speed multiplier for water animals (squids, fishes, dolphins). Set to 0 to prevent them from being swept away when their AI pauses.
+	#Range: 0.0 ~ 10.0
+	waterMobSpeed = 0.0
+	#Flow speed multiplier for dropped items.
+	#Range: 0.0 ~ 10.0
+	itemSpeed = 0.2
+	#Flow speed multiplier for generic unidentified entities.
+	#Range: 0.0 ~ 10.0
+	defaultSpeed = 0.1
+	#Custom flow speeds for specific entities. Format: modid:name=speed (Example: minecraft:pig=0.8 or alexmobs:bird=0.0)
+	customEntitySpeeds = ["minecraft:warden=1.0"]
+
+[Visuals]
+	#Enable custom bubble particles in rivers.
+	enableRiverParticles = true
+	#Spawn rate of river particles. Higher = fewer particles (1 in X blocks per tick).
+	#Range: 1 ~ 100
+	riverParticleDensity = 7
+	#Enable visual flowing texture for rivers. If false, water looks stationary but still pushes entities. This idea is to be compatible with Physics Mod. After changing this setting, please click F3+T to reload.
+	enableRiverVisualFlow = true
+
+[Generation]
+	#List of biome IDs that will be treated like oceans by Dynamic Waters: no river flow and no river carving.
+	#Use the full biome resource location, e.g. minecraft:warm_ocean or mymod:dead_sea.
+	#Supports wildcard suffixes when the entry ends with '*', e.g. mymod:*
+	biomeBlacklist = []
+
+[Sounds]
+	#Enable the ambient flowing sound for rivers.
+	enableRiverSound = true
+
+[General]
+	#Show the welcome message when joining the world.
+	showWelcomeMessage = false
+

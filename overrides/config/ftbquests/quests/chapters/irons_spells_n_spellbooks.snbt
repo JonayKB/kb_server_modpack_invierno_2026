@@ -1,0 +1,2453 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spells_n_spellbooks"
+	group: "25569283B1B01A0F"
+	icon: "irons_spellbooks:ice_staff"
+	id: "19BE083ACF488E0F"
+	images: [
+		{
+			height: 3.0d
+			image: "celestisynth:textures/entity/visuals/frostbound_impact_crack.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			height: 3.0d
+			image: "celestisynth:textures/entity/visuals/poltergeist_impact_crack.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -16.0d
+			y: -2.487296675418108d
+		}
+		{
+			height: 3.0d
+			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -23.980613243906788d
+			y: 3.526602896058563d
+		}
+	]
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "2B524B4891820A07"
+			rewards: [
+				{
+					id: "7DAAA3F18A530D68"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3B052448FD4F009F"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "46E6407492DB7FA0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:diamond_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 8
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -20.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "4799E956A4E85D39"
+			rewards: [
+				{
+					id: "17CB76EBF07797EC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "58A0878034BB9742"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "399AC774760713FE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 6
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "5C38AF82CEFB8015"
+			rewards: [
+				{
+					id: "2AFE2928E2EEC157"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2074568B4ABE5B8C"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Rare random world loot."
+			tasks: [{
+				id: "68B5A894CEE8D8D2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:rotten_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 3
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -26.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "0976D8BCAFC42400"
+			rewards: [
+				{
+					id: "5D2BE1EFFE500E82"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0A2462D14DA8F1F9"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0C566B1657F7498D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:dragonskin_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 10
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3E6E9C53FBE836FB"]
+			description: [
+				"&eRunestones&r are a more rare find in &bmagical structures&r, and are always found as blank &erunestones&r."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"Using 8 focuses, you can craft a &erunestone&r to a specific school, and use your inscribed &erunestone&r to craft gear related to that school."
+			]
+			id: "704435187B4BD245"
+			rewards: [
+				{
+					id: "66F9AC9231B0D010"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1B1F82294DC9AE41"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "How to get:"
+			tasks: [{
+				id: "76B6CB1733A91A21"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			title: "Obtain a &bBlank Runestone"
+			x: -16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			description: [""]
+			id: "6073AB1A816E845F"
+			rewards: [
+				{
+					id: "23694E92876B6299"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "17039FAFDA601983"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Harness the power of &4fire&r. Increased &4fire spell power&r or &4armor&r."
+			tasks: [
+				{
+					id: "29EE3AB26C3A5F23"
+					item: "irons_spellbooks:fire_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0F1EB600ADB01BAB"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			title: "Craft a &bFire Rune"
+			x: -16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			description: [""]
+			id: "3D0F9F9B2B945E7A"
+			rewards: [
+				{
+					id: "7E98C7223692797E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3031EEB1C548D62F"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Harness the power of &bfrost&r. Increased &bfrost spell power&r or &barmor&r."
+			tasks: [
+				{
+					id: "169AACD09A8634F3"
+					item: "irons_spellbooks:ice_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3AD71C6EC344C7F7"
+					item: "irons_spellbooks:frozen_bone"
+					type: "item"
+				}
+			]
+			title: "Craft an &bIce Rune"
+			x: -14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			description: [""]
+			id: "1C60254EAE960673"
+			rewards: [
+				{
+					id: "7011A0ADE63AFBCE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1DB3755E503C8130"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Harness the power of &blightning&r. Increased &blightning spell power&r or &barmor&r."
+			tasks: [
+				{
+					id: "3EA6DDAC7FE1FBDE"
+					item: "irons_spellbooks:lightning_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0F674C309D3A8C43"
+					item: "irons_spellbooks:lightning_bottle"
+					type: "item"
+				}
+			]
+			title: "Craft a&b Lightning Rune"
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			description: [""]
+			id: "43B06E3FFE5FE8EB"
+			rewards: [
+				{
+					id: "1753DC804BE4584D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3973BB60777CA226"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Harness the power of the &8shadows&r. Increased &8shadow magic spell power&r or &8armor&r."
+			tasks: [
+				{
+					id: "35BA3FA71D4732D5"
+					item: "irons_spellbooks:ender_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "21A043BCF2CAD62B"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			title: "Craft an &bEnder Rune"
+			x: -19.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			id: "66630803C9EA0DEA"
+			rewards: [
+				{
+					id: "25556C10C63A58F4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "550EB53EAB0718C1"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: +5% Holy Spell Power"
+			tasks: [
+				{
+					id: "66F408FE1245070A"
+					item: "irons_spellbooks:holy_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "614E0C8B117B252A"
+					item: "irons_spellbooks:divine_pearl"
+					type: "item"
+				}
+			]
+			title: "Craft a &bHoly Rune"
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			description: [""]
+			id: "12506A200E56E7E9"
+			rewards: [
+				{
+					id: "3D55C3561A53DC22"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5AED020389D0BF7A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Harness the power of &cblood&r. Increased &cblood spell power&r or &carmor&r."
+			tasks: [
+				{
+					id: "4EB5D19837656068"
+					item: "irons_spellbooks:blood_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "372146ACB33443BD"
+					item: "irons_spellbooks:blood_vial"
+					type: "item"
+				}
+			]
+			title: "Craft&b Blood Rune"
+			x: -17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			id: "2E4D0196673FCE5A"
+			rewards: [
+				{
+					id: "08C39520FB0B3A79"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2974102BBF5D7A5E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Harness the power of &aevocation&r. Increased &aevocation magic spell power&r or &aarmor&r."
+			tasks: [
+				{
+					id: "2309D4CB01927EE9"
+					item: "irons_spellbooks:evocation_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "00D75629FAB50D6B"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			title: "Craft an &bEvocation Rune"
+			x: -19.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			id: "30378E9E82826E3A"
+			rewards: [
+				{
+					id: "6B1261A5ADBDC870"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "755BA083B708A066"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Need more mana? This is needed for that upgrade."
+			tasks: [
+				{
+					id: "671257C95B1A1228"
+					item: "irons_spellbooks:arcane_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4FCD6A1260A5682F"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+			]
+			title: "Craft an &bArcane Rune"
+			x: -19.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			id: "52E5DCC3089180F3"
+			rewards: [
+				{
+					id: "57CC5FBF74014195"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3D8EF2348AF4851B"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Sometimes you can't wait, reduce the cool-down. "
+			tasks: [
+				{
+					id: "77251D2620D15A71"
+					item: "irons_spellbooks:cooldown_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0719E0E11F207196"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+			]
+			title: "Craft a &bRecovery Rune"
+			x: -14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			id: "17C649AD8C23444B"
+			rewards: [
+				{
+					id: "3898F74C6B4D30D0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7333FAADFDD6EEA0"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Useful for spell resistance. "
+			tasks: [
+				{
+					id: "38444B55BC8317E5"
+					item: "irons_spellbooks:protection_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "60BA73AA9C7F6860"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+			]
+			title: "Craft a &bProtective Rune"
+			x: -17.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			description: [""]
+			id: "5EC30214D9EE2A0C"
+			rewards: [
+				{
+					id: "77E1D63EC7557C65"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2EC2BB43FC0E3CB2"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Harness the power of &anature&r. Increased &anature spell power&r or &aarmor&r."
+			tasks: [
+				{
+					id: "4E4A7A84F888B67D"
+					item: "irons_spellbooks:nature_rune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "278B094BB42173B4"
+					item: "minecraft:poisonous_potato"
+					type: "item"
+				}
+			]
+			title: "Craft a&b Nature Rune"
+			x: -13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6073AB1A816E845F"]
+			id: "07E12DA2B3EC76D1"
+			rewards: [
+				{
+					id: "48571460F3B28BE6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5A2258C55D493DAC"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "38C066F8D63DB439"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AA6A1DF0D770836"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "675D8EF9480C3CD8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "337E6D8716DF102B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a &bPyromancer Armor Set"
+			x: -16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1C60254EAE960673"]
+			id: "4BC65D4005C17D9F"
+			rewards: [
+				{
+					id: "40B6653175279285"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "73C9B2A189197BB5"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "0E5E6E6EA3FDC02F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21B60A26124F794C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1578F2E1F8683C55"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60B7DD33A066F391"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft an&b Electromancer Armor Set"
+			x: -13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E4D0196673FCE5A"]
+			id: "56F1F049F20B29A7"
+			rewards: [
+				{
+					id: "1FCE0EE142F0D48C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0E649E900AEF9843"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "5ECC6124C1281C36"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "222E06138BF9D788"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FA865BBC36599A2"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "256787BE26305504"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft an &bArchevoker Armor Set"
+			x: -20.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["12506A200E56E7E9"]
+			id: "1C267CC53FD04C88"
+			rewards: [
+				{
+					id: "3834DD72604FC592"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3FC8A81FD45F1631"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "794BB27EE7FAF913"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C5DCEE093B3A31D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F79DA30FF601DE9"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "234FB27E4F9190B7"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a &bCultist Armor Set"
+			x: -17.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D0F9F9B2B945E7A"]
+			id: "313B26E365615526"
+			rewards: [
+				{
+					id: "1F934E747990473A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0951342785F2A06B"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "336C6CD2DE6AA5FB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13DD23D0A0F2EBAF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AD94CE4384B41AC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D3170390D0FDF5E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a&b Cryomancer Armor Set"
+			x: -14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43B06E3FFE5FE8EB"]
+			id: "01219DEB95032DC7"
+			rewards: [
+				{
+					id: "2D015279EB302726"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "753EB2E199E09180"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "0385DE00EA37FC97"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26FAE9B3A8E3E1A9"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "518435FFFC447F93"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "551CC4CE3966AF02"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a&b Shadow-Walker Armor Set"
+			x: -20.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66630803C9EA0DEA"]
+			id: "3714D5CA2A2A69EC"
+			rewards: [
+				{
+					id: "6998140F9C779338"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "35470537BEE9ACCD"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "419BC32D0018FD35"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C69626FAF20A3B7"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18F5F326BBFFCE60"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7234918E52A9D21B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a&b Priest Armor Set"
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5EC30214D9EE2A0C"]
+			id: "5BF082062143531B"
+			rewards: [
+				{
+					id: "3C0161A2C466D063"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "192982F67248997C"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "5E7F56601A8C7BCF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29413EB4CA47CB8B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CAD7BC3BA935B2B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47BBE15149828AC8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a &bPlagued Armor Set"
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["357E9B952643A99D"]
+			id: "25F8D49B732EF7C7"
+			rewards: [
+				{
+					id: "1FDD0F2BBFA61F5F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "572108E2F11C83DF"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Once crafted, it finds the&2 nearest Catacombs&r and &3leads you towards it&r. The trapped soul points toward its home"
+			tasks: [{
+				id: "615B5BD499A95CCE"
+				item: "irons_spellbooks:wayward_compass"
+				type: "item"
+			}]
+			title: "Craft a &bWayward Compass"
+			x: -22.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "391E94F1938AC865"
+			rewards: [
+				{
+					id: "731D1A469D947168"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "212DA1145F2B31BD"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "When around neck: &4+15% Spell Resistance"
+			tasks: [{
+				id: "61D1BADBF45C2982"
+				item: "irons_spellbooks:heavy_chain_necklace"
+				type: "item"
+			}]
+			title: "Obtain a &bHeavy Chain"
+			x: -28.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "0051AD1BF14F9EC9"
+			rewards: [
+				{
+					id: "1E3D73807FA7D7EA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2D5181FABFBCFEF4"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "When arnoud neck: &4+10% Summon Damage"
+			tasks: [{
+				id: "7FFF4B00C3A4D205"
+				item: "irons_spellbooks:conjurers_talisman"
+				type: "item"
+			}]
+			title: "Obtain a &bConjurer's Talisman"
+			x: -32.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "203CEDAC6E1CAB91"
+			rewards: [
+				{
+					id: "2059D486C625C695"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "26DC361A494E2CED"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "When worn as ring: &4+100 Max Mana"
+			tasks: [{
+				id: "770A01BA267E113B"
+				item: "irons_spellbooks:mana_ring"
+				type: "item"
+			}]
+			title: "Obtain a &bRing of Mana"
+			x: -29.0d
+			y: 0.25d
+		}
+		{
+			dependencies: ["175F9319E9507B83"]
+			id: "1AC0396518806B66"
+			rewards: [
+				{
+					id: "7242D1C2D6B4DB84"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1107AB9243A94701"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "The base for all other &4upgrade orbs&r to be crafted from"
+			tasks: [{
+				id: "447DA1334A5BB7BF"
+				item: "irons_spellbooks:upgrade_orb"
+				title: "Craft an &bEmpty Upgrade Orb"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "422A888D3F7C4665"
+			rewards: [
+				{
+					id: "5A55AE5506E2BB2B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "70E0F59934B28892"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+5% Fire Spell Power"
+			tasks: [{
+				id: "3D350BF17045AF6B"
+				item: "irons_spellbooks:fire_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft a&b Fire Upgrade Orb"
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "7EF4A265C25EFF12"
+			rewards: [
+				{
+					id: "070A81301120D7B5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "72613F8B6C3D6323"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+5% Ice Spell Power"
+			tasks: [{
+				id: "14D6C2660C93E4E3"
+				item: "irons_spellbooks:ice_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft an &bIce Upgrade Orb"
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "4D308AD544372410"
+			rewards: [
+				{
+					id: "14190C6D0AC61AA4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5216F41C076BD1F0"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+5% Lightning Spell Power"
+			tasks: [{
+				id: "21A55AD1E51B55BC"
+				item: "irons_spellbooks:lightning_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft a&b Lightning Upgrade Orb"
+			x: -10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "6C90039BB1651603"
+			rewards: [
+				{
+					id: "618161B7B68388E6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7D94C7407D3DCD4A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+5% Holy Spell Power"
+			tasks: [{
+				id: "74E398F946B1E6D7"
+				item: "irons_spellbooks:holy_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft a &bHoly Upgrade Orb"
+			x: -11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "544A301047565927"
+			rewards: [
+				{
+					id: "5E2B6542C0F78792"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7304475003DB6EA2"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+5% Ender Spell Power"
+			tasks: [{
+				id: "75E04291D457EA03"
+				item: "irons_spellbooks:ender_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft an &bEnder Upgrade Orb"
+			x: -11.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "14E9C287665C6AD4"
+			rewards: [
+				{
+					id: "6635C3604890762F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "04286A363CD1CB16"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+5% Blood Spell Power"
+			tasks: [{
+				id: "59AE68357B7EDD47"
+				item: "irons_spellbooks:blood_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft a&b Blood Upgrade Orb"
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "0DDCE73E115DCE86"
+			rewards: [
+				{
+					id: "47F1A823EEB844DB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4BE156235FD0D24C"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+5% Evocation Spell Power"
+			tasks: [{
+				id: "17863785F3BE648C"
+				item: "irons_spellbooks:evocation_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft an &bEvocation Upgrade Orb"
+			x: -11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "4070652999DD3249"
+			rewards: [
+				{
+					id: "0BA2D6A1BA5108E9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "535E9CC7484CB786"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+5% Nature Spell Power"
+			tasks: [{
+				id: "3AD588AC34CBE61F"
+				item: "irons_spellbooks:nature_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft a&b Nature Upgrade Orb"
+			x: -8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "20EAD0D76E8C2683"
+			rewards: [
+				{
+					id: "31A03E0490D26D9B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "23F99F1F8B7A5383"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+50 Max Mana"
+			tasks: [{
+				id: "1CB9B5FDAA60B570"
+				item: "irons_spellbooks:mana_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft a &bMana Upgrade Orb"
+			x: -9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "5391C1240C677127"
+			rewards: [
+				{
+					id: "218F06FA977738FB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1F59C2913A882B75"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+5% Cooldown Reduction"
+			tasks: [{
+				id: "65D4BF8C649C51A8"
+				item: "irons_spellbooks:cooldown_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft a &bCooldown Upgrade Orb"
+			x: -11.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1AC0396518806B66"]
+			id: "75813E7A5E88D3B8"
+			rewards: [
+				{
+					id: "77E4B73FA65452D8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "09D635891E31BA27"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "When used for Upgrade: &4+5% Spell Resistance"
+			tasks: [{
+				id: "2A36D50F582A1EBD"
+				item: "irons_spellbooks:protection_upgrade_orb"
+				type: "item"
+			}]
+			title: "Craft a&b Protection Upgrade Orb"
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "5D284522BCE51032"
+			rewards: [
+				{
+					id: "78C8ADCC8F51E7ED"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "442BCCF95D99F8BD"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "When worn as ring: &4+25 Max Mana"
+			tasks: [{
+				id: "43BBA1146DB39E63"
+				item: "irons_spellbooks:silver_ring"
+				type: "item"
+			}]
+			title: "Obtain a &bSilver Ring"
+			x: -32.0d
+			y: 0.25d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "50A74C04350493E0"
+			rewards: [
+				{
+					id: "19C1E3A1163EE792"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7951CFA4AF7AC95E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "When worn as ring: &4+15% Cooldown Reduction"
+			tasks: [{
+				id: "72F13FB06F43CA5B"
+				item: "irons_spellbooks:cooldown_ring"
+				type: "item"
+			}]
+			title: "Obtain a&b Ring of Recovery"
+			x: -31.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "153FB224571B339A"
+			rewards: [
+				{
+					id: "1AF976D0571F4EE3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "06E4BD451A96222E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "When worn as ring: &4+15% Cast Time Reduction"
+			tasks: [{
+				id: "3DC23A4D52A4DAC6"
+				item: "irons_spellbooks:cast_time_ring"
+				type: "item"
+			}]
+			title: "Obtain a&b Ring of Expediency"
+			x: -30.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "26FB758B3706B935"
+			rewards: [
+				{
+					id: "7903EA44A5DDA9CC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "360FB6C842CE37BB"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "When worn as ring: Slain creatures drop &4+25% experience."
+			tasks: [{
+				id: "4609A0ABAC9884D8"
+				item: "irons_spellbooks:emerald_stoneplate_ring"
+				type: "item"
+			}]
+			title: "Obtain an &bEmerald Stoneplate Ring"
+			x: -28.0d
+			y: 0.25d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "5F7FBCB758D54981"
+			rewards: [
+				{
+					id: "72BC8D5248B3E523"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "05D4DC96FBAAD6A4"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "When worn as ring: Grants &bfreezing immunity."
+			tasks: [{
+				id: "4AAA00B24C0164EB"
+				item: "irons_spellbooks:frostward_ring"
+				type: "item"
+			}]
+			title: "Obtain a &bFrostward Ring"
+			x: -31.0d
+			y: 0.25d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "6423F47740F77C70"
+			rewards: [
+				{
+					id: "58C9F978D9B7C15C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2189F9DCF6C68FE4"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "When worn as ring: Grants &2poison immunity."
+			tasks: [{
+				id: "746556E09BF7D7A9"
+				item: "irons_spellbooks:poisonward_ring"
+				type: "item"
+			}]
+			title: "Obtain a &bPoisonward Ring"
+			x: -30.0d
+			y: 0.25d
+		}
+		{
+			can_repeat: false
+			dependencies: ["74370B84A072E947"]
+			id: "0206507E91CB74CB"
+			rewards: [
+				{
+					id: "46D3C9F0E8395871"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "336164784C0E6F4D"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Use in Smithing Table to remove &4Imbuement or Upgrades"
+			tasks: [{
+				id: "08F5ED1EF47CC3E2"
+				item: "irons_spellbooks:shriving_stone"
+				type: "item"
+			}]
+			title: "Craft a &bShriving Stone"
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "1BBEBBEF28E330ED"
+			rewards: [
+				{
+					id: "10B2580B5BF78141"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "31A67DC38A2DE447"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "279E9D275A8941B6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 10
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "1EF59D0BD79D63EC"
+			rewards: [
+				{
+					id: "17D87F2CCE60AB8B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6B6655C14D276105"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "1C85EDD8F248DAEC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:iron_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 5
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -22.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "216E2ED7D793F72A"
+			rewards: [
+				{
+					id: "654F83C9E5001B68"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5AC57B89ECD8DC9F"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Rare random drop from Evokers or Archevokers."
+			tasks: [{
+				id: "3ADF63391157FBFF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:evoker_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: 0
+							spellSlots: 3
+							spells: [
+								{
+									id: 19
+									level: 6
+									slot: 0
+								}
+								{
+									id: 20
+									level: 4
+									slot: 1
+								}
+								{
+									id: 9
+									level: 4
+									slot: 2
+								}
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -27.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "594EDA0BA8DFB743"
+			rewards: [
+				{
+					id: "63290AB78EA24AEF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "46B471BFC13CED59"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "The Priest mob will trade one for a written book that can be found in the Evoker Fort. The written book must be translated by a captive wandering trader from the Evoker Fort first."
+			tasks: [{
+				id: "6B526935D37198C3"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:villager_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 6
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -29.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "03A09B606040AD2E"
+			rewards: [
+				{
+					id: "3C0C73EE498D692F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5653C05E8747224A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Rare random drop from Blazes."
+			tasks: [{
+				id: "1E3FFCBD614CED8F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:blaze_spell_book"
+					tag: {
+						ISB_spellbooFk: {
+							activeSpellIndex: -1
+							spellSlots: 5
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -28.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			id: "44B16905ABBF3A52"
+			rewards: [
+				{
+					id: "453D51860EACE1A4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "164AF6FB9E2EB855"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Grant &4Fire Resistance"
+			tasks: [{
+				id: "6EB9D2511D7A3C9E"
+				item: "irons_spellbooks:fireward_ring"
+				type: "item"
+			}]
+			title: "Obtain a &bFireward Ring"
+			x: -29.0d
+			y: -0.75d
+		}
+		{
+			description: ["This is a &bmagic&r mod focused around exploring the world to find &dmagic scrolls&r in order to cast &afantastical magics&r. "]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "irons_spellbooks:iss_guide_book"
+				}
+			}
+			id: "53C9B66BEC667ED0"
+			rewards: [
+				{
+					id: "053C813BE7CB0C30"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4B47FDEA01FF9872"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "About Iron's Spells..."
+			tasks: [{
+				id: "2E6B59E012937797"
+				title: "Iron's Spells 'n Spellbooks"
+				type: "checkmark"
+			}]
+			title: "&bIron's Spells 'n Spellbooks&r"
+			x: -30.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["594A8459AD944A3B"]
+			id: "357E9B952643A99D"
+			rewards: [
+				{
+					id: "5B9CFF5098741B51"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0ED3819AD46C01B6"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "&6Arcane essence&r is the most common and most important magical material. It can be found in magical structures and looted from magical enemies,"
+			tasks: [{
+				id: "688C8BDC9AE15C75"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["357E9B952643A99D"]
+			id: "75709A3CC301B8A4"
+			rewards: [
+				{
+					id: "6C0F59D397435A7A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5C323CDC0181B0C8"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Ink can be found in magic structures, such as wizard towers, and is the key to crafting scrolls. "
+			tasks: [{
+				id: "454013D974ABB289"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6E8031A380EB37C8"]
+			id: "594A8459AD944A3B"
+			rewards: [
+				{
+					id: "5A7F06743CADF196"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "535110842B6F1E7C"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Use &6[x]&r to open the spell wheel and &6[v]&r to cast a spell."
+			tasks: [{
+				id: "6AFFD884C384B3C4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 4
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -24.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["53C9B66BEC667ED0"]
+			description: ["After obtaining a &9spellbook&r and a scroll, you can bind the &6spell&r to the book, without spending the scroll, but be careful, as using the spells consumes &9mana&r!"]
+			id: "6E8031A380EB37C8"
+			rewards: [
+				{
+					id: "364A96426FC75015"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0F724B1D109CD24E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Create your spells!"
+			tasks: [{
+				id: "3AB544B96545EBAB"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6E8031A380EB37C8"
+				"75709A3CC301B8A4"
+			]
+			id: "3E6E9C53FBE836FB"
+			rewards: [
+				{
+					id: "36C1CC8C85F72926"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "23F8561E2E4FF503"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Can be used to create new spells using ink and some magic materials."
+			tasks: [{
+				id: "584B58B561635224"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E6E9C53FBE836FB"]
+			id: "74370B84A072E947"
+			rewards: [
+				{
+					id: "2D2E51B5DD7432D8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4BA07DF4DF27F82C"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Can be used to upgrade your spells and some other things!"
+			tasks: [{
+				id: "69D29C1524C0D36A"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3E6E9C53FBE836FB"]
+			id: "17F840E5ABDF3FD4"
+			rewards: [
+				{
+					id: "0BF8D61E994EDEED"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "19EC9A932B2D6602"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "You can make elixirs, inks, potions and more!"
+			tasks: [{
+				id: "11AC1721B9BAF141"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			title: "The Alchemist Cauldron"
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["75709A3CC301B8A4"]
+			id: "6001FE0BF3EBB861"
+			rewards: [
+				{
+					id: "1BEC9ED375128802"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "581EE6159DE78A48"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52ABBDA161BAE038"
+				item: "irons_spellbooks:uncommon_ink"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["75709A3CC301B8A4"]
+			id: "24B94BD1775216B5"
+			rewards: [
+				{
+					id: "14C72C6F672D9184"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7FD54F408599BF3A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6CD054E1FC893964"
+				item: "irons_spellbooks:rare_ink"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["75709A3CC301B8A4"]
+			id: "20411FD8C1F8A1BA"
+			rewards: [
+				{
+					id: "74B880695C501352"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "44A742789A8C70F3"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72E94D300B437E1A"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["75709A3CC301B8A4"]
+			id: "425768C75AB098D8"
+			rewards: [
+				{
+					id: "16111A532CA7D680"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3B38C211736CC1B5"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55DA3BDBE21AB5EC"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["357E9B952643A99D"]
+			id: "6AFEDCF1CF22972F"
+			rewards: [
+				{
+					id: "4BB469E667B4E4EB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5042476FAC31DCA2"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "An early game source of &3additional mana"
+			tasks: [
+				{
+					id: "7CD09931BAFC9CDA"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18997AB9AF4F2098"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4451FF19A0E51374"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "559F2F85DFC7DF4C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a &bWandering Magician"
+			x: -20.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["74370B84A072E947"]
+			id: "175F9319E9507B83"
+			rewards: [
+				{
+					id: "789523888E003A69"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "53F0715A748C45EB"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Arcane Debris can be mined near Bedrock level with a Netherite pickaxe or greater. Use it to make Arcane Salvage that can be used to make Empty Upgrade Orbs."
+			tasks: [{
+				id: "1EBC386D147BA254"
+				item: "irons_spellbooks:arcane_debris"
+				type: "item"
+			}]
+			title: "Netherwhite"
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6AFEDCF1CF22972F"]
+			id: "494585CCA8720FB2"
+			rewards: [
+				{
+					id: "0426A58D3842B8B2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7D84366AA0EBB6AE"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "14AB7E8EE1225B15"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6568327983AC7D49"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FB83FF55DA7D402"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5484350C5CC891CA"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a &bNetherite Battle Mage"
+			x: -19.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"6E8031A380EB37C8"
+				"0B18B9E58042AC31"
+			]
+			id: "052C2F9FC27B2C95"
+			rewards: [
+				{
+					id: "75E1F4CF1118F679"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 35
+					id: "391599409D25808F"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+				{
+					id: "62595EE5835E0180"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Magic Fear."
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: "irons_spellbooks:blood_staff"
+				id: "0E94DA962F38D0AA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -24.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E8031A380EB37C8"]
+			id: "0B18B9E58042AC31"
+			rewards: [
+				{
+					id: "0FE4752AF6306ADA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "63DCC1090BAFEB7F"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Here you can found The Dead King."
+			tasks: [{
+				id: "64D3AD8EDFC35F01"
+				structure: "irons_spellbooks:catacombs"
+				type: "structure"
+			}]
+			title: "Exploring the Catacombs"
+			x: -24.0d
+			y: 0.5d
+		}
+	]
+	title: "Iron's Spells 'n Spellbooks"
+}

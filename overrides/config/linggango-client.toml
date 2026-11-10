@@ -1,0 +1,8 @@
+
+[SpawnerOptimizations]
+	#Percentage chance for a spawner particle to render. Lower = better FPS. (0 to 100)
+	#Range: 0 ~ 100
+	particleRenderChance = 50
+	#If true, the spinning mob inside spawners will ONLY render when you hold Sneak (Shift). Massive FPS boost!
+	requireSneakToRender = true
+

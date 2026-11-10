@@ -1,0 +1,23 @@
+{
+	"cancelLevelsForPassives": true,
+	"exhaustionMultiplier": 0.4,
+	"structureWhitelist": {
+		"allowedNamespaces": [],
+		"additionalStructures": [],
+		"blacklistedStructures": []
+	},
+	"structureSearchRadius": 6,
+	"enableStructureLevelBonus": false,
+	"structureLevelBonuses": { },
+	"enableAutoRegeneration": true,
+	"autoRegenCheckInterval": 40,
+	"structureInactivityTimeoutSeconds": 900,
+	"autoRegenRadius": 32.0,
+	"enableCampfireHealing": true,
+	"campfireHealingCheckInterval": 40,
+	"campfireHealingRadius": 5,
+	"campfireHealingCombatCooldownSeconds": 5,
+	"campfireHealingAmount": 0.5,
+	"campfireManaRestoreAmount": 2.0,
+	"forceDisableKnowledgeEnchant": true
+}

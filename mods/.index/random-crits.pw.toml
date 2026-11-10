@@ -1,0 +1,29 @@
+filename = 'Random Crits 1.3.2 - 1.20.1.jar'
+name = 'Random Crits'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Random Crits 1.3.2 - 1.20.1.jar'
+
+[download]
+hash = '8ec9d5d85a5a05af668ab5106e37d12e5dfb6920'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5335156
+project-id = 903444
+
+[[x-prismlauncher-dependencies]]
+addonId = '681693'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '250419'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '825328'
+type = 'OPTIONAL'

@@ -1,0 +1,16 @@
+
+#Raid Wave Configuration
+[raid_waves]
+	#Number of Mountaineers per wave
+	mountaineer_raid_count = [0, 0, 0, 0, 1, 2, 3, 3]
+	#Number of Squall Golems per wave
+	squall_golem_raid_count = [0, 0, 0, 0, 0, 1, 2, 2]
+	#Number of Wind Callers per wave
+	wind_caller_raid_count = [0, 0, 0, 0, 0, 1, 1, 1]
+	#Number of Vindicator Chefs per wave
+	vindicator_chef_raid_count = [0, 0, 1, 1, 1, 1, 1, 1]
+	#Number of Iceologers per wave
+	iceologer_raid_count = [0, 0, 0, 0, 1, 2, 3, 3]
+	#Number of Geomancers per wave
+	geomancer_raid_count = [0, 0, 0, 0, 1, 2, 3, 3]
+

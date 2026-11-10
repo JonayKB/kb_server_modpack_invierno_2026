@@ -1,0 +1,385 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "107C0A63AE152E28"
+	icon: "minecraft:netherrack"
+	id: "343BA1D6CBAEB485"
+	images: [{
+		alpha: 100
+		height: 3.0d
+		image: "celestisynth:textures/entity/visuals/keres_pulse.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:netherrack"
+			id: "6C5EFE6CB1CC684A"
+			rewards: [
+				{
+					id: "0BA4B378686381C5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4298A0CB90617BD3"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Be caution when exploring fire"
+			tasks: [{
+				id: "63509571768972F0"
+				type: "checkmark"
+			}]
+			title: "Explore the fire and the ashes"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["191A3BDD494A5ADB"]
+			id: "1F554246C95E4DED"
+			rewards: [
+				{
+					id: "499B65ED5F0FE2DD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5F848F4D0EDE4131"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "57782EA45C5E98C0"
+				type: "kill"
+				value: 5L
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C5EFE6CB1CC684A"]
+			id: "1E4CFFA3151F5741"
+			rewards: [
+				{
+					id: "67101B00D5BE1263"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "25E57E562A8B5E43"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F037AF84340CC7E"
+				structure: "legendary_monsters:soul_fortress_remains"
+				type: "structure"
+			}]
+			title: "Find the Fortress"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E4CFFA3151F5741"]
+			id: "609B8FCA428F4A26"
+			rewards: [
+				{
+					id: "51BDFCA833E7FE9D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "69EB16C8011845A2"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "501F5C959596B306"
+				type: "kill"
+				value: 5L
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C5EFE6CB1CC684A"]
+			id: "50D976F303ED8C02"
+			rewards: [
+				{
+					id: "647D080C628AC14C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "592CD01F52019A2C"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:soul_sand_valley"
+				icon: "minecraft:map"
+				id: "3803572A416B3E10"
+				type: "biome"
+			}]
+			title: "Find the Valley"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50D976F303ED8C02"]
+			id: "30DDFD641FA05614"
+			rewards: [
+				{
+					id: "1EDFD59F0734523C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "14315C4B3169BE99"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "05F7CDC2ECAFA77E"
+				type: "kill"
+				value: 5L
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C5EFE6CB1CC684A"]
+			id: "191A3BDD494A5ADB"
+			rewards: [
+				{
+					id: "07B0EE5EFBA4A917"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "69B7686E937CB672"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "09A72330066C621A"
+				item: { Count: 3, id: "minecraft:lava_bucket" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C5EFE6CB1CC684A"]
+			id: "363EF82E02E2270A"
+			rewards: [
+				{
+					id: "1537A755B59E5067"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4C9BF21633ECC15D"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:warped_forest"
+				icon: "minecraft:map"
+				id: "4B082D7E27B470A1"
+				type: "biome"
+			}]
+			title: "Find the Warped Forest"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["363EF82E02E2270A"]
+			id: "188797789FCB8B16"
+			rewards: [
+				{
+					id: "2699F6DD1081B3A0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5918A7983CBBBE79"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "48ED323B40F297B7"
+				type: "kill"
+				value: 5L
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C5EFE6CB1CC684A"]
+			id: "7A38D36AE6E4BF76"
+			rewards: [
+				{
+					id: "491E0450B4010F50"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "7498D2D89C980691"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34EAB84E4C018825"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Use beds :)"
+			tasks: [{
+				count: 5L
+				id: "2AEBE69ADA489DFB"
+				item: { Count: 5, id: "minecraft:ancient_debris" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A38D36AE6E4BF76"]
+			id: "1D8115EB3A2E93BC"
+			rewards: [
+				{
+					id: "259023A84AF2790C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "199C3F3725FCE33E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Craft some netherites!"
+			tasks: [{
+				id: "1873495E0EACAC6E"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1D8115EB3A2E93BC"]
+			id: "18DBFC5C5E52C2D6"
+			rewards: [
+				{
+					count: 3
+					id: "6135712C48B2946E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "0C0DB2B329288CB5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Craft a netherite sword."
+			tasks: [{
+				id: "453CDD4023D27BEA"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1F554246C95E4DED"]
+			id: "018B5C61C89ABA32"
+			rewards: [
+				{
+					id: "5A6C686D93B95775"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "27AB25053EEBD673"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "3DE0F5C34A47FA5B"
+				item: { Count: 5, id: "minecraft:magma_cream" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["018B5C61C89ABA32"]
+			id: "309A028ACB9C3E15"
+			rewards: [
+				{
+					id: "3D631FA6EA00929E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "74009C6712192F65"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00B7972E3A284471"
+				item: {
+					Count: 1
+					id: "legendary_monsters:fiery_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+	]
+	title: "Nether"
+}

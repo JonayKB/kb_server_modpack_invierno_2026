@@ -1,0 +1,240 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apothic_spawners"
+	group: "761E330F9C819EB2"
+	icon: "minecraft:spawner"
+	id: "757A0B8B241F7E32"
+	images: [{
+		alpha: 100
+		height: 7.0d
+		image: "apotheosis:blocks/boss_spawner_top"
+		rotation: 60.0d
+		width: 7.0d
+		x: 3.0d
+		y: -1.0d
+	}]
+	order_index: 2
+	parent: "6E9E7131DEED2584"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "36217808241D36D6"
+			rewards: [
+				{
+					id: "7F07785CFC27E97F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "44577CE87885CD5B"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Modify spawners using some items."
+			tasks: [{
+				id: "1FE23BE1344F0F7A"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			title: "Spawner Modifications"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["36217808241D36D6"]
+			id: "057DD9641103BB3A"
+			rewards: [
+				{
+					id: "75224ADF0B756A1B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "50A460DF8492BC06"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Ignore the light."
+			tasks: [{
+				id: "67C51A299FB81EBB"
+				item: "minecraft:soul_lantern"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["36217808241D36D6"]
+			id: "23123B2B77C5F341"
+			rewards: [
+				{
+					id: "356AD19E789109C9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "71BD2F1260269D1C"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "+1 Spawn Count."
+			tasks: [{
+				id: "6B7483742A283730"
+				item: "minecraft:fermented_spider_eye"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["36217808241D36D6"]
+			id: "5A07F180EF021313"
+			rewards: [
+				{
+					id: "641AAD7A2938F7C3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6C0C047470126641"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "+2 Max Entities."
+			tasks: [{
+				id: "71622BDD9224D3F0"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["36217808241D36D6"]
+			id: "59DDAF7BE23EC6FD"
+			rewards: [
+				{
+					id: "4841D4EC6514AD2B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "737218E12195B360"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Silence."
+			tasks: [{
+				id: "25DC298BBE477EA5"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["36217808241D36D6"]
+			id: "69721F2C675F8795"
+			rewards: [
+				{
+					id: "13C9050DD0FCAE06"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "44719619B1D8369E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "No AI."
+			tasks: [{
+				id: "50A7AC019DBACED9"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36217808241D36D6"]
+			id: "636771801FC09EBB"
+			rewards: [
+				{
+					id: "683963A0B58E2ECA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "207DD04AA3E99A7A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Ignore players."
+			tasks: [{
+				id: "6A49B69D4A33BD1E"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["36217808241D36D6"]
+			id: "4F6BBD73EB5E9EC8"
+			rewards: [
+				{
+					id: "71ACBE95E4E500E5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0FED5F68CD5D65E6"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Ignore spawn conditions."
+			tasks: [{
+				id: "70CF4FE456171D0D"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["36217808241D36D6"]
+			id: "46686F468D9DEDE5"
+			rewards: [
+				{
+					id: "11F99D914BB45AD3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "42CAA9FBD64E552B"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "+1 Spawn Range."
+			tasks: [{
+				id: "47774024974374EC"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+	]
+	title: "Apothic Spawners"
+}

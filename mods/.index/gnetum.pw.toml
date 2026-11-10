@@ -1,0 +1,18 @@
+filename = 'gnetum-2.5.0+1.20.1-forge.jar'
+name = 'Gnetum'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'gnetum-2.5.0+1.20.1-forge.jar'
+
+[download]
+hash = 'bbee09bbcf6500497eead39c585046a737c1866e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8519281
+project-id = 1220460

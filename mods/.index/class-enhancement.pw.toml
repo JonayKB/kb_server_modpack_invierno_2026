@@ -1,0 +1,21 @@
+filename = 'class_enhancement-0.1.jar'
+name = 'Class Enhancement'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Class Enhancement V2.6'
+
+[download]
+hash = '7652bb662a65f838a9275d5fbef9a3f6f3fddf13'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8467070
+project-id = 1460324
+
+[[x-prismlauncher-dependencies]]
+addonId = '1456194'
+type = 'OPTIONAL'

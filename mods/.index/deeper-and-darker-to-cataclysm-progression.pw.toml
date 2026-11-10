@@ -1,0 +1,18 @@
+filename = 'deeper_and_darker_to_cataclysm-withtools-forge-1.20.1.jar'
+name = 'Deeper and Darker to Cataclysm Progression'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ddc 1.1.0 | forge | 1.20.1'
+
+[download]
+hash = 'cd197fcd920dffddbbdd928464a70af4dda075e6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6245509
+project-id = 1207952

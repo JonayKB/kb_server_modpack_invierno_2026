@@ -1,0 +1,25 @@
+filename = 'hazennstuff-watered-down-edition-1.1.2.jar'
+name = "Hazen 'N Stuff"
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'hazennstuff-watered-down-edition-1.1.2.jar'
+
+[download]
+hash = '6c1f91348f92e77e830a569d20733ab13251afe0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7501581
+project-id = 1231627
+
+[[x-prismlauncher-dependencies]]
+addonId = '855414'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1194714'
+type = 'REQUIRED'

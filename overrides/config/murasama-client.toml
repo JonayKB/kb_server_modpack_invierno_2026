@@ -1,0 +1,10 @@
+
+#Murasama Client UI Settings
+[ui]
+	#X position of the charge/energy display on screen.
+	#Range: > 0
+	x = 560
+	#Y position of the charge/energy display on screen.
+	#Range: > 0
+	y = 120
+

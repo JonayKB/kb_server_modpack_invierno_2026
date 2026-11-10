@@ -1,0 +1,71 @@
+
+[mob_spawning]
+	enable_dynamic_balancing = true
+	#Range: 0.0 ~ 100.0
+	global_mob_multiplier = 1.0
+	#Multiplier for alexsmobs rhinoceros (0.2 = 5x less)
+	#Range: 0.0 ~ 100.0
+	alexsmobs_rhino_multiplier = 0.2
+	#Multiplier for all goetyhostility mobs
+	#Range: 0.0 ~ 100.0
+	goetyhostility_multiplier = 2.0
+	#Multiplier for all knightquest mobs
+	#Range: 0.0 ~ 100.0
+	knightquest_multiplier = 2.0
+	#Should knightquest mobs ignore biome restrictions and spawn anywhere?
+	knightquest_ignore_biomes = true
+	#Namespace multipliers in modid=multiplier format. These override built-in namespace defaults.
+	namespace_multipliers = ["species=1.5", "saintsdragons=0.333", "alshanex_familiars=0.333", "elemental_synergies=0.333", "gtbcs_geomancy_plus=0.333", "traveloptics=0.4", "faunify=0.5", "crittersandcompanions=0.5", "adamsarsplus=0.5", "legendary_monsters=0.5", "blighted_beasts=0.5", "born_in_chaos_v1=0.667", "notsoshrimple=0.05"]
+	#Specific mob multipliers in modid:mobname=multiplier format. These apply on top of namespace multipliers and are strictly enforced at spawn time.
+	specific_mob_multipliers = ["notsoshrimple:shrimple=0.01", "terramity:pink_fairy=0.01", "terramity:blue_fairy=0.01", "elemental_synergies:deepling_archmage=0.05"]
+	#Specific mobs that cannot spawn close to each other. Uses spatial_cooldown_distance.
+	spatial_cooldown_mobs = ["terramity:pink_fairy", "terramity:blue_fairy", "elemental_synergies:deepling_archmage"]
+	#Minimum block distance (in blocks) between spawns of the same rare mob. 160.0 blocks is roughly 10 chunks.
+	#Range: 16.0 ~ 1024.0
+	spatial_cooldown_distance = 160.0
+	#Range: 0.0 ~ 1.0
+	target_modded_ratio = 0.4
+	#Caps any mob's biome spawn weight at this multiple of the median weight in that biome's spawn list. Lower = more variety. Default: 3.0
+	#Range: 1.0 ~ 10.0
+	weight_cap_factor = 3.0
+	#Extra multiplier for water creature and water ambient spawn weights. Lower this if oceans or rivers are too crowded.
+	#Range: 0.0 ~ 10.0
+	aquatic_spawn_multiplier = 0.55
+	#Weight bonus for mobs in their native biome
+	#Range: 0.0 ~ 10.0
+	biome_native_multiplier = 1.15
+	#Weight penalty for mobs outside their native biome (0.85 = mild penalty, allows variety)
+	#Range: 0.0 ~ 10.0
+	biome_foreign_multiplier = 0.85
+	#Radius checked around a new natural spawn for local crowding. Smaller is faster but less strict.
+	#Range: 4.0 ~ 32.0
+	nearby_scan_radius = 12.0
+	#Maximum weighted candidate rolls when replacing an overrepresented mob. Lower is faster.
+	#Range: 0 ~ 16
+	max_runtime_replacement_attempts = 4
+	#Maximum nearby monster-category mobs before new natural spawns are cancelled.
+	#Range: 1 ~ 128
+	max_nearby_monsters = 24
+	#Maximum nearby creature-category mobs before new natural spawns are cancelled.
+	#Range: 1 ~ 128
+	max_nearby_creatures = 16
+	#Maximum nearby water creature mobs before new natural spawns are cancelled.
+	#Range: 1 ~ 64
+	max_nearby_water_creatures = 4
+	#Maximum nearby water ambient mobs before new natural spawns are cancelled.
+	#Range: 1 ~ 128
+	max_nearby_water_ambient = 6
+	#Maximum nearby ambient-category mobs before new natural spawns are cancelled.
+	#Range: 1 ~ 128
+	max_nearby_ambient = 8
+	#Range: 1 ~ 100
+	hard_cap_per_type = 8
+	#Range: 1 ~ 100
+	max_same_type_per_chunk = 4
+	#Manual blacklist for specific boss IDs (auto-detection catches most)
+	boss_mob_blacklist = ["minecraft:wither", "minecraft:warden", "cataclysm:ender_golem", "cataclysm:ignis", "cataclysm:netherite_monstrosity", "cataclysm:the_harbinger", "cataclysm:the_leviathan"]
+	#If a mob's registry path contains any of these underscore-separated words, it is excluded from natural spawn pools automatically
+	auto_excluded_mob_segments = ["boss", "miniboss", "bomb", "explosive", "projectile", "missile", "bullet", "dummy", "test", "companion", "npc", "merchant", "trader", "minion", "summon", "totem", "trap", "turret", "vehicle", "seat", "sentry", "decoy", "clone", "part", "segment"]
+	#Should missing mobs with natural spawns be auto-injected globally into overworld biomes?
+	auto_inject_global_fallback = true
+

@@ -1,0 +1,21 @@
+filename = 'raidsenhanced-1.0.2-1.20.1.jar'
+name = 'Raids:Enhanced'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'raidsenhanced-1.0.2-1.20.1.jar'
+
+[download]
+hash = '4e403354d71c2812b7c6d78963f815976a12da0d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7676060
+project-id = 1467121
+
+[[x-prismlauncher-dependencies]]
+addonId = '1271749'
+type = 'REQUIRED'

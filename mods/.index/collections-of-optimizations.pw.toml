@@ -1,0 +1,61 @@
+filename = 'collections_of_optimizations-3.8-all.jar'
+name = 'Collections Of Optimizations'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'collections_of_optimizations-3.8-all.jar'
+
+[download]
+hash = 'b00d12419a6e90162b9ae614c4f3a56802b2e5e3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8931679
+project-id = 1630261
+
+[[x-prismlauncher-dependencies]]
+addonId = '1526225'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1573383'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1625973'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1610833'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1620657'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1628827'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1574698'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1589212'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1617397'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1618697'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1568922'
+type = 'OPTIONAL'

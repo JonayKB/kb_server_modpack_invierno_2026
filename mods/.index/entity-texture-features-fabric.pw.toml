@@ -1,0 +1,18 @@
+filename = 'entity_texture_features-7.2.4-1.20.1-forge.jar'
+name = '[ETF] Entity Texture Features - [Fabric & Forge]'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '7.2.4-forge-1.20.1'
+
+[download]
+hash = '1ee3606828a796d1fdcd90c85c4fb12fc1a36fc4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8908928
+project-id = 568563

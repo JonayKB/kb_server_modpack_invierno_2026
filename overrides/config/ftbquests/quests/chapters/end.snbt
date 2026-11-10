@@ -1,0 +1,186 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: "107C0A63AE152E28"
+	icon: "minecraft:end_stone"
+	id: "53704A8A32984FAF"
+	images: [{
+		height: 3.0d
+		image: "celestisynth:textures/entity/visuals/aquaflora_bash/aquaflora_bash4.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:end_stone"
+			id: "787C6C5F16255B54"
+			rewards: [
+				{
+					id: "119D2C1DFB2C9D7D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6B42F998D71DB948"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "..."
+			tasks: [{
+				id: "658F9200D3642DFC"
+				type: "checkmark"
+			}]
+			title: "Have nothing here...the end"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B436E0FF4D1BF70"]
+			description: [
+				"A deceptive mimic disguised as a normal shulker; levitates and pulls wanderers with gravity tricks. "
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Resides in Shulker Towers in &dthe End."
+			]
+			id: "7A2FC21DE21B774F"
+			rewards: [
+				{
+					id: "15B44F34B6F5A471"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 3
+					id: "36B8F657A4B72F15"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Shattering the Shulker"
+			tasks: [{
+				entity: "legendary_monsters:shulker_mimic"
+				icon: "legendary_monsters:large_shulker_shell"
+				id: "340493B8C75D01A4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Shulker Mimic"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["787C6C5F16255B54"]
+			description: [
+				"A powerful Endborne creature that teleports and inflicts “chorus infection” on wanderers. "
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Encountered deep in &dThe End."
+			]
+			id: "5E9C4EAFC12EF77B"
+			rewards: [
+				{
+					id: "6CFA80B7B48B51A6"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 3
+					id: "403D18E0ACD0DF45"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Silencing the Scent"
+			tasks: [{
+				entity: "legendary_monsters:endersent"
+				icon: "legendary_monsters:void_entity_warper"
+				id: "6245028A5DABF3D8"
+				title: "Slay the Enderscent"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["787C6C5F16255B54"]
+			id: "4B436E0FF4D1BF70"
+			rewards: [
+				{
+					id: "69FFEB6AE0E5AD9B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "761515C5244C5819"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0073DF2AC549F8AC"
+				structure: "legendary_monsters:shulker_tower"
+				type: "structure"
+			}]
+			title: "Find the Shulker Tower"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["787C6C5F16255B54"]
+			id: "25FE0B05EE64EEBD"
+			rewards: [
+				{
+					id: "6CC155A891DB4979"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "488348C52CF1E446"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "49C3D7CC3B6EF16E"
+				type: "kill"
+				value: 5L
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["787C6C5F16255B54"]
+			id: "2A64CD5B8092A69E"
+			rewards: [
+				{
+					id: "58F41C448EDBFC87"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0B6E2404EB24FCD6"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "3C6CD73596EBED3F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.25d
+		}
+	]
+	title: "End"
+}

@@ -1,0 +1,18 @@
+filename = 'obscure_api-18.jar'
+name = 'Obscure API 🧩 Forge'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Obscure API 18'
+
+[download]
+hash = 'd395153341a9a732fc80463c475b202d78675e28'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7171906
+project-id = 638417

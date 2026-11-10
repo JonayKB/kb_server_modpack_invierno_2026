@@ -1,0 +1,88 @@
+
+[sound]
+	#Volume of the boss soundtrack. Independent of the vanilla Music
+	#slider, and scaled by Master volume only. 0 disables boss music.
+	#Range: 0.0 ~ 1.0
+	bossMusicVolume = 1.0
+
+[visuals]
+	#Detail level for his world effects (charge rings, shockwaves, rifts).
+	#Lower this first if the fight runs badly.
+	#HIGH / MEDIUM (60%) / LOW (35%) / OFF.
+	#OFF still plays the same fight: only the effects go, not the boss,
+	#his attacks or their damage.
+	#Allowed Values: HIGH, MEDIUM, LOW, OFF
+	effectQuality = "LOW"
+	#Rings and tears thrown off by his charge.
+	#The heaviest single effect; turn off if charges cause frame drops.
+	chargeEffectsEnabled = true
+	#Draw the rifts he opens during phase 2 lunges.
+	#The lunge itself happens either way.
+	maelstromRiftsEnabled = true
+	#Camera shake during charges, lasers and the phase 2 eruption.
+	#Costs no performance; turn off for comfort.
+	screenShakeEnabled = true
+	#Skip drawing body segments buried inside solid blocks.
+	#He passes through terrain, so much of the body is often inside rock.
+	#Turn off if segments vanish while you can still see them.
+	cullBuriedSegments = true
+	#How far away segments keep their spikes. Past it they draw plain.
+	#Spikes are most of the body's rendering cost, and most of a 340 block
+	#worm is far away at any moment, so this is the biggest performance
+	#lever after effectQuality.
+	#1.0 is intended. Lower for speed, raise if you see spikes pop in.
+	#Range: 0.0 ~ 8.0
+	bodyDetailDistanceScale = 2.0
+	#Let the visuals move with the soundtrack instead of a fixed timer.
+	#They animate either way, so this does not turn anything off.
+	musicReactiveVfx = true
+	#How strongly the music drives those visuals. 1.0 is the intended
+	#look, lower is subtler, and 0 keeps the effects but stops the music
+	#from moving them. Ignored when musicReactiveVfx is false.
+	#Range: 0.0 ~ 2.0
+	musicReactiveIntensity = 1.0
+	#Whether the screen edges darken while the Devourer is alive. Nothing
+	#about the fight depends on it.
+	voidVignetteEnabled = true
+	#Strength of that edge darkening. 1.0 is the intended look.
+	#Range: 0.0 ~ 2.0
+	voidVignetteIntensity = 1.0
+	#Strength of the glow around the boss bar. 0 removes the halo and
+	#leaves the bar itself unchanged.
+	#Range: 0.0 ~ 2.0
+	bossBarHaloIntensity = 1.0
+	#Size of the spectrum analyzer around the phase 2 boss bar.
+	#0 removes it. Nothing is drawn when no boss music is audible.
+	#Range: 0.0 ~ 2.0
+	bossBarSpectrumIntensity = 1.0
+	#How strongly the phase 2 sky moves with the soundtrack.
+	#0 leaves the sky intact but still. Phase 1's sky never reacts.
+	#Range: 0.0 ~ 2.0
+	reactiveSkyIntensity = 1.0
+	#Overhead trace of his body drawn around the crosshair, which stands
+	#in for you. He is 340 blocks long, so which end is near you matters
+	#more than a compass bearing would tell you.
+	bossRadarEnabled = true
+	#How far the trace spreads from the crosshair. 1.0 is the intended
+	#look; raise it for more room to read, lower it to keep the view clear.
+	#Range: 0.4 ~ 3.0
+	bossRadarSize = 1.0
+	#How many blocks the outer edge represents. Anything further away is
+	#pinned to the edge rather than dropped.
+	#Range: 48 ~ 1024
+	bossRadarRange = 200
+	#Opacity of the trace. It sits over the middle of the screen, so this
+	#is the setting to reach for if it distracts.
+	#Range: 0.1 ~ 1.0
+	bossRadarOpacity = 1.0
+	#Show a spectrum along the top of the screen while his record
+	#plays. Only while the disc is playing, nothing else.
+	discVisualizer = true
+	#Colour of his outline, as RRGGBB hex.
+	#bodyGlow in the common config turns the outline off entirely.
+	bodyGlowColor = "6A2FA0"
+	#Pixels around the crosshair kept clear of the radar trace. 0 turns it off.
+	#Scaled by bossRadarSize.
+	#Range: 0.0 ~ 64.0
+	bossRadarDeadZone = 14.0
+

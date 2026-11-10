@@ -1,0 +1,21 @@
+filename = 'modernworldcreation_forge_2.0.2_MC_1.20.1.jar'
+name = 'Modern World Creation'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Forge] v2.0.2 MC 1.20.1'
+
+[download]
+hash = '3168946d2cdfa583c7fc822be552faff54694222'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6293573
+project-id = 485245
+
+[[x-prismlauncher-dependencies]]
+addonId = '410295'
+type = 'REQUIRED'

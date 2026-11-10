@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "tiolevi2",
+      "uniqueId": "a2e9a92c-af3c-4783-9d1d-81c0c3c9b6d2"
+    },
+    "time": 1786488175555,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/6OlD57Pdyc"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "tiolevi2",
+      "uniqueId": "a2e9a92c-af3c-4783-9d1d-81c0c3c9b6d2"
+    },
+    "time": 1786487840618,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/zQ3nbyGIv0"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "tiolevi2",
+      "uniqueId": "a2e9a92c-af3c-4783-9d1d-81c0c3c9b6d2"
+    },
+    "time": 1786487836050,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/CxBZmForzK"
+    }
+  }
+]

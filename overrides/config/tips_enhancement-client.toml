@@ -1,0 +1,72 @@
+
+[Toggles]
+	enablePauseTips = true
+	enableInventoryTips = false
+	enableLoadingTips = true
+	enableCuriosTips = false
+
+[Tips]
+	tipsList = ["Tips| Use quests to progress in modpack!", "Tips | Sleeping through the night won't stop every danger. Some creatures are always watching...", "Tips | Keep a Backpack with food, torches and extra gear. You'll thank yourself after your first death.", "Tips | Gems from Apotheosis can completely change an item's power. Socket them wisely.", "Tips | Not every boss should be challenged immediately. Come back later if the fight feels impossible.", "Tips | Iron's Spells consume mana, not durability. Manage your mana before entering a dungeon.", "Tips | Different spell schools excel in different situations. Experiment instead of using only one spell.", "Tips | Carry Mana Potions during long expeditions. Running out of mana can be fatal.", "Tips | Your Backpack is safer than your inventory. Use it to organize valuable loot.", "Tips | Upgrade your Backpack whenever possible. More storage means longer adventures.", "Tips | Some Cataclysm bosses require preparation, not bravery. Potions and enchantments make a huge difference.", "Tips | Cataclysm structures hide incredible rewards. Explore every room before leaving.", "Tips | Born in Chaos creatures often have unique abilities. Don't underestimate common-looking enemies.", "Tips | Some Born in Chaos monsters become much deadlier at night.", "Tips | Shields won't save you from every attack. Learn enemy attack patterns.", "Tips | A good weapon isn't everything. Armor, gems and enchantments matter just as much.", "Tips | Distance is your greatest defense. Bows and spells can save your life.", "Tips | Death is expensive. Store your valuables before risky adventures.", "Tips | Every dungeon is worth exploring. Hidden rooms often contain the best loot.", "Tips | Always carry a Water Bucket. It's useful far more often than you think.", "Tips | Fire Resistance can trivialize dangerous encounters.", "Tips | Keep spare tools inside your Backpack. Breaking your only pickaxe underground is painful.", "Tips | Some bosses destroy terrain. Don't build your base too close.", "Tips | High rarity doesn't always mean better. Compare item stats before equipping.", "Tips | Enchanting is only the beginning. Apotheosis lets you push gear even further.", "Tips | Critical strikes can turn the tide of battle. Increase your crit chance whenever possible.", "Tips | Don't ignore armor penetration. Some enemies have extremely high defenses.", "Tips | Magic damage bypasses some traditional combat strategies. Adapt your build accordingly.", "Tips | Exploration is progression. Many powerful items can't be crafted.", "Tips | Every spell has a cooldown. Timing is just as important as damage.", "Tips | Don't carry everything with you. Leave important items safely stored.", "Tips | Boss arenas are rarely forgiving. Prepare before stepping inside.", "Tips | Some treasures are protected by far stronger enemies than expected.", "Tips | Food quality matters. Better meals can save your life.", "Tips | Never underestimate movement speed. Dodging is often better than blocking.", "Tips | A retreat today is better than losing everything.", "Tips | Backup equipment can save an entire expedition.", "Tips | Rare structures usually mean rare rewards... and even rarer dangers.", "Tips | Listen carefully. Many dangerous mobs make unique sounds before attacking.", "Tips | Darkness hides more than just Zombies. Always bring enough light.", "Tips | Every class has strengths and weaknesses. Build around your playstyle.", "Tips | Mana regeneration is just as important as maximum mana.", "Tips | Strong enemies often drop stronger loot. Risk and reward go hand in hand.", "Tips | Explore every biome. Some resources only exist in specific locations.", "Tips | Never assume a dungeon is fully cleared. Secrets are everywhere.", "Tips | Upgrade your equipment before chasing stronger bosses.", "Tips | Keep an eye on your durability. Breaking armor mid-fight can be disastrous.", "Tips | Sometimes the best strategy is simply running away.", "Tips | Knowledge is your strongest weapon. Learn from every defeat."]
+	defaultTipTitle = "Tips"
+
+[GUI]
+	titleColor = "FFD700"
+	accentColor = "DAA520"
+	backgroundColor = "111111"
+	showAccentLine = false
+	#Range: 1 ~ 300
+	cycleSpeed = 10
+	#Layout style:
+	#1 = Default
+	#2 = Minimal (no box, shadowed text on a soft scrim)
+	#3 = Capsule
+	#4 = Banner (full-width strip with accent lines)
+	#5 = Card (drop shadow and accent edge)
+	#6 = Tooltip (vanilla item-tooltip style)
+	#7 = Stone
+	#8 = Glass (frosted translucent panel)
+	#9 = Terraria (blue rounded panel with gold trim)
+	#10 = Dark Coffee GUI Style
+	#Range: 1 ~ 10
+	tipLayout = 7
+	#Animation style:
+	#1 = Static
+	#2 = Fade
+	#3 = Rise
+	#4 = Zoom
+	#5 = Slide & Tilt
+	#6 = Typewriter (text reveals character by character)
+	#7 = Drop & Bounce
+	#8 = Flip (vertical unfold with overshoot)
+	#9 = Glide (soft rise with overshoot)
+	#Range: 1 ~ 9
+	tipAnimation = 3
+	#Enter/exit animation duration in milliseconds
+	#Range: 100 ~ 2000
+	animationDuration = 500
+	#Thin accent bar showing time until the next tip
+	showProgressBar = true
+	#Draw tip text with a drop shadow (Minimal layout always uses it)
+	textShadow = true
+	#Typewriter text reveal on every tip, regardless of animation style
+	enableTypewriter = true
+	#Typewriter speed in milliseconds per character
+	#Range: 1 ~ 100
+	typewriterSpeed = 18
+	#Show a blinking cursor while the typewriter is revealing text
+	typewriterCursor = true
+	#Drop shadow behind the tip panel on every layout
+	enableBoxShadow = true
+	#Floating bobbing motion
+	enableFloatingBob = true
+
+[Positions]
+	#Range: 0 ~ 1000
+	pauseTipYOffset = 160
+	#Range: 0 ~ 1000
+	inventoryTipYOffset = 350
+	#Range: 0 ~ 1000
+	loadingTipYOffset = 45
+	#Range: 0 ~ 1000
+	curiosTipYOffset = 350
+

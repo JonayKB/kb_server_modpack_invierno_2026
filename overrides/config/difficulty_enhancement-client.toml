@@ -1,0 +1,214 @@
+
+#═══════════════════════════════════════
+#  DIFFICULTY ENHANCEMENT CLIENT CONFIG
+#═══════════════════════════════════════
+#
+#Visual and UI settings for the difficulty selection screen
+[layout]
+	#Global GUI scale multiplier (1.0 = default)
+	#Range: 0.5 ~ 3.0
+	guiScale = 1.0
+	#Width of difficulty buttons in pixels
+	#Range: 100 ~ 500
+	buttonWidth = 200
+	#Height of difficulty buttons in pixels
+	#Range: 16 ~ 60
+	buttonHeight = 28
+	#Vertical gap between buttons in pixels
+	#Range: 16 ~ 80
+	buttonGap = 30
+	#Number of visible button rows before scrolling
+	#Range: 2 ~ 10
+	visibleRows = 4
+	#Padding inside the description panel
+	#Range: 5 ~ 40
+	panelPadding = 15
+	#Vertical offset for the title from the button list
+	#Range: 10 ~ 100
+	titleOffsetY = 35
+
+#Animation Settings
+#Control the speed and smoothness of UI animations
+[animations]
+	#Screen fade-in speed (higher = faster)
+	#Range: 0.01 ~ 1.0
+	fadeInSpeed = 0.05
+	#Screen fade-out speed (higher = faster)
+	#Range: 0.01 ~ 1.0
+	fadeOutSpeed = 0.04
+	#Scroll smoothing factor (higher = more responsive)
+	#Range: 0.05 ~ 1.0
+	scrollSpeed = 0.4
+	#Button hover transition speed
+	#Range: 0.01 ~ 0.5
+	hoverTransitionSpeed = 0.06
+	#Description text fade transition speed
+	#Range: 0.01 ~ 0.5
+	descriptionFadeSpeed = 0.06
+	#Title typewriter reveal speed
+	#Range: 0.001 ~ 0.1
+	titleRevealSpeed = 0.008
+	#Button scale animation speed
+	#Range: 0.05 ~ 1.0
+	buttonScaleSpeed = 0.28
+
+#Particle Effects
+#Configure background particle effects
+[particles]
+	#Enable background particle effects
+	enableParticles = true
+	#Maximum number of particles on screen
+	#Range: 0 ~ 2000
+	maxParticles = 250
+	#Particle spawn rate multiplier (0 = none, 1 = normal)
+	#Range: 0.0 ~ 5.0
+	particleSpawnRate = 1.0
+	#Strength of wind effect on particles
+	#Range: 0.0 ~ 10.0
+	particleWindStrength = 1.8
+	#Base lifetime of particles in ticks
+	#Range: 20 ~ 400
+	particleBaseLifetime = 80
+
+#Visual Effects
+#Toggle and configure various visual enhancements
+[effects]
+	#Enable vignette darkening around screen edges
+	enableVignette = true
+	#Vignette darkness intensity (0.0 - 1.0)
+	#Range: 0.0 ~ 1.0
+	vignetteStrength = 0.65
+	#Tint background based on hovered difficulty
+	enableGradientTint = true
+	#Maximum opacity of the gradient tint
+	#Range: 0.0 ~ 0.5
+	gradientTintStrength = 0.15
+	#Enable screen shake for intense difficulties
+	enableScreenShake = true
+	#Screen shake intensity multiplier
+	#Range: 0.0 ~ 3.0
+	screenShakeIntensity = 1.0
+	#Enable subtle zoom when hovering intense difficulties
+	enableZoomOnHover = true
+	#Maximum zoom amount (1.0 = no zoom)
+	#Range: 0.0 ~ 0.1
+	zoomAmount = 0.03
+	#Enable gentle floating animation for UI elements
+	enableFloatingAnimation = true
+	#Amplitude of the floating animation in pixels
+	#Range: 0.0 ~ 10.0
+	floatingAmplitude = 2.8
+
+#Selection Confirmation
+#Settings for the selection confirmation timer
+[confirmation]
+	#Confirmation time for normal difficulties (ticks, 20 = 1 second)
+	#Range: 5 ~ 200
+	normalConfirmTime = 35
+	#Confirmation time for torture/chaos difficulties (ticks)
+	#Range: 10 ~ 300
+	specialConfirmTime = 80
+	#Show visual countdown during confirmation
+	showCountdown = true
+	#Enable heartbeat flash effect during selection
+	enableHeartbeatEffect = true
+	#Intensity of the heartbeat flash effect
+	#Range: 0.0 ~ 1.0
+	heartbeatIntensity = 0.5
+
+#Description Panel
+#Configure the difficulty description panel
+[description_panel]
+	#Maximum width of the description panel
+	#Range: 150 ~ 800
+	maxPanelWidth = 340
+	#Minimum height of the description panel
+	#Range: 20 ~ 100
+	minPanelHeight = 30
+	#Enable typewriter effect for description text
+	enableTypewriterEffect = true
+	#Typewriter speed in milliseconds per character
+	#Range: 1 ~ 100
+	typewriterSpeedMs = 10
+	#Automatically scale text to fit the panel
+	autoScaleText = true
+	#Minimum text scale when auto-scaling
+	#Range: 0.3 ~ 1.0
+	minTextScale = 0.6
+
+#Cross-Mod Transitions
+#Settings for transitions to other mod screens
+[transitions]
+	#Enable smooth transition to class selection screen
+	smoothTransitionToClass = true
+	#Transition duration in seconds
+	#Range: 0.1 ~ 5.0
+	transitionDuration = 0.8
+	#Share background state with class selection screen
+	shareBackgroundWithClass = true
+	#Easing function: linear, easeIn, easeOut, easeInOut
+	transitionEasing = "easeInOut"
+
+#Color Customization
+#All colors in hex format: #RRGGBB
+[colors]
+	#Main background color
+	backgroundColor = "#07070F"
+	#Description panel background color
+	panelColor = "#0C0C1C"
+	#Main text color
+	textColor = "#DDDDEE"
+	#Muted/secondary text color
+	mutedColor = "#7777AA"
+	#Title text color (before hover effects)
+	titleColor = "#D4A843"
+	#Scrollbar color
+	scrollbarColor = "#6A4E18"
+
+#Bottom Message Banner
+#Configure the random message shown at the bottom
+[bottom_message]
+	#Show random message at the bottom of the screen
+	showBottomMessage = true
+	#Custom messages to display (leave empty for defaults)
+	customMessages = []
+	#Opacity of the bottom message
+	#Range: 0.0 ~ 1.0
+	bottomMessageOpacity = 0.4
+
+#Cripple Effect Overlay
+#Configure the visual overlay when crippled
+[cripple_overlay]
+	#Enable red vignette overlay when crippled
+	enableCrippleOverlay = true
+	#Base intensity of the cripple overlay
+	#Range: 0.0 ~ 0.3
+	crippleOverlayIntensity = 0.05
+	#Speed of the pulsing effect (higher = faster)
+	#Range: 5.0E-4 ~ 0.01
+	cripplePulseSpeed = 0.002
+
+#Sound Settings
+#Configure UI sound effects
+[sounds]
+	#Master volume for UI sounds
+	#Range: 0.0 ~ 2.0
+	uiSoundVolume = 1.0
+	#Play sounds when hovering over buttons
+	enableHoverSounds = true
+	#Play sounds when selecting a difficulty
+	enableSelectSounds = true
+	#Play sounds when confirming selection
+	enableConfirmSounds = true
+
+#Accessibility Options
+#Settings to improve accessibility
+[accessibility]
+	#Reduce or disable animations for motion sensitivity
+	reduceMotion = false
+	#Enable high contrast colors for better visibility
+	highContrastMode = false
+	#Text size multiplier for better readability
+	#Range: 0.5 ~ 2.0
+	textSizeMultiplier = 1.0
+

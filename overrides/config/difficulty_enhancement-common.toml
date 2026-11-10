@@ -1,0 +1,3548 @@
+
+[general]
+	#Automatically select a difficulty at world start without showing the GUI
+	autoSelectDifficulty = false
+	#The default difficulty ID to auto-select if autoSelectDifficulty is true
+	defaultAutoDifficulty = "normal"
+	entityBlacklist = []
+	vengefulEntityBlacklist = []
+	difficultyOrder = ["cozy", "normal", "extreme", "torture", "chaos"]
+	applyToBosses = true
+	debugMode = false
+
+[cozy]
+	enabled = true
+	name = "Cozy"
+	recommendation = "For people that wants things easier."
+	#Range: 0.1 ~ 100.0
+	hpMultiplier = 0.75
+	#Range: 0.1 ~ 100.0
+	dmgMultiplier = 0.75
+	#Range: 0.0 ~ 100.0
+	fallDmgMultiplier = 0.5
+	enableRegen = true
+	#Range: 0.1 ~ 100.0
+	regenAmount = 1.0
+	#Range: 1 ~ 1200
+	regenSpeed = 100
+	bgColor = "#050B14"
+	accentColor = "#55FFFF"
+	underwaterBreathing = true
+	allowKeepInventory = true
+	#Commands to execute when Cozy difficulty is selected.
+	commands = []
+
+[normal]
+	enabled = true
+	name = "Normal"
+	recommendation = "Standard vanilla experience."
+	#Range: 0.1 ~ 100.0
+	hpMultiplier = 1.0
+	#Range: 0.1 ~ 100.0
+	dmgMultiplier = 1.0
+	#Range: 0.0 ~ 100.0
+	fallDmgMultiplier = 1.0
+	bgColor = "#07070F"
+	accentColor = "#D4A843"
+	allowKeepInventory = true
+	#Commands to execute when Normal difficulty is selected.
+	commands = []
+
+[extreme]
+	enabled = true
+	name = "Extreme"
+	recommendation = "For skilled players. Mobs smack hard."
+	#Range: 0.1 ~ 100.0
+	hpMultiplier = 1.5
+	#Range: 0.1 ~ 100.0
+	dmgMultiplier = 1.5
+	#Range: 0.0 ~ 100.0
+	fallDmgMultiplier = 1.25
+	bgColor = "#140A05"
+	allowKeepInventory = true
+	accentColor = "#FF8833"
+	#Commands to execute when Extreme difficulty is selected.
+	commands = []
+
+[torture]
+	enabled = true
+	name = "Torture"
+	recommendation = "Suffering."
+	#Range: 0.1 ~ 100.0
+	hpMultiplier = 2.0
+	#Range: 0.1 ~ 100.0
+	dmgMultiplier = 2.0
+	#Range: 0.0 ~ 100.0
+	fallDmgMultiplier = 1.5
+	#Range: 0.0 ~ 100.0
+	lifestealAmount = 1.0
+	#Range: 0.0 ~ 40.0
+	exhaustionAmount = 0.5
+	bgColor = "#1A0505"
+	allowKeepInventory = true
+	accentColor = "#FF3333"
+	#Commands to execute when Torture difficulty is selected.
+	commands = []
+
+[chaos]
+	enabled = true
+	name = "Chaos"
+	recommendation = "Certain death."
+	#Range: 0.1 ~ 100.0
+	hpMultiplier = 3.0
+	#Range: 0.1 ~ 100.0
+	dmgMultiplier = 3.0
+	#Range: 0.0 ~ 100.0
+	fallDmgMultiplier = 2.0
+	#Range: 0.0 ~ 100.0
+	lifestealAmount = 2.0
+	#Range: 0.0 ~ 40.0
+	exhaustionAmount = 1.0
+	bgColor = "#000000"
+	allowKeepInventory = true
+	accentColor = "#FF0000"
+	#Commands to execute when Chaos difficulty is selected.
+	commands = []
+
+["invulnerability stuff"]
+	#Enable invulnerability for players while they're choosing their difficulty
+	enableSetupImmunity = true
+	#Prevent incoming damage during the difficulty selection.
+	preventSetupDamage = true
+	#Regularly extinguish players.
+	clearSetupFire = true
+	#Reset accumulated fall distance.
+	resetSetupFall = true
+	#Regularly max out player oxygen level.
+	maxSetupAir = true
+	#Keep food level maxed out.
+	maxSetupFood = true
+	#Keep player health max.
+	maxSetupHealth = true
+
+[mechanics]
+	enableBleeding = true
+	#Range: 0.0 ~ 1.0
+	bleedingChance = 0.1
+	#Range: 20 ~ 1200
+	bleedingDuration = 100
+	enableCrippling = true
+	#Range: 0.0 ~ 1.0
+	cripplingChance = 0.05
+	#Range: 20 ~ 1200
+	cripplingDuration = 200
+	enableVengefulAI = true
+	#Range: 0.1 ~ 3.0
+	vengefulSpeed = 1.25
+	#Range: 4.0 ~ 64.0
+	vengefulAggroRange = 16.0
+	#Range: 0 ~ 100
+	vengefulAttackCooldown = 20
+	#Range: 0.5 ~ 20.0
+	vengefulDamage = 2.0
+	vengefulAffectBabyAnimals = false
+
+[custom_difficulties]
+	#Range: 1 ~ 100
+	customDifficultySlots = 10
+
+	[custom_difficulties.custom_0]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_1]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_2]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_3]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_4]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_5]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_6]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_7]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_8]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_9]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_10]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_11]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_12]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_13]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_14]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_15]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_16]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_17]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_18]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_19]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_20]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_21]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_22]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_23]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_24]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_25]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_26]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_27]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_28]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_29]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_30]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_31]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_32]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_33]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_34]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_35]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_36]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_37]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_38]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_39]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_40]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_41]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_42]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_43]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_44]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_45]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_46]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_47]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_48]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_49]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_50]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_51]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_52]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_53]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_54]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_55]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_56]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_57]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_58]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_59]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_60]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_61]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_62]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_63]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_64]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_65]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_66]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_67]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_68]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_69]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_70]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_71]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_72]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_73]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_74]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_75]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_76]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_77]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_78]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_79]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_80]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_81]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_82]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_83]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_84]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_85]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_86]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_87]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_88]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_89]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_90]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_91]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_92]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_93]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_94]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_95]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_96]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_97]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_98]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+
+	[custom_difficulties.custom_99]
+		id = ""
+		name = "Custom"
+		description = ""
+		recommendation = ""
+		#Range: 0 ~ 4
+		uiTheme = 0
+		#Range: 0.1 ~ 100.0
+		hpMultiplier = 1.0
+		#Range: 0.1 ~ 100.0
+		dmgMultiplier = 1.0
+		#Range: 0.0 ~ 100.0
+		fallDmgMultiplier = 1.0
+		enableBleeding = false
+		enableCrippling = false
+		enableVengefulAi = false
+		enableRegen = false
+		#Range: 0.1 ~ 100.0
+		regenAmount = 1.0
+		#Range: 1 ~ 1200
+		regenSpeed = 40
+		#Range: 0.0 ~ 100.0
+		lifestealAmount = 0.0
+		#Range: 0.0 ~ 40.0
+		exhaustionAmount = 0.0
+		allowKeepInventory = false
+		bgColor = "#07070F"
+		accentColor = "#D4A843"
+		hoverSound = ""
+		selectSound = ""
+		confirmSound = ""
+		traits = []
+		commands = []
+

@@ -1,0 +1,18 @@
+filename = 'libraryferret-forge-1.20.1-4.0.0.jar'
+name = 'Library Ferret - Forge'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Library ferret 4.0.0 - Forge 1.20.1'
+
+[download]
+hash = '29f240c16ff1a1bc574d69162d379cc1c881e1ab'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4601234
+project-id = 532727

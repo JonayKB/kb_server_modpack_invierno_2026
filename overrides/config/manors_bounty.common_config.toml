@@ -1,0 +1,15 @@
+
+[fruit_tree_common]
+	#The probability of fruit tree leaves falling off when receiving a Random Tick
+	fruit_tree_drop = 0.25
+	#The probability of the leaves of fruit trees blooming upon receiving a Random Tick
+	fruit_tree_blossom = 0.3
+	#The probability of fruit tree leaves receiving Random Tick results
+	fruit_tree_fruit = 0.025
+	#The probability that leaves will bloom and bear fruit.
+	fruit_tree_leaves_fruit_chance = 0.4
+	#The probability of crops growing rare variant individuals.
+	rare_variant_chance = 0.005
+	#The possibility of black dirt growing truffles under Scotpine trees.
+	black_dirt_grow_truffle_chance = 0.035
+

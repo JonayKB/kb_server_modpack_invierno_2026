@@ -1,0 +1,29 @@
+filename = 'BOMD-Forge-1.20.1-1.1.2.jar'
+name = 'Bosses of Mass Destruction [Forge | NeoForge]'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'BOMD-Forge-1.20.1-1.1.2.jar'
+
+[download]
+hash = '2caa8739ed9702c5ad87b6c5436432f8be755217'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5067728
+project-id = 941573
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '955605'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'

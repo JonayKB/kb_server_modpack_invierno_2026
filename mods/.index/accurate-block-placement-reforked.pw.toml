@@ -1,0 +1,18 @@
+filename = 'accurateblockplacement-1.3.0.jar'
+name = 'Accurate Block Placement Reforked'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ABP 1.20.1 V1'
+
+[download]
+hash = 'd84c34eb63436f24296b90f4a8df5975bf022195'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8214795
+project-id = 1568488

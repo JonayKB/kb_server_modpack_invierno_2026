@@ -1,0 +1,18 @@
+filename = 'perfectlybalancedbows-1.1-1.20.1.jar'
+name = 'Perfectly Balanced Bows'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Perfectly Balanced Bows 1.1'
+
+[download]
+hash = 'c2f209c976745d92b550eba606a62c841d06727c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6596299
+project-id = 1276118

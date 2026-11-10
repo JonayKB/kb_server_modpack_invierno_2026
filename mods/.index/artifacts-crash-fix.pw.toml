@@ -1,0 +1,18 @@
+filename = 'artifacts_crash_fix-0.1.jar'
+name = 'Artifacts Crash Fix'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'artifacts_crash_fix-0.1.jar'
+
+[download]
+hash = 'ab94b13b38c803214aa9947075ed456fb5acc83a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8308960
+project-id = 1585824

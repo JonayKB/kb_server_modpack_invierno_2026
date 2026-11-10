@@ -1,0 +1,18 @@
+filename = 'undead_unleashed-2.0.6-forge-1.20.1.jar'
+name = 'Undead Unleashed - Continued'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'undead_unleashed-2.0.6-forge-1.20.1.jar'
+
+[download]
+hash = '2aa3a1c3d50c1732d599c743fc30eb528df9331b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8755536
+project-id = 817279

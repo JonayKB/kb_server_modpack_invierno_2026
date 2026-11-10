@@ -1,0 +1,13 @@
+#跳过 Bosses Rise Boss 过场动画的总开关。
+skipBossIntroAnimations = true
+#跳过斯科尔，霜冻雪怪的入场、激怒转阶段和死亡动画。
+skipYetiIntro = true
+#跳过阿什洛德，炼狱飞龙的入场、转阶段和死亡动画。
+skipDragonIntro = true
+#跳过赫尔瓦，冥界骑士的入场、假死、复活和最终死亡过场。
+skipKnightIntro = true
+#跳过斯洛克，巨型沙虫的入场和死亡过场。
+skipSandwormIntro = true
+#跳过 Nerakyss, The Kraken 的入场和二阶段过场。
+skipKrakenIntro = true
+

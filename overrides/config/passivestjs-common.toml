@@ -1,0 +1,14 @@
+
+#PassiveSTJS shared integration settings
+[editor]
+	#Disables Passive Skill Tree's built-in editor command and editor screen entry points.
+	#Enabled by default because the upstream editor is unstable with PassiveSTJS-managed content.
+	#Set to false only if you explicitly want to use Passive Skill Tree's editor anyway.
+	disabled = true
+
+[translation_draft_export]
+	#Exports a generated skill tree translation draft to config/passivestjs/generated_skilltree_lang/lang.json after content reload.
+	#The draft only contains discovered translation keys with empty string values.
+	#Disabled by default because the draft file is regenerated and can overwrite previous draft edits.
+	enabled = false
+

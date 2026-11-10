@@ -1,0 +1,18 @@
+filename = 'accessible-step-forge-mc1.20.1-2.1.1+1.20.1.jar'
+name = 'Accessible Step'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = 'Accessible Step v2.1.1+1.20.1 (forge)'
+
+[download]
+hash = '23c9072fe977269b60ba4adf89d30acf1a861c5e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6798002
+project-id = 1044724

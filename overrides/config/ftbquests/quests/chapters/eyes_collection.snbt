@@ -1,0 +1,492 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eyes_collection"
+	group: "13458AFBA70AE825"
+	icon: "minecraft:ender_eye"
+	id: "6A9275C00B6CD384"
+	images: [
+		{
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			height: 5.5d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 5.5d
+			x: 2.0d
+			y: -1.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon_scale: 2.0d
+			id: "372593ED57EA4D37"
+			rewards: [
+				{
+					id: "3E57D5B02D281409"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "42DCB93335103766"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "Found in Bastion Remnant Treasure chests (50% chance)."
+			tasks: [{
+				id: "6FA1E94D57CEEF6D"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "41A696D20445A033"
+			rewards: [
+				{
+					id: "0C726D191C30F1AC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6DEC980C37D5EC4A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.0d
+			subtitle: "Found in Buried Treasure chests (30% chance)."
+			tasks: [{
+				id: "2F055F5B8D889A37"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "0074BD139069E76A"
+			rewards: [
+				{
+					id: "58624E5EEBDECD2C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6F4754DB41DA384F"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "Found in Mineshaft chests (20% chance)."
+			tasks: [{
+				id: "657ADDBBF158D502"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "1279CB9A1AD49797"
+			rewards: [
+				{
+					id: "3B70B1709E92AA60"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "15A39263D8E88A82"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "Found in Igloo chests (70% chance)."
+			tasks: [{
+				id: "2E1BF81A3E4E60BF"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "07744B4083616E1D"
+			rewards: [
+				{
+					id: "2552AE5DCD16F8C8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2E7C28E4250A26BA"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "Found in Pillager Outpost chests (30% chance)."
+			tasks: [{
+				id: "5CF15896076A271C"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "5B938A9A5E1E1EEA"
+			rewards: [
+				{
+					id: "1AA4515BC33970E8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "42FF039B6593569F"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "Found in Nether Fortress chests (30% chance)."
+			tasks: [{
+				id: "0EFE78005D61DB2C"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "4C7AC2C4BFD660D6"
+			rewards: [
+				{
+					id: "76F674F228272065"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6EB40BAA4CFAA10A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "Found in Desert Pyramid chests (10% chance)."
+			tasks: [{
+				id: "2509D988DC550B9A"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "07BB03F6C059C45B"
+			rewards: [
+				{
+					id: "3602EE103AAF9E57"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "38598FEFF6598E0F"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "Found in Jungle Pyramid chests (40% chance)."
+			tasks: [{
+				id: "7B6A6364B33E85BA"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "40BECF10545AF56E"
+			rewards: [
+				{
+					id: "64A4B85D2325D396"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5D9518F89BD0DDCD"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "Dropped by Elder Guardians (30% chance, unaffected by Looting or cause of death)."
+			tasks: [{
+				id: "2E48D71ED30156D4"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.4571428571428555d
+			y: -4.5285714285714285d
+		}
+		{
+			icon_scale: 2.0d
+			id: "6E90ABFCD4BF1F41"
+			rewards: [
+				{
+					id: "1D562EFC4F2BD61A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "61F0AAA1EE643672"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "Found in Woodland Mansion chests (10% chance) and dropped by Evokers (5% chance, unaffected by Looting or cause of death)."
+			tasks: [{
+				id: "09009AF55FBF290D"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "5B18DA0CEA5A5C0B"
+			rewards: [
+				{
+					id: "3EE9A6D15386521F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0B647648182B94CC"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "Dropped by Wither."
+			tasks: [{
+				id: "1714414DF5CC3CDB"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.4857142857142804d
+			y: -4.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "231D76E6ABA7E26B"
+			rewards: [
+				{
+					id: "36E8B033381B75F3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "04E6D5D8BDB841AC"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "Crafted with 1 Phantom Membrane, 1 Bone, 1 Rotten Flesh, 1 Ghast Tear, and 1 Undead Soul (25% chance Skeleton Horse drop, unaffected by Looting or cause of death)."
+			tasks: [{
+				id: "79946B332BBF2A57"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+	]
+	title: "Eyes Collection"
+}

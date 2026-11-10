@@ -1,0 +1,925 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis_gems"
+	group: "761E330F9C819EB2"
+	icon: {
+		Count: 1
+		id: "apotheosis:gem"
+		tag: {
+			affix_data: {
+				rarity: "apotheosis:epic"
+			}
+			gem: "apotheosis:the_nether/inferno"
+		}
+	}
+	id: "086191A525E713AD"
+	images: [
+		{
+			alpha: 100
+			height: 10.0d
+			image: "apotheosis:items/gems/candied"
+			rotation: 0.0d
+			width: 10.0d
+			x: 1.361044739372403d
+			y: 0.31582663159064595d
+		}
+		{
+			alpha: 100
+			height: 8.0d
+			image: "apotheosis:items/gems/weeping_well"
+			rotation: 0.0d
+			width: 8.0d
+			x: 8.246443202560407d
+			y: 8.756130728849634d
+		}
+	]
+	order_index: 0
+	parent: "6E9E7131DEED2584"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"You can obtain &dgems&r in various ways,explore chests, slay creatures, and craft them; if you have any questions, use &2JEI&r."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"You can upgrade your &dgems&r to boost their &cattributes&r, thereby enhancing your weapon and making it &bextremely powerful&r."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"In the &6Apotheosis&r mod, the item rarity tiers are &3Common&r, &aUncommon&r, &9Rare&r, &dEpic&r, &bMythic&r, &cAncient&r, &5Esoteric&r and &4Fabled&r."
+			]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:the_end/endersurge"
+				}
+			}
+			id: "403801E59E080D82"
+			rewards: [
+				{
+					id: "6394806FFBACD69F"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:common"
+							}
+							gem: "apotheosis:core/guardian"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "514A55510ADCA6D0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6EA17463EF8E31CB"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Use gems to maximize your attributes."
+			tasks: [{
+				id: "4129E54C145C55A9"
+				type: "checkmark"
+			}]
+			title: "The Gem Master!"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["403801E59E080D82"]
+			description: [
+				"One of the mod key materials, use it to craft &dgems&r, &9items&r, and various other objects."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"To get &bdust&r, drop any gem and make an &6anvil&r block fall into it!"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"&6Always keep some in reserve...&r"
+			]
+			id: "36ED0E33193A0A93"
+			rewards: [
+				{
+					id: "481AFA2B05FC0041"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4C356EFC76367FE5"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Used in gem enhancement."
+			tasks: [{
+				id: "4D21C098D3CFB391"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["36ED0E33193A0A93"]
+			id: "3744745379AB58B6"
+			rewards: [
+				{
+					id: "6641F491F016ED81"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "26ECA3CB9B55F8DF"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Use this to obtain the best possible attributes in gem enchancement!"
+			tasks: [{
+				id: "029C57424777C3E7"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3744745379AB58B6"]
+			description: [
+				"Follow the progression below to go through all available &dmaterial rarities&r!"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Use them to improve and refine your &bgem&r."
+			]
+			id: "237F9099BDEBFFB6"
+			rewards: [
+				{
+					id: "547FAAF1FF4C8E35"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "258393DA9CC58A07"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Gather some materials to create stronger gems."
+			tasks: [{
+				id: "5CED19D755A988E3"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["36ED0E33193A0A93"]
+			description: ["Use this table to destroy certain items and obtain materials of varying rarities."]
+			id: "40F813BC0B41A366"
+			rewards: [
+				{
+					id: "4AAE1A778E4590A7"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "086AB945664D0636"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Transform gems and other items into useful resources."
+			tasks: [{
+				id: "278140F9610CD84D"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3744745379AB58B6"
+				"755185D678ACA37C"
+			]
+			id: "6F909941370216AA"
+			rewards: [
+				{
+					id: "4AD22D0FB60809B9"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "64262B24FA10E92B"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Increase the number of gems your item can receive."
+			tasks: [{
+				id: "2434F9229A65A411"
+				item: "apotheosis:augmenting_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["36ED0E33193A0A93"]
+			id: "755185D678ACA37C"
+			rewards: [
+				{
+					id: "3F1E213F6921BAE5"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1270FF9DD0283A45"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Increases the number of gem slots on your items."
+			tasks: [{
+				id: "572F0AB563B2FA6F"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F909941370216AA"]
+			id: "1D70AC41751FBD43"
+			rewards: [
+				{
+					id: "717DD085D570E915"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4ECF69C47240B68F"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "5DCC16F19F691DAD"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1D70AC41751FBD43"]
+			id: "709DE5371645D717"
+			rewards: [
+				{
+					id: "3EA715B2BB719C5F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "483A5E1B5AFB74E3"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "7816FD52C6D35599"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["36ED0E33193A0A93"]
+			id: "51E659E73A7DE79B"
+			rewards: [
+				{
+					id: "67894149564EF937"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7B5C16F5CFBA454D"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Use to equip gems."
+			tasks: [{
+				id: "4AE158C5A91CFCE1"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["709DE5371645D717"]
+			icon: "esotericreforging:esoteric_reforging_table"
+			id: "29CD8764B85C7F48"
+			rewards: [{
+				id: "680DB886B0A2D178"
+				item: "esotericreforging:esoteric_reforging_table"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Read the description."
+			tasks: [
+				{
+					count: 6L
+					id: "6D30957D7F2842D1"
+					item: { Count: 6, id: "apotheotic_additions:esoteric_material" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "58CDD509DCD2E2BE"
+					item: { Count: 3, id: "apotheosis:ancient_material" }
+					type: "item"
+				}
+			]
+			title: "Esoteric Reforging Table"
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["237F9099BDEBFFB6"]
+			id: "254B61BB73876A29"
+			rewards: [
+				{
+					id: "17BD42A78D6589BF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "66E0AF1021D46A87"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "05FB224DA5D5D755"
+				item: "apotheosis:common_material"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["254B61BB73876A29"]
+			id: "1ECC03F053A4F971"
+			rewards: [
+				{
+					id: "36B9080EEB60432A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "03AF64F1B0E69F85"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "6F652C47762F07D8"
+				item: "apotheosis:uncommon_material"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1ECC03F053A4F971"]
+			id: "5E6A5E4DEB5B62B0"
+			rewards: [
+				{
+					id: "6C9EF9808B0EAB51"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "752D5B22024737F0"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "463B75F6E11B7571"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5E6A5E4DEB5B62B0"]
+			id: "786AE5E886D04A2B"
+			rewards: [
+				{
+					id: "080868E85A151BD4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4CEB87CB878163DD"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "53F95AD55497A1E0"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["786AE5E886D04A2B"]
+			id: "62C13FF7EF164D98"
+			rewards: [
+				{
+					id: "435B4317C82588B5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7F5C88C59B98A34D"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Read the description."
+			tasks: [{
+				id: "4DF0BEB19EA925AB"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["62C13FF7EF164D98"]
+			id: "13ED890CC8896DB9"
+			rewards: [
+				{
+					id: "1838807C5094F418"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5E160E8B66E1370A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "23F4522F75896FB8"
+				item: "apotheotic_additions:esoteric_material"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.25d
+		}
+		{
+			dependencies: ["62C13FF7EF164D98"]
+			id: "5B6E03C98AEA36D7"
+			rewards: [
+				{
+					id: "3A9CDA907D13CB2F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "74862EC9BFB7FCE1"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "034AC2FDA0A2DA09"
+				item: "apotheosis:ancient_material"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["62C13FF7EF164D98"]
+			id: "0E836D2358DC2795"
+			rewards: [
+				{
+					id: "68B23E1F0681B055"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "510610A88A2CACFB"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "4B93A61FFC7AF5A0"
+				item: "apotheotic_additions:artifact_material"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.25d
+		}
+		{
+			dependencies: ["62C13FF7EF164D98"]
+			id: "7D673C8E747CA2DC"
+			rewards: [
+				{
+					id: "1D7D1EEC76F33801"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7FAA4BBCDD28DDC0"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "6EF88D59D6817734"
+				item: "apotheotic_additions:heirloom_material"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.75d
+		}
+		{
+			dependencies: ["62C13FF7EF164D98"]
+			id: "6FDF2585456896E1"
+			rewards: [
+				{
+					id: "306A2437E6EB351C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6483B99CB428DD08"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "03B157CEB0F5CF27"
+				item: "fallen_gems_affixes:fabled_material"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.75d
+		}
+		{
+			dependencies: [
+				"29CD8764B85C7F48"
+				"49B5E1ADEF21F123"
+			]
+			id: "5E8138B5AA244372"
+			rewards: [
+				{
+					id: "01A34C901072E489"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "55C3753CE1E1A450"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Read the description."
+			tasks: [{
+				id: "1FD76EF767A196E6"
+				item: "fallen_gems_affixes:fabled_reforging_table"
+				type: "item"
+			}]
+			x: 11.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["237F9099BDEBFFB6"]
+			id: "420210A2959AA7E9"
+			rewards: [
+				{
+					id: "3531D299D24F0436"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "19F898620CB97059"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Store your gems!"
+			tasks: [{
+				id: "5B9554F6464DFADD"
+				item: "fallen_gems_affixes:gem_case"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["755185D678ACA37C"]
+			description: [
+				"&dAugments&r are a new tier of power above &agems&r. They're applied to &6Crest Slots&r (converted gem sockets)."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"&6How to use:&r"
+				""
+				"1.  Obtain &dAugments&r from &4Fabled Universal Bosses&r with a &65% drop rate&r."
+				"2. Convert gem sockets to &dAugment Slots&r using &eSigil of Ascension&r in smithing table."
+				"3. Apply &daugments&r to &6Crest Slots&r via smithing table."
+			]
+			id: "64A0AAA11DD9D7D1"
+			rewards: [
+				{
+					id: "14CDABAA5096AC05"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2127C238899CDA8B"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "3BD4CDE7729E4EE1"
+				item: "fallen_gems_affixes:sigil_of_ascension"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["755185D678ACA37C"]
+			id: "62CA22FE10AA2FD0"
+			rewards: [
+				{
+					id: "19524BB1E5EA0C73"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "351599A57AC6DE42"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "4CF112A78D41EAF3"
+				item: "apotheosis:sigil_of_unnaming"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["755185D678ACA37C"]
+			id: "59593383A71EAB72"
+			rewards: [
+				{
+					id: "561EF76C2866A822"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "33A2BF6C87BA861F"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "5A3AB96E31F4F657"
+				item: "apotheosis:sigil_of_withdrawal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["755185D678ACA37C"]
+			id: "4C0D082152AC6837"
+			rewards: [
+				{
+					id: "61A2FD798BEAB133"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1ACE05FCF6E6B74A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "51D11689994BB930"
+				item: "apotheosis:sigil_of_rebirth"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["755185D678ACA37C"]
+			id: "28666975AA34A7C3"
+			rewards: [
+				{
+					id: "15A313F3854DE5D1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5C3C340D82ACFA39"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "17F16A87536DA64F"
+				item: "apotheosis:sigil_of_enhancement"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64A0AAA11DD9D7D1"]
+			id: "773B6E974FE04E79"
+			rewards: [
+				{
+					id: "216CB4CA3641520B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "797015F1CF9CAC10"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "213F112CDDDCF61F"
+				item: "fallen_gems_affixes:sigil_of_transmutation"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64A0AAA11DD9D7D1"]
+			id: "26ADA0569CB546FB"
+			rewards: [
+				{
+					id: "3BEB17E040BA5282"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4956D614B188D989"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "6BB404036EBBB7AA"
+				item: "fallen_gems_affixes:sigil_of_severance"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64A0AAA11DD9D7D1"]
+			id: "69A3203BB152A8AC"
+			rewards: [
+				{
+					id: "549B7E4D6B19DD66"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0238CC40AEB1AA39"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "4CE4CF9503F5E943"
+				item: "fallen_gems_affixes:sigil_of_erasure"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["64A0AAA11DD9D7D1"]
+			id: "7DC51335856145D9"
+			rewards: [
+				{
+					id: "4097E99761D1FBF8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4C0640C3A733C881"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "0BA97E8407EFEE1A"
+				item: "fallen_gems_affixes:sigil_of_elevation"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"773B6E974FE04E79"
+				"26ADA0569CB546FB"
+				"69A3203BB152A8AC"
+				"7DC51335856145D9"
+				"64A0AAA11DD9D7D1"
+			]
+			icon_scale: 2.0d
+			id: "7396D9DC6529C017"
+			rewards: [
+				{
+					id: "5E1DF9357990F93E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "016B818E35757451"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "1DA11FBBFC6B2674"
+				item: "fallen_gems_affixes:sigil_of_prismatic_conversion"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["709DE5371645D717"]
+			id: "49B5E1ADEF21F123"
+			rewards: [{
+				id: "613D55C389636982"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Read the description."
+			tasks: [{
+				id: "3C8720FC665E435A"
+				item: "ancientreforging:ancient_reforging_table"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+	]
+	title: "Apotheosis Gems"
+}

@@ -1,0 +1,21 @@
+filename = 'block_factorys_bosses-2.1.2-forge-1.20.1.jar'
+name = "Bosses'Rise - Epic Souls like boss fights"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[2.1.2 - Forge 1.20.1]'
+
+[download]
+hash = 'f27671c93f058053a599e0f2c99ad78e912ecf44'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8123166
+project-id = 1314084
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'

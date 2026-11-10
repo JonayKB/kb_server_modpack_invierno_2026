@@ -1,0 +1,182 @@
+
+[windup]
+	#Master switch. When false, mob melee hits land with vanilla timing and no indicator is shown.
+	enabled = true
+	#How many ticks a mob melee hit is delayed while the indicator plays (20 ticks = 1 second).
+	#Range: 1 ~ 40
+	windupTicks = 10
+	#After the windup, the hit only lands if the attacker is still within this distance of the victim.
+	#Range: 1.0 ~ 16.0
+	reachDistance = 4.5
+	#If true, the delayed hit lands even when the victim escaped past reachDistance during the windup.
+	landIfOutOfRange = false
+	#If true, melee hits from other players are also telegraphed and delayed (PvP).
+	telegraphPlayers = false
+	#Entity types whose attacks are never telegraphed (they hit with vanilla timing).
+	excludedEntities = ["goety:apostle"]
+	#Hold the attacker in place (no walking) while its windup plays.
+	freezeAttacker = true
+	#A held mob (dodge stun, whiff recovery, anything a mod holds through the API) stands stunned:
+	#its movement and attack goals are suspended, so it does not swing at nothing while held.
+	holdStopsAi = true
+
+[crowd]
+	#Attack tokens, like a Souls crowd: only maxAttackers mobs may wind up a melee hit on one player at a time.
+	#The rest keep their target, stop at waitDistance, face the player and wait for their turn.
+	#Hostile melee mobs targeting a player are managed; ranged mobs only once they try to melee. Bosses and excludedEntities are never managed.
+	enabled = false
+	#How many mobs may be winding up a melee hit on the same player at once.
+	#Range: 1 ~ 32
+	maxAttackers = 2
+	#Mobs targeting a player within this distance are managed.
+	#Range: 4.0 ~ 64.0
+	radius = 12.0
+	#After its telegraphed hit resolves (landed, parried, dodged, cancelled) a mob backs off for this many ticks before it may attack again.
+	#Range: 0 ~ 600
+	restTicks = 30
+	#Minimum ticks between two mobs being let in on the same player, so their windups do not land together.
+	#Range: 0 ~ 200
+	spacingTicks = 8
+	#Distance from the player at which waiting mobs stand.
+	#Range: 1.0 ~ 16.0
+	waitDistance = 3.5
+	#A mob stays managed for this many ticks after it was last seen targeting or meleeing a player.
+	#Range: 20 ~ 12000
+	memoryTicks = 200
+	#A mob let in that does not reach the player within this many ticks loses its turn.
+	#Range: 10 ~ 600
+	grantTimeoutTicks = 60
+
+[ranged]
+	#Also telegraph ranged mobs: their projectile is held back during the windup, then released.
+	rangedEnabled = true
+	#How many ticks a mob's projectile is delayed after it would have fired.
+	#Range: 1 ~ 40
+	rangedWindupTicks = 12
+
+[heavy]
+	#Give mobs a second, heavier melee attack: a longer red windup that cannot be parried and is meant to be dodged.
+	#A lunge closes the distance and hits one target, a slam hits everyone around the attacker.
+	#Requires windup.enabled. Off by default; a dodge mod should register HitIndicatorApi.setDodgeCheck so dodges count.
+	enabled = false
+	#Chance that a telegraphed melee hit becomes a heavy attack instead.
+	#Range: 0.0 ~ 1.0
+	baseChance = 0.15
+	#Added to the chance for every telegraphed hit in a row the victim negated without dodging (parried, blocked).
+	#Resets when a hit lands or when the victim dodges. Dodged hits feed the blue sure hit instead, see sureHit.
+	#Range: 0.0 ~ 1.0
+	rampPerNegatedHit = 0.05
+	#The chance never rises above this.
+	#Range: 0.0 ~ 1.0
+	chanceCap = 0.3
+	#The negated-hit streak is forgotten after this many ticks without a telegraphed hit.
+	#Range: 20 ~ 12000
+	streakMemoryTicks = 400
+	#Minimum ticks between two heavy attacks aimed at the same player, from any attacker.
+	#Range: 0 ~ 12000
+	victimCooldownTicks = 120
+	#Damage of a heavy hit relative to the mob's normal hit, applied after armor.
+	#Range: 1.0 ~ 10.0
+	damageMultiplier = 2.0
+	#Share of heavy attacks that are slams; the rest are lunges.
+	#Range: 0.0 ~ 1.0
+	slamShare = 0.4
+	#Ticks from the red indicator appearing to the lunge landing.
+	#Range: 2 ~ 60
+	lungeWindupTicks = 20
+	#During the last ticks of the lunge windup the attacker leaps toward the victim.
+	#Range: 1 ~ 20
+	lungeMoveTicks = 6
+	#Horizontal speed of the leap, in blocks per tick.
+	#Range: 0.1 ~ 3.0
+	lungeSpeed = 0.9
+	#Ticks from the red indicator appearing to the slam landing.
+	#Range: 2 ~ 60
+	slamWindupTicks = 25
+	#A slam hits every player within this distance of the attacker.
+	#Range: 0.5 ~ 16.0
+	slamRadius = 3.0
+	#After a dodged heavy attack the attacker stands still and cannot melee for this many ticks.
+	#Range: 0 ~ 600
+	dodgeStunTicks = 60
+	#After a heavy attack that reached nobody the attacker stands still for this many ticks.
+	#Range: 0 ~ 600
+	whiffRecoveryTicks = 20
+	#Effects applied to a player hit by a heavy attack. Format: effect id;amplifier;ticks (amplifier 0 is level I).
+	effectsOnHit = ["minecraft:weakness;1;60", "minecraft:slowness;1;60"]
+	#Entity types that never use heavy attacks (their normal telegraph still applies).
+	excludedEntities = []
+	#Sound event played at the attacker when a lunge lands or whiffs.
+	lungeSound = "minecraft:entity.player.attack.knockback"
+	#Sound event played at the attacker's feet when a slam lands.
+	slamSound = "minecraft:block.anvil.land"
+	#The attacker jumps this many ticks before the slam lands, so the landing is the slam. 0 disables the jump.
+	#Range: 0 ~ 40
+	slamHopTicks = 12
+	#Extra horizontal knockback a slam gives everyone it hits, away from the attacker.
+	#Range: 0.0 ~ 5.0
+	slamKnockback = 0.7
+	#Extra upward velocity a slam gives everyone it hits.
+	#Range: 0.0 ~ 5.0
+	slamLaunch = 0.45
+	#Particles spawned once at the attacker's feet when a slam lands, in /particle syntax, one per entry.
+	#Example with Iron's Spells 'n Spellbooks installed: irons_spellbooks:shockwave 1.0 0.3 0.2 4.0 true
+	slamParticles = []
+	#Particle spawned on every ground block of the expanding rings a slam sends out, in /particle syntax.
+	#{state} is replaced with the block hit. Example with Iron's Spells 'n Spellbooks: irons_spellbooks:falling_block {state} 0.0 0.22 0.0
+	#Empty for none.
+	slamGroundParticle = "minecraft:block {state}"
+	#How many of the ground particle per block. Use 1 for a falling block style particle.
+	#Range: 0 ~ 32
+	slamGroundParticleCount = 4
+	#Speed of the ground particle. Use 0 for a falling block style particle.
+	#Range: 0.0 ~ 4.0
+	slamGroundParticleSpeed = 0.15
+	#Height above the block's bottom the ground particle spawns at. 1.0 is the block's top, 0.0 is inside it for a falling block style particle.
+	#Range: -1.0 ~ 2.0
+	slamGroundParticleHeight = 1.0
+	#Particle thrown outward in a ring when a slam lands, in /particle syntax. Empty for none.
+	slamAirParticle = "minecraft:poof"
+	#How many air particles make up the ring.
+	#Range: 0 ~ 128
+	slamAirParticleCount = 24
+	#Outward speed of the air particles.
+	#Range: 0.0 ~ 4.0
+	slamAirParticleSpeed = 0.35
+
+[sureHit]
+	#Give mobs a blue sure hit: a windup whose hit ignores the dodge check registered through HitIndicatorApi, so it has to be parried or outrun.
+	#The counterpart of the red heavy attacks. Requires heavy.enabled.
+	enabled = false
+	#Chance that a telegraphed melee hit becomes a sure hit, rolled after the heavy attack roll failed.
+	#Range: 0.0 ~ 1.0
+	baseChance = 0.08
+	#Added to the chance for every telegraphed hit in a row the victim dodged. Resets when a hit lands.
+	#Range: 0.0 ~ 1.0
+	rampPerDodgedHit = 0.06
+	#The sure hit chance never rises above this.
+	#Range: 0.0 ~ 1.0
+	chanceCap = 0.35
+	#Ticks from the blue indicator appearing to the sure hit landing.
+	#Range: 2 ~ 60
+	windupTicks = 16
+	#During the last ticks of the windup the attacker steps toward the victim.
+	#Range: 0 ~ 20
+	moveTicks = 4
+	#Horizontal speed of that step, in blocks per tick.
+	#Range: 0.0 ~ 3.0
+	speed = 0.5
+	#A sure hit lands from this many blocks beyond the normal reach distance, so a short dodge does not carry you out of it.
+	#Range: 0.0 ~ 16.0
+	reachBonus = 2.0
+	#Damage of a sure hit relative to the mob's normal hit, applied after armor.
+	#Range: 1.0 ~ 10.0
+	damageMultiplier = 1.25
+	#After a parried or blocked sure hit the attacker stands still and cannot melee for this many ticks.
+	#Range: 0 ~ 600
+	parryStunTicks = 40
+	#Effects applied to a player hit by a sure hit. Format: effect id;amplifier;ticks (amplifier 0 is level I).
+	effectsOnHit = []
+	#Sound event played at the attacker when a sure hit lands, is parried or whiffs.
+	sound = "minecraft:entity.player.attack.strong"
+

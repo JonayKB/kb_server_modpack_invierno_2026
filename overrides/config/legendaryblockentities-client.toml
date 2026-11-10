@@ -1,0 +1,31 @@
+
+#Toggle which block entities to optimize. Do not change param in this config with the game open
+[optimizations]
+	#Optimize chests, trapped chests, and ender chests
+	chests = true
+	#Optimize all 16 bed colors
+	beds = false
+	#Optimize bells
+	bells = true
+	#Optimize all shulker box variants (17 colors)
+	shulker_boxes = true
+	#Optimize Quark variant chests (requires Quark to be installed)
+	quark_chests = true
+	#Optimize BetterEnd chests (requires BetterEnd + BCLib)
+	better_end_chests = true
+	#Optimize BetterNether chests (requires BetterNether + BCLib)
+	better_nether_chests = true
+	#Optimize Iron Chests (requires Iron Chests). Crystal chests are excluded
+	iron_chests = true
+	#Optimize standing and wall signs (all 11 vanilla wood types). Hanging signs are not affected
+	signs = true
+	#Optimize chests from Blueprint-based mods (Woodworks, Atmospheric, Environmental, Autumnity, Upgrade Aquatic, Endergetic, etc). Requires Blueprint
+	blueprint_chests = true
+
+[compatibility]
+	#AUTO: if Vanillin is loaded and Flywheel backend is on, Vanillin handles vanilla chests, bells and shulkers while LBE keeps optimizing modded chests
+	#ALWAYS_LBE: ignore Vanillin and let LBE handle everything. This can double-render if Vanillin is active
+	#DEFER_TO_VANILLIN: if Vanillin is loaded at all, always hand vanilla types to it
+	#If you switch Flywheel backend in-game, restart for LBE to re-evaluate
+	vanillin_compat_mode = "AUTO"
+

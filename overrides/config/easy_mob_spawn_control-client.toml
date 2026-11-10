@@ -1,0 +1,9 @@
+
+[Misc]
+	hideMobPreview = false
+	#Range: 0.1 ~ 2.0
+	mobPreviewScale = 0.875
+
+[Notifications]
+	hasSeenCategoryMismatchWarning = false
+

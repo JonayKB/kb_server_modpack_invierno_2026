@@ -1,0 +1,21 @@
+filename = 'more_curios_slots-1.3.jar'
+name = 'More Curios Slots'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'More Curios Slots 1.3 - Forge 1.20.1'
+
+[download]
+hash = '64b7281fc993fd22175cc5318c53c131b211c34e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7192639
+project-id = 1344694
+
+[[x-prismlauncher-dependencies]]
+addonId = '309927'
+type = 'REQUIRED'

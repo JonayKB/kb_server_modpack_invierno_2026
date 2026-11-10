@@ -1,0 +1,628 @@
+# Apothic Staff Rarities tuning for the staff affixes added at the
+# Apotheotic Additions tiers (heirloom, artifact, esoteric).
+#
+# The config has two tiers; combine them as needed.
+#
+# Tier 1 ([scaling]): one multiplier per rarity, clamped to the range
+# 0.01 to 100.0 on read. What a multiplier scales depends on the value:
+#   - Autocast and spell affixes: the level range (min and max) and the
+#     cooldown, rounded to whole numbers.
+#   - Step-function values (mob effect durations, mob effect amplifiers
+#     written as a min/steps/step block, the cooldown_reset chance, the
+#     mana_shield chance): the per-level step term, so the level-dependent
+#     part scales in proportion to the multiplier. The base floor and the
+#     step count stay as written in the JSON.
+#   - Integer mob effect amplifiers (a bare number rather than a block):
+#     the amplifier, rounded to the nearest whole level, so a multiplier
+#     close to 1.0 may leave it unchanged.
+#   - Concentration is a yes/no flag, so the multiplier does not affect it.
+# Set a multiplier to 1.0 to keep the default values for that rarity.
+#
+# Tier 2 ([overrides]): per-affix, per-rarity, per-field absolute values.
+# Leave a field out, or set it to -1 (or -1.0 for floats), to keep the
+# default value scaled by the tier 1 multiplier. Any other value replaces
+# that field outright, and the multiplier no longer affects it.
+#
+# [disable]: skip an entire affix category at the AA tiers. Affixes in a
+# disabled category get an empty rarity-values map at load, so they cannot
+# roll on heirloom, artifact, or esoteric. Only the AA entries added here
+# are affected; the common-through-ancient entries from Fallen Gems and
+# Affixes are left alone.
+#
+# Resolution order applied to each affix at load:
+#   1. Read the default value from the JSON.
+#   2. If [disable.<category>] is true, drop the AA-tier rolls and stop.
+#   3. Scale the value by the tier 1 multiplier for that rarity.
+#   4. If a tier 2 override for the field is set, replace the scaled value
+#      with the override.
+#   5. Apply the final value to the live affix instance.
+#
+# Example: make every esoteric staff affix a little stronger.
+#   [scaling]
+#   esoteric_multiplier = 1.25
+#
+# Example: the same global change, plus a fixed cooldown on one affix.
+#   [scaling]
+#   esoteric_multiplier = 1.25
+#   [overrides.autocast.acupuncture.esoteric]
+#   cooldown = 90
+#
+# Edit this file, then run /apothicstaffrarities reload (alias /asr reload,
+# requires op level 2) to apply changes without restarting the server.
+
+[scaling]
+heirloom_multiplier = 1.0
+artifact_multiplier = 1.0
+esoteric_multiplier = 1.0
+
+[disable]
+autocast = false
+mob_effect = false
+spell = false
+concentration = false
+cooldown_reset = false
+mana_shield = false
+
+[overrides]
+
+[overrides.autocast.acupuncture.heirloom]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.acupuncture.artifact]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.acupuncture.esoteric]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.arrow_volley.heirloom]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.arrow_volley.artifact]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.arrow_volley.esoteric]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.burning_dash.heirloom]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.burning_dash.artifact]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.burning_dash.esoteric]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.ice_spikes.heirloom]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.ice_spikes.artifact]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.ice_spikes.esoteric]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.shadow_slash.heirloom]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.shadow_slash.artifact]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.shadow_slash.esoteric]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.sonic_boom.heirloom]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.sonic_boom.artifact]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.sonic_boom.esoteric]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.stomp.heirloom]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.stomp.artifact]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.stomp.esoteric]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.sunbeam.heirloom]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.sunbeam.artifact]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.sunbeam.esoteric]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.volt_strike.heirloom]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.volt_strike.artifact]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.autocast.volt_strike.esoteric]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.spell.bastion.heirloom]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.spell.bastion.artifact]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.spell.bastion.esoteric]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.spell.hemospike.heirloom]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.spell.hemospike.artifact]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.spell.hemospike.esoteric]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.spell.radiant.heirloom]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.spell.radiant.artifact]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.spell.radiant.esoteric]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.spell.stormlash.heirloom]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.spell.stormlash.artifact]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.spell.stormlash.esoteric]
+level_min = -1
+level_max = -1
+cooldown = -1
+
+[overrides.mob_effect.acidic.heirloom]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.acidic.artifact]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.acidic.esoteric]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.bloodletting.heirloom]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+amplifier_steps = -1
+amplifier_step = -1.0
+cooldown = -1
+
+[overrides.mob_effect.bloodletting.artifact]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+amplifier_steps = -1
+amplifier_step = -1.0
+cooldown = -1
+
+[overrides.mob_effect.bloodletting.esoteric]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+amplifier_steps = -1
+amplifier_step = -1.0
+cooldown = -1
+
+[overrides.mob_effect.bolstering.heirloom]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+amplifier_steps = -1
+amplifier_step = -1.0
+cooldown = -1
+
+[overrides.mob_effect.bolstering.artifact]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+amplifier_steps = -1
+amplifier_step = -1.0
+cooldown = -1
+
+[overrides.mob_effect.bolstering.esoteric]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+amplifier_steps = -1
+amplifier_step = -1.0
+cooldown = -1
+
+[overrides.mob_effect.bursting.heirloom]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+amplifier_steps = -1
+amplifier_step = -1.0
+cooldown = -1
+
+[overrides.mob_effect.bursting.artifact]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+amplifier_steps = -1
+amplifier_step = -1.0
+cooldown = -1
+
+[overrides.mob_effect.bursting.esoteric]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+amplifier_steps = -1
+amplifier_step = -1.0
+cooldown = -1
+
+[overrides.mob_effect.elusive.heirloom]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+amplifier_steps = -1
+amplifier_step = -1.0
+cooldown = -1
+
+[overrides.mob_effect.elusive.artifact]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+amplifier_steps = -1
+amplifier_step = -1.0
+cooldown = -1
+
+[overrides.mob_effect.elusive.esoteric]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+amplifier_steps = -1
+amplifier_step = -1.0
+cooldown = -1
+
+[overrides.mob_effect.ensnaring.heirloom]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.ensnaring.artifact]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.ensnaring.esoteric]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.grievous.heirloom]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.grievous.artifact]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.grievous.esoteric]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.ivy_laced.heirloom]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.ivy_laced.artifact]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.ivy_laced.esoteric]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.revitalizing.heirloom]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+amplifier_steps = -1
+amplifier_step = -1.0
+cooldown = -1
+
+[overrides.mob_effect.revitalizing.artifact]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+amplifier_steps = -1
+amplifier_step = -1.0
+cooldown = -1
+
+[overrides.mob_effect.revitalizing.esoteric]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+amplifier_steps = -1
+amplifier_step = -1.0
+cooldown = -1
+
+[overrides.mob_effect.satanic.heirloom]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.satanic.artifact]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.satanic.esoteric]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.sophisticated.heirloom]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.sophisticated.artifact]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.sophisticated.esoteric]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.swift.heirloom]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+amplifier_steps = -1
+amplifier_step = -1.0
+cooldown = -1
+
+[overrides.mob_effect.swift.artifact]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+amplifier_steps = -1
+amplifier_step = -1.0
+cooldown = -1
+
+[overrides.mob_effect.swift.esoteric]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+amplifier_steps = -1
+amplifier_step = -1.0
+cooldown = -1
+
+[overrides.mob_effect.weakening.heirloom]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.weakening.artifact]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.weakening.esoteric]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+cooldown = -1
+
+[overrides.mob_effect.withering.heirloom]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+
+[overrides.mob_effect.withering.artifact]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+
+[overrides.mob_effect.withering.esoteric]
+duration_min = -1
+duration_steps = -1
+duration_step = -1
+amplifier = -1
+
+[overrides.misc.concentration.heirloom]
+enabled = true
+
+[overrides.misc.concentration.artifact]
+enabled = true
+
+[overrides.misc.concentration.esoteric]
+enabled = true
+
+[overrides.misc.cooldown_reset.heirloom]
+min = -1
+steps = -1
+step = -1.0
+
+[overrides.misc.cooldown_reset.artifact]
+min = -1
+steps = -1
+step = -1.0
+
+[overrides.misc.cooldown_reset.esoteric]
+min = -1
+steps = -1
+step = -1.0
+
+[overrides.misc.mana_shield.heirloom]
+min = -1
+steps = -1
+step = -1.0
+
+[overrides.misc.mana_shield.artifact]
+min = -1
+steps = -1
+step = -1.0
+
+[overrides.misc.mana_shield.esoteric]
+min = -1
+steps = -1
+step = -1.0
+

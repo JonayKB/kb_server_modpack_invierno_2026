@@ -1,0 +1,18 @@
+filename = 'Difficult Spawners 1.1.0 - 1.20.1.jar'
+name = 'Difficult Spawners'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Difficult Spawners 1.1.0 - 1.20.1.jar'
+
+[download]
+hash = 'f40c4a39f3639aa0f5b644d497b690ca7914999c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5160726
+project-id = 810915

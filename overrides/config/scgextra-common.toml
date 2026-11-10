@@ -1,0 +1,82 @@
+#enables alert ability, aggroing nearby mobs to the their targets
+enableAbilityAlert = true
+#enables flare ability, summoning 3 infantry mobs
+enableAbilityFlare = true
+#enables dig ability, allowing mobs to destroy dirt like blocks
+enableAbilityDig = true
+#enables the Weakness Exposed effect: enemies are stunned and take double damage
+enableAbilityWeakness = true
+#enables bulletproof capabilities, enables certain mobs to have bulletproof parts
+enableAbilityBulletproof = true
+#enables bad aim state, certain mobs will fire guns with bad aim at the start but improves over time
+enableAbilityBadAim = true
+#enables warning state, flash of light appears before a massive attack. disabling would just remove the flash.
+#REQUIRES GAME RESTART
+enableAbilityWarning = true
+#range for how far are mobs aggroed
+#Range: 1 ~ 100
+abilityAlertRange = 64
+#alert ability cooldown in seconds
+#Range: 1 ~ 1000
+abilityAlertCooldown = 10
+#flare ability cooldown in ticks
+#Range: 1 ~ 1000
+abilityFlareCharge = 40
+#flare ability cooldown in seconds
+#Range: 1 ~ 1000
+abilityFlareCooldown = 10
+#weakness exposed state duration in ticks
+#Range: 1 ~ 10000
+abilityWeaknessDuration = 100
+#weakness exposed state cooldown in ticks
+#Range: 1 ~ 10000
+abilityWeaknessCooldown = 200
+#amount of headshots needed to trigger weakness exposed state
+#Range: 1 ~ 100
+abilityWeaknessHeadshots = 5
+#weakness exposed state incoming damage multiplier
+#Range: 0.1 ~ 100.0
+abilityWeaknessMult = 2.0
+#percent threshold before weakness exposed is allowed to be triggered
+#Range: 1.0 ~ 100.0
+abilityWeaknessHealthThreshold = 100.0
+#natural spawn chance for Ammo Goblin in percent
+#Range: 0 ~ 100
+spawnChanceAmmoGoblin = 5
+#natural spawn chance for Big Lump in percent
+#Range: 0 ~ 100
+spawnChanceBigLump = 5
+#natural spawn chance for Mutant Bat in percent
+#Range: 0 ~ 100
+spawnChanceMutantBat = 100
+#natural spawn chance for Nitro Beetle in percent
+#Range: 0 ~ 100
+spawnChanceNitroBeetle = 20
+#natural spawn chance for Netherite Eater in percent
+#Range: 0 ~ 100
+spawnChanceNetheriteEater = 30
+#natural spawn chance for HeadHunter in percent
+#Range: 0 ~ 100
+spawnChanceHeadHunter = 30
+#natural spawn chance for Inflicted Boar in percent
+#Range: 0 ~ 100
+spawnChanceInflictedBoar = 30
+#natural spawn chance for Inflicted Wolf in percent
+#Range: 0 ~ 100
+spawnChanceInflictedWolf = 30
+#natural spawn chance for End Pod in percent
+#Range: 0 ~ 100
+spawnChanceEndPod = 100
+#natural spawn chance for End Dweller in percent
+#Range: 0 ~ 100
+spawnChanceEndDweller = 30
+#natural spawn chance for End Stone Crab in percent
+#Range: 0 ~ 100
+spawnChanceEndStoneCrab = 50
+#natural spawn chance for End Scorpion in percent
+#Range: 0 ~ 100
+spawnChanceEndScorpion = 30
+#chance to replace wither skeleton with HeadHunter in fortress, in percent
+#Range: 0 ~ 100
+spawnChanceHeadHunterFortressReplace = 10
+

@@ -1,0 +1,41 @@
+
+[CrazinessAwakened]
+	#Defines how much health the king entity will have
+	kinghealth = 7000.0
+	#Defines how much health the mobzilla entity will have
+	mobzillahealth = 4000.0
+	#Controls the speed of the hoverboard
+	hoverboardspeed = 0.8
+	#Decides whether the emerald pickaxe will auto enchant with silk touch
+	emeraldsilktouch = true
+	#Controls the power of dynamite
+	dynamitepower = 5.0
+	#Decides if the easter bunny drops mob eggs like the king, etc
+	easterbunnnyopeggs = true
+	#Decides if giant swords heart players
+	bigberthaplayerdamage = false
+	#Gives you a gift for 10k downloads on spawn
+	downloadgift = false
+	#Decides if the craziness cube structure spawns
+	luckycubealtar = true
+	#Decides the radius the random teleport block uses
+	randomtpblockradius = 24.0
+	#Decides if the rocks spawn or not if true may be buggy!
+	dorocksspawn = true
+	#When hard mode is enabled multiplies every mobs stats!
+	hardmode = false
+	#Decides the minimum change in health of mobs when spawned
+	healthvariationmin = 0.85
+	#Decides the maximum change in health of mobs when spawned
+	healthvariationmax = 1.2
+	#Completely disables or enables health variation!
+	healthvariation = true
+	#Decides if you can hurt your own tamed mobs
+	canattackedtamedmobs = false
+	#If true one shotted bosses will gain a second stronger phase
+	secondphaseononeshot = true
+	#If true some bosses will have longer invulnerability frames then normal mobs 
+	dpsreduce = true
+	#Decides the chance that a boss will get a second wind when oneshoted
+	chanceofsecondwind = 0.1
+

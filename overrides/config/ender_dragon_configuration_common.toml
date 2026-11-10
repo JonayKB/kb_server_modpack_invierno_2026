@@ -1,0 +1,12 @@
+
+["Ender Dragon Settings"]
+	#Multiplies the vanilla 200HP. (Default 6.0 = 1200HP)
+	#Range: 0.1 ~ 1000.0
+	defaultHpMultiplier = 6.0
+	#Multiplies dragon damage outputs. (Default 6.0)
+	#Range: 0.1 ~ 1000.0
+	defaultDmgMultiplier = 6.0
+	#Flat armor points. (Default 30.0)
+	#Range: 0.0 ~ 100.0
+	defaultArmorValue = 30.0
+

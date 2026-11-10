@@ -1,0 +1,29 @@
+filename = 'toms_storage-1.20-1.7.1.jar'
+name = "Tom's Simple Storage Mod"
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "Tom's Storage 1.20-1.7.1"
+
+[download]
+hash = '8b70aed9e35ad78fdc2f9fcb94a29dc64ba8d757'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6418133
+project-id = 378609
+
+[[x-prismlauncher-dependencies]]
+addonId = '310111'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '580555'
+type = 'OPTIONAL'

@@ -1,0 +1,11 @@
+
+["Auric Tesla Armor Abilities"]
+	#Should the Auric Tesla Armor's high-damage directional dash be enabled?
+	enableAuricTeslaDash = true
+	#Should the Auric Tesla Armor's healing explosion revive trigger upon fatal damage be enabled?
+	enableAuricRevive = true
+
+["Mars Armor Abilities"]
+	#Should wearing the full Mars Armor set grant the player creative-style flight capabilities?
+	enableMarsFlight = true
+

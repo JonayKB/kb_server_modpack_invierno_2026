@@ -1,0 +1,29 @@
+filename = 'esotericreforging-1.20.1-1.0.1.jar'
+name = 'Esoteric Reforging'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'esotericreforging-1.20.1-1.0.1.jar'
+
+[download]
+hash = '3d6b9a12eaa2798b61c2a60297afec2e710f173e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5989440
+project-id = 1150370
+
+[[x-prismlauncher-dependencies]]
+addonId = '985468'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '924640'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '313970'
+type = 'REQUIRED'

@@ -1,0 +1,18 @@
+filename = 'ender_dragon_configuration-0.2.jar'
+name = "Misanthropy's Ender Dragon Config Mod"
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ender_dragon_configuration-0.3.jar'
+
+[download]
+hash = '03e2fe5d817f3d6a89ffad8d62f92830046b986e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8283124
+project-id = 1456896

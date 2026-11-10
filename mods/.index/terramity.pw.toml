@@ -1,0 +1,33 @@
+filename = 'terramity-0.9.8-forge-1.20.1.jar'
+name = 'Terramity'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'terramity-0.9.8-forge-1.20.1.jar'
+
+[download]
+hash = '898ef261a7d05e844dc879f38b2f37333765704a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6054971
+project-id = 1084134
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '309927'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '306770'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '308989'
+type = 'REQUIRED'

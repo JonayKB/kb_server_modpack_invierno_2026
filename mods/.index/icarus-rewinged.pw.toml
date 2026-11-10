@@ -1,0 +1,21 @@
+filename = 'icarusrewinged-1.1.4-1.20.1-forge.jar'
+name = 'Icarus: Re-Winged'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'icarusrewinged-1.1.4-1.20.1-forge.jar'
+
+[download]
+hash = '52a2df28c88a98a4fb8e9b26f9778a905d04fce2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8539656
+project-id = 1584283
+
+[[x-prismlauncher-dependencies]]
+addonId = '428151'
+type = 'REQUIRED'

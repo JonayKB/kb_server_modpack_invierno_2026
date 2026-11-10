@@ -1,0 +1,18 @@
+filename = 'blueprint-1.20.1-7.1.5.jar'
+name = 'Blueprint'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Blueprint 1.20.1 - 7.1.5'
+
+[download]
+hash = '78d5ce605ee1c19396fa59c45f541b99e1086768'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8827009
+project-id = 382216

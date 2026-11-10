@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "13458AFBA70AE825", title: "&9Welcome&r" }
+		{ id: "2D2E89DC5A7A91D8", title: "&9Utilities&r" }
+		{ id: "25569283B1B01A0F", title: "&9Adventure&r" }
+		{ id: "761E330F9C819EB2", title: "&9About Apotheosis&r" }
+		{ id: "6290EB50BCF38B1C", title: "&9Magic and Spells&r" }
+		{ id: "107C0A63AE152E28", title: "&9Dimensions&r" }
+	]
+}

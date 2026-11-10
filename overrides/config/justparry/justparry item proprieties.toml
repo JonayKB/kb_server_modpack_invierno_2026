@@ -1,0 +1,8 @@
+
+["item propreties global toggles"]
+	#having this config set to= true will make the propreties of the item in the player's offhand or mainhand override attributes, if the item the player is holding has no propreties it will default to the default propreties you can define below, you can find a guide on how to give items propreties in the mod's description or in the ''itempropreties guide.txt'' inside of the justparry config folder
+	"enable item propreties" = false
+
+["hand shenanigans"]
+	"prioritize mainhand when parryng" = true
+

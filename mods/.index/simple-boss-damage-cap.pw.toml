@@ -1,0 +1,18 @@
+filename = 'simpplebossdamagecap-1.0.0-forge-1.20.1.jar'
+name = 'simple boss damage cap'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'simpplebossdamagecap-1.0.0-forge-1.20.1.jar'
+
+[download]
+hash = '5eeb7840c924a1c4b5d4bc2df74f1009fb3bd455'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6270636
+project-id = 1130613

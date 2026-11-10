@@ -1,0 +1,61 @@
+
+[Events]
+	#Multiplies the event chance by the value's amount.
+	"Event Chance Multiplier" = 1.5
+	#Multiplies the cooldown placed on the Undaunted when an event occurs.
+	"Cooldown Multiplier" = 1.0
+	#Are you annoyed of hallucinations? Set this value to true in order to disable them entirely! Beware, Hallucinations are one of the main ways to lower accumilated chance.
+	Hallucinations = true
+
+[Enemies]
+
+	[Enemies.Undaunted]
+		#Whether or not the Undaunted can spawn. (please dont turn this off)
+		"Undaunted Spawning" = true
+		#How long it takes for the Undaunted to despawn (In Ticks, for example, 20 ticks is 1 second)
+		"Undaunted Despawn Timer" = 1200.0
+		#Is the Undaunted allowed to use its Sonic Boom? (Default: true)
+		"Sonic Boom" = true
+		#Is the Undaunted allowed to use Teleportation?
+		Teleportation = true
+
+		[Enemies.Undaunted.Attributes]
+			#You'll never guess what it does! Requires game restart. Default: 120
+			"Undaunted Health" = 80.0
+			#You'll never guess what it does! Requires game restart. Default: 0
+			"Undaunted Armor" = 0.0
+			#Multiplies the base damage by the value. Doesn't affect Breaker or Quad Combo. Default: 1
+			"Undaunted Damage Multiplier" = 1.0
+
+	[Enemies.Devoted]
+		#Handles the Devoted's boss music. (Default: true)
+		"Play Music" = true
+
+	[Enemies.Archbishop]
+
+		[Enemies.Archbishop.Attributes]
+			#Multiplies the base damage by the value. Default: 1
+			"Archbishop Damage Multiplier" = 1.0
+
+	[Enemies.Faceless]
+		#Whether or not the Faceless is allowed to spawn normally. (Default: true)
+		"Faceless Spawning" = true
+
+	[Enemies.Accursed]
+
+		[Enemies.Accursed.Attributes]
+			#Multiplies the base damage by the value. Default: 1
+			"Accursed Damage Multiplier" = 1.0
+
+	[Enemies.Cultists]
+
+		[Enemies.Cultists.Attributes]
+			#Multiplies the base damage by the value. Default: 1
+			"Cult Member Damage Multipliers" = 1.0
+
+	[Enemies."Scarlet Golem"]
+
+		[Enemies."Scarlet Golem".Attributes]
+			#Multiplies the base damage by the value. Default: 1
+			"Accursed Damage Multiplier" = 1.0
+

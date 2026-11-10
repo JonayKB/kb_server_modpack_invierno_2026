@@ -1,0 +1,1209 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ice__fire"
+	group: "25569283B1B01A0F"
+	icon: "iceandfire:dragon_skull_fire"
+	id: "2C9583921A9A561E"
+	images: [{
+		alpha: 100
+		color: 16717879
+		height: 30.0d
+		image: "iceandfire:textures/thaumcraft/dragon.png"
+		rotation: 0.0d
+		width: 30.0d
+		x: -5.5d
+		y: -3.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["45F0280E0EE75C7B"]
+			description: [
+				"By right clicking the &cDragon&r corpse with an empty hand you will first get scales."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"Scales will be needed to make the &6Dragon Forges&r. Can only be obtained by killed dragons."
+			]
+			id: "3B4DA7EF08D1EC2F"
+			rewards: [{
+				id: "7468A370504A06D6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "How to get Scales."
+			tasks: [{
+				id: "4019EE8D6049A177"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:dragonscales_red"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonscales_green"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonscales_bronze"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonscales_gray"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonscales_blue"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonscales_white"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonscales_sapphire"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonscales_silver"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonscales_electric"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonscales_amythest"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonscales_copper"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonscales_black"
+							}
+						]
+					}
+				}
+				title: "Dragon Scales"
+				type: "item"
+			}]
+			title: "Scales"
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["67967612384A7AAD"]
+			description: [
+				"The &dDragon's Hearts&r are always dropped by &cDragons&r."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"Obviously they'll only drop 1. Their hearts are used for the &6Dragon Forge Core&r and for the &9Ice&r and &cFire&r flowers."
+			]
+			id: "45F0280E0EE75C7B"
+			rewards: [
+				{
+					id: "0AAA8C7488BB00AD"
+					item: "iceandfire:fire_lily"
+					type: "item"
+				}
+				{
+					id: "39F97E6ABFFBE974"
+					item: "iceandfire:frost_lily"
+					type: "item"
+				}
+				{
+					id: "703295DE38A8CFF7"
+					item: "iceandfire:lightning_lily"
+					type: "item"
+				}
+				{
+					id: "28B79A4BA9CD7A86"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "How to get hearts."
+			tasks: [{
+				id: "19C32D099951607A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:fire_dragon_heart"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:ice_dragon_heart"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:lightning_dragon_heart"
+							}
+						]
+					}
+				}
+				title: "Dragon Hearts"
+				type: "item"
+			}]
+			title: "Dragon Heart"
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["45F0280E0EE75C7B"]
+			description: [
+				"The &cDragon Flesh&r is a food source dropped from 3 and above &cDragons&r."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"It's used for the &aLillys&r and for eating. Don't try feeding it to your own dragons, don't make them cannibals!"
+			]
+			id: "13F8BD59613AC3FE"
+			rewards: [{
+				id: "773E6506D27523DE"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D767ED99127F326"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:fire_dragon_flesh"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:ice_dragon_flesh"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:lightning_dragon_flesh"
+							}
+						]
+					}
+				}
+				title: "Dragon Flesh"
+				type: "item"
+			}]
+			title: "Dragon Flesh"
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45F0280E0EE75C7B"]
+			description: [
+				"&cDragon blood&r can be obtained by right clicking a dragon corpse with an empty bottle."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"It will get rid of the corpse so you can not get both scales and blood. It will also be needed for the &6Dragon Forge&r."
+			]
+			id: "7DF4BD144CB89FB7"
+			rewards: [{
+				count: 16
+				id: "27D5A1B221F8CBB8"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			subtitle: "How to get Dragon Blood."
+			tasks: [{
+				id: "5D1562E775B45AB7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:fire_dragon_blood"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:ice_dragon_blood"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:lightning_dragon_blood"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Dragon Blood"
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["45F0280E0EE75C7B"]
+			description: [
+				"&cDragon&r bones are the first that come off the skeleton."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"They're used to craft bone blocks which are needed for the &6Dragon Forge&r and they make different tools."
+			]
+			id: "54306E8AB3574BC3"
+			rewards: [{
+				count: 8
+				id: "11E40893920BD1A6"
+				item: "iceandfire:dragonbone"
+				type: "item"
+			}]
+			subtitle: "How to get Dragon Bones."
+			tasks: [{
+				id: "1433644BEFB894C1"
+				item: "iceandfire:dragonbone"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54306E8AB3574BC3"]
+			description: ["The Dragon Skull is the final drop of a Dragon. Its used to craft the Dragon Command Staff. That's only for tamed dragons though. It's mainly for decoration."]
+			id: "11512722F976909C"
+			rewards: [{
+				id: "48DE75324333022A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				icon: "iceandfire:dragon_skull_fire"
+				id: "5D7464E1B8FD7302"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:dragon_skull_lightning"
+								tag: {
+									DragonAge: 75
+									Stage: 4
+								}
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragon_skull_ice"
+								tag: {
+									DragonAge: 75
+									Stage: 4
+								}
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragon_skull_fire"
+								tag: {
+									DragonAge: 75
+									Stage: 4
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Dragon Skulls"
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"13F8BD59613AC3FE"
+				"3B4DA7EF08D1EC2F"
+				"7DF4BD144CB89FB7"
+			]
+			description: [
+				"Besides the biome the best way to tell a &cDragons&r type is by their color."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"All 3 &cDragon&r types have 4 different colors they can come in."
+			]
+			icon: "iceandfire:shiny_scales"
+			id: "03D776E331D95114"
+			rewards: [{
+				id: "47DAE5AD0DB09863"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "About color dragons."
+			tasks: [{
+				id: "771A01EF27E80B42"
+				title: "Colors of Dragons"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["03D776E331D95114"]
+			description: ["&cFire Dragons&r come in: &4Red&r, &aEmerald&r, &6Bronze&r, and &8Gray&r."]
+			id: "61C2732DC98234AD"
+			rewards: [
+				{
+					count: 5
+					id: "3ADCA8AA753B746E"
+					item: "iceandfire:dragonforge_fire_brick"
+					type: "item"
+				}
+				{
+					id: "0FB80B048F718E23"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "About dragon colors:"
+			tasks: [
+				{
+					id: "564232DC02B982C3"
+					item: "iceandfire:dragonscales_red"
+					type: "item"
+				}
+				{
+					id: "1B9711F0CDD5D386"
+					item: "iceandfire:dragonscales_green"
+					type: "item"
+				}
+				{
+					id: "4D132507EAD29C22"
+					item: "iceandfire:dragonscales_bronze"
+					type: "item"
+				}
+				{
+					id: "2CAC9788D972A6D8"
+					item: "iceandfire:dragonscales_gray"
+					type: "item"
+				}
+			]
+			title: "Fire Dragon Colors"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["03D776E331D95114"]
+			description: ["&bIce Dragons&r come in: &9Blue&r, White, &1Sapphire&r, and &3Silver&r."]
+			id: "6D572E185AD81408"
+			rewards: [
+				{
+					count: 5
+					id: "443E202754144724"
+					item: "iceandfire:dragonforge_ice_brick"
+					type: "item"
+				}
+				{
+					id: "6B16CAF6800567C7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "About dragon colors:"
+			tasks: [
+				{
+					id: "24A1B566997C35EE"
+					item: "iceandfire:dragonscales_blue"
+					type: "item"
+				}
+				{
+					id: "25D60C07D02A918C"
+					item: "iceandfire:dragonscales_white"
+					type: "item"
+				}
+				{
+					id: "099F8557504B0CC4"
+					item: "iceandfire:dragonscales_sapphire"
+					type: "item"
+				}
+				{
+					id: "0CBC3551F91886AE"
+					item: "iceandfire:dragonscales_silver"
+					type: "item"
+				}
+			]
+			title: "Ice Dragon Colors"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["03D776E331D95114"]
+			description: ["&5Lightning Dragons&r come in: &bElectric Blue&r, &dAmethyst&r, &6Copper&r, and &0Black&r."]
+			id: "1BA9D47B1026062F"
+			rewards: [
+				{
+					count: 5
+					id: "39F53DC251E8ADA4"
+					item: "iceandfire:dragonforge_lightning_brick"
+					type: "item"
+				}
+				{
+					id: "7D2EF21318CAA354"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "About dragon colors:"
+			tasks: [
+				{
+					id: "1780983DDAB5E417"
+					item: "iceandfire:dragonscales_electric"
+					type: "item"
+				}
+				{
+					id: "15A39A4B8A7E5756"
+					item: "iceandfire:dragonscales_copper"
+					type: "item"
+				}
+				{
+					id: "3C0D450FF1792C03"
+					item: "iceandfire:dragonscales_black"
+					type: "item"
+				}
+			]
+			title: "Lightning Dragon Scales"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4617A1C9669B5909"]
+			description: [
+				"All nests have &emanuscripts&r in the chests."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"&eManuscripts&r are needed for the &6bestiary&r and to upgrade it."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"They can also be found in many other structures like &3Hydra&r homes, &cCyclops Caves&r, or &avillages&r."
+			]
+			id: "216A6EC6FE4E436E"
+			rewards: [{
+				id: "50EFA09B3E6C7B5D"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "55EECEF7AD1263C9"
+				item: "iceandfire:manuscript"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["216A6EC6FE4E436E"]
+			description: [
+				"The &6Bestiary&r is the ingame guide book to &9Ice&r and &cFire&r."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"It tells you everything the &6quest&r says and more. You'll need &emanuscripts&r and a &3Bestiary Lectern&r to read and upgrade it."
+			]
+			id: "4EDEB83B4BDA8CD6"
+			rewards: [{
+				id: "45106CEF02EFD0F8"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [
+				{
+					id: "5072E7A9ED8513F8"
+					item: "iceandfire:bestiary"
+					type: "item"
+				}
+				{
+					id: "1EF459C4DCA584A5"
+					item: "iceandfire:lectern"
+					type: "item"
+				}
+			]
+			x: -16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4617A1C9669B5909"]
+			id: "72D9BC2BB748D2D4"
+			rewards: [
+				{
+					count: 3
+					id: "6A081F8CA100AB9C"
+					item: "iceandfire:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "6D309A00E5576190"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "789316E8071FE2E6"
+				item: { Count: 3, id: "iceandfire:raw_silver" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["72D9BC2BB748D2D4"]
+			id: "67967612384A7AAD"
+			rewards: [
+				{
+					id: "50976EB031ADF02C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "21E226CCE6488A00"
+					item: {
+						Count: 1
+						id: "iceandfire:silver_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Silver weapons deal extra damage to the undead."
+			tasks: [
+				{
+					id: "005532427FC6A617"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_silver_metal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62DA98028405B027"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_silver_metal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6791940E0044D4F1"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_silver_metal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "702CF80DE74FD40E"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_silver_metal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4617A1C9669B5909"]
+			id: "5795ECD75ACACD71"
+			rewards: [
+				{
+					count: 5
+					id: "1BB493B2E3C002A4"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "3C81A03499B385D3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Just a silver alternative, not too good..."
+			tasks: [{
+				count: 9L
+				id: "4EE582FBE10D67CE"
+				item: { Count: 9, id: "minecraft:raw_copper" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5795ECD75ACACD71"]
+			id: "540C3501EC273441"
+			rewards: [
+				{
+					id: "5E4A50A9E639C80C"
+					item: {
+						Count: 1
+						id: "iceandfire:copper_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56AD359E24E38D67"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+			]
+			subtitle: ":)"
+			tasks: [
+				{
+					id: "1190DB46D6945EEE"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_metal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08C6D3363AC244D8"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_metal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26B0B00D5B4E51F0"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_metal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "208A0D7549813F4A"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_metal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45F0280E0EE75C7B"]
+			id: "3E8C706478152E30"
+			rewards: [{
+				id: "1C0779207D0CF9EA"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			subtitle: "You can read the &dability&r of each item in the &aitem description&r."
+			tasks: [{
+				id: "205B6560298A8964"
+				item: "iceandfire:summoning_crystal_ice"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["45F0280E0EE75C7B"]
+			id: "62E2BFFEA137AA6C"
+			rewards: [{
+				id: "3D176B09DA7899D1"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			subtitle: "You can read the &dability&r of each item in the &aitem description&r."
+			tasks: [{
+				id: "0EA789769A551919"
+				item: "iceandfire:summoning_crystal_lightning"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Defeat &cdragons&r and collect their bones and powers! This will allow you to craft various &dpowerful items&r."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"Find each &cdragon's&r nest and face them, become the greatest &4dragon hunter&r ever seen."
+			]
+			icon: "iceandfire:dragon_skull_fire"
+			id: "4617A1C9669B5909"
+			rewards: [{
+				id: "29470FD3DE6D9C27"
+				type: "xp"
+				xp: 50
+			}]
+			size: 2.0d
+			subtitle: "Explore, fight, and kill dragons!"
+			tasks: [{
+				id: "5048340AAF7B1FEB"
+				title: "silver is the dragons best friend"
+				type: "checkmark"
+			}]
+			title: "Welcome to Ice and Fire!"
+			x: -16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4EDEB83B4BDA8CD6"]
+			id: "0DB417906F96C009"
+			optional: true
+			rewards: [{
+				id: "27E09FBBDCFF8762"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			subtitle: "Collect all monster skulls!"
+			tasks: [
+				{
+					id: "0D0CAC7907AD5E4F"
+					item: "iceandfire:dragon_skull_fire"
+					type: "item"
+				}
+				{
+					id: "16CE46E400F823CB"
+					item: "iceandfire:hippogryph_skull"
+					type: "item"
+				}
+				{
+					id: "69772A1B0C3ACABB"
+					item: "iceandfire:cyclops_skull"
+					type: "item"
+				}
+				{
+					id: "5E54D99B9810DB1B"
+					item: "iceandfire:cockatrice_skull"
+					type: "item"
+				}
+				{
+					id: "1EE944BE69A0B70E"
+					item: "iceandfire:stymphalian_skull"
+					type: "item"
+				}
+				{
+					id: "2F53BD95164EB235"
+					item: "iceandfire:troll_skull"
+					type: "item"
+				}
+				{
+					id: "0C17EE644E8034CA"
+					item: "iceandfire:amphithere_skull"
+					type: "item"
+				}
+				{
+					id: "608E0A40DE7309A1"
+					item: "iceandfire:seaserpent_skull"
+					type: "item"
+				}
+				{
+					id: "382C3A0888B91EA7"
+					item: "iceandfire:hydra_skull"
+					type: "item"
+				}
+			]
+			title: "Bone Collector"
+			x: -14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03D776E331D95114"]
+			description: ["A horde of &cenemy&r types wich is found in the &6Mausoleum&r in wich a very needed crafting part is found."]
+			icon: "born_in_chaos_v1:shattered_skull"
+			id: "42DEAEAAEEF5424D"
+			rewards: [{
+				id: "0ABFDDDFA94A469C"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Bones, bones, and more bones..."
+			tasks: [{
+				id: "54C15D2BC7E60969"
+				title: "The undead"
+				type: "checkmark"
+			}]
+			title: "The Undeads"
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["42DEAEAAEEF5424D"]
+			description: [
+				"&cMausoleums&r are dark complexes made of tough &4dreadstone&r that generates in cold biomes and is pretty spooky too! But the loot is worth it."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"You need a &dspecial something&r that drops from a &0dread lich&r, who spawns at night in &bsnowy thundra&r biomes at night, so get yourself a nice pair of socks!"
+			]
+			id: "2957649C45311405"
+			rewards: [{
+				id: "1458B212EE44AF4D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Booh!"
+			tasks: [{
+				id: "2844A778EB79B352"
+				structure: "iceandfire:mausoleum"
+				type: "structure"
+			}]
+			title: "The Spooky House"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2957649C45311405"]
+			description: ["Usefull for some blocks and an banner pattern"]
+			id: "5DAC21343CEEE1BF"
+			rewards: [
+				{
+					count: 5
+					id: "2AEAB210370E963C"
+					item: "iceandfire:dread_shard"
+					type: "item"
+				}
+				{
+					id: "6DE568231EB2C127"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "How to get."
+			tasks: [{
+				id: "3D65873048C20D2F"
+				item: "iceandfire:dread_shard"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["42DEAEAAEEF5424D"]
+			id: "688F140757A418D0"
+			rewards: [
+				{
+					count: 64
+					id: "7ECE4AF1B3854EF4"
+					item: "iceandfire:dread_stone_bricks"
+					type: "item"
+				}
+				{
+					id: "4B87722A9D84B73B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Show your courage!"
+			tasks: [
+				{
+					entity: "iceandfire:dread_scuttler"
+					id: "0C4C7282B4D831E9"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "iceandfire:dread_knight"
+					id: "456FA3CCD04261F8"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "iceandfire:dread_beast"
+					id: "1224F61CA25F6951"
+					type: "kill"
+					value: 9L
+				}
+			]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["45F0280E0EE75C7B"]
+			id: "683BE7D5D9706983"
+			rewards: [{
+				id: "4CED666F6DBE87C2"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			subtitle: "You can read the &dability&r of each item in the &aitem description&r."
+			tasks: [{
+				id: "1FC1502EF0286483"
+				item: "iceandfire:summoning_crystal_fire"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["67967612384A7AAD"]
+			description: [
+				"&2Gorgons&r are &6minibosses&r that lurk in coastal underground lairs/can be located deep down in &3Gorgon Temples&r, gigantic, Greek-style crumbling stone temples which spawn randomly in &eBeach biomes&r."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"I wouldnt look at them but maybe a piece of cloth covering ur eyes would help?"
+			]
+			id: "568DFAA06F431D4B"
+			rewards: [{
+				id: "6AD5DB2D2BB73CE9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "About Gorgons."
+			tasks: [{
+				id: "6EDF1D03E6D40259"
+				title: "gorgons"
+				type: "checkmark"
+			}]
+			title: "Gorgons"
+			x: -14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["37060BF95E5DE1E0"]
+			description: [
+				"You guesed it! only usable once per head tho so chose wisely."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"&dSilktouch&r can mine the petrified mobs."
+			]
+			id: "07739E12766B9A0A"
+			rewards: [{
+				id: "33561AF8012D27B4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Freeze, haha, u are a stone now!"
+			tasks: [{
+				id: "08FD0D777572B6AD"
+				item: {
+					Count: 1
+					id: "iceandfire:gorgon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "stone it!"
+			x: -12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["568DFAA06F431D4B"]
+			id: "37060BF95E5DE1E0"
+			rewards: [
+				{
+					count: 2
+					id: "3635C1840C88301C"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "0D2BBFB5CEA2DE45"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "115E44961F98B610"
+				structure: "iceandfire:gorgon_temple"
+				title: "Find the &3Gorgon Temple&r."
+				type: "structure"
+			}]
+			title: "Gorgon Temple"
+			x: -14.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["61C2732DC98234AD"]
+			id: "692DF9395BF63138"
+			rewards: [{
+				id: "0F544BD312BEA951"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Use this to make &6Dragon Forge&r!"
+			tasks: [{
+				id: "62A202B09E3D4E17"
+				item: "iceandfire:dragonforge_fire_core_disabled"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D572E185AD81408"]
+			id: "0451E3C9CB20A121"
+			rewards: [{
+				id: "4675965053F1A3E9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Use this to make &6Dragon Forge&r!"
+			tasks: [{
+				id: "41FD63CE96C09CB4"
+				item: "iceandfire:dragonforge_ice_core_disabled"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1BA9D47B1026062F"]
+			id: "002B2CF0A1A2EC06"
+			rewards: [{
+				id: "7D34572631BAFB79"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Use this to make &6Dragon Forge&r!"
+			tasks: [{
+				id: "723CC82419C9ED67"
+				item: "iceandfire:dragonforge_lightning_core_disabled"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["692DF9395BF63138"]
+			id: "53EC8131D2AC55AE"
+			rewards: [{
+				id: "495FD184406E9073"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4331BBB6AB926DBB"
+				item: "iceandfire:dragonsteel_fire_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0451E3C9CB20A121"]
+			id: "69B1A4E3EF7DFC16"
+			rewards: [{
+				id: "5FBBFB9817D46FC7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1C25CD5D52C0ED35"
+				item: "iceandfire:dragonsteel_ice_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["002B2CF0A1A2EC06"]
+			id: "72B06E6D54BF1FD6"
+			rewards: [{
+				id: "41E98388A6EE45F7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0AA5D49C6CBA4630"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5DAC21343CEEE1BF"
+				"53EC8131D2AC55AE"
+				"69B1A4E3EF7DFC16"
+				"72B06E6D54BF1FD6"
+			]
+			id: "6F8F09FBA4FFAB39"
+			rewards: [{
+				id: "11510CFBEBDA206A"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Best ingot from &9Ice&r and &cFire&r!"
+			tasks: [{
+				id: "13C8F80C58DB2C4A"
+				item: "dreadsteel:dreadsteel_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F8F09FBA4FFAB39"]
+			description: ["Become an &dDread Warrior&r!"]
+			id: "41BAE25D02C10F3D"
+			rewards: [{
+				id: "5C5E11AE98D13579"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			size: 2.0d
+			subtitle: "..."
+			tasks: [
+				{
+					id: "49DE5481D2758420"
+					item: "dreadsteel:dreadsteel_shield"
+					type: "item"
+				}
+				{
+					id: "13F83C0A5926E7CD"
+					item: "dreadsteel:dreadsteel_scythe"
+					type: "item"
+				}
+				{
+					id: "1E19713F67A4BAEB"
+					item: "dreadsteel:dreadsteel_helmet"
+					type: "item"
+				}
+				{
+					id: "4FDC272C6DC2FF29"
+					item: "dreadsteel:dreadsteel_chestplate"
+					type: "item"
+				}
+				{
+					id: "088B6EBE13FD0B52"
+					item: "dreadsteel:dreadsteel_leggings"
+					type: "item"
+				}
+				{
+					id: "6C4FDBC2FA1867F9"
+					item: "dreadsteel:dreadsteel_boots"
+					type: "item"
+				}
+			]
+			title: "Dread Warrior"
+			x: 5.0d
+			y: -3.0d
+		}
+	]
+	title: "Ice and Fire"
+}

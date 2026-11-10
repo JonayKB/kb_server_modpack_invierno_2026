@@ -1,0 +1,69 @@
+
+["Parry Client Settings"]
+	#If true, displays an impact flash on successful parries. (Default: true)
+	enableParryFlash = true
+	#Strength of the impact flash. 0.0 disables it entirely. (Default: 1.0)
+	#Range: 0.0 ~ 1.0
+	flashIntensity = 1.0
+	#How long the impact flash takes to fade out, in milliseconds. (Default: 350)
+	#Range: 50 ~ 2000
+	flashDurationMs = 350
+	#If true, an animated jointed arm replaces the vanilla one while parrying,
+	#but only when your main hand is empty - it is a bare arm model with
+	#no item to hold. Off by default. (Default: false)
+	enableParryArmModel = false
+	#If true, your arm and whatever it is holding swing across the view when
+	#you parry. This is the simple version that keeps the vanilla arm and
+	#works with any held item. Off by default. (Default: false)
+	enableHandAnimation = false
+	#If true, draws the parry window / cooldown gauge below the crosshair. (Default: true)
+	enableParryHud = true
+	#Vertical offset of the gauge from the centre of the screen, in GUI pixels.
+	#Raise or lower this to dodge HUD elements added by other mods. (Default: 14)
+	#Range: -160 ~ 160
+	hudYOffset = 14
+	#Size multiplier for the gauge. (Default: 1.0)
+	#Range: 0.5 ~ 3.0
+	hudScale = 1.0
+
+["Parry Arm Placement"]
+	#Where the animated arm sits on screen. These only position the arm —
+	#the motion itself comes from the Blockbench animation file. Change them
+	#in game and press the parry key to see the result immediately.
+	#Sideways position of the shoulder, in blocks. Higher moves it outward. (Default: 0.45)
+	#Range: -2.0 ~ 2.0
+	armPosX = 0.45
+	#Vertical position of the shoulder, in blocks. Negative is below the crosshair. (Default: -0.42)
+	#Range: -2.0 ~ 2.0
+	armPosY = -0.42
+	#Depth of the shoulder, in blocks. Negative is away from the camera.
+	#Vanilla holds the hand around -0.7; anything closer than about -0.3
+	#fills the screen with forearm. (Default: -0.45)
+	#Range: -2.0 ~ 2.0
+	armPosZ = -0.45
+	#Extra pitch on top of the animation. LEAVE THIS AT 0 unless you know why
+	#you are changing it: placement rotates the arm before the animation's
+	#bone rotations, so any pitch here turns the animation's sideways sweep
+	#into a twist about the arm's own axis. (Default: 0.0)
+	#Range: -180.0 ~ 180.0
+	armPitch = 0.0
+	#Rotates the whole swing left or right. Use this to centre the sweep
+	#on the crosshair. (Default: 0.0)
+	#Range: -180.0 ~ 180.0
+	armYaw = 0.0
+	#Rotates the arm in the plane of the screen, about the shoulder.
+	#Positive is counter-clockwise from the player's point of view. (Default: 90.0)
+	#Range: -180.0 ~ 180.0
+	armRoll = 90.0
+	#Size of the arm. Scale and depth compound, so raise this only after the
+	#arm is sitting at a sensible distance. (Default: 1.0)
+	#Range: 0.1 ~ 4.0
+	armScale = 1.0
+
+["Perfect Parry Effects"]
+	#Rainbow flash, gauge and shock ring on a perfect parry. (Default: true)
+	enableRainbowEffects = true
+	#Make players glow yellow while their parry window is open, so parries
+	#are readable in multiplayer. (Default: true)
+	enableParryGlow = true
+

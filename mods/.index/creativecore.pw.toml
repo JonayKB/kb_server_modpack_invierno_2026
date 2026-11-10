@@ -1,0 +1,18 @@
+filename = 'CreativeCore_FORGE_v2.12.40_mc1.20.1.jar'
+name = 'CreativeCore'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CreativeCore_FORGE_v2.12.40_mc1.20.1.jar'
+
+[download]
+hash = 'f8b65310e0183630dd00c1ade12f9b6ecd243287'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8947229
+project-id = 257814

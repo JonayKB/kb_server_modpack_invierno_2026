@@ -1,0 +1,29 @@
+filename = 'gtbcs_geomancy_plus-2.0.0-1.20.1.jar'
+name = "GTBC's Geomancy Plus - Iron's Spells Addon"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'geomancy_plus-2.0.0-1.20.1'
+
+[download]
+hash = '1387448af86e9bcad1a612b7e97c0d5ee95dadfd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7580390
+project-id = 1352485
+
+[[x-prismlauncher-dependencies]]
+addonId = '1194714'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '855414'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '250498'
+type = 'REQUIRED'

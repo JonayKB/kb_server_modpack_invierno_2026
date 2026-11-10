@@ -1,0 +1,91 @@
+{
+  "pickupDespawn": {
+    "enabled": true,
+    "dropItemsOnDespawn": true,
+    "fireLivingDropsEvent": false
+  },
+  "despawnDistance": {
+    "enabled": false,
+    "despawnWhenDimensionHasNoPlayers": true,
+    "categories": {
+      "monster": {
+        "despawnDistance": 128,
+        "keepAliveDistance": 32
+      },
+      "creature": {
+        "despawnDistance": 128,
+        "keepAliveDistance": 32
+      },
+      "ambient": {
+        "despawnDistance": 128,
+        "keepAliveDistance": 32
+      },
+      "axolotls": {
+        "despawnDistance": 128,
+        "keepAliveDistance": 32
+      },
+      "underground_water_creature": {
+        "despawnDistance": 128,
+        "keepAliveDistance": 32
+      },
+      "water_creature": {
+        "despawnDistance": 128,
+        "keepAliveDistance": 32
+      },
+      "water_ambient": {
+        "despawnDistance": 64,
+        "keepAliveDistance": 32
+      },
+      "misc": {
+        "despawnDistance": 128,
+        "keepAliveDistance": 32
+      }
+    }
+  },
+  "softDespawn": {
+    "enabled": false,
+    "idleTicks": 600,
+    "chanceDenominator": 800
+  },
+  "density": {
+    "enabled": true,
+    "sweepIntervalTicks": 100,
+    "maxMobsPerChunk": 48,
+    "maxSameTypePerChunk": 16,
+    "maxMobsPerDimension": 1200,
+    "protectRadius": 32.0,
+    "maxRemovalsPerSweep": 400,
+    "cullAnimals": false,
+    "cullPersistentMobs": false,
+    "cullNpcs": false,
+    "logCulls": false
+  },
+  "spawnLimits": {
+    "enabled": true,
+    "denyNaturalSpawns": true,
+    "denyChunkGenerationSpawns": true,
+    "denySpawnerSpawns": false,
+    "maxMobsPerChunk": 32,
+    "maxMobsPerDimension": 1000,
+    "maxMobsInArea": 70,
+    "areaChunkRadius": 1
+  },
+  "itemEntities": {
+    "enabled": true,
+    "maxLifetimeTicks": 6000,
+    "merge": true,
+    "mergeRadius": 4.0,
+    "maxPerChunk": 0
+  },
+  "experienceOrbs": {
+    "merge": true,
+    "mergeRadius": 8.0,
+    "maxMergedCount": 100
+  },
+  "collisions": {
+    "enabled": true,
+    "maxPushesPerTick": 32
+  },
+  "excludedMobs": [],
+  "excludedDimensions": []
+}

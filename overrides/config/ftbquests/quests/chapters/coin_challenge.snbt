@@ -1,0 +1,553 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "coin_challenge"
+	group: "13458AFBA70AE825"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: {
+				Items: [ ]
+				Size: 9
+			}
+		}
+		id: "terramity:ammo_bag"
+		tag: {
+			Inventory: {
+				Items: [ ]
+				Size: 9
+			}
+		}
+	}
+	id: "753E15C2272593DB"
+	images: [{
+		height: 15.5d
+		image: "farmersdelight:textures/gui/hanging_signs/canvas.png"
+		rotation: 0.0d
+		width: 14.0d
+		x: -1.0d
+		y: 1.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "1085E0BA5709D231"
+			rewards: [
+				{
+					count: 10
+					id: "424BC0CD9DF7FC38"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "080FEEF19D81688C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "34899E39F687C30D"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "2FF1FCC9AA32C15B"
+			rewards: [
+				{
+					count: 10
+					id: "3FD04A2ED2AB609B"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "11FB6DCF112531BD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "28BEBE0801A1072C"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "10E8D55188CF0C40"
+			rewards: [
+				{
+					count: 10
+					id: "4742842550C42646"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "0B127423EC8B2887"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "2B8AC095F37C6A10"
+				type: "kill"
+				value: 100L
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "49FF808A69815388"
+			rewards: [
+				{
+					count: 10
+					id: "7E1ADBAF6A55A930"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "73F6126A77A9AF04"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "760241B47B6E7C60"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "36709AF3E317E6D8"
+			rewards: [
+				{
+					count: 10
+					id: "1D3BFB0CBEB28CD3"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "0C64FC6C05B1D56B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "428FA5061CC3DC36"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "33DFEC8F9C19DB38"
+			rewards: [
+				{
+					count: 20
+					id: "036C48D6701984D8"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "6418B5D7E4CEE348"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "591A6DF8712241DC"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "2D5CC34231EF732E"
+			rewards: [
+				{
+					count: 20
+					id: "5C5DBC45AF42B0BA"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "568E9E5D32DE33E9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "5BA9888E59390D13"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "732600C6A5D7093C"
+			rewards: [
+				{
+					count: 20
+					id: "5F4E80113380F15B"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "3C9B65176ACDD30D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "0B4EFE960CB1F271"
+				type: "kill"
+				value: 100L
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "02C70522CE6DB86A"
+			rewards: [
+				{
+					count: 10
+					id: "750552C5506D8464"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "443F7575A7B0E1C9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				id: "7FECAA9FEFAE542D"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "3DE5583522B4F357"
+			rewards: [
+				{
+					count: 20
+					id: "4D17D286DEBBA5DB"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "6125AE68850D6F68"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "768E3CB7C0FFDA74"
+				type: "kill"
+				value: 100L
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "2443596155CA641E"
+			rewards: [
+				{
+					count: 20
+					id: "6063AE5A6964AE42"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "1A1F07270462108D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:phantom"
+				id: "336041559B4D8658"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "11FC4A89A16C0924"
+			rewards: [
+				{
+					count: 20
+					id: "10FFF29594D6114E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "1475E65C388DBDC7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "5F8D07D137095DD8"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "49B121E95BFB20BD"
+			rewards: [
+				{
+					count: 20
+					id: "66D47BD158248996"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "675C02B00EB04253"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "0FD223B9AA9C4D85"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: "terramity:fateful_coin"
+			id: "0CBA65DFA2D42D63"
+			rewards: [{
+				id: "1D7837C35EC7A2C2"
+				type: "xp"
+				xp: 50
+			}]
+			size: 2.0d
+			subtitle: "Complete some challenges to earn coins and use them in the shop!"
+			tasks: [{
+				id: "6E0501D804294DCC"
+				type: "checkmark"
+			}]
+			title: "Coin Challenge"
+			x: -1.0031865783869307d
+			y: -1.780581033831922d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "414A1E7F60F8019B"
+			rewards: [
+				{
+					count: 20
+					id: "0E0F17880BAAE807"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "38AEC6238B3224F3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "1B9CEF632675339F"
+				type: "kill"
+				value: 100L
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "2C69AB6E63BF578D"
+			rewards: [{
+				count: 10
+				id: "6368CD14884FEBAE"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:zombie_villager"
+				id: "52F74BFB37C18190"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "483F55696AE411D5"
+			rewards: [{
+				count: 10
+				id: "7370183D64ABA7FE"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				id: "1B310332F39B3A40"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "1C3F7A4007C4A3EF"
+			rewards: [{
+				count: 10
+				id: "7BCB111A249AAF79"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "55F635A3F9849ECF"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "72E7332706133949"
+			rewards: [{
+				count: 10
+				id: "7AAE1FB2A4AC02B6"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "465FB6166361634E"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "1D486F29D5B05DB2"
+			rewards: [{
+				count: 10
+				id: "29EBA129EF607C13"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "19436FF0EE13E153"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CBA65DFA2D42D63"]
+			id: "60BB12819EAC0BAC"
+			rewards: [{
+				count: 20
+				id: "3E20070BFEA28377"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "3CE0181282BFE80F"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+	]
+	title: "Getting Coins"
+}

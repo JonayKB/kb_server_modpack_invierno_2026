@@ -1,0 +1,277 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "faq"
+	group: "13458AFBA70AE825"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "minecraft:item/knowledge_book"
+		}
+	}
+	id: "0934D08CC4B1268C"
+	images: [{
+		alpha: 100
+		height: 4.0d
+		image: "monsterexpansion:item/guidebook"
+		rotation: 0.0d
+		width: 4.0d
+		x: 0.0d
+		y: 2.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&dTerramity Awakened&r is basically an extension of the mod."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"Merging other addons and small mods to &6enhance&r the gameplay, and also guide you through the mod."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"You'll encounter new &4bosses&r, &9items&r, &aaccessories&r, and &edungeons&r to explore."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"But don't forget, &dTerramity&r will still be the main mod of modpack!"
+			]
+			icon: "minecraft:book"
+			id: "3FB53C34B5244449"
+			rewards: [{
+				id: "20B7566C6B43E285"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "netheritetier"
+			size: 2.0d
+			subtitle: "Terramity but &bbetter&r!"
+			tasks: [{
+				id: "3567DD7B762CC033"
+				type: "checkmark"
+			}]
+			title: "About"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FB53C34B5244449"]
+			description: ["&dMobs&r can now range from level &61&r to &6150&r!"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "relics:textures/gui/description/general/icons/leveling_point.png"
+				}
+			}
+			id: "103471688C023248"
+			rewards: [
+				{
+					id: "06590E798D3609FC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "40D10377468E4EAD"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Mobs gain stats based on their distance from the spawn point."
+			tasks: [{
+				id: "7DF53F16514789F1"
+				type: "checkmark"
+			}]
+			title: "Mobs Leveling"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FB53C34B5244449"]
+			description: [
+				"&cBosses&r with over &a1000 HP&r will no longer be susceptible to &4one-hit kills&r!"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"All damage dealt will be &6split&r, ensuring gameplay doesn't revolve around &cboss&r spamming."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"You can &dParry [Left-Alt]&r ranged and melee damages and you can &bRoll [R]&r too!"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:plumbers_wrench"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "775F01B3ED89876E"
+			rewards: [
+				{
+					id: "64150CCA34B3F2F8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6BA94820654D6795"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Forget one-hit kills!"
+			tasks: [{
+				id: "38083C0541FE4837"
+				type: "checkmark"
+			}]
+			title: "Damage Cap and More!"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FB53C34B5244449"]
+			icon: "born_in_chaos_v1:creepy_gift"
+			id: "6BC163B6DD3373B3"
+			rewards: [
+				{
+					id: "2021675701FEC413"
+					item: "mythicmounts:griffon_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "5F24BC3F3004E6B2"
+					item: {
+						Count: 1
+						id: "mythicmounts:summoning_staff"
+						tag: {
+							Id: [I;
+								86879696
+								151405351
+								-1123230302
+								570426022
+							]
+							display: {
+								Name: "{\"insertion\":\"052dadd0-0906-4327-bd0c-dda2220002a6\",\"hoverEvent\":{\"action\":\"show_entity\",\"contents\":{\"type\":\"mythicmounts:griffon\",\"id\":\"052dadd0-0906-4327-bd0c-dda2220002a6\",\"name\":{\"translate\":\"entity.mythicmounts.griffon\"}}},\"translate\":\"entity.mythicmounts.griffon\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "114C4B78BDBD183A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			size: 1.5d
+			subtitle: "Just a little help to make getting around the map easier, enjoy!"
+			tasks: [{
+				id: "52D31A5984F2659B"
+				type: "checkmark"
+			}]
+			title: "A little gift!"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3FB53C34B5244449"]
+			description: [
+				"Earn &dskill points&r by completing &amissions&r and use each &6skill&r carefully!"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"You will be able to reset your &6skills&r later, but at a &bhigh cost&r."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"Open your &dskill tree&r pressing [&9O&r]"
+			]
+			icon: "skilltree:wisdom_scroll"
+			id: "27F712F4C41822CA"
+			rewards: [
+				{
+					id: "399F03817E339ECB"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "32C9B6B4CEAFCEFD"
+					item: "skilltree:amnesia_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Passively improve your evasion, defense, and attack!"
+			tasks: [{
+				id: "78DEA131C4BB435E"
+				type: "checkmark"
+			}]
+			title: "Passive Skill Tree"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FB53C34B5244449"]
+			id: "128B7CF52A1956FE"
+			rewards: [{
+				id: "1DBF97FCED04EFCA"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			subtitle: "Combine this tome with the mod guidebooks to have them all in one place!"
+			tasks: [{
+				id: "51ABDAD6634DAEE8"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:items": [ ]
+						"eccentrictome:version": 2
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FB53C34B5244449"]
+			icon: {
+				Count: 1
+				id: "constructionwand:diamond_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+			id: "4D8BE4168A1DA9AB"
+			rewards: [{
+				id: "72CDDE96A04E847A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Your best friend when building."
+			tasks: [{
+				id: "294E48B14E2D0CC3"
+				type: "checkmark"
+			}]
+			title: "Construction Wand!"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3FB53C34B5244449"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "darkutils:block/vector_plate"
+				}
+			}
+			id: "703BE49760A261E5"
+			rewards: [{
+				id: "54E8427F659B639D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "A bunch of utility items that can help you!"
+			tasks: [{
+				id: "45B0D974AC2E5239"
+				type: "checkmark"
+			}]
+			title: "Dark Utilities"
+			x: 0.5d
+			y: -0.5d
+		}
+	]
+	title: "FAQ"
+}

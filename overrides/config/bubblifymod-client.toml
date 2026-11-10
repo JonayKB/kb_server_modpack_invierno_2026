@@ -1,0 +1,14 @@
+
+[Configuracoes_do_Bubble_Chat]
+	#Cor Vermelha do Chat
+	#Range: 0 ~ 255
+	cor_vermelha = 255
+	#Cor Verde do Chat
+	#Range: 0 ~ 255
+	cor_verde = 255
+	#Cor Azul do Chat
+	#Range: 0 ~ 255
+	cor_azul = 255
+	#Define se a cor do texto na bolha será branca (true) ou preta (false)
+	texto_branco = true
+

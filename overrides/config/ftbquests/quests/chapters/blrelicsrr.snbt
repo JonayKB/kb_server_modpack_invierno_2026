@@ -1,0 +1,2763 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blrelicsrr"
+	group: "6290EB50BCF38B1C"
+	icon: {
+		Count: 1
+		id: "relics:midnight_robe"
+		tag: {
+			abilities: {
+				backstab: {
+					points: 0
+					stats: {
+						damage: 1.68659d
+						distance: 16.14798d
+					}
+				}
+				vanish: {
+					points: 0
+					stats: {
+						light: 1.2759d
+						speed: 0.19155d
+					}
+					temp: {
+						ticking: 1b
+					}
+				}
+			}
+		}
+	}
+	id: "5937C96C3CDC252B"
+	images: [
+		{
+			alpha: 100
+			height: 10.0d
+			image: "relics:textures/gui/description/ability/reroll_button_active.png"
+			rotation: 60.0d
+			width: 10.0d
+			x: -4.823873686068119d
+			y: -5.463157269901075d
+		}
+		{
+			alpha: 100
+			height: 10.0d
+			image: "relics:textures/gui/description/ability/upgrade_button_active.png"
+			rotation: 120.0d
+			width: 10.0d
+			x: 3.3381548125729026d
+			y: 1.8327238498299536d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "39C29D0298C84BB8"
+			rewards: [
+				{
+					id: "5212BF436EFB8C33"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6435FF5D2E383EC1"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28D65458E77D894B"
+				item: {
+					Count: 1
+					id: "relics:amphibian_boot"
+					tag: {
+						abilities: {
+							gills: {
+								points: 0
+								stats: {
+									chance: 0.06055d
+								}
+							}
+							slipping: {
+								points: 0
+								stats: {
+									duration: 21.20308d
+									speed: 0.00579d
+								}
+							}
+							swimming: {
+								points: 0
+								stats: {
+									duration: 19.98299d
+									speed: 0.0086d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "16A8168FA006B194"
+			rewards: [
+				{
+					id: "389943601E08FCA5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5F7662BDBDD8DD6A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E0A56C0BA1EC4D6"
+				item: {
+					Count: 1
+					id: "relics:aqua_walker"
+					tag: {
+						abilities: {
+							walking: {
+								points: 0
+								stats: {
+									time: 52.24751d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "3BE4977AF8C260CF"
+			rewards: [
+				{
+					id: "5EA0A68A4CE654A8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "36315BFC508311BC"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3CAE14F9C1EE6723"
+				item: {
+					Count: 1
+					id: "relics:bastion_ring"
+					tag: {
+						abilities: {
+							trade: {
+								points: 0
+								stats: {
+									rolls: 0.2376d
+								}
+							}
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "5CFB7E1433A88AB6"
+			rewards: [
+				{
+					id: "23486CD608DC79CF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "37577DA196E6D3D5"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D9AA3A3396272E8"
+				item: {
+					Count: 1
+					id: "relics:blazing_flask"
+					tag: {
+						abilities: {
+							bonfire: {
+								points: 0
+								stats: {
+									height: 3.83924d
+									speed: 0.03527d
+									step: 1.53922d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "74FAA3DDD52D553C"
+			rewards: [
+				{
+					id: "3F824A2B104F43FB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "61FFB9F6CB513081"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58920378CB8EDDF7"
+				item: {
+					Count: 1
+					id: "relics:chorus_inhibitor"
+					tag: {
+						abilities: {
+							blink: {
+								points: 0
+								stats: {
+									cooldown: 9.18326d
+									distance: 30.61465d
+								}
+							}
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "7A9C2CF8FBF814D4"
+			rewards: [
+				{
+					id: "1D352017B58D5D1D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0E3B1ABE2D7DD6F0"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B287BB8A5802FBE"
+				item: {
+					Count: 1
+					id: "relics:drowned_belt"
+					tag: {
+						abilities: {
+							anchor: {
+								points: 0
+								stats: {
+									sinking: 4.62483d
+									slowness: 0.29872d
+								}
+							}
+							pressure: {
+								points: 0
+								stats: {
+									damage: 1.95515d
+								}
+							}
+							riptide: {
+								points: 0
+								stats: {
+									cooldown: 8.67584d
+								}
+							}
+							slots: {
+								points: 0
+								stats: {
+									charm: 1.375d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "3D8BF2E6565EC1A6"
+			rewards: [
+				{
+					id: "529ED87CC77186D4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "184EE6A707921069"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A534994FB7E8923"
+				item: {
+					Count: 1
+					id: "relics:elytra_booster"
+					tag: {
+						abilities: {
+							boost: {
+								points: 0
+								stats: {
+									capacity: 52.60758d
+									speed: 1.49402d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "4C39D504F00C4CDF"
+			rewards: [
+				{
+					id: "7EE730D299449BDB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1175E38C17B2FBB8"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "24E2FA7E7C628C05"
+				item: {
+					Count: 1
+					id: "relics:enders_hand"
+					tag: {
+						abilities: {
+							swap: {
+								points: 0
+								stats: {
+									distance: 28.22264d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "3D405BCAA3B6B835"
+			rewards: [
+				{
+					id: "2374B211BAD0B99B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "56B0C00265FCC2E4"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1981198D04AAF334"
+				item: {
+					Count: 1
+					id: "relics:holy_locket"
+					tag: {
+						abilities: {
+							belief: {
+								points: 0
+								stats: {
+									amount: 0.21274d
+									capacity: 8.93864d
+									count: 1.96786d
+									radius: 4.07093d
+								}
+							}
+							blessing: {
+								points: 0
+								stats: {
+									consumption: 7.15806d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+							repentance: {
+								points: 0
+								stats: {
+									damage: 0.1249d
+									radius: 2.20627d
+								}
+							}
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "64853FC3F4844839"
+			rewards: [
+				{
+					id: "7FFF11B8DE19DC2B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3444EEDAFFC62D07"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2B8AEF61C35E349E"
+				item: {
+					Count: 1
+					id: "relics:horse_flute"
+					tag: {
+						abilities: {
+							heal: {
+								points: 0
+								stats: {
+									amount: 0.05588d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "0FE5FB4C0B49D0E3"
+			rewards: [
+				{
+					id: "391BA2BB29298D2E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "50C49468FB95AA27"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6D3C5A4495251A46"
+				item: {
+					Count: 1
+					id: "relics:hunter_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									charm: 1.51005d
+								}
+							}
+							training: {
+								points: 0
+								stats: {
+									damage: 1.36768d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "2457F6C31E23DCF2"
+			rewards: [
+				{
+					id: "7CB90CED9E418521"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6E074C1832F75FC7"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "605D9DF896F87DE5"
+				item: {
+					Count: 1
+					id: "relics:ice_breaker"
+					tag: {
+						abilities: {
+							impact: {
+								points: 0
+								stats: {
+									damage: 4.39029d
+									size: 4.8121d
+								}
+							}
+							sustainability: {
+								points: 0
+								stats: {
+									modifier: 0.50149d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "16A2AAD0A18641F8"
+			rewards: [
+				{
+					id: "0E446317C1DC5AF2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "30974DBDCC41754A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "541D3C234767ECAA"
+				item: {
+					Count: 1
+					id: "relics:ice_skates"
+					tag: {
+						abilities: {
+							ram: {
+								points: 0
+								stats: {
+									damage: 0.06072d
+								}
+							}
+							skating: {
+								points: 0
+								stats: {
+									duration: 45.79856d
+									speed: 0.01127d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "7905F371F6C28DD9"
+			rewards: [
+				{
+					id: "73657863F5AEE039"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "59D4FF85985555E9"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "376DB62F04C08762"
+				item: {
+					Count: 1
+					id: "relics:infinity_ham"
+					tag: {
+						abilities: {
+							autophagy: {
+								points: 0
+								stats: {
+									feed: 1.90745d
+								}
+							}
+							infusion: {
+								points: 0
+								stats: {
+									duration: 2.67637d
+								}
+							}
+						}
+						pieces: 10
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "5AE3DCC87AD9C254"
+			rewards: [
+				{
+					id: "6CE91FDA9DE3B702"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4BABDA5872CA8F98"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "490467D9A70CD458"
+				item: {
+					Count: 1
+					id: "relics:jellyfish_necklace"
+					tag: {
+						abilities: {
+							paralysis: {
+								points: 0
+								stats: {
+									duration: 1.28507d
+								}
+							}
+							shock: {
+								points: 0
+								stats: {
+									damage: 1.19264d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "467AD61D547D7521"
+			rewards: [
+				{
+					id: "2FC69553FF7A8BCC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "08763E2B8AAB794C"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6DEA03CDF314F54A"
+				item: {
+					Count: 1
+					id: "relics:leather_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									charm: 1.70727d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "2DD50AA0F6C94301"
+			rewards: [
+				{
+					id: "0CF1467E1132C0DF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6B69828C6BFBE806"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05EB36596CF0C5A7"
+				item: {
+					Count: 1
+					id: "relics:magic_mirror"
+					tag: {
+						abilities: {
+							teleport: {
+								points: 0
+								stats: {
+									cooldown: 103.88429d
+									distance: 936.85642d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "12574804F6A90D58"
+			rewards: [
+				{
+					id: "28EFDA3C8E232FBC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3579E017381B0B15"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "121F9FF9BB16C493"
+				item: {
+					Count: 1
+					id: "relics:midnight_robe"
+					tag: {
+						abilities: {
+							backstab: {
+								points: 0
+								stats: {
+									damage: 1.58693d
+									distance: 15.0338d
+								}
+							}
+							vanish: {
+								points: 0
+								stats: {
+									light: 1.19854d
+									speed: 0.28422d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "1F9E5DDD69409EAB"
+			rewards: [
+				{
+					id: "6E6B283D80A13F2F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4FDCB0B5617EB4E7"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08D226BC90934F89"
+				item: {
+					Count: 1
+					id: "relics:rage_glove"
+					tag: {
+						abilities: {
+							phlebotomy: {
+								points: 0
+								stats: {
+									attack_speed: 0.00728d
+									heal: 1.5E-4d
+									movement_speed: 0.01955d
+								}
+							}
+							rage: {
+								points: 0
+								stats: {
+									dealt_damage: 0.0601d
+									duration: 3.73128d
+									incoming_damage: 0.03791d
+								}
+							}
+							spurt: {
+								points: 0
+								stats: {
+									cooldown: 17.20057d
+									damage: 0.18502d
+									distance: 3.56506d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "136ACA774A63CC2B"
+			rewards: [
+				{
+					id: "2AC5F11FD223DE6F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1F659051E04A2737"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6920807F70CE7EA9"
+				item: {
+					Count: 1
+					id: "relics:reflection_necklace"
+					tag: {
+						abilities: {
+							explode: {
+								points: 0
+								stats: {
+									capacity: 51.69334d
+									damage: 0.45569d
+									stun: 0.15249d
+								}
+							}
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "3754415100AC9C78"
+			rewards: [
+				{
+					id: "13618AEA43FB8C6B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2CB4899AA10A05C2"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64526A6C575F4124"
+				item: "relics:relic_experience_bottle"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "00A85F3A787FAD5A"
+			rewards: [
+				{
+					id: "51C59A99F10F1CF8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2E9CF6B6019D0175"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57691F8BE000698A"
+				item: {
+					Count: 1
+					id: "relics:roller_skates"
+					tag: {
+						abilities: {
+							skating: {
+								points: 0
+								stats: {
+									duration: 25.52409d
+									speed: 0.00348d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "69FBAC2D24F13A72"
+			rewards: [
+				{
+					id: "1308E0F27D724C82"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "379C680B8FCAEC90"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E9FD0BC79831B4C"
+				item: {
+					Count: 1
+					id: "relics:shadow_glaive"
+					tag: {
+						abilities: {
+							glaive: {
+								points: 0
+								stats: {
+									bounces: 3.05193d
+									damage: 2.69981d
+									radius: 3.62871d
+									recharge: 26.95219d
+								}
+							}
+							saw: {
+								points: 0
+								stats: {
+									damage: 1.49225d
+									speed: 19.02679d
+								}
+							}
+						}
+						charges: 8
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "79BE26C88CAF3751"
+			rewards: [
+				{
+					id: "1ED2E051252D7E5E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "63300F42CC697677"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B0AB6D7A490CE94"
+				item: {
+					Count: 1
+					id: "relics:space_dissector"
+					tag: {
+						abilities: {
+							dissection: {
+								points: 0
+								stats: {
+									distance: 26.59082d
+									time: 5.38254d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "4A1C6B30DCC7A053"
+			rewards: [
+				{
+					id: "180AF6B44E42653F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2B1759D626714C71"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50B99B2605809BB8"
+				item: {
+					Count: 1
+					id: "relics:spatial_sign"
+					tag: {
+						abilities: {
+							seal: {
+								points: 0
+								stats: {
+									time: 2.44879d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "7B78405E08974E86"
+			rewards: [
+				{
+					id: "2D81B9CEEFE38A5D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3FE5B272C63F5D5B"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A0009C056B78868"
+				item: {
+					Count: 1
+					id: "relics:spore_sack"
+					tag: {
+						abilities: {
+							buffer: {
+								points: 0
+								stats: {
+									capacity: 2.6488d
+									chance: 0.06192d
+								}
+							}
+							explosion: {
+								points: 0
+								stats: {
+									size: 0.06384d
+								}
+							}
+							multiplying: {
+								points: 0
+								stats: {
+									amount: 0.14606d
+									chance: 0.08949d
+									size: 0.07233d
+								}
+							}
+							spore: {
+								points: 0
+								stats: {
+									cooldown: 11.33501d
+									damage: 0.48289d
+									duration: 2.07183d
+									size: 0.13111d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.955611310079469d
+			y: 2.4422477239237708d
+		}
+		{
+			id: "72034DD477F69C9D"
+			rewards: [
+				{
+					id: "7790A3B76C8ADB9B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7477A83107BF106F"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "084563A1C97D379D"
+				item: {
+					Count: 1
+					id: "relics:wool_mitten"
+					tag: {
+						abilities: {
+							mold: {
+								points: 0
+								stats: {
+									damage: 0.21973d
+									freeze: 1.1481d
+									size: 21.51243d
+									stun: 0.0465d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "3FC6ECE2C6EC2315"
+			rewards: [
+				{
+					id: "7692260AFB789A73"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "607C492B572C2067"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17690AF8CCEBA0B6"
+				item: {
+					Count: 1
+					id: "artifacts:umbrella"
+					tag: {
+						abilities: {
+							glider: {
+								points: 0
+								stats: {
+									cooldown: 1.78646d
+									count: 1.94338d
+								}
+							}
+							shield: {
+								points: 0
+								stats: {
+									knockback: 2.95639d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			id: "0EDB94A8B5C8403A"
+			rewards: [
+				{
+					id: "1508EBED3F7427A7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "53269806AD11C62B"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2904847C39D42C8C"
+				item: "artifacts:everlasting_beef"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			id: "1C8CECC5EF9F0EA7"
+			rewards: [
+				{
+					id: "27031DEB5C6D1916"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "55B7ED3538382D7E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3285DFE9233AF330"
+				item: "artifacts:eternal_steak"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "7FC5855ED752D419"
+			rewards: [
+				{
+					id: "68A837B50542429B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "46E8E30D6B123B92"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65589DD805665B62"
+				item: {
+					Count: 1
+					id: "artifacts:plastic_drinking_hat"
+					tag: {
+						abilities: {
+							drinking: {
+								points: 0
+								stats: {
+									speed: 0.18135d
+								}
+							}
+							nutrition: {
+								points: 0
+								stats: {
+									hunger: 1.6426d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "285B409A093091FB"
+			rewards: [
+				{
+					id: "6DBCD458AB96B736"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "16690A008287C901"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BBD6EF890AC02DC"
+				item: {
+					Count: 1
+					id: "artifacts:novelty_drinking_hat"
+					tag: {
+						abilities: {
+							drinking: {
+								points: 0
+								stats: {
+									speed: 0.18663d
+								}
+							}
+							nutrition: {
+								points: 0
+								stats: {
+									hunger: 1.78673d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "61652D54B28A8E1A"
+			rewards: [
+				{
+					id: "46C23773E5E38BAA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5BD29916BC989FDF"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62E97C2B029BC02F"
+				item: {
+					Count: 1
+					id: "artifacts:snorkel"
+					tag: {
+						abilities: {
+							diving: {
+								points: 0
+								stats: {
+									duration: 9.19328d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "4EDAFAEABFC0BB12"
+			rewards: [
+				{
+					id: "64335EBE16A467C9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "047B5BB233B95B70"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0FAD21BEA6CD6B9B"
+				item: {
+					Count: 1
+					id: "artifacts:night_vision_goggles"
+					tag: {
+						abilities: {
+							vision: {
+								points: 0
+								stats: {
+									amount: 0.1495d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "4B503F5AABA2BA6E"
+			rewards: [
+				{
+					id: "7519846ECCC3647B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "291F6458D652CEE8"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "218869EE3D7C1753"
+				item: {
+					Count: 1
+					id: "artifacts:villager_hat"
+					tag: {
+						abilities: {
+							discount: {
+								points: 0
+								stats: {
+									multiplier: 14.07652d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			id: "5B68A8C859A6FC46"
+			rewards: [
+				{
+					id: "270B71E2A43D7ECC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "04806AAFEA7DF7D0"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2AB6A15E3D61A049"
+				item: {
+					Count: 1
+					id: "artifacts:superstitious_hat"
+					tag: {
+						abilities: {
+							looting: {
+								points: 0
+								stats: {
+									chance: 0.18834d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			id: "5532E37DF90277D0"
+			rewards: [
+				{
+					id: "778E9AF7745F8F31"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1B12C810579FA99B"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5681FD82A7DBE842"
+				item: {
+					Count: 1
+					id: "artifacts:cowboy_hat"
+					tag: {
+						abilities: {
+							cowboy: {
+								points: 0
+								stats: {
+									speed: 0.23019d
+								}
+							}
+							overlord: {
+								points: 0
+								stats: {
+									time: 3.29272d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			id: "0F104709D868BB4E"
+			rewards: [
+				{
+					id: "09AD6E6D8C4A7278"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4E3C73AC08A01D7E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4641B578F887E4F2"
+				item: {
+					Count: 1
+					id: "artifacts:anglers_hat"
+					tag: {
+						abilities: {
+							catch: {
+								points: 0
+								stats: {
+									chance: 0.12156d
+								}
+							}
+						}
+						"starcatcher:catch_modifiers": ["starcatcher:anglers_hat"]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			id: "421AA2887BBFFD07"
+			rewards: [
+				{
+					id: "68230731CCEB26A3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5BDB84D5B1B72800"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45B040A437E0829A"
+				item: {
+					Count: 1
+					id: "artifacts:lucky_scarf"
+					tag: {
+						abilities: {
+							luck: {
+								points: 0
+								stats: {
+									chance: 0.1701d
+								}
+							}
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "7440B4126DBC4BCD"
+			rewards: [
+				{
+					id: "4321C0619D329783"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0A457550FA57F79F"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6D6EED427A1D6C89"
+				item: {
+					Count: 1
+					id: "artifacts:scarf_of_invisibility"
+					tag: {
+						abilities: {
+							invisible: {
+								points: 0
+								stats: {
+									time: 101.61901d
+								}
+							}
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "26E3417BC32F0E67"
+			rewards: [
+				{
+					id: "04CC5FC09601F8F7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "736432FC3BE72F28"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "694924242A7C1FD8"
+				item: {
+					Count: 1
+					id: "artifacts:cross_necklace"
+					tag: {
+						abilities: {
+							invulnerability: {
+								points: 0
+								stats: {
+									modifier: 0.4166d
+								}
+							}
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "227D39DF2BF43B0D"
+			rewards: [
+				{
+					id: "71F078EE54913480"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5125DACA32020A54"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4904561FB46C3DC5"
+				item: {
+					Count: 1
+					id: "artifacts:panic_necklace"
+					tag: {
+						abilities: {
+							panic: {
+								points: 0
+								stats: {
+									movement: 0.19336d
+									radius: 7.91841d
+								}
+							}
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "4BEC72E287475CB2"
+			rewards: [
+				{
+					id: "2B677F746ACEE16B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "193A19C134507535"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "256630D798F21F56"
+				item: {
+					Count: 1
+					id: "artifacts:shock_pendant"
+					tag: {
+						abilities: {
+							lightning: {
+								points: 0
+								stats: {
+									chance: 0.19699d
+									damage: 2.57448d
+								}
+							}
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "1E6FD37F1AB8C8E7"
+			rewards: [
+				{
+					id: "1499D6578E89CC47"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "38C66C7F71F762A6"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43331658BF2A2540"
+				item: {
+					Count: 1
+					id: "artifacts:flame_pendant"
+					tag: {
+						abilities: {
+							fire: {
+								points: 0
+								stats: {
+									chance: 0.24253d
+									time: 2.99477d
+								}
+							}
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "38C7EA9A5E0E4457"
+			rewards: [
+				{
+					id: "61CC219F4B40A5C2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2BEE4308FC85F9B6"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D5DA9C7E8DD55A1"
+				item: {
+					Count: 1
+					id: "artifacts:thorn_pendant"
+					tag: {
+						abilities: {
+							poison: {
+								points: 0
+								stats: {
+									chance: 0.11117d
+									multiplier: 0.05956d
+									time: 3.3549d
+								}
+							}
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "19E15AF2963C9750"
+			rewards: [
+				{
+					id: "22CE5DC40F5BED88"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3A97DACFAD136643"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56E6B5283246B496"
+				item: {
+					Count: 1
+					id: "artifacts:charm_of_sinking"
+					tag: {
+						abilities: {
+							dipping: {
+								points: 0
+								stats: {
+									air: 0.33327d
+								}
+							}
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			id: "1B89D90FAFA7656F"
+			rewards: [
+				{
+					id: "71B37CE160D8537C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5535ACC7CE416C41"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "682546D917F8252A"
+				item: {
+					Count: 1
+					id: "artifacts:cloud_in_a_bottle"
+					tag: {
+						abilities: {
+							jump: {
+								points: 0
+								stats: {
+									count: 2.53442d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "42F29E1B9F7795C3"
+			rewards: [
+				{
+					id: "2A5F173BE47259A2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4D9E566A73318ECE"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48BB48565C9FA4F8"
+				item: {
+					Count: 1
+					id: "artifacts:obsidian_skull"
+					tag: {
+						abilities: {
+							hell: {
+								points: 0
+								stats: {
+									duration: 57.80943d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "22911EEDCEAA0DDE"
+			rewards: [
+				{
+					id: "0685F98BBC0594A8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "03FC1C22F91B7AE4"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31763FEA41632059"
+				item: {
+					Count: 1
+					id: "artifacts:antidote_vessel"
+					tag: {
+						abilities: {
+							antidote: {
+								points: 0
+								stats: {
+									amount: 0.36915d
+								}
+							}
+							devourer: {
+								points: 0
+								stats: {
+									duration: 1.13349d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "29BC204BA8AE13FB"
+			rewards: [
+				{
+					id: "77817989EE208531"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "296EF13BF732F1BD"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64AB08817EF0F7AF"
+				item: {
+					Count: 1
+					id: "artifacts:universal_attractor"
+					tag: {
+						abilities: {
+							attractor: {
+								points: 0
+								stats: {
+									radius: 4.03252d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			id: "77DD33E5C2BEA3AD"
+			rewards: [
+				{
+					id: "6F050DB9BE81F41D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2D83C7243FC20CF8"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "41EFBF48DDAD0586"
+				item: {
+					Count: 1
+					id: "artifacts:crystal_heart"
+					tag: {
+						abilities: {
+							heart: {
+								points: 0
+								stats: {
+									amount: 4.05542d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			id: "2D1B7EBDFAA38B30"
+			rewards: [
+				{
+					id: "650FF5732DA5D0F1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7DF06FC8725FA3EC"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "70C65ECB80A97BB3"
+				item: {
+					Count: 1
+					id: "artifacts:helium_flamingo"
+					tag: {
+						abilities: {
+							flying: {
+								points: 0
+								stats: {
+									speed: 0.29956d
+									time: 3.95607d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "2F6AB5E8D1DB22E3"
+			rewards: [
+				{
+					id: "4BC91E2174D6BA45"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1A52096D07166FC3"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2775B227EB913187"
+				item: {
+					Count: 1
+					id: "artifacts:chorus_totem"
+					tag: {
+						abilities: {
+							past: {
+								points: 0
+								stats: {
+									chance: 0.03119d
+									radius: 5.98922d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			id: "5E06A3966A6387F3"
+			rewards: [
+				{
+					id: "561DA9AFA2C09925"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4D08E95E24F10622"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50A101C28838C65F"
+				item: {
+					Count: 1
+					id: "artifacts:digging_claws"
+					tag: {
+						abilities: {
+							fast_mining: {
+								points: 0
+								stats: {
+									modifier: 0.25761d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "744C87B1402FB1A8"
+			rewards: [
+				{
+					id: "2DE8D9D55AC16B66"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "675B530D57196033"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BBE81C03CDA9B99"
+				item: {
+					Count: 1
+					id: "artifacts:feral_claws"
+					tag: {
+						abilities: {
+							claws: {
+								points: 0
+								stats: {
+									modifier: 0.12944d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			id: "712493817F4B21FB"
+			rewards: [
+				{
+					id: "0D32A56959525269"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "59B6B3DBE805609B"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3DD05AC7786E7342"
+				item: {
+					Count: 1
+					id: "artifacts:power_glove"
+					tag: {
+						abilities: {
+							power: {
+								points: 0
+								stats: {
+									amount: 0.97224d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			id: "71267633283AEF5B"
+			rewards: [
+				{
+					id: "5A44196F09812700"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6C646E7CEBDF3E74"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F8C685FA757FB93"
+				item: {
+					Count: 1
+					id: "artifacts:fire_gauntlet"
+					tag: {
+						abilities: {
+							caster: {
+								points: 0
+								stats: {
+									chance: 0.25079d
+									damage: 0.07164d
+									duration: 49.45543d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "3EB11723D93FDADE"
+			rewards: [
+				{
+					id: "27F994D9C75FC409"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "07DE2D2973944324"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53F75A9471401A74"
+				item: {
+					Count: 1
+					id: "artifacts:pocket_piston"
+					tag: {
+						abilities: {
+							discarding: {
+								points: 0
+								stats: {
+									interaction: 0.32807d
+								}
+							}
+							interaction: {
+								points: 0
+								stats: {
+									range: 0.31814d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			id: "63D386F52ACAB02A"
+			rewards: [
+				{
+					id: "568A8D4D9FCABB58"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "12D781379F739915"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CF6F10387A9B6D6"
+				item: {
+					Count: 1
+					id: "artifacts:vampiric_glove"
+					tag: {
+						abilities: {
+							vampire: {
+								points: 0
+								stats: {
+									amount: 0.12009d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			id: "5045424813A7B7D9"
+			rewards: [
+				{
+					id: "08775C7563CC7999"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7F442E3655C5B756"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "102E57C539F35AB9"
+				item: {
+					Count: 1
+					id: "artifacts:golden_hook"
+					tag: {
+						abilities: {
+							hook: {
+								points: 0
+								stats: {
+									amount: 0.21288d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "762922B5B699C67B"
+			rewards: [
+				{
+					id: "4AAAD6611C7091A8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0DC780AF84FC2EF3"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75E11B3DEBEA99B2"
+				item: {
+					Count: 1
+					id: "artifacts:onion_ring"
+					tag: {
+						abilities: {
+							onion: {
+								points: 0
+								stats: {
+									amount: 0.01201d
+								}
+							}
+							saturation: {
+								points: 0
+								stats: {
+									chance: 0.1255d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			id: "73CCE36F66153E40"
+			rewards: [
+				{
+					id: "230B6004BB97D5ED"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "39CD04BF3127A8FE"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "394091AF55E07CFE"
+				item: {
+					Count: 1
+					id: "artifacts:pickaxe_heater"
+					tag: {
+						abilities: {
+							heater: {
+								points: 0
+								stats: {
+									capacity: 23.76762d
+									duration: 131.64243d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			id: "2D09C9212820920A"
+			rewards: [
+				{
+					id: "2FEC195DD591BFDF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "34D66944C765C794"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3565F3B01CCCFB97"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			id: "4A58110318A0C6BB"
+			rewards: [
+				{
+					id: "42EC61138367596B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "67C56ABD7AB57B4E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D3F4F073AAAEBEB"
+				item: {
+					Count: 1
+					id: "artifacts:bunny_hoppers"
+					tag: {
+						abilities: {
+							hold: {
+								points: 0
+								stats: {
+									duration: 4.02784d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			id: "1EDDF5663578CD47"
+			rewards: [
+				{
+					id: "1AA7B0110E106CD7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5DBA6E436D6E01CC"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61E778427D4F04D4"
+				item: {
+					Count: 1
+					id: "artifacts:kitty_slippers"
+					tag: {
+						abilities: {
+							fall: {
+								points: 0
+								stats: {
+									modifier: 2.32293d
+								}
+							}
+							resurrected: {
+								points: 0
+								stats: {
+									chance: 0.05882d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "7C957ED05516B121"
+			rewards: [
+				{
+					id: "1A2BE615ACC36754"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6E0725288D561107"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51DF80E87F75FEC4"
+				item: {
+					Count: 1
+					id: "artifacts:running_shoes"
+					tag: {
+						abilities: {
+							runner: {
+								points: 0
+								stats: {
+									speed: 0.53274d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "6433CCA96488F42D"
+			rewards: [
+				{
+					id: "6A1410F5E274F5F6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2DA628E5E39FC829"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "635C4AC9AA25B17C"
+				item: {
+					Count: 1
+					id: "artifacts:snowshoes"
+					tag: {
+						abilities: {
+							speed: {
+								points: 0
+								stats: {
+									amount: 0.36019d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			id: "3B8ADD37601EEA26"
+			rewards: [
+				{
+					id: "23100682511EC398"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2E5FF7C229607D41"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "409F078B85C5FB6B"
+				item: {
+					Count: 1
+					id: "artifacts:steadfast_spikes"
+					tag: {
+						abilities: {
+							resistance: {
+								points: 0
+								stats: {
+									modifier: 0.26971d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			id: "623966B72E71BA37"
+			rewards: [
+				{
+					id: "79DDBCF74E337EE4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3DE216C8CADE6B56"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D6558815FDF6DCB"
+				item: {
+					Count: 1
+					id: "artifacts:flippers"
+					tag: {
+						abilities: {
+							swimmer: {
+								points: 0
+								stats: {
+									modifier: 0.31005d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			id: "5381F6A148599B41"
+			rewards: [
+				{
+					id: "73340429E060CFA9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4431FBB6E5C5B1D3"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3DA294C8C0114916"
+				item: {
+					Count: 1
+					id: "artifacts:rooted_boots"
+					tag: {
+						abilities: {
+							devouring: {
+								points: 0
+								stats: {
+									frequency: 133.22985d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			id: "746474191158C2ED"
+			rewards: [
+				{
+					id: "7F885A3A576A50A8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "063BB385383DC9F2"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D5C328258D7B548"
+				item: {
+					Count: 1
+					id: "artifacts:whoopee_cushion"
+					tag: {
+						abilities: {
+							push: {
+								points: 0
+								stats: {
+									chance: 0.2683d
+									radius: 4.20074d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+	]
+	title: "Relics"
+}

@@ -1,0 +1,2203 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "boss_road"
+	group: "13458AFBA70AE825"
+	icon: "born_in_chaos_v1:nightmare_stalker_skull"
+	id: "1E9AC782CD16A672"
+	images: [
+		{
+			height: 1.0d
+			hover: ["Optional Boss"]
+			image: "fzzy_config:textures/gui/sprites/widget/action_relog.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Optional Boss"]
+			image: "fzzy_config:textures/gui/sprites/widget/action_relog.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Optional Boss"]
+			image: "fzzy_config:textures/gui/sprites/widget/action_relog.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Optional Boss"]
+			image: "fzzy_config:textures/gui/sprites/widget/action_relog.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			height: 0.7d
+			hover: ["Subject to change"]
+			image: "born_in_chaos_v1:item/magicarrowskull"
+			rotation: 0.0d
+			width: 0.7d
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Optional Boss"]
+			image: "fzzy_config:textures/gui/sprites/widget/action_relog.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Optional Boss"]
+			image: "fzzy_config:textures/gui/sprites/widget/action_relog.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Optional Boss"]
+			image: "fzzy_config:textures/gui/sprites/widget/action_relog.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 29.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Optional Boss"]
+			image: "fzzy_config:textures/gui/sprites/widget/action_relog.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 31.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Optional Boss"]
+			image: "fzzy_config:textures/gui/sprites/widget/action_relog.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 33.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Optional Boss"]
+			image: "fzzy_config:textures/gui/sprites/widget/action_relog.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 39.5d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Optional Boss"]
+			image: "fzzy_config:textures/gui/sprites/widget/action_relog.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 47.5d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Optional Boss"]
+			image: "fzzy_config:textures/gui/sprites/widget/action_relog.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 49.5d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Optional Boss"]
+			image: "fzzy_config:textures/gui/sprites/widget/action_relog.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 57.5d
+			y: 12.5d
+		}
+		{
+			height: 6.0d
+			image: "terramity:block/hexing_circle"
+			rotation: 0.0d
+			width: 6.0d
+			x: 84.0d
+			y: 16.0d
+		}
+		{
+			height: 2.0d
+			hover: ["All bosses attributes can change! Very WiP"]
+			image: "terramity:item/plumbers_wrench"
+			rotation: 0.0d
+			width: 2.0d
+			x: -12.0d
+			y: -0.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1873B71EF151D369"]
+			id: "1475C97DAF880FFD"
+			rewards: [{
+				id: "7B520C78C21D0891"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5CA37FD56B4D2E2F"
+				type: "checkmark"
+			}]
+			title: "Lv 10-19"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["25427F141D91C484"]
+			description: ["Found prowling the dunes of Desert biomes naturally, or can be forcefully summoned using a Sandworm Gauntlet."]
+			icon: {
+				Count: 1
+				id: "block_factorys_bosses:sandworm_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5DC1CC4AD8FB8149"
+			rewards: [
+				{
+					id: "46797FD467D9A382"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "58C71A0559F25AD6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.0d
+			subtitle: "Don't desert this fight! A giant worm lurking in the sands."
+			tasks: [{
+				entity: "block_factorys_bosses:sandworm"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "block_factorys_bosses:item/sandworm_gauntlet"
+					}
+				}
+				id: "24ABD63C024498AD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Sirok, the Sandworm"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1475C97DAF880FFD"]
+			description: ["Generates in Savanna biomes around a specific altar. Bring an offering of Sunblock to initiate the battle and dodge its solar strikes."]
+			id: "670818F8234F7142"
+			rewards: [
+				{
+					id: "2D842D96A3705606"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "05A7D1F10DBF1C77"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Praise the sun! A divine avian worshipped in the savanna."
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "mowziesmobs:item/umvuthana_mask_faith_icon"
+					}
+				}
+				id: "700411354F98AFEC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Umvuthi, the Sunbird"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A10B3D60AFE5D1E"]
+			description: ["Rests within unique underground metallic chambers. It's completely immune to frontal attacks; you must strike its exposed back after it misses a swing!"]
+			id: "25427F141D91C484"
+			rewards: [
+				{
+					id: "5B73D1493ACAB5B4"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "00F9B2FC4201F131"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "A knight to remember. A heavily armored, stationary sentinel."
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				id: "06B302C69C10F9F7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ferrous Wroughnaut"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["670818F8234F7142"]
+			description: ["Found sleeping in snowy and icy biomes clutching a precious crystal. Steal the crystal or attack it directly to wake up this icy behemoth."]
+			id: "0A10B3D60AFE5D1E"
+			rewards: [
+				{
+					id: "5675A1230734F320"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "40BB8B40787F8A66"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Ice to meet you! A dormant beast guarding a frozen treasure."
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3EE9E7248813AA45"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Frostmaw"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5DC1CC4AD8FB8149"]
+			id: "13C31F826917CE7E"
+			rewards: [{
+				id: "501F9025F63F3C6D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "643DDA49C6BBE165"
+				title: "Lv20 29"
+				type: "checkmark"
+			}]
+			title: "Lv 20-29"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["13EDC39AB9F8CCBA"]
+			description: ["Wanders the decks of Ghost Ships that spawn frequently in frozen ocean biomes. Bring a warm jacket and a sharp blade."]
+			id: "5FD0C013FE4831D6"
+			rewards: [
+				{
+					id: "0162C35847F3383E"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "21D1F0B4FDDB5A4B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Ship just got real. The spectral captain of a frozen galleon."
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "12D9985DBCB2E85E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ghost of Captain Cornelia"
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5FD0C013FE4831D6"]
+			description: ["Found at the very bottom of Lush Caves inside a massive, hollowed-out cavern structure. Watch out for its toxic attacks and hazardous flora."]
+			id: "185C47D66C58EA95"
+			rewards: [
+				{
+					id: "42D3B1FA09377CD2"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "1B2F26A91D51390C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "A bloomin' nightmare. A massive, carnivorous flower deep underground."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:crystal_fruit"
+				id: "315359D985528BBE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Void Blossom"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["13C31F826917CE7E"]
+			description: ["Spawns within specific overgrown botanical structures commonly found in Swamps and Jungles."]
+			id: "6BAF9F3CB8DB3B7D"
+			rewards: [
+				{
+					id: "0B09C0CA13D4FB81"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "5DE5A46A06E98D10"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Petal to the metal. A floral monarch with a deadly sting."
+			tasks: [{
+				entity: "oddities:queen_of_orchid"
+				icon: "oddities:orchid_heart"
+				id: "21ABB5976AAF22FC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Queen Of Orchid"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["13C31F826917CE7E"]
+			description: ["Found at the peak of Lich Towers, which generate exclusively in cold biomes. Break its floating altars first to render it vulnerable!"]
+			id: "13EDC39AB9F8CCBA"
+			rewards: [
+				{
+					id: "554DB7886C4310FF"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "24C4E2CA4D5DABAC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Bone to be wild. An undead sorcerer mastering the dark arts."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "30DE3BE6090AAA2A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Night Lich"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["13C31F826917CE7E"]
+			description: ["Found wandering naturally in lush Jungles and dense forest biomes, blending in with the overgrown environment."]
+			id: "610670CDF9702240"
+			rewards: [
+				{
+					id: "5194F46B41319F2E"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "2521DC4949DBF3C4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Moss definitely a threat. A giant animated statue of nature."
+			tasks: [{
+				entity: "legendary_monsters:overgrown_colossus"
+				icon: "legendary_monsters:totem_of_moss"
+				id: "6A15CA47B99511B4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Overgrown Colossus"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["185C47D66C58EA95"]
+			id: "31A40E2344744736"
+			rewards: [{
+				id: "7C6D8F8A461CA428"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4C00EE953DF6CEAF"
+				title: "Lv 30-39"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["31A40E2344744736"]
+			description: ["Found within large floating blackened arenas high up in the Nether skies."]
+			id: "503A8FD77DDCBC57"
+			rewards: [
+				{
+					id: "32FFD4F8FF4D5E01"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "67CDF856EBB316BE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Gotta hand it to him. A massive floating fist ablaze."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "1ADAF159BC8E75DC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Nether Gauntlet"
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["31A40E2344744736"]
+			description: ["Awakened in the Aether's Bronze Dungeons. Conventional weapons are useless; you must bring a strong Pickaxe to deal damage!"]
+			id: "192D490E8E800C5A"
+			rewards: [
+				{
+					id: "358FCF1A1DB14792"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "5AA8C485362C7089"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Sliding into your DMs. A blocky labyrinth guardian."
+			tasks: [{
+				entity: "aether:slider"
+				icon: "aether:carved_stone"
+				id: "24F63A0F4A089A82"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slider"
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["31A40E2344744736"]
+			description: ["Rules the Silver Dungeons in the Aether. You must first prove your worth by defeating 10 regular Valkyries before she accepts your challenge."]
+			id: "757366ED457DA077"
+			rewards: [
+				{
+					id: "427A83EFC8FA061D"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "0CEC45F291838911"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "A divine intervention. A fierce winged warrior of the skies."
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				icon: "aether:valkyrie_cape"
+				id: "12CF23B131652F4E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Valkyrie Queen"
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["31A40E2344744736"]
+			description: ["The core of the floating Gold Dungeons in the Aether. It cannot be hit directly; you must deflect its own ice projectiles back at it!"]
+			icon: "aether:golden_amber"
+			id: "55FC48AB6217C5CD"
+			rewards: [
+				{
+					id: "1CC7FAE6322DA878"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "1A950DB5E2C18781"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Feeling hot, hot, hot! The blazing core of the gold dungeon."
+			tasks: [{
+				entity: "aether:sun_spirit"
+				icon: "aether:golden_amber"
+				id: "690D1B7069718B01"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Sun Spirit"
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7FE44A00526A128C"]
+			description: ["Summoned by triggering a naturally generated Sculk Shrieker multiple times in the Deep Dark biome. Be very, very quiet."]
+			id: "577BBB7F707328CB"
+			rewards: [
+				{
+					id: "63B55ACC7D0AF2FD"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "33612D892116B0D9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Hear no evil. A blind powerhouse of the deep dark."
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "terramity:warden_soul"
+				id: "15BF60E4637780D4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Warden"
+			x: 15.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["503A8FD77DDCBC57"]
+			description: ["Found roaming snowy and mountainous biomes, or summoned directly via its specific ice gauntlet item."]
+			id: "7FE44A00526A128C"
+			rewards: [
+				{
+					id: "6AB064ABFAD85772"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "359A2849E1E8CE6C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Snow joke! A massive beast of the frozen peaks."
+			tasks: [{
+				id: "471D6BE93B493AE9"
+				item: {
+					Count: 1
+					id: "block_factorys_bosses:ice_gauntlet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Skor, The Yeti"
+			x: 13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["577BBB7F707328CB"]
+			id: "1C454E8894755A9B"
+			rewards: [{
+				id: "45CF69742224D591"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "63FB97BC16E25A15"
+				title: "Lv 40-49"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1C454E8894755A9B"]
+			description: ["Prowls the pitch-black waters of the Abyssal Chasm biome. Beware of its sheer size and destructive capabilities."]
+			id: "50FC727AA8D7E462"
+			rewards: [
+				{
+					id: "3505E78C3192DEE6"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "615BBE936EF6F141"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Making waves. A gargantuan deep-sea predator."
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: "alexscaves:immortal_embryo"
+				id: "4CC3A7B8DEBC4178"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Hullbreaker"
+			x: 19.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1C454E8894755A9B"]
+			description: ["Lurks in the depths of ocean biomes, or can be forcefully summoned via the Undying Tentacle item."]
+			id: "61DE82C206333837"
+			rewards: [
+				{
+					count: 3
+					id: "09A6909C8C264CB2"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "24EBB5804BA27ADC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Release the Kraken! A legendary terror of the seas."
+			tasks: [{
+				entity: "block_factorys_bosses:kraken"
+				icon: {
+					Count: 1
+					id: "block_factorys_bosses:undying_tentacle"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1E447CF375551B1A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Nerakyss, The Kraken"
+			x: 19.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["61DE82C206333837"]
+			description: ["Summoned using the Knight Sword or occasionally found within deep subterranean combat arenas."]
+			id: "29068D975C6758C6"
+			rewards: [
+				{
+					count: 3
+					id: "566D1CDB9F0F1B30"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "278521337F58650A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "A hell of a fight. An armored champion of the depths."
+			tasks: [{
+				entity: "block_factorys_bosses:underworld_knight"
+				icon: {
+					Count: 1
+					id: "block_factorys_bosses:knight_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3003ED20F0FF3698"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Helvar, The Underworld Knight"
+			x: 21.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["29068D975C6758C6"]
+			description: ["Found commanding forces in Gnome villages or summoned via unique gnome-related headgear."]
+			id: "618AD2222447B2F1"
+			rewards: [
+				{
+					count: 3
+					id: "3F99CDEFA07F9904"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "14F9CF55AFBD2F84"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Gnome more Mr. Nice Guy. The ruler of the small folk."
+			tasks: [{
+				entity: "terramity:gob"
+				icon: {
+					Count: 1
+					id: "terramity:red_gnome_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "48AD5018D714F941"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Gob, King of Gnomes"
+			x: 23.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1C454E8894755A9B"]
+			description: ["Summoned through dark rituals and unholy structures using specific magical items."]
+			id: "36E5CACBA08985D2"
+			rewards: [
+				{
+					id: "76E695EB81DD2CFB"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "71CD0299D4D64ACE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Preaching to the choir. A dark cult leader."
+			tasks: [{
+				entity: "goety:minister"
+				icon: "goety:unholy_hat"
+				id: "50D190BA8539806F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Minister"
+			x: 21.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["618AD2222447B2F1"]
+			description: ["Found haunting ruined castles and decayed holy structures in the overworld."]
+			id: "3335135F481A059F"
+			rewards: [
+				{
+					count: 3
+					id: "49ED025D9D35F831"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "7DED6EEAE2B7C19D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Spirit in the sky. A fallen holy knight."
+			tasks: [{
+				entity: "legendary_monsters:posessed_paladin"
+				icon: {
+					Count: 1
+					id: "legendary_monsters:soul_great_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7109ECCCB173C13E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Possessed Paladin"
+			x: 25.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["13C31F826917CE7E"]
+			icon: "born_in_chaos_v1:creepy_gift"
+			icon_scale: 2.0d
+			id: "6E598301D62B54B6"
+			rewards: [
+				{
+					id: "3886DCB4218CB587"
+					table_id: 3356955761647657173L
+					title: "Random Sword I"
+					type: "random"
+				}
+				{
+					id: "373DAC428CA1475E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "none"
+			size: 1.0d
+			subtitle: "A reward for your bravery."
+			tasks: [{
+				id: "34A80AD6490DEBE3"
+				type: "checkmark"
+			}]
+			title: "Take a gift!"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["31A40E2344744736"]
+			icon: "born_in_chaos_v1:creepy_gift"
+			icon_scale: 2.0d
+			id: "4088BBB6631B9D25"
+			rewards: [
+				{
+					id: "1863276368C11895"
+					table_id: 4475023216791381966L
+					title: "Random Sword II"
+					type: "random"
+				}
+				{
+					id: "37A1087BC1B9EDCD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "none"
+			size: 1.0d
+			subtitle: "A reward for your bravery."
+			tasks: [{
+				id: "4324654F27A0458C"
+				type: "checkmark"
+			}]
+			title: "Take a gift!"
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1C454E8894755A9B"]
+			icon: "born_in_chaos_v1:creepy_gift"
+			icon_scale: 2.0d
+			id: "134ED626AD6A25DC"
+			rewards: [
+				{
+					id: "24F6660ACC4C4B58"
+					table_id: 1957120154826369091L
+					title: "Random Bow I"
+					type: "random"
+				}
+				{
+					id: "556600DB58E1CB8D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "none"
+			size: 1.0d
+			subtitle: "A reward for your bravery."
+			tasks: [{
+				id: "33C4DEF8E5959059"
+				type: "checkmark"
+			}]
+			title: "Take a gift!"
+			x: 17.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7889EF6977D3C614"]
+			icon: "born_in_chaos_v1:creepy_gift"
+			icon_scale: 2.0d
+			id: "208E73A402725198"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C87635DEAA4CE66"
+					table_id: 1114044601276008518L
+					title: "Random Sword III"
+					type: "loot"
+				}
+				{
+					id: "359340D5411AC590"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "none"
+			size: 1.0d
+			subtitle: "A reward for your bravery."
+			tasks: [{
+				id: "68E00755C95A35DE"
+				type: "checkmark"
+			}]
+			title: "Take a gift!"
+			x: 27.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3756016A510625CA"]
+			description: ["Found in The End dimension by locating a Stronghold and jumping through the activated portal."]
+			id: "39F3A7512F634270"
+			rewards: [
+				{
+					count: 3
+					id: "2E735DC24DEE45EE"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "6C98305AC444676A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Dragon your feet? The ultimate void wyrm."
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "7E6B90D331A9BE5B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ender Dragon"
+			x: 35.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6CDFFE8B982F6984"]
+			description: ["Summoned anywhere by placing 4 Soul Sand in a T-shape and topping them with 3 Wither Skeleton Skulls."]
+			id: "3756016A510625CA"
+			rewards: [
+				{
+					count: 3
+					id: "32C4E88DEC50CFE1"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "36DDD44ED7D31B55"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Wither or not you're ready. A three-headed undead menace."
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "6999F2F67DC3D456"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Wither"
+			x: 33.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7889EF6977D3C614"]
+			description: ["Found deep inside the Ancient Catacombs resting in his throne room."]
+			icon: "irons_spellbooks:blood_staff"
+			id: "74AFBEA46768692C"
+			rewards: [
+				{
+					count: 3
+					id: "5C29B35E51B8FC16"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "623B7065D6A81CD5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Long live the king. An ancient ruler of magic and bone."
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: "irons_spellbooks:blood_staff"
+				id: "2E8C4E44BF898D23"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Dead King"
+			x: 29.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7889EF6977D3C614"]
+			description: ["Found lurking in generated graveyards or summoned via specific withered manuscripts."]
+			id: "7F06C6F9949E88B3"
+			rewards: [
+				{
+					count: 3
+					id: "127EC01595CFB72C"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "58D3C2F9D29A9DDC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Raising the stakes. A dark summoner of skeletal hordes."
+			tasks: [{
+				entity: "goety:wither_necromancer"
+				icon: "goety:withered_manuscript"
+				id: "68C9732C3D41F85D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Wither Necromancer"
+			x: 31.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3335135F481A059F"]
+			id: "7889EF6977D3C614"
+			rewards: [{
+				id: "29C65D3A2DED6A89"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "60FDC12C15238656"
+				title: "Lv 50-59"
+				type: "checkmark"
+			}]
+			x: 27.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7889EF6977D3C614"]
+			description: ["Found in modified mineshafts or underground lairs guarding precious ores."]
+			id: "519E26E0E2EFD927"
+			rewards: [
+				{
+					count: 3
+					id: "6167F6A244EABE40"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "59C00E170AA5DE00"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Wired for combat. A mechanical behemoth."
+			tasks: [{
+				entity: "goety:hostile_redstone_golem"
+				icon: "goety:redstone_golem_skull"
+				id: "1CC513C8D402D18B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Redstone Golem"
+			x: 33.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7889EF6977D3C614"]
+			description: ["Found sleeping in the Soul Blacksmith structure generated within the Nether."]
+			id: "65E8D90FDCF12040"
+			rewards: [
+				{
+					count: 3
+					id: "70DD6C493A2C1DA4"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "28DFF55F4EBEED4D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "A heavy metal fan. A towering beast of magma and alloy."
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:blazing_grips"
+				id: "71A306DA6A37507E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Netherite Monstrosity"
+			x: 29.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["65E8D90FDCF12040"]
+			description: ["Summoned using dedicated altar blocks and an Eye Block offering."]
+			id: "6CDFFE8B982F6984"
+			rewards: [
+				{
+					count: 3
+					id: "2CF4FE6FB136C6CB"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "4D00A98A892E0E63"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Wheels of fire. A bizarre unearthly entity."
+			tasks: [{
+				id: "25C9351913B8235B"
+				item: "netherman:azazel_trophy"
+				type: "item"
+			}]
+			title: "The Divine Chariot Azazel"
+			x: 31.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["39F3A7512F634270"]
+			id: "59EC9A799091F450"
+			rewards: [{
+				id: "223E7F6BAA047B88"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "68EFA1152C3F44C1"
+				title: "Lv 60-69"
+				type: "checkmark"
+			}]
+			x: 37.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["59EC9A799091F450"]
+			icon: "born_in_chaos_v1:creepy_gift"
+			icon_scale: 2.0d
+			id: "249940148B5021F7"
+			rewards: [
+				{
+					id: "4BBC5AAA294FAA43"
+					item: {
+						Count: 1
+						id: "brutality:frostmourne"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79E34A15254585AA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "none"
+			size: 1.0d
+			subtitle: "A reward for your bravery."
+			tasks: [{
+				id: "640353635478BFB2"
+				type: "checkmark"
+			}]
+			title: "Take a gift!"
+			x: 37.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["59EC9A799091F450"]
+			description: ["Summoned using cursed rituals or locating corrupted altars hidden in the world."]
+			id: "795E407A6C5D46EB"
+			rewards: [
+				{
+					count: 3
+					id: "30AC550128EA25B6"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "78E5522CFE9BBEC4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "A leap of faith. A zealous master of dark magic."
+			tasks: [{
+				id: "2D50EA82F5C511B4"
+				item: "goety:unholy_blood"
+				type: "item"
+			}]
+			title: "Apostle"
+			x: 39.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["59EC9A799091F450"]
+			description: ["Infiltrate their imposing generated structures and use a Soul Ruby to awaken them."]
+			id: "627B15C7A59959FB"
+			rewards: [
+				{
+					count: 3
+					id: "2496050AFC461C77"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "5AB68741D1488F23"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Seeing red. A corrupted illager noble."
+			tasks: [{
+				entity: "goety:vizier"
+				icon: "goety:soul_ruby"
+				id: "611E44A20602D22D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Vizier"
+			x: 39.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["795E407A6C5D46EB"]
+			description: ["Found dormant in the Ancient Factory structure in the Overworld. Requires a Nether Star offering to awaken."]
+			id: "1F2494F41A0DC0EB"
+			rewards: [
+				{
+					count: 3
+					id: "02DBEB2D25D13076"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "555979EA5AE3669B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Bringing the boom. A mechanical warlord of witherite."
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:witherite_ingot"
+				id: "1EFF1E8F714369D5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Harbinger"
+			x: 41.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1F2494F41A0DC0EB"]
+			description: ["Found deep underground in primordial ruins or ancient arenas. Prepare for an intense skeleton battle."]
+			id: "16DEC14A0737E586"
+			rewards: [
+				{
+					count: 3
+					id: "5BD6D985CEA70AC2"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "01149DE2F5800A60"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Dust in the wind. A primeval skeletal survivor."
+			tasks: [{
+				id: "75F40B4D1B8C4CC2"
+				item: "cataclysm:remnant_skull"
+				type: "item"
+			}]
+			title: "Ancient Remnant"
+			x: 43.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4156A8EF4E8BF77E"]
+			icon: "born_in_chaos_v1:creepy_gift"
+			id: "1C375E2A546CFA85"
+			rewards: [
+				{
+					id: "545BFD5BF7FD39F9"
+					item: "enigmaticlegacy:enigmatic_item"
+					type: "item"
+				}
+				{
+					id: "2C5251E994A68E91"
+					item: "enigmaticlegacy:the_judgement"
+					type: "item"
+				}
+				{
+					id: "71AC9183D63C086D"
+					type: "xp_levels"
+					xp_levels: 9999
+				}
+				{
+					id: "45101FF3D798597A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "none"
+			size: 2.0d
+			subtitle: "Thanks to playing!"
+			tasks: [{
+				id: "10514B140B96833D"
+				type: "checkmark"
+			}]
+			title: "Ultimate Gift!"
+			x: 88.0d
+			y: 16.0d
+		}
+		{
+			description: [
+				"Welcome to the &cBoss Path&r!"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"Beat each level to earn amazing &drewards&r and reach the end!"
+			]
+			icon: "born_in_chaos_v1:nightmare_stalker_skull"
+			id: "1873B71EF151D369"
+			rewards: [{
+				id: "174DA7C4BEB4EC3C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			subtitle: "Prove your worth, become the strongest and most feared hero..."
+			tasks: [{
+				id: "571AB337D7B53997"
+				type: "checkmark"
+			}]
+			title: "Boss Path"
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["31C6E45E57D00683"]
+			icon: "born_in_chaos_v1:creepy_gift"
+			icon_scale: 2.0d
+			id: "4AC3CE0204A62AD1"
+			rewards: [
+				{
+					id: "09451873C1CF4BE6"
+					item: {
+						Count: 1
+						id: "brutality:event_horizon"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EABC62294C6E4B7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "none"
+			size: 1.0d
+			subtitle: "A reward for your bravery."
+			tasks: [{
+				id: "1996B15E02E4BFBB"
+				type: "checkmark"
+			}]
+			title: "Take a gift!"
+			x: 45.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["31C6E45E57D00683"]
+			description: ["Spawns randomly at night near crossroads or can be invoked through localized myth events."]
+			id: "6AB55C1E944FA7DB"
+			rewards: [
+				{
+					count: 3
+					id: "41CBA20A5E5FF348"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "38303FC72302AD18"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "A dark horse. A spectral rider seeking souls."
+			tasks: [{
+				entity: "mythsandlegends:black_charro"
+				icon: "realmrpg_skeletons:dragon_burnt_skeleton"
+				id: "77318EF7700D04AA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Black Charro"
+			x: 47.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["31C6E45E57D00683"]
+			description: ["Encountered in dense pumpkin patches or specific autumnal biomes during the night."]
+			id: "43FE20318883BDE9"
+			rewards: [
+				{
+					count: 3
+					id: "26E7B75889A9F38D"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "4B080F0B44967679"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Squashing the competition. A nightmare from the patch."
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_pumpkinhead_head"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:lord_pumpkinheads_hat_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "3F9081DD60F4F64C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Lord Pumpkinhead"
+			x: 47.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["16DEC14A0737E586"]
+			id: "31C6E45E57D00683"
+			rewards: [{
+				id: "18D1C253DBCD02F3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "03DE2E40F8468AAE"
+				title: "Lv 70-79"
+				type: "checkmark"
+			}]
+			x: 45.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["43FE20318883BDE9"]
+			description: ["Found resting in the Sunken City structure deep within ocean biomes. Awaken it with an Abyssal Sacrifice."]
+			id: "4B873972975B076B"
+			rewards: [
+				{
+					count: 3
+					id: "0FD8AFAD0B42B1C1"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "3B59721A39FE287D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Out of your depth. A colossal abyssal guardian."
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:abyssal_sacrifice"
+				id: "46AC98226D864734"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Leviathan"
+			x: 49.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["31C6E45E57D00683"]
+			description: ["Summoned by interacting with the unique Boss Altar found in the Primordial Caves biome."]
+			id: "247F4A75FB0CEB40"
+			rewards: [
+				{
+					count: 3
+					id: "5549A77E9E222C62"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "3197B1717A1C3162"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Extinction event. An apex volcanic dinosaur."
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: "alexscaves:tectonic_shard"
+				id: "694DB2D48BFB2E43"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Luxtructosaurus"
+			x: 49.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4B873972975B076B"]
+			description: ["Trial Guardian can be spawned by inserting a Spire Key at the lock at the basement of the Trial Tower."]
+			id: "2C4C228396ADA5F4"
+			rewards: [
+				{
+					count: 3
+					id: "20B3A98EC86664E8"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "30CD7326FBB4C241"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Guilty as charged. The ultimate judge of the trials."
+			tasks: [{
+				entity: "terramity:trial_guardian"
+				icon: {
+					Count: 1
+					id: "brutality:trial_guardian_hands"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1500CB7DB4AE32FF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Trial Guardian"
+			x: 51.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2C4C228396ADA5F4"]
+			description: ["Virtue can be summoned by throwing an Unholy Lance into the sky anywhere in the Overworld. Doing so destroys the lance, and, after a few seconds, spawns Virtue, who will immediately attack the player."]
+			id: "5131B9302911E306"
+			rewards: [
+				{
+					count: 3
+					id: "18E1AF70C9A745F4"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "49FDF3E28622E6BE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Patience is a virtue, this is not. An angelic entity."
+			tasks: [{
+				entity: "terramity:virtue"
+				icon: "terramity:angel_feather"
+				id: "60C8C1AE3F9116AD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Virtue"
+			x: 53.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5131B9302911E306"]
+			id: "62DE4C22B9511CC7"
+			rewards: [{
+				id: "309E4A46A545DD83"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6651FE3320BFD0BA"
+				title: "LV 80-89"
+				type: "checkmark"
+			}]
+			x: 55.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["62DE4C22B9511CC7"]
+			icon: "born_in_chaos_v1:creepy_gift"
+			icon_scale: 2.0d
+			id: "0CCF2F22967C8296"
+			rewards: [
+				{
+					id: "7E31CD0FC2441EEE"
+					item: {
+						Count: 1
+						id: "brutality:darkin_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A5EAD1997D098CF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "none"
+			size: 1.0d
+			subtitle: "A reward for your bravery."
+			tasks: [{
+				id: "01096D09BE5F4045"
+				type: "checkmark"
+			}]
+			title: "Take a gift!"
+			x: 55.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["62DE4C22B9511CC7"]
+			description: ["Found generating in alien-like floating structures over the void in The End."]
+			id: "029AFBB9B7D1E308"
+			rewards: [
+				{
+					count: 4
+					id: "50CE1E3D96A7145A"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "56EAA50F3210D6F6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Rock solid. A hovering monolithic obelisk."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "79AABB7B6B819ADA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Obsidilith"
+			x: 57.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["62DE4C22B9511CC7"]
+			description: ["Invoked using the Eye Crystal through dark rituals at designated monolithic structures."]
+			id: "07D5144F82BC1F2F"
+			rewards: [
+				{
+					count: 3
+					id: "63BA1236108ED0DB"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "10D4C9B9DF301BA1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Total wipeout. A monstrous eyeball of doom."
+			tasks: [{
+				entity: "legendary_monsters:the_obliterator"
+				icon: "legendary_monsters:eye_crystal"
+				id: "0D654454225FEAFE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Obliterator"
+			x: 57.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["029AFBB9B7D1E308"]
+			description: ["Found guarding the Ruined Citadel structure deeply hidden within The End dimension."]
+			id: "1A7F24440AAE4D8F"
+			rewards: [
+				{
+					count: 4
+					id: "299AF296C1313165"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "026C49978D0CB7DD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Voiding your warranty. A heavily armored void warrior."
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:void_eye"
+				id: "1614F82C45249740"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ender Guardian"
+			x: 59.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1A7F24440AAE4D8F"]
+			description: ["Can be summoned by causing a lightning near a Sniffer, young or adult, transforming the sniffer into this boss. It's recommended to use the Lightning Staff and strike it near a Sniffer."]
+			id: "1411FF1B4EDE608A"
+			rewards: [
+				{
+					count: 4
+					id: "3CB7443941DBA071"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "722900D0E526CA58"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Smells like trouble. A mutated prehistoric beast."
+			tasks: [{
+				entity: "terramity:super_sniffer"
+				icon: "terramity:super_sniffers_pelt"
+				id: "5E7A82207B24E442"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Super Sniffer"
+			x: 61.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1411FF1B4EDE608A"]
+			description: ["Roams the darkest halls of specific sprawling dungeons. It drops the formidable Blade of Ender upon defeat."]
+			id: "63CDC5D19A20EB2F"
+			rewards: [
+				{
+					count: 4
+					id: "5C84043A97F55AF8"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "213AF3AF9DB3847E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Keeping it surreal. A tall dark and terrifying warden."
+			tasks: [{
+				entity: "goety:ender_keeper"
+				icon: {
+					Count: 1
+					id: "goety:blade_of_ender"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "2DAB3C4047F7CBC7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ender Keeper"
+			x: 63.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["63CDC5D19A20EB2F"]
+			id: "7588CED81667BB97"
+			rewards: [{
+				id: "756F13D405D9051B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1251E5E12F390B92"
+				title: "Lv 90-99"
+				type: "checkmark"
+			}]
+			x: 65.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7588CED81667BB97"]
+			icon: "born_in_chaos_v1:creepy_gift"
+			icon_scale: 2.0d
+			id: "3215CFDDEF4F89E0"
+			rewards: [
+				{
+					id: "33DB480D8B1C943F"
+					item: {
+						Count: 1
+						id: "lethality:gaels_greatsword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "447C95041F1D1653"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "none"
+			size: 1.0d
+			subtitle: "A reward for your bravery."
+			tasks: [{
+				id: "70243825CE941AB6"
+				type: "checkmark"
+			}]
+			title: "Take a gift!"
+			x: 65.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["7588CED81667BB97"]
+			description: ["Found in specific colossal aquatic ruins or summoned via specialized endgame artifacts over the seas."]
+			id: "072A17F929905DC7"
+			rewards: [
+				{
+					count: 4
+					id: "5C42B1BEF2BA4AE2"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "4F00D276301F8088"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "In deep water. A terrifying multi-headed sea monster."
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: "cataclysm:ceraunus"
+				id: "41953C1E211C7385"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Scylla"
+			x: 67.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["072A17F929905DC7"]
+			description: ["Found in the massive Burning Arena structure in the Nether. Awaken him using the Altar of Fire in the center."]
+			id: "308E27AC27C39565"
+			rewards: [
+				{
+					count: 4
+					id: "2E523C302ADB26EF"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "72D249B195882FB5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Playing with fire. The supreme lord of the flames."
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:the_incinerator"
+				id: "75568D21724215BB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ignis"
+			x: 69.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["308E27AC27C39565"]
+			description: ["They can be summoned by using an Occult Fabric on an offering pedestal found in the middle of Chthonic Cathedrals on the Nether Roof."]
+			id: "0DDF244AB413AA47"
+			rewards: [
+				{
+					count: 4
+					id: "546DBEB814DE6131"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "1BE2E1C8C70726A3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "You shall not pass! A legendary spellcaster."
+			tasks: [{
+				entity: "terramity:gundalf"
+				icon: {
+					Count: 1
+					id: "terramity:fortunes_favor"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1322017960DE3BD0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Archmage Gundalf"
+			x: 71.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["0DDF244AB413AA47"]
+			id: "5012B9B0E44513D6"
+			rewards: [{
+				id: "4CD94C57CE85DC2B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "70E9749545DBB7CD"
+				title: "Lv 100+"
+				type: "checkmark"
+			}]
+			x: 73.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5012B9B0E44513D6"]
+			icon: "born_in_chaos_v1:creepy_gift"
+			icon_scale: 2.0d
+			id: "012247DBCED6E936"
+			rewards: [
+				{
+					id: "360C0B2CE7454C02"
+					item: {
+						Count: 1
+						id: "brutality:crease_of_creation"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:knockback"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "466179F3E1B6A4C2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "none"
+			size: 1.0d
+			subtitle: "A reward for your bravery."
+			tasks: [{
+				id: "7D5CD0E4714437A4"
+				type: "checkmark"
+			}]
+			title: "Take a gift!"
+			x: 73.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["5012B9B0E44513D6"]
+			description: ["Found resting at the heavily guarded heart of the Cursed Pyramid structure."]
+			id: "37B44DD890936D68"
+			rewards: [
+				{
+					count: 4
+					id: "7247C6E8B9E75032"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "67F0F357E02492D1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Curse of the sands. An ancient pharaoh's nightmare."
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:wrath_of_the_desert"
+				id: "45A974D8EB027AEA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Maledictus"
+			x: 75.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["5F6592180F6196C9"]
+			description: ["The Ultra Sniffer can be summoned by causing a lightning strike to hit a Super Sniffer at Phase 2 while it is weakened at less than 10% of its HP."]
+			id: "19ACFEBB62FD4E13"
+			rewards: [
+				{
+					count: 4
+					id: "7262E42DC3FA286F"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "3BF247C6524EEE94"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Nose for danger. The apex of prehistoric evolution."
+			tasks: [{
+				entity: "terramity:ultra_sniffer"
+				icon: "terramity:ultra_sniffers_pelt"
+				id: "3D209E8F7C6DF8D3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ultra Sniffer"
+			x: 79.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["37B44DD890936D68"]
+			description: ["Summoned using the Eye of Nothingness in darkened rifts or specific void-touched biomes."]
+			id: "5F6592180F6196C9"
+			rewards: [
+				{
+					count: 4
+					id: "738CCC711F9B8C55"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "12DD91C20693B914"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Lights out. The watcher in the void."
+			tasks: [{
+				entity: "traveloptics:the_nightwarden"
+				icon: "traveloptics:eye_of_nothingness"
+				id: "4EC6C85FEAC53CDC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Nightwarden"
+			x: 77.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["19ACFEBB62FD4E13"]
+			description: ["Summoned directly using the Cosmic Worm item. Prepare for a bullet-hell experience and bring your best gear."]
+			icon: "dog:cosmic_worm"
+			id: "4156A8EF4E8BF77E"
+			rewards: [
+				{
+					count: 100
+					id: "2C88688151DFD0A1"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "2730D57761FEF4CD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 2.0d
+			subtitle: "A god-tier threat. The cosmic worm of annihilation."
+			tasks: [{
+				entity: "dog:devourer_head"
+				icon: "dog:cosmic_worm"
+				id: "2513491397861253"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Devourer of Gods"
+			x: 84.0d
+			y: 16.0d
+		}
+	]
+	title: "Boss Path"
+}

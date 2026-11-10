@@ -1,0 +1,77 @@
+
+["Parry Bheaviour"]
+	"parry window in ticks" = 13.0
+	"parry cooldown in ticks" = 60.0
+	"Parry Knockback" = 0.8
+	"Should Parryng a Projectile Make You (the player that parried the projectile) it's owner?" = true
+	"Enable Parryng Gravity" = true
+	"damage parried entities should take" = 1.0
+	"enable parry damage" = false
+	"amount of health to give back to the player on succesfull parry (in %)" = 0.0
+	"should the amount of health given back to the player be calculated off current health (true) or max health (false)" = false
+	#suggested by Ridiculousties234
+	"amount of parry cooldoown ticks a player ''rescues'' upon successfull parry" = 0.0
+	"commands to run on successfull parry (without /) (as the player)" = ["", ""]
+	#suggested by ozvyat
+	"amount of damage in % a succesfull parry absorbs" = 100.0
+	#suggested by karap3323
+	"unparriable damage types list" = ["", ""]
+	"commands to run on a successfull parry (without /) (as the parried entity)" = ["", ""]
+	"commands to run on a successfull parry (without /) (as the parried player)" = ["effect give @s just_parry:incapacitated 1 1 true", ""]
+	#suggested by jimbob__
+	"refund parry cooldoown on succesfull parry" = false
+
+["ProjectileParry Behaviour"]
+	#Type 1.0 = Normal (Smooth) Type 2.0 = IMPACT
+	"Projectile Parry Type" = 1.0
+	"Should ProjectileParry remove gravity from projectiles?" = true
+	"Should ProjectileParry remove friction from projectiles?" = true
+	"Projectile Parry inaccuracy" = 0.0
+	"How ManyTicks Should the Nofriction and NoGravity Effects Last (0 will make it infinite)" = 20.0
+	"should ProjectileParry Change The Knockback Of Arrows?" = true
+	"Amount Of KnockBack ProjectileParries Should Add To Arrows" = 0.7
+	"Should ProjectileParry Turn Arrows Critical" = false
+	"Should Projectileparry Change The Piercing Level Of Arrows" = true
+	"Amount Of Piercing To add to arrows" = 1.0
+	"Speed Multiplier of Projectileparried Arrows" = 2.0
+	"Should you be able to Ride your own parried arrows if you get hit by them?" = true
+	"should projectiles teleport i front of the player on projectileparry" = true
+	"distance from the face of the player and the location projectiles get teleported to on projectileparry" = 1.3
+	"max distance between a player and a projectile to projectileparry" = 6.0
+	"max distance at wich projectiles get teleported in front of the player" = 6.0
+	"projectile parry entities blacklist (specific entities)" = ["", ""]
+	"projectile parry entities blacklist (entity tags)" = ["", ""]
+	#suggested by xenx33
+	"projectile parry non projectile entities whitelist (specific entities)" = ["minecraft:chicken", "minecraft:falling_block"]
+
+[vfx]
+	"amount of particles to spawn when projectile parried arrow hits something" = 25.0
+	"Enable Projectileparry Hit Particles" = true
+	"Projectileparry Hit Particle Spread" = 0.4
+	"Enable Projectile Boost Text Particle" = false
+	"Enable Projectile Parry Text Particle" = false
+	"Enable Projectile Boost/Parry air impact particle" = true
+	"amount of particles to spawn on succesfull parry" = 100.0
+	"enable parry Particle on normal parries" = true
+	"enable parry Particle on gravity parries" = true
+	"enable parry Particle on explosion parries" = true
+	"enable parry Particle on fire parries" = true
+	"enable particle trails on parried/boosted projectiles" = true
+
+["Toggle Parries"]
+	"Enable Parry (By Default)" = true
+	"Enable Projectile Parry (By Default)" = true
+	"Enable Projectile Boost (By Default)" = true
+
+["should config override attributes"]
+	"should config override attributes" = true
+
+["special parry damage interactions"]
+	"allow parryng fire" = true
+	"allow parryng explosions" = true
+	"allow parryng starvation" = true
+	"allow lighting parry" = true
+	"allow cactus parry" = true
+	#suggested by BobyThemoder
+	"allow parryng drowning" = true
+

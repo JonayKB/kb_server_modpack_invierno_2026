@@ -1,0 +1,25 @@
+filename = 'AutoLeveling-1.20-1.19b.jar'
+name = 'Auto Leveling'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'AutoLeveling-1.20-1.19b.jar'
+
+[download]
+hash = '134aca414c79b192c183538ac114dd7a989b3f86'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4899526
+project-id = 616126
+
+[[x-prismlauncher-dependencies]]
+addonId = '324717'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238372'
+type = 'OPTIONAL'

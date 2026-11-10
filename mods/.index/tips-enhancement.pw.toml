@@ -1,0 +1,18 @@
+filename = 'tips_enhancement-1.8.jar'
+name = "Misanthropy's Tips Mod"
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'tips_enhancement-1.8.jar'
+
+[download]
+hash = '8973c79084c1a14c1f7be9492748151588dd75fb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8884299
+project-id = 1479116

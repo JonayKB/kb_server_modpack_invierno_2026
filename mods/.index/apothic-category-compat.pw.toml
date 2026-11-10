@@ -1,0 +1,21 @@
+filename = 'apothic_category_compat-2.1.0.jar'
+name = 'Apothic Category Compat'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Apothic Category Compat 2.1.0 (Forge 1.20.1)'
+
+[download]
+hash = '9b015ff2c1722a15ead2748723e36d9ef3c81a24'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8264060
+project-id = 1516278
+
+[[x-prismlauncher-dependencies]]
+addonId = '313970'
+type = 'OPTIONAL'

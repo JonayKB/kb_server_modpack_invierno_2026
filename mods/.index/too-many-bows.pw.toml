@@ -1,0 +1,25 @@
+filename = 'too_many_bows-forge-4.1.2.jar'
+name = 'Too Many Bows'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'too_many_bows-forge-4.1.2'
+
+[download]
+hash = '08b327c4f4db686ef5e215cdf86cb5e5596dac07'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8735189
+project-id = 1141533
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '639842'
+type = 'OPTIONAL'

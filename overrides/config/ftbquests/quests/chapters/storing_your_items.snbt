@@ -1,0 +1,315 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storing_your_items"
+	group: "2D2E89DC5A7A91D8"
+	icon: "minecraft:chest"
+	id: "088C702ABCA621A6"
+	images: [
+		{
+			alpha: 100
+			height: 3.0d
+			image: "sophisticatedbackpacks:item/upgrade_base"
+			rotation: 60.0d
+			width: 3.0d
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			alpha: 100
+			height: 3.0d
+			image: "toms_storage:block/inventory_connector"
+			rotation: 60.0d
+			width: 3.0d
+			x: -0.5338371858208504d
+			y: -2.834792343798174d
+		}
+		{
+			alpha: 100
+			height: 3.0d
+			image: "sophisticatedstorage:block/spruce_barrel_side"
+			rotation: 60.0d
+			width: 3.0d
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Remember, when playing a &bmodpack&r with &dcontent mods&r, large and organized storage is &cextremely&r important."]
+			id: "6106F83AD9819CF7"
+			rewards: [
+				{
+					id: "7960EC4929F5EF96"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "4EA6E9125127C0C8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7DE3B577AC3F7528"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Do a chest :D"
+			tasks: [{
+				id: "0F66AA633B8CD359"
+				type: "checkmark"
+			}]
+			title: "Store your items!"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6106F83AD9819CF7"]
+			id: "0A15FC239CF49DD2"
+			rewards: [
+				{
+					id: "4E7B997039810194"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "083892FC6C8740B2"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Store your items."
+			tasks: [{
+				id: "1E47FC144A52571A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				title: "Any Chest"
+				type: "item"
+			}]
+			title: "Just a chest..."
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A15FC239CF49DD2"]
+			id: "0DF3534647C9404D"
+			rewards: [
+				{
+					id: "7DC079AF1FD27D98"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:diamond_chest"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "051B544D7234159E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "43BF5803FC6F2DC4"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Upgrade your chest."
+			tasks: [{
+				id: "3FD410764048375D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "sophisticatedstorage:all_storage"
+					}
+				}
+				title: "Any upgraded chest"
+				type: "item"
+			}]
+			title: "Just a upgraded chest..."
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6106F83AD9819CF7"]
+			id: "2AA3D4376AF545CE"
+			rewards: [
+				{
+					id: "624D893506FC97B6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3D93D9425B63970C"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "A...Backpack..."
+			tasks: [{
+				id: "17E55E4D070E5566"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2AA3D4376AF545CE"]
+			id: "220F83A41F0785A5"
+			rewards: [
+				{
+					id: "673A59F7C1E03CB8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "541148AFCAF28179"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Catch itens into your backpack."
+			tasks: [{
+				id: "0BE3F339576372F7"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2AA3D4376AF545CE"]
+			id: "7E4BF0D3012E8612"
+			rewards: [
+				{
+					id: "425D96BC3F2A4A02"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "75871A2BDA52E924"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Auto-feed you."
+			tasks: [{
+				id: "4FDE2A7B4A93D5AD"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2AA3D4376AF545CE"]
+			id: "029AE399770A483C"
+			rewards: [
+				{
+					id: "73E758AF68C8AB0F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "78706D418EA1882B"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Can craft items directly in backpack."
+			tasks: [{
+				id: "1C8B89388982F3F6"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6106F83AD9819CF7"]
+			id: "2155AD279A8F96A2"
+			rewards: [
+				{
+					id: "5692442F2EC68C80"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7E0C3CDA49F3C499"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Connect all inventories in one."
+			tasks: [{
+				id: "3D082E97BDEF7AE7"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2155AD279A8F96A2"]
+			id: "0A0BF2A6FBDD499B"
+			rewards: [
+				{
+					id: "4FC69D211D85701F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "20F0C8BC396B5DEF"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Connect inventories across long distances."
+			tasks: [{
+				id: "4593D0AD1768891B"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A0BF2A6FBDD499B"]
+			id: "5C7F561D1CA1F025"
+			rewards: [
+				{
+					id: "67053E3AF37961C4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "59E6175AE79A817E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Acess all items in one interface."
+			tasks: [{
+				id: "31BFEDB8FC42FBE6"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+	]
+	title: "Storage Management"
+}

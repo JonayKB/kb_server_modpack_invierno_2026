@@ -1,0 +1,36 @@
+#Put minecraft:the_nether and minecraft:the_end back into level.dat when they are missing or unreadable.
+#Minecraft ships no built-in definition for either dimension, so a world whose level.dat has lost them
+#genuinely has no Nether and no End until they are restored.
+#A dimension supplied by a datapack always wins over the copy in level.dat, so restoring is a no-op there.
+#Turn this off if your pack deliberately runs without one of them.
+restoreMissingVanillaDimensions = true
+#When a mod is removed, Minecraft reads every one of its blocks as air, with no warning at all.
+#Forests become holes and the lighting around them stays baked for solid blocks.
+#With this on, terrain blocks are read as their closest vanilla equivalent instead:
+#logs and leaves become oak, stone variants become stone, and so on.
+#Only terrain and plant blocks are substituted. Anything that looks like a container or a
+#machine is left alone, because an intact-looking but empty chest hides the loss instead of
+#showing it. Reinstalling the mod always wins over a substitution.
+#On Forge, items of the same names are substituted too. NeoForge and Fabric have no hook for
+#that, so there only the blocks in loaded chunks are.
+replaceMissingTerrainBlocks = true
+#For a mod that was renamed rather than removed. One "oldid=newid" per entry, for example
+#["larionforgeport=lithoform"]. Every reference in a world's generator settings whose namespace is
+#oldid is read as newid instead, so the world loads against the renamed mod.
+#Declare a rename only when you know it is the same mod. This is the one repair allowed to change
+#terrain shape: if the renamed mod rewrote its density functions between the two versions, chunks
+#generated from now on will not line up with the chunks already on disk and you will see walls
+#where old meets new. Removing the alias afterwards does not undo chunks written in the meantime.
+#Chunks are never edited, and level.dat is copied aside before anything changes.
+namespaceAliases = []
+#Keep a world as tall as it was built. A mod that raises or lowers the overworld does it by
+#shipping its own minecraft:overworld dimension type, so removing or downgrading that mod
+#silently shrinks every existing chunk: Minecraft skips the sections that fall outside the new
+#height when it reads a chunk, and never writes them back, so the first save deletes them.
+#There is no warning and no log line for this in vanilla.
+#With this on, the stored height wins: the dimension is widened back to fit the chunks on disk.
+#It only ever widens, never shrinks, so a world that already fits is left alone.
+#Turn this off only if you want the new, shorter height and accept that everything above and
+#below it is deleted from every chunk you load.
+preserveWorldHeight = true
+

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "increased_spawn",
+    "priority": 0,
+    "minLight": 0,
+    "maxLight": 50,
+    "weather": "any",
+    "skyAccess": "any",
+    "biomeIds": [],
+    "strict": false
+  }
+]

@@ -1,0 +1,25 @@
+filename = 'rarcompat-1.20.1-0.5.jar'
+name = 'Reliquified Artifacts'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'rarcompat-1.20.1-0.5.jar'
+
+[download]
+hash = 'a6d83f41f0bff392fec5db7e392d57d8b0c818e0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7106942
+project-id = 1100379
+
+[[x-prismlauncher-dependencies]]
+addonId = '445274'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '312353'
+type = 'REQUIRED'

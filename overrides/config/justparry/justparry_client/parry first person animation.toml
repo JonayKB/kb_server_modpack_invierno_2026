@@ -1,0 +1,27 @@
+
+["enable parry first person animation"]
+	"enable parry first person animation" = true
+
+["MainHand Rotation"]
+	"MainHand Rotation X" = 0.0
+	"MainHand Rotation Y" = 0.0
+	"MainHand Rotation Z" = 40.0
+
+["MainHand Position"]
+	"MainHand Position X" = 0.0
+	"MainHand Position Y" = 0.1
+	"MainHand Position Z" = -0.7
+
+["OffHand Rotation"]
+	"OffHand Rotation X" = 0.0
+	"OffHand Rotation Y" = 0.0
+	"OffHand Rotation Z" = -40.0
+
+["OffHand Position"]
+	"OffHand Position X" = 0.0
+	"OffHand Position Y" = 0.85
+	"OffHand Position Z" = 0.2
+
+["animation time in milliseconds"]
+	"animation time in milliseconds" = 60.0
+

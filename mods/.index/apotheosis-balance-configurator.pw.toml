@@ -1,0 +1,29 @@
+filename = 'apotheosis_balance-1.20.1-1.1.6.jar'
+name = 'Apotheosis Balance Configurator'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'apotheosis_balance-1.20.1-1.1.6.jar'
+
+[download]
+hash = 'f5b680707b15de89cebfa53e112165c5c9c40a99'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8137640
+project-id = 1379530
+
+[[x-prismlauncher-dependencies]]
+addonId = '283644'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '898963'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '313970'
+type = 'REQUIRED'

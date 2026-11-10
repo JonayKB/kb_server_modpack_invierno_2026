@@ -1,0 +1,18 @@
+filename = 'reactivemusic-forge-1.3.5+1.20.1.jar'
+name = 'Reactive Music'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.5+1.20.1-forge'
+
+[download]
+hash = 'e5a9cd891b0f11c476f1d93d87a4c4770c77477c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8530909
+project-id = 960382

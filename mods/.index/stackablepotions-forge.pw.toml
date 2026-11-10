@@ -1,0 +1,18 @@
+filename = 'Stackable Potions-forge-1.20.1-1.0.0.jar'
+name = 'StackablePotions [Forge]'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.X-1.0.0-forge'
+
+[download]
+hash = 'dafaeba2507ffc8b301f62569044536e795b8404'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4627634
+project-id = 599436

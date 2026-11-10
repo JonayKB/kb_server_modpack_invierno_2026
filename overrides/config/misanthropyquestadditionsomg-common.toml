@@ -1,0 +1,159 @@
+
+[quest_description]
+	#Auto-center all quest description text including headings.
+	#Can be toggled per-quest in-game with Shift+O while the quest panel is open.
+	#Default: false (left-aligned)
+	auto_center_text = true
+	#Disable rendering of quest subtitles in the View Quest Panel.
+	#Default: false
+	disable_quest_subtitle = false
+	#Convert legacy formatting symbols (like &e, &l) to native section formatting (§e, §l) for centering calculations.
+	#This ensures that formatting codes are not measured as actual, physical characters by the font renderer.
+	#Default: true
+	fix_centering_symbols = true
+	#A list of Snowee's Text Animator tags to ignore from blockquote parsing.
+	#Match types:
+	#1. EXACT match (e.g. '<glitch>' matches '<glitch>' literally)
+	#2. PREFIX match (e.g. '<glitch >' matches any tag starting with '<glitch' and ending with '>')
+	snowee_whitelist = ["<glitch>", "<glitch >"]
+
+[search_styling]
+	#The spotlight/highlight color around matching quests (HEX format, e.g., #38BDF8 or #8838BDF8).
+	#Default: #38BDF8
+	search_spot_color = "#38BDF8"
+	#The background color of the chapter panel search bar (HEX format, e.g., #1E1F22 or #881E1F22).
+	#Default: #1E1F22
+	search_bar_background_color = "#1E1F22"
+	#The border color of the chapter panel search bar (HEX format, e.g., #3A3C43).
+	#Default: #3A3C43
+	search_bar_border_color = "#3A3C43"
+	#The text color of the chapter panel search bar (HEX format, e.g., #E3E5E8, or leave empty for default color).
+	#Default: #E3E5E8
+	search_bar_text_color = "#E3E5E8"
+	#The vertical position of the search bar in the chapter list panel.
+	#Allowed values: top, bottom
+	#Default: top
+	search_bar_alignment = "top"
+	#Whether the search bar should stay pinned at the top/bottom of the panel while scrolling, or scroll along with the list.
+	#Default: true
+	pin_search_bar = false
+	#[BETA] Enable the search bar and matching quest highlights in the chapter panel.
+	#WARNING: The pinned alignment behaves like an experimental overlay and can cause rendering overlaps/clipping when scrolling.
+	#Default: true
+	enable_search_bar = false
+
+[visuals]
+	#Draw a circular progress indicator on the bottom-left corner of started (but incomplete) quests,
+	#showing task completion percentage.
+	#Default: true
+	enable_progress_ring = true
+	#The color of the quest progress ring.
+	#'theme' follows the quest_started_color of the active FTB Quests theme/resourcepack
+	#(per-chapter themable, so custom questline themes restyle it automatically),
+	#or a HEX color (e.g., #38BDF8) to override globally.
+	#Default: theme
+	progress_ring_color = "theme"
+	#Quests whose dependencies are complete (i.e. the next quests to do) get a soft pulsing glow.
+	#Default: true
+	enable_ready_glow = true
+	#The color of the ready-to-start pulse.
+	#'theme' follows the quest_completed_color of the active FTB Quests theme/resourcepack
+	#(per-chapter themable, so custom questline themes restyle it automatically),
+	#or a HEX color (e.g., #FFD966) to override globally.
+	#Default: theme
+	ready_glow_color = "theme"
+	#Completed quests with unclaimed rewards pulse their alert icon so claimable loot is hard to miss.
+	#Uses the theme's alert_icon, so resourcepacks restyle it automatically.
+	#Default: true
+	enable_reward_pulse = true
+	#Fully completed quests (all rewards collected) pulse their check/tick icon,
+	#the same way reward_pulse emphasizes the alert icon, so finished quests read at a glance.
+	#Kicks in once the reward alert is gone: alert pulses while loot is claimable, check pulses once it's collected.
+	#Uses the theme's check_icon, so resourcepacks restyle it automatically.
+	#Default: true
+	enable_complete_check = true
+	#Render dependency lines as smooth curves instead of straight lines.
+	#Default: true
+	curved_dependency_lines = true
+	#Draw a direction arrow on dependency lines, pointing from the dependency towards the dependent quest.
+	#Only applies when curved_dependency_lines is enabled.
+	#Default: true
+	dependency_arrows = true
+	#Quest buttons smoothly grow slightly when hovered.
+	#Default: true
+	hover_grow_animation = true
+	#The quest view panel plays a short scale-in animation when opened.
+	#Default: true
+	quest_open_animation = true
+	#Camera jumps (autofocus, search jump, opening a quest by link) glide smoothly instead of snapping.
+	#Default: true
+	smooth_pan = true
+	#Zooming in/out animates smoothly instead of stepping instantly.
+	#Default: true
+	smooth_zoom = true
+	#The chapter sidebar slides in/out smoothly instead of appearing instantly.
+	#Default: true
+	sidebar_slide_animation = true
+	#Chapter entries in the sidebar nudge right and fade in a highlight when hovered.
+	#Default: true
+	sidebar_hover_animation = true
+	#Mouse wheel scrolling in the chapter sidebar glides smoothly instead of stepping.
+	#Default: true
+	sidebar_smooth_scroll = true
+	#Chapter groups and tree-view children smoothly slide into place when expanded/collapsed.
+	#Default: true
+	sidebar_expand_animation = true
+	#The quest view panel plays a short scale-out animation when closed.
+	#Default: true
+	quest_close_animation = true
+	#Dragging the quest map follows the mouse with slight inertia (ice-skating feel).
+	#Default: true
+	smooth_drag = true
+	#Style of the quest view OPEN animation.
+	#zoom  = big zoom in (text may look slightly distorted mid-animation)
+	#slide = gentle scale with a vertical slide (text stays crisp)
+	#Default: zoom
+	quest_animation_style = "zoom"
+	#Style of the quest view CLOSE animation. None of these scale text.
+	#fade  = the panel quickly dissolves in place
+	#slide = the panel slides down out of its own footprint
+	#none  = close instantly with no animation
+	#Default: fade
+	quest_close_style = "fade"
+	#Global speed multiplier for all animations added by this mod.
+	#1.0 = normal, lower = slower/longer animations, higher = faster/snappier.
+	#Default: 0.7
+	#Range: 0.1 ~ 3.0
+	animation_speed = 0.7
+	#Hide dependency lines between two already-completed quests to declutter the map.
+	#Lines reappear while hovering either quest or while viewing one of them.
+	#Default: false
+	hide_completed_dependency_lines = false
+
+[performance]
+	#Cache some results on the client for one tick (50ms).
+	#FTB Quests recomputes whole dependency graph
+	#several times per quest per frame; on large modpack chapters this is a major FPS cost!
+	#Default: true
+	cache_quest_visibility = true
+	#Skip rendering dependency lines that are entirely outside the visible quest map area.
+	#FTB Quests normally draws every line in the chapter every frame, even far off-screen.
+	#Default: true
+	cull_offscreen_dependency_lines = true
+	#Write team progress files (.snbt) on a background thread instead of the server thread.
+	#FTB Quests serializes and writes every team's progress synchronously during world
+	#saves, which causes autosave to lag on servers with many teams or big quest books.
+	#Data is snapshotted on the server thread first, so this should be safe to enable.
+	#Default: true
+	async_progress_save = true
+	#When a task completes, FTB Quests scans your entire inventory.
+	#scan per player on the next server tick, instead of one immediate scan per player per task.
+	#Prevents the freeze when many item tasks complete at once (quest chains, progress commands).
+	#Default: true
+	defer_task_detection = true
+	#Fix an FTB Quests bug where resetting progress of a quest that was never started/completed
+	#still marks team data, clears all progress caches and broadcasts reset packets
+	#to every online team member (making bulk progress resets much slower than needed).
+	#Default: true
+	fix_progress_reset_spam = true
+

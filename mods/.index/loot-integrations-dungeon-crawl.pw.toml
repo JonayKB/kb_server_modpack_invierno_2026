@@ -1,0 +1,21 @@
+filename = 'lootintegrations_dungeoncrawl-1.3.jar'
+name = 'Loot Integrations: Dungeon Crawl'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.18.2', '1.19.2', '1.20.1', '1.21.1', '1.21.5', '26.1', '26.1.1', '26.1.2', '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'lootintegrations_dungeoncrawl-1.3.jar'
+
+[download]
+hash = 'acda5540ae20730af3232038dfd9e929a730b77d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8913531
+project-id = 1137456
+
+[[x-prismlauncher-dependencies]]
+addonId = '580689'
+type = 'REQUIRED'

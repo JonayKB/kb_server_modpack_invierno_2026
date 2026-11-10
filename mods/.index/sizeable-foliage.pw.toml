@@ -1,0 +1,18 @@
+filename = 'sizeable_foliage-forge-1.20.1-1.2.1.jar'
+name = 'Sizeable Foliage'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'sizeable_foliage-forge-1.20.1-1.2.1.jar'
+
+[download]
+hash = '8eb60f3a6d2406b133606c98d31cdce4d18564ca'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8555056
+project-id = 1601832

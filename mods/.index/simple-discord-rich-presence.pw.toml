@@ -1,0 +1,25 @@
+filename = 'SimpleDiscordRichPresence-forge-4.0.3-build.40+mc1.20.1.jar'
+name = 'Simple Discord Rich Presence (Forge /  Fabric)'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'SimpleDiscordRichPresence Forge 4.0.3+mc1.20.1'
+
+[download]
+hash = 'f56b1d7e02c25e2e0c91ef9b51ed10ceb492a0d4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4964550
+project-id = 334853
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'

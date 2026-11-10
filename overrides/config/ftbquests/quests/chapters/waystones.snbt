@@ -1,0 +1,94 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "waystones"
+	group: "2D2E89DC5A7A91D8"
+	icon: "waystones:waystone"
+	id: "70CD91BDC18AE054"
+	images: [{
+		alpha: 100
+		height: 8.0d
+		image: "waystones:textures/gui/inventory_button.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 0.5d
+		y: 0.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["You can find them in &avillages&r and other &6structures&r while exploring."]
+			id: "3DAF11C8367041D8"
+			rewards: [
+				{
+					id: "1475BDE4AB7A74B5"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "03892C282281A4DF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			size: 2.0d
+			subtitle: "Teleport between Waystones!"
+			tasks: [{
+				id: "47A99C705DC4AC97"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "waystones:waystones"
+					}
+				}
+				title: "Waystone"
+				type: "item"
+			}]
+			title: "Find a Waystne"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3DAF11C8367041D8"]
+			description: ["Use this to access all your &dwaypoints&r and &bteleport&r freely."]
+			icon: {
+				Count: 1
+				id: "waystones:warp_stone"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3FC7A947E1CE3049"
+			rewards: [
+				{
+					id: "006B3252F9F08B06"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3C4BF9CAF93BED61"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "A beautiful purple stone."
+			tasks: [{
+				id: "430F41D7EC68D095"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Warp Stone"
+			x: 2.5d
+			y: 0.5d
+		}
+	]
+	title: "Waystones"
+}

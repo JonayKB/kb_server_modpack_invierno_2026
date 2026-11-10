@@ -1,0 +1,18 @@
+filename = 'better_looting-1.20.1-forge-2.1.1-hotfix.jar'
+name = 'BetterLooting'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'better_looting-1.20.1-forge-2.1.1-hotfix.jar'
+
+[download]
+hash = 'e75a8390ba6789495e2f22124d31266620bd85bd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8615564
+project-id = 1464490

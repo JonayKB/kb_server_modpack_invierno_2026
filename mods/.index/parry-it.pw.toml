@@ -1,0 +1,18 @@
+filename = 'parry-2.0.0.jar'
+name = 'Parry It!'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'parry-2.0.0.jar'
+
+[download]
+hash = '7eb216052a074a7de8539a7fe6ff006ae5b00ba1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8673361
+project-id = 1526352

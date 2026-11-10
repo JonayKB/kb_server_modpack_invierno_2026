@@ -1,0 +1,114 @@
+
+["Ability Toggles"]
+	#Enable Neutron Density ability (Void set)
+	neutronDensityEnabled = true
+	#Enable Unbounded Energy ability (Void set)
+	unboundedEnergyEnabled = true
+	#Enable Dimensional Touch ability (Void set)
+	dimensionalTouchEnabled = true
+	#Enable Soul Metallurgy ability (Eldritch King set)
+	soulMetallurgyEnabled = true
+	#Enable Soul Meld ability (Eldritch King set)
+	soulMeldEnabled = true
+	#Enable Eyes of the Darklord ability (Eldritch King set)
+	eyesOfDarklordEnabled = true
+	#Enable Blood Rose ability (Remnant of Roses set)
+	bloodRoseEnabled = true
+	#Enable Crystallized Pyro Blood ability (Remnant of Roses set)
+	crystallizedPyroBloodEnabled = true
+	#Enable Antique Cuirass ability (Remnant of Roses set)
+	antiqueCuirassEnabled = true
+	#Enable Liquid Plasma ability (Sovereign set)
+	liquidPlasmaEnabled = true
+	#Enable Aqua Blessing ability (Sovereign set)
+	aquaBlessingEnabled = true
+	#Enable Secrets of Atlantis ability (Sovereign set)
+	secretsOfAtlantisEnabled = true
+	#Enable divine protection ability (Eclipse Angel set)
+	divineProtectionEnabled = true
+	#Enable solar divinity ability (Eclipse Angel set)
+	solarDivinityEnabled = true
+	#Enable lightning guard ability (Dark Draconic set)
+	lightningGuardEnabled = true
+	#Enable manifest lightning blood (Dark Draconic set)
+	manifestLightningBloodEnabled = true
+	#Enable lord of primordial lightning (Dark Draconic set)
+	lordOfPrimordialLightningEnabled = true
+	#Enables flight for all armor sets that have built in flight
+	allSetsFlightEnabled = true
+
+	["Ability Toggles"."Shared Armor Attributes"]
+		#Max mana bonus per piece, applies to all sets (default: 300)
+		#Range: 0 ~ 10000
+		sharedMaxMana = 300
+		#Mana regen bonus per piece, applies to all sets (default: 0.25 = 25%)
+		#Range: 0.0 ~ 1.0
+		sharedManaRegen = 0.25
+
+	["Ability Toggles"."Void Set Attributes"]
+		#Ender spell power bonus per piece (default: 0.25 = 25%)
+		#Range: 0.1 ~ 1.0
+		voidEnderSpellPower = 0.25
+		#Eldritch spell power bonus per piece (default: 0.25 = 25%)
+		#Range: 0.1 ~ 1.0
+		voidEldritchSpellPower = 0.25
+		#Cooldown reduction bonus per piece (default: 0.25 = 25%)
+		#Range: 0.1 ~ 1.0
+		voidCooldownReduction = 0.25
+
+	["Ability Toggles"."Sovereign Set Attributes"]
+		#Lightning spell power bonus per piece (default: 0.25 = 25%)
+		#Range: 0.1 ~ 1.0
+		sovereignLightningSpellPower = 0.25
+		#Aqua spell power bonus per piece (default: 0.3 = 30%)
+		#Range: 0.1 ~ 1.0
+		sovereignAquaSpellPower = 0.3
+		#Healing received bonus per piece (default: 0.3 = 30%)
+		#Range: 0.1 ~ 1.0
+		sovereignHealingReceived = 0.3
+
+	["Ability Toggles"."Remnant of Roses Set Attributes"]
+		#Life steal bonus per piece (default: 0.05 = 5%)
+		#Range: 0.01 ~ 1.0
+		rosesLifeSteal = 0.05
+		#Blood spell power bonus per piece (default: 0.25 = 25%)
+		#Range: 0.1 ~ 1.0
+		rosesBloodSpellPower = 0.25
+		#Fire spell power bonus per piece (default: 0.25 = 25%)
+		#Range: 0.1 ~ 1.0
+		rosesFireSpellPower = 0.25
+		#Eldritch spell power bonus per piece (default: 0.25 = 25%)
+		#Range: 0.1 ~ 1.0
+		rosesEldritchSpellPower = 0.25
+
+	["Ability Toggles"."Eldritch King Set Attributes"]
+		#Life steal bonus per piece (default: 0.06 = 6%)
+		#Range: 0.01 ~ 1.0
+		eldritchLifeSteal = 0.06
+		#General spell power bonus per piece (default: 0.15 = 15%)
+		#Range: 0.1 ~ 1.0
+		eldritchSpellPower = 0.15
+		#Eldritch spell power bonus per piece (default: 0.375 = 37.5%)
+		#Range: 0.1 ~ 1.0
+		eldritchEldritchSpellPower = 0.375
+
+	["Ability Toggles"."Eclipse Angel Set Attributes"]
+		#Holy spell power bonus per piece (default: 0.25 = 25%)
+		#Range: 0.1 ~ 1.0
+		eclipseHolySpellPower = 0.25
+		#Ender spell power bonus per piece (default: 0.25 = 25%)
+		#Range: 0.1 ~ 1.0
+		eclipseEnderSpellPower = 0.25
+		#Cooldown reduction bonus per piece (default: 0.10 = 10%)
+		#Range: 0.05 ~ 1.0
+		eclipseCooldownReduction = 0.1
+		#Fire spell power bonus per piece (default: 0.15 = 15%)
+		#Range: 0.1 ~ 1.0
+		eclipseFireSpellPower = 0.15
+		#Aqua spell power bonus per piece (default: 0.15 = 15%)
+		#Range: 0.1 ~ 1.0
+		eclipseAquaSpellPower = 0.15
+		#Overheal per piece (default: 0.025 = 2.5%)
+		#Range: 0.01 ~ 0.125
+		eclipseOverheal = 0.025
+

@@ -1,0 +1,259 @@
+#Allowed spell schools for GI Necromancer Servant (default: blood)
+giNecromancerServantSchools = ["irons_spellbooks:blood"]
+#Allowed spell schools for Fire Boss Servant (default: fire, eldritch)
+fireBossServantSchools = ["irons_spellbooks:fire", "irons_spellbooks:eldritch"]
+#Allowed spell schools for Dead King Servant (default: blood, nature, fire, evocation, eldritch)
+deadKingServantSchools = ["irons_spellbooks:blood", "irons_spellbooks:nature", "irons_spellbooks:fire", "irons_spellbooks:evocation", "irons_spellbooks:eldritch"]
+#Allowed spell schools for Alchemist Servant (default: nature)
+alchemistServantSchools = ["irons_spellbooks:nature"]
+#Allowed spell schools for Archevoker Servant (default: evocation)
+archevokerServantSchools = ["irons_spellbooks:evocation"]
+#Allowed spell schools for Cultist Servant (default: blood)
+cultistServantSchools = ["irons_spellbooks:blood"]
+#Allowed spell schools for Priest Servant (default: holy)
+priestServantSchools = ["irons_spellbooks:holy"]
+#Allowed spell schools for Pyromancer Servant (default: fire)
+pyromancerServantSchools = ["irons_spellbooks:fire"]
+#Allowed spell schools for Cryomancer Servant (default: ice)
+cryomancerServantSchools = ["irons_spellbooks:ice"]
+#Attack damage for Cryomancer Servant (default: 3.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+cryomancerAttackDamage = 3.0
+#Max health for Cryomancer Servant (default: 60.0)
+#Range: 1.0 ~ 1.7976931348623157E308
+cryomancerMaxHealth = 60.0
+#Movement speed for Cryomancer Servant (default: 0.25)
+#Range: 0.0 ~ 1024.0
+cryomancerMovementSpeed = 0.25
+#Follow range for Cryomancer Servant (default: 24.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+cryomancerFollowRange = 24.0
+#Attack damage for Pyromancer Servant (default: 3.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+pyromancerAttackDamage = 3.0
+#Max health for Pyromancer Servant (default: 60.0)
+#Range: 1.0 ~ 1.7976931348623157E308
+pyromancerMaxHealth = 60.0
+#Movement speed for Pyromancer Servant (default: 0.25)
+#Range: 0.0 ~ 1024.0
+pyromancerMovementSpeed = 0.25
+#Follow range for Pyromancer Servant (default: 24.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+pyromancerFollowRange = 24.0
+#Attack damage for Priest Servant (default: 3.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+priestAttackDamage = 3.0
+#Max health for Priest Servant (default: 60.0)
+#Range: 1.0 ~ 1.7976931348623157E308
+priestMaxHealth = 60.0
+#Movement speed for Priest Servant (default: 0.23)
+#Range: 0.0 ~ 1024.0
+priestMovementSpeed = 0.23
+#Follow range for Priest Servant (default: 24.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+priestFollowRange = 24.0
+#Cast time reduction for Priest Servant (default: 1.5)
+#Range: 0.0 ~ 1.7976931348623157E308
+priestCastTimeReduction = 1.5
+#Attack damage for Alchemist Servant (default: 3.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+alchemistAttackDamage = 3.0
+#Max health for Alchemist Servant (default: 60.0)
+#Range: 1.0 ~ 1.7976931348623157E308
+alchemistMaxHealth = 60.0
+#Movement speed for Alchemist Servant (default: 0.25)
+#Range: 0.0 ~ 1024.0
+alchemistMovementSpeed = 0.25
+#Follow range for Alchemist Servant (default: 24.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+alchemistFollowRange = 24.0
+#Attack damage for Cultist Servant (default: 3.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+cultistAttackDamage = 3.0
+#Max health for Cultist Servant (default: 60.0)
+#Range: 1.0 ~ 1.7976931348623157E308
+cultistMaxHealth = 60.0
+#Movement speed for Cultist Servant (default: 0.25)
+#Range: 0.0 ~ 1024.0
+cultistMovementSpeed = 0.25
+#Follow range for Cultist Servant (default: 24.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+cultistFollowRange = 24.0
+#Entity reach for Cultist Servant (default: 3.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+cultistEntityReach = 3.0
+#Attack damage for Archevoker Servant (default: 3.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+archevokerAttackDamage = 3.0
+#Max health for Archevoker Servant (default: 60.0)
+#Range: 1.0 ~ 1.7976931348623157E308
+archevokerMaxHealth = 60.0
+#Movement speed for Archevoker Servant (default: 0.25)
+#Range: 0.0 ~ 1024.0
+archevokerMovementSpeed = 0.25
+#Follow range for Archevoker Servant (default: 24.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+archevokerFollowRange = 24.0
+#Cast time reduction for Archevoker Servant (default: 1.5)
+#Range: 0.0 ~ 1.7976931348623157E308
+archevokerCastTimeReduction = 1.5
+#Attack damage for GI Necromancer Servant (default: 3.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+giNecromancerAttackDamage = 3.0
+#Max health for GI Necromancer Servant (default: 25.0)
+#Range: 1.0 ~ 1.7976931348623157E308
+giNecromancerMaxHealth = 25.0
+#Movement speed for GI Necromancer Servant (default: 0.25)
+#Range: 0.0 ~ 1024.0
+giNecromancerMovementSpeed = 0.25
+#Follow range for GI Necromancer Servant (default: 25.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+giNecromancerFollowRange = 25.0
+#Spell power for GI Necromancer Servant (default: 0.75)
+#Range: 0.0 ~ 1.7976931348623157E308
+giNecromancerSpellPower = 0.75
+#Attack damage for Ice Spider Servant (default: 8.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+iceSpiderAttackDamage = 8.0
+#Max health for Ice Spider Servant (default: 50.0)
+#Range: 1.0 ~ 1.7976931348623157E308
+iceSpiderMaxHealth = 50.0
+#Movement speed for Ice Spider Servant (default: 0.35)
+#Range: 0.0 ~ 1024.0
+iceSpiderMovementSpeed = 0.35
+#Follow range for Ice Spider Servant (default: 32.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+iceSpiderFollowRange = 32.0
+#Armor for Ice Spider Servant (default: 20.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+iceSpiderArmor = 20.0
+#Knockback resistance for Ice Spider Servant (default: 0.6)
+#Range: 0.0 ~ 10.0
+iceSpiderKnockbackResistance = 0.6
+#Attack knockback for Ice Spider Servant (default: 1.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+iceSpiderAttackKnockback = 1.0
+#Entity reach for Ice Spider Servant (default: 4.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+iceSpiderEntityReach = 4.0
+#Step height addition for Ice Spider Servant (default: 1.5)
+#Range: 0.0 ~ 10.0
+iceSpiderStepHeight = 1.5
+#Base attack damage for Dead King Servant (default: 10.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+deadKingAttackDamage = 10.0
+#Base max health for Dead King Servant (default: 500.0)
+#Range: 1.0 ~ 1.7976931348623157E308
+deadKingMaxHealth = 500.0
+#Movement speed for Dead King Servant (default: 0.155)
+#Range: 0.0 ~ 1024.0
+deadKingMovementSpeed = 0.155
+#Follow range for Dead King Servant (default: 32.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+deadKingFollowRange = 32.0
+#Armor for Dead King Servant (default: 15.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+deadKingArmor = 15.0
+#Spell power for Dead King Servant (default: 1.15)
+#Range: 0.0 ~ 1.7976931348623157E308
+deadKingSpellPower = 1.15
+#Base attack damage for Fire Boss Servant (default: 10.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+fireBossAttackDamage = 10.0
+#Base max health for Fire Boss Servant (default: 1000.0)
+#Range: 1.0 ~ 1.7976931348623157E308
+fireBossMaxHealth = 1000.0
+#Movement speed for Fire Boss Servant (default: 0.21)
+#Range: 0.0 ~ 1024.0
+fireBossMovementSpeed = 0.21
+#Follow range for Fire Boss Servant (default: 48.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+fireBossFollowRange = 48.0
+#Armor for Fire Boss Servant (default: 15.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+fireBossArmor = 15.0
+#Knockback resistance for Fire Boss Servant (default: 0.8)
+#Range: 0.0 ~ 10.0
+fireBossKnockbackResistance = 0.8
+#Attack knockback for Fire Boss Servant (default: 0.6)
+#Range: 0.0 ~ 1.7976931348623157E308
+fireBossAttackKnockback = 0.6
+#Spell power for Fire Boss Servant (default: 1.25)
+#Range: 0.0 ~ 1.7976931348623157E308
+fireBossSpellPower = 1.25
+#Attack damage for Keeper Servant (default: 10.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+keeperAttackDamage = 10.0
+#Max health for Keeper Servant (default: 60.0)
+#Range: 1.0 ~ 1.7976931348623157E308
+keeperMaxHealth = 60.0
+#Movement speed for Keeper Servant (default: 0.19)
+#Range: 0.0 ~ 1024.0
+keeperMovementSpeed = 0.19
+#Follow range for Keeper Servant (default: 25.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+keeperFollowRange = 25.0
+#Knockback resistance for Keeper Servant (default: 0.8)
+#Range: 0.0 ~ 10.0
+keeperKnockbackResistance = 0.8
+#Attack knockback for Keeper Servant (default: 2.0)
+#Range: 0.0 ~ 1.7976931348623157E308
+keeperAttackKnockback = 2.0
+#Entity reach for Keeper Servant (default: 3.5)
+#Range: 0.0 ~ 1.7976931348623157E308
+keeperEntityReach = 3.5
+#Step height addition for Keeper Servant (default: 1.0)
+#Range: 0.0 ~ 10.0
+keeperStepHeight = 1.0
+#Number of Cryomancer Servants that an individual player can have in total, Default: 4
+#Range: > 1
+cryomancerServantLimit = 4
+#Number of Pyromancer Servants that an individual player can have in total, Default: 4
+#Range: > 1
+pyromancerServantLimit = 4
+#Number of Priest Servants that an individual player can have in total, Default: 4
+#Range: > 1
+priestServantLimit = 4
+#Number of Cultist Servants that an individual player can have in total, Default: 4
+#Range: > 1
+cultistServantLimit = 4
+#Number of Archevoker Servants that an individual player can have in total, Default: 4
+#Range: > 1
+archevokerServantLimit = 4
+#Number of Alchemist Servants that an individual player can have in total, Default: 4
+#Range: > 1
+alchemistServantLimit = 4
+#Number of Ice Spider Servants that an individual player can have in total, Default: 4
+#Range: > 1
+iceSpiderServantLimit = 4
+#Number of Dead King Servants that an individual player can have in total, Default: 2
+#Range: > 1
+deadKingServantLimit = 2
+#Number of Fire Boss Servants that an individual player can have in total, Default: 1
+#Range: > 1
+fireBossServantLimit = 1
+#Number of Keeper Servants that an individual player can have in total, Default: 8
+#Range: > 1
+keeperServantLimit = 8
+#Number of GI Necromancer Servants that an individual player can have in total, Default: 16
+#Range: > 1
+giNecromancerServantLimit = 16
+#Soul cost for Tarnished Focus (default: 64)
+#Range: > 0
+tarnishedFocusSoulCost = 64
+#Cast time in ticks for Tarnished Focus (default: 100 = 5 seconds)
+#Range: > 1
+tarnishedFocusCastTime = 100
+#Cooldown in ticks for Tarnished Focus (default: 600 = 30 seconds)
+#Range: > 0
+tarnishedFocusCooldown = 600
+#Soul cost for Fiery Focus (default: 64)
+#Range: > 0
+fieryFocusSoulCost = 64
+#Cast time in ticks for Fiery Focus (default: 100 = 5 seconds)
+#Range: > 1
+fieryFocusCastTime = 100
+#Cooldown in ticks for Fiery Focus (default: 600 = 30 seconds)
+#Range: > 0
+fieryFocusCooldown = 600
+

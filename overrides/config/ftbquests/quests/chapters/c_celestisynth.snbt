@@ -1,0 +1,642 @@
+{
+	autofocus_id: "0D211706C748C3DF"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamondtier"
+	filename: "c_celestisynth"
+	group: "25569283B1B01A0F"
+	icon: "celestisynth:starlit_factory"
+	id: "7FDC64785184682B"
+	images: [
+		{
+			height: 4.0d
+			image: "celestisynth:textures/entity/visuals/frostbound_impact_crack.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "terramity:textures/particle/ultra_glint_5.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			height: 0.8d
+			image: "terramity:textures/particle/ultra_glint_5.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -0.7785714285714249d
+			y: 4.621428571428567d
+		}
+		{
+			height: 1.3d
+			image: "celestisynth:textures/entity/visuals/aquaflora_bash/aquaflora_bash3.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			height: 1.1d
+			image: "celestisynth:textures/entity/visuals/crescentia_strike/crescentia_strike3.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "celestisynth:textures/entity/visuals/solaris_explosion/solaris_explosion4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "celestisynth:textures/entity/visuals/frostbound_shard_pulse.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "celestisynth:textures/entity/visuals/rainfall_vanish.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "celestisynth:textures/entity/visuals/breezebreaker_dash_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "celestisynth:textures/entity/visuals/poltergeist_ward_ground.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/rainfall_vanish_circle.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 2.0d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4EF580AC5FCD5F9B"]
+			description: [
+				"Discover a new way of crafting powerful weapons."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Use &dHeated Celestial Core&r to supply the &dStarlit Factory&r."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Additionally you can use amethyst shards too but it's &nPAINFULLY&r slow.."
+			]
+			hide_until_deps_complete: false
+			id: "62CBC92E2098C4F3"
+			rewards: [
+				{
+					id: "537C03E5FED27436"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "02EA570E9BE3288E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "About fabrication."
+			tasks: [{
+				id: "740FC3B872ABA194"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:starlit_factory"
+				}
+				type: "item"
+			}]
+			title: "Starlit Factory"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			hide_until_deps_complete: false
+			icon: "terramity:neutron_star"
+			id: "0D211706C748C3DF"
+			rewards: [
+				{
+					id: "0765172D0A74E573"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0D39E1D414635062"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Celestisynth weapons are harder to craft, they use a special workbench to be assembled.  "
+			tasks: [{
+				id: "11F849758B2291D8"
+				title: "Oki bro!"
+				type: "checkmark"
+			}]
+			title: "Welcome to Celestisynth!"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D211706C748C3DF"]
+			hide_until_deps_complete: false
+			id: "11B848D1C9A86444"
+			rewards: [
+				{
+					id: "55CA9CE460312672"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7CFE29BD02BD3CB9"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Can fuel the starlit factory significantly, also a important item for making celestisynth weapons."
+			tasks: [{
+				id: "562BE0AC1951A6F3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:celestial_core"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11B848D1C9A86444"]
+			hide_text_until_complete: false
+			id: "4EF580AC5FCD5F9B"
+			rewards: [
+				{
+					id: "5AF56024392F2C94"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0EBEB03A268B160C"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Can fuel more. has a recipe for a magical book!"
+			tasks: [{
+				id: "38F6563ADB5F4A48"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:celestial_core_heated"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["62CBC92E2098C4F3"]
+			id: "1524A4297ACCA718"
+			rewards: [
+				{
+					id: "7D14FF57DDE05828"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0A89F56853F8FD93"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "netheritetier"
+			subtitle: "A Dagger from The Hell itself."
+			tasks: [{
+				id: "5CB38A8AFDB9C299"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:solaris"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["62CBC92E2098C4F3"]
+			id: "3348DC8BA9B603F5"
+			rewards: [
+				{
+					id: "3BB03FAFC78140BE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5FC8F2A314485634"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "netheritetier"
+			subtitle: "Light as a feather, Sharp as a razor."
+			tasks: [{
+				id: "59974C498051DA1F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:breezebreaker"
+					tag: {
+						Damage: 0
+						csController: { }
+						csExtras: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["62CBC92E2098C4F3"]
+			id: "46E66D4893EDC597"
+			rewards: [
+				{
+					id: "211A115098289478"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "28835CC347C897FE"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "netheritetier"
+			subtitle: "Flashy! (That's it)"
+			tasks: [{
+				id: "2D51EF0C61905619"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:crescentia"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["62CBC92E2098C4F3"]
+			id: "249D0167FBF7B6B4"
+			rewards: [
+				{
+					id: "096A50E1BC8589E4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "07CC6F1BAE101E34"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "netheritetier"
+			subtitle: "Devastation."
+			tasks: [{
+				id: "453029AB3DCE695D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:keres"
+					tag: {
+						Autoreforge: 1b
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.hasAnimationBegun: 0b
+							cs.keresStack: 0
+						}
+						csExtras: {
+							cs.keres.xx: -2.5972955f
+							cs.keres.zz: 0.12809677f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["62CBC92E2098C4F3"]
+			id: "7192D0E7214BE36F"
+			rewards: [
+				{
+					id: "2B116A6DA44A4872"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2815E90665ACB2F6"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "netheritetier"
+			subtitle: "This Greataxe has merged with a vile thing."
+			tasks: [{
+				id: "7CDC00175A699D7D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:poltergeist"
+					tag: {
+						Autoreforge: 1b
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.hasAnimationBegun: 0b
+							cs.poltergeistSmashHeight: 0
+						}
+						csExtras: {
+							cs.queueComboLarge: 0b
+							cs.smashCountForPassive: 9
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["62CBC92E2098C4F3"]
+			id: "785392DECB5F6627"
+			rewards: [
+				{
+					id: "5A799644EDC74858"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1F1A1D10DE055B75"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "netheritetier"
+			subtitle: "Lightspeed"
+			tasks: [{
+				id: "1902A7A5FBC71C7F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:aquaflora"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["62CBC92E2098C4F3"]
+			id: "714EF0551098E46D"
+			rewards: [
+				{
+					id: "1D72D470D63CC1A8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4FAB642C8AE7A503"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "netheritetier"
+			subtitle: "Headshot"
+			tasks: [{
+				id: "7753558EAFCEE36A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:rainfall_serenity"
+					tag: {
+						Damage: 0
+						csExtras: {
+							cs.pull: 0.0f
+							cs.pulling: 0.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0D211706C748C3DF"]
+			hide_until_deps_complete: false
+			id: "084A80F90D32E2F5"
+			rewards: [
+				{
+					id: "793D91CB360A72DA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3264AA143469023C"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "A craft material for weapons in celestisynth mod."
+			tasks: [{
+				id: "3589DD4E1E029494"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:supernal_netherite_ingot"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D211706C748C3DF"]
+			hide_until_deps_complete: false
+			id: "303BDFA774DB5275"
+			rewards: [
+				{
+					id: "23C8E530038C46AB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "713ECFA07D832CF4"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "A craft material for weapons in celestisynth mod."
+			tasks: [{
+				id: "771188E5F094F4F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:celestial_netherite_ingot"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["62CBC92E2098C4F3"]
+			id: "55D1E5C62B2716D3"
+			rewards: [
+				{
+					id: "0EAECD70D106C4B6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4F4F4532FD2638C0"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "netheritetier"
+			subtitle: "A Frostbitten Scythe."
+			tasks: [{
+				id: "2F66572FD3884892"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:frostbound"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.hasAnimationBegun: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+	]
+	title: "Celestisynth"
+}

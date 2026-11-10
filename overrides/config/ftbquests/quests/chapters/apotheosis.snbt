@@ -1,0 +1,787 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "761E330F9C819EB2"
+	icon: "apotheosis:ender_library"
+	id: "19C831F2462C70D2"
+	images: [
+		{
+			alpha: 100
+			height: 3.0d
+			image: "minecraft:block/chiseled_bookshelf_occupied"
+			rotation: 60.0d
+			width: 3.0d
+			x: -0.14992390794230204d
+			y: -3.5405336393121374d
+		}
+		{
+			alpha: 100
+			height: 3.0d
+			image: "apotheosis:blocks/draconic_endshelf"
+			rotation: 45.0d
+			width: 3.0d
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			alpha: 100
+			height: 4.0d
+			image: "apotheosis:blocks/glowing_hellshelf"
+			rotation: 95.0d
+			width: 4.0d
+			x: 4.7871146864753555d
+			y: -6.893514963698578d
+		}
+		{
+			alpha: 100
+			height: 4.0d
+			image: "apotheosis:blocks/filtering_shelf/occupied"
+			rotation: 45.0d
+			width: 4.0d
+			x: 4.870615323455027d
+			y: 4.465838682951507d
+		}
+		{
+			alpha: 100
+			height: 4.0d
+			image: "apotheosis:blocks/soul_touched_sculkshelf"
+			rotation: 60.0d
+			width: 4.0d
+			x: 15.962178350964912d
+			y: 3.7953499952863012d
+		}
+	]
+	order_index: 1
+	parent: "6E9E7131DEED2584"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&aEterna&r acts as a modifier to the enchanting level, increasing the base \"level\" of enchantments beyond the vanilla cap of 30, allowing access to higher levels (up to 100) for enchants like Looting and Fortune."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"&cQuanta&r represents the randomness or variance in the enchanting process; after selecting an enchant, Quanta can raise or lower its level, offering a chance to achieve levels higher than normally possible, though it risks lower outcomes. "
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"&dArcana&r modifies the probability of obtaining rare versus common enchantments.  At 0%, rare enchants are impossible; at high levels, common enchants become impossible."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 8s
+					}]
+				}
+			}
+			id: "04649F59B16D90A3"
+			rewards: [
+				{
+					id: "11837FF74894CD99"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2056FB58AE32FB6D"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+				{
+					id: "2D196B1BB97F6275"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Use books and other materials to achieve incredible enchantments."
+			tasks: [{
+				id: "35B1B9C7A3CDC9F5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:books"
+					}
+				}
+				title: "Any enchanted book"
+				type: "item"
+			}]
+			title: "Be Apotheotic"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04649F59B16D90A3"]
+			id: "447FC92430B08CF6"
+			rewards: [
+				{
+					id: "54831320E587D396"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11F44165D37F9331"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "421B570E1599F29C"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 10L
+				id: "33239DABEAD152EB"
+				item: { Count: 10, id: "minecraft:bookshelf" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00AB9914B84051D1"]
+			description: [
+				"When using &dApotheosis&r in the enchantment sector, you will receive three new &6attributes&r linked to your bookshelf"
+				""
+				"Eterna acts as a modifier to the enchanting level, increasing the base \"level\" of enchantments beyond the vanilla cap of 30, allowing access to higher levels (up to 100) for enchants like Looting and Fortune."
+				""
+				"Quanta represents the randomness or variance in the enchanting process; after selecting an enchant, Quanta can raise or lower its level, offering a chance to achieve levels higher than normally possible, though it risks lower outcomes. "
+				""
+				"Arcana modifies the probability of obtaining rare versus common enchantments.  At 0%, rare enchants are impossible; at high levels, common enchants become impossible."
+			]
+			id: "1218A4B049CE9544"
+			rewards: [
+				{
+					id: "3CE5EE74392F0152"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "005C18A167A64E36"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "3BE472922F877A38"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1218A4B049CE9544"]
+			id: "071A5F322508A215"
+			rewards: [
+				{
+					id: "1B7E984C93DF9ACC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4E5B8297BF456B12"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "35F68ECD94039296"
+				item: "apotheosis:infused_hellshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["447FC92430B08CF6"]
+			id: "00AB9914B84051D1"
+			rewards: [
+				{
+					count: 3
+					id: "09802BAC80DCC889"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "33E0615C419294BD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1BDEDC8DF38F65BC"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "6E0FEDF704DE18CD"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E5D78DEA59F6A7E"]
+			id: "2E203F0499AA2889"
+			rewards: [
+				{
+					id: "654E420CB9290ECB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "336F3D0021FB82CD"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "1B5001554CEA6668"
+				item: "apotheosis:blazing_hellshelf"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["071A5F322508A215"]
+			id: "0E5D78DEA59F6A7E"
+			rewards: [
+				{
+					count: 3
+					id: "3942379F2CD9B9D8"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "5CB0DEDAFFEBBB63"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "45359F990973271E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0E27CC3381E875EB"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["071A5F322508A215"]
+			id: "7C2A113C1C496D75"
+			rewards: [
+				{
+					id: "1819015DCE51185E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6DE7C9285EDCD9EF"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "4C0C784656C1DB97"
+				item: "apotheosis:glowing_hellshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["447FC92430B08CF6"]
+			id: "2F7EFA8C45882A58"
+			rewards: [
+				{
+					id: "2506D511B4F7A852"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1D1D7F81A0A0194E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0234DA3CF54B3D3F"
+				item: "apotheosis:seashelf"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F7EFA8C45882A58"]
+			id: "1A5DF1D76D1E75B0"
+			rewards: [
+				{
+					id: "74453B6A37C3D23F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "27D7E84B72633D8A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "60D4A92458A50902"
+				item: "apotheosis:infused_seashelf"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2F7EFA8C45882A58"]
+			id: "1BAFF665C775AE49"
+			rewards: [
+				{
+					id: "3F4A2C4DB90F2ECB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6B4DF1552C8E193C"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55D53D21E2745851"
+				item: "apotheosis:crystal_seashelf"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F7EFA8C45882A58"]
+			id: "08185EAF4E8BF60A"
+			rewards: [
+				{
+					id: "4B3B13C6A7F96219"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "720CF9CAA02231DF"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "79CF0B15F9CB3ECC"
+				item: "apotheosis:heart_seashelf"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["447FC92430B08CF6"]
+			id: "2BCF07B055E39475"
+			rewards: [
+				{
+					id: "239453DCB09A1A3F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "04C21B71A3C83F2D"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "37AE5D945C0FC5DD"
+				item: "apotheosis:dormant_deepshelf"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BCF07B055E39475"]
+			id: "6E1809ACDF4BDC13"
+			rewards: [
+				{
+					id: "1FCA323671652F91"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "65030330D3E6B803"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "130351CF1905D1D3"
+				item: "apotheosis:deepshelf"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BCF07B055E39475"]
+			id: "373818DD60B80202"
+			rewards: [
+				{
+					id: "66BAC8CC7BBB29BF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0E3EECAA685A8BBB"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7FA544C45FA29952"
+				item: "apotheosis:echoing_deepshelf"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2BCF07B055E39475"]
+			id: "5BBE01822CBEC2B7"
+			rewards: [
+				{
+					id: "23DEF0278FCA7C1F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "79E33D36BCC9104D"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6430E28C2BE019C7"
+				item: "apotheosis:soul_touched_deepshelf"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2BCF07B055E39475"]
+			id: "079F420040CA18FB"
+			rewards: [
+				{
+					id: "6123B171CD7EF003"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "102C7030D31015F3"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0494E05DC36A9B5E"
+				item: "apotheosis:endshelf"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["079F420040CA18FB"]
+			id: "4D1AF3C5F372E1AB"
+			rewards: [
+				{
+					id: "0F92145820E4EEC3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2A3C0A663CEDC1B9"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2AD3228D48F626B5"
+				item: "apotheosis:pearl_endshelf"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["079F420040CA18FB"]
+			id: "6A781FD3731D09E2"
+			rewards: [
+				{
+					id: "3244DDC21D1C3B89"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6481534580806DCA"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69B33219B7305FA3"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A5DF1D76D1E75B0"]
+			id: "25979133ADF610BE"
+			rewards: [
+				{
+					id: "57BA8EBAE0ED9FE4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "195758995386782A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "1E73D284D9A1830F"
+				item: "apotheosis:rectifier"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["25979133ADF610BE"]
+			id: "139EB1FD2AB6D35F"
+			rewards: [
+				{
+					id: "4A71CFF6B588E021"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7A363C7791908186"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "1E4554203AC84B90"
+				item: "apotheosis:rectifier_t2"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["139EB1FD2AB6D35F"]
+			id: "148F6A9BAF92C88C"
+			rewards: [
+				{
+					id: "206029D5987363D0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2692C54407E98619"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "6F696BD37534C15B"
+				item: "apotheosis:rectifier_t3"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6E1809ACDF4BDC13"]
+			id: "0474FBF24810059D"
+			rewards: [
+				{
+					id: "2EC8B3926AE25136"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "51744A466B840913"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "7518F5FEAEA870D4"
+				item: "apotheosis:treasure_shelf"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["079F420040CA18FB"]
+			id: "4604337B4D4B5908"
+			rewards: [
+				{
+					id: "1DC6D9660BF6B236"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1830F40EC6A02BF8"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "729D8C38FA044EEA"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4604337B4D4B5908"]
+			id: "71F7127E924A78FA"
+			rewards: [
+				{
+					id: "33B60808F72AA2F1"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "4DDAE4D505ADB236"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "irontier"
+			size: 2.0d
+			subtitle: "Store all your books!"
+			tasks: [{
+				id: "6ECAB01D0FCC277F"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["447FC92430B08CF6"]
+			id: "0733891B86DCF876"
+			rewards: [
+				{
+					id: "62623337F2A9B3DE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "30E261C286D93CE0"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Use to combine enchantments"
+			tasks: [{
+				id: "1DE7046EBA1DF449"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["04649F59B16D90A3"]
+			description: [
+				"You can modify various &6attributes&r such as spawn time, quantity, speed, and much more, using just a few items."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"Check out &2JEI&r!"
+			]
+			id: "54AB0D4B8A358837"
+			rewards: [
+				{
+					id: "7622E54BA90F48E8"
+					item: "minecraft:spawner"
+					type: "item"
+				}
+				{
+					id: "330E6F8D21C6D885"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "3977D1689197D9ED"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Manipule your mob farm!"
+			tasks: [{
+				id: "0C0C4D5E7387EC31"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+	]
+	title: "Apothic Enchants"
+}

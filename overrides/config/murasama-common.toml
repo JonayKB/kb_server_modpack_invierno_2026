@@ -1,0 +1,297 @@
+
+#鬼妖村正 — 基础村正设置
+[murasama]
+	#击杀充能所需数量
+	#Range: > 1
+	killCountThreshold = 30
+	#无攻击后自动收回的秒数
+	#Range: > 1
+	inactivityTimeoutSeconds = 15
+	#出鞘时附加伤害（目标最大生命值百分比）
+	#Range: 0.0 ~ 100.0
+	additionalDamagePercent = 0.1
+	#未出鞘 — 攻击伤害
+	#Range: 0.0 ~ 1.7976931348623157E308
+	sheathedDamage = 7.0
+	#未出鞘 — 攻击速度
+	#Range: -10.0 ~ 10.0
+	sheathedSpeed = -2.6
+	#未出鞘 — 触及距离
+	#Range: 0.0 ~ 1.7976931348623157E308
+	sheathedReach = 2.0
+	#出鞘 — 攻击伤害
+	#Range: 0.0 ~ 1.7976931348623157E308
+	activeDamage = 21.0
+	#出鞘 — 攻击速度
+	#Range: -10.0 ~ 10.0
+	activeSpeed = 0.0
+	#出鞘 — 触及距离
+	#Range: 0.0 ~ 1.7976931348623157E308
+	activeReach = 4.0
+
+#鬼妖村正-烬灭之刃 — 火焰版设置
+[murasama_fire]
+	#未出鞘 — 攻击伤害
+	#Range: 0.0 ~ 1.7976931348623157E308
+	sheathedDamage = 7.0
+	#未出鞘 — 攻击速度
+	#Range: -10.0 ~ 10.0
+	sheathedSpeed = -2.6
+	#未出鞘 — 触及距离
+	#Range: 0.0 ~ 1.7976931348623157E308
+	sheathedReach = 2.0
+	#出鞘 — 攻击伤害
+	#Range: 0.0 ~ 1.7976931348623157E308
+	activeDamage = 19.0
+	#出鞘 — 攻击速度
+	#Range: -10.0 ~ 10.0
+	activeSpeed = -0.5
+	#出鞘 — 触及距离
+	#Range: 0.0 ~ 1.7976931348623157E308
+	activeReach = 4.0
+	#炽热烙印效果持续时间（刻）
+	#Range: > 1
+	effectDuration = 120
+	#炽热烙印最大等级（0=1级，4=5级）
+	#Range: > 0
+	maxAmplifier = 4
+	#吸血基础比例（使用者最大生命值百分比，实际回复=比例×烙印等级+1）
+	#Range: 0.0 ~ 1.0
+	lifestealPercent = 0.01
+
+#鬼妖村正-以太 — 以太版设置
+[murasama_ether]
+	#未出鞘 — 攻击伤害
+	#Range: 0.0 ~ 1.7976931348623157E308
+	sheathedDamage = 9.0
+	#未出鞘 — 攻击速度
+	#Range: -10.0 ~ 10.0
+	sheathedSpeed = -2.2
+	#未出鞘 — 触及距离
+	#Range: 0.0 ~ 1.7976931348623157E308
+	sheathedReach = 2.0
+	#出鞘 — 攻击伤害
+	#Range: 0.0 ~ 1.7976931348623157E308
+	activeDamage = 23.0
+	#出鞘 — 攻击速度
+	#Range: -10.0 ~ 10.0
+	activeSpeed = -1.0
+	#出鞘 — 触及距离
+	#Range: 0.0 ~ 1.7976931348623157E308
+	activeReach = 3.0
+
+#Terraria 村正 — 彩蛋武器设置
+[murasama_terraria]
+	#未出鞘 — 攻击伤害
+	#Range: 0.0 ~ 1.7976931348623157E308
+	sheathedDamage = 1.0
+	#未出鞘 — 攻击速度
+	#Range: -10.0 ~ 10.0
+	sheathedSpeed = -2.6
+	#出鞘 — 攻击伤害
+	#Range: 0.0 ~ 1.7976931348623157E308
+	activeDamage = 3.0
+	#出鞘 — 攻击速度
+	#Range: -10.0 ~ 10.0
+	activeSpeed = -1.8
+	#出鞘 — 触及距离
+	#Range: 0.0 ~ 1.7976931348623157E308
+	activeReach = 1.0
+	#出鞘 — 击退距离
+	#Range: 0.0 ~ 1.7976931348623157E308
+	activeKnockback = 1.0
+
+#鬼妖村正-难得素 — 难得素版设置
+[murasama_unobtainium]
+	#未出鞘 — 攻击伤害
+	#Range: 0.0 ~ 1.7976931348623157E308
+	sheathedDamage = 11.0
+	#未出鞘 — 攻击速度
+	#Range: -10.0 ~ 10.0
+	sheathedSpeed = -2.6
+	#未出鞘 — 触及距离
+	#Range: 0.0 ~ 1.7976931348623157E308
+	sheathedReach = 2.0
+	#出鞘 — 攻击伤害
+	#Range: 0.0 ~ 1.7976931348623157E308
+	activeDamage = 50.0
+	#出鞘 — 攻击速度
+	#Range: -10.0 ~ 10.0
+	activeSpeed = 0.0
+	#出鞘 — 触及距离
+	#Range: 0.0 ~ 1.7976931348623157E308
+	activeReach = 4.0
+
+#切伦科夫 — 无尽版设置
+[murasama_infinity]
+	#未出鞘 — 攻击伤害
+	#Range: 0.0 ~ 1.7976931348623157E308
+	sheathedDamage = 999.0
+	#未出鞘 — 攻击速度
+	#Range: -10.0 ~ 10.0
+	sheathedSpeed = -2.6
+	#未出鞘 — 触及距离
+	#Range: 0.0 ~ 1.7976931348623157E308
+	sheathedReach = 2.0
+	#出鞘 — 攻击速度
+	#Range: -10.0 ~ 10.0
+	activeSpeed = 4.0
+	#出鞘 — 触及距离
+	#Range: 0.0 ~ 1.7976931348623157E308
+	activeReach = 20.0
+	#抢夺等级
+	#Range: 0 ~ 255
+	lootingLevel = 10
+
+#鬼妖村正-铜 — 单形态武器设置
+[murasama_copper]
+	#攻击伤害
+	#Range: 0.0 ~ 1.7976931348623157E308
+	damage = 5.0
+	#攻击速度
+	#Range: -10.0 ~ 10.0
+	speed = -1.0
+	#触及距离
+	#Range: 0.0 ~ 1.7976931348623157E308
+	reach = 1.0
+	#施加破伤风的概率 (0.0~1.0)
+	#Range: 0.0 ~ 1.0
+	tetanusChance = 0.25
+	#破伤风持续时间（刻）
+	#Range: > 1
+	tetanusDuration = 200
+
+#鬼妖村正-圣骑 — 弹反武器设置
+[posessed_paladin_murasama]
+	#普通状态 — 攻击伤害
+	#Range: 0.0 ~ 1.7976931348623157E308
+	normalDamage = 7.0
+	#普通状态 — 攻击速度
+	#Range: -10.0 ~ 10.0
+	normalSpeed = -2.6
+	#普通状态 — 触及距离
+	#Range: 0.0 ~ 1.7976931348623157E308
+	normalReach = 2.0
+	#弹反强化 — 攻击伤害加成
+	#Range: 0.0 ~ 1.7976931348623157E308
+	parryDamageBonus = 8.0
+	#弹反强化 — 攻击速度加成
+	#Range: -10.0 ~ 10.0
+	parrySpeedBonus = 1.6
+	#弹反强化 — 触及距离加成
+	#Range: 0.0 ~ 1.7976931348623157E308
+	parryReachBonus = 1.0
+	#弹反强化持续时间（刻）
+	#Range: > 1
+	parryExpireDuration = 200
+	#右键弹反冷却时间（刻）
+	#Range: > 1
+	parryCooldown = 60
+	#弹反判定窗口（刻）
+	#Range: 1 ~ 20
+	parryWindowFrames = 3
+
+#密特拉斯 — 终极武器设置
+[murasama_mithras]
+	#攻击伤害
+	#Range: 0.0 ~ 1.7976931348623157E308
+	damage = 21.0
+	#攻击速度
+	#Range: -10.0 ~ 10.0
+	speed = 0.0
+	#触及距离
+	#Range: 0.0 ~ 1.7976931348623157E308
+	reach = 4.0
+
+	#铭文·真实 — 伤害无视减免
+	[murasama_mithras.realDamage]
+		#是否启用真实伤害
+		enabled = true
+
+	#铭文·银壁 — 格挡减伤
+	[murasama_mithras.silverWall]
+		#是否启用银壁格挡减伤
+		enabled = true
+		#满血时的减伤比例上限（0.0~1.0，实际减伤=此值×当前生命百分比）
+		#Range: 0.0 ~ 1.0
+		reductionBase = 0.8
+
+	#铭文·羁绊 — 宠物光环
+	[murasama_mithras.bond]
+		#是否启用羁绊宠物光环
+		enabled = true
+		#光环半径（格）
+		#Range: > 1
+		range = 32
+		#每次恢复的最大生命值百分比
+		#Range: 0.0 ~ 1.0
+		healPercent = 0.01
+		#每次恢复的固定生命值
+		#Range: 0.0 ~ 1.7976931348623157E308
+		healFlat = 1.0
+
+	#铭文·收割 — 击杀获取灵魂能量
+	[murasama_mithras.harvest]
+		#是否启用收割灵魂能量
+		enabled = true
+		#每次击杀获得的灵魂能量数量
+		#Range: > 0
+		soulAmount = 500
+
+	#隐藏效果 — 10秒禁止回血
+	[murasama_mithras.noHeal]
+		#是否启用禁止回血效果
+		enabled = true
+		#禁止回血持续时间（刻，20刻=1秒）
+		#Range: > 1
+		durationTicks = 200
+
+	#隐藏效果 — 概率削减生命值
+	[murasama_mithras.hpReduce]
+		#是否启用生命削减效果
+		enabled = true
+		#触发概率 (0.0~1.0)
+		#Range: 0.0 ~ 1.0
+		chance = 0.2
+		#每次削减当前生命值的比例
+		#Range: 0.0 ~ 1.0
+		currentHpPercent = 0.03
+		#每层削减最大生命值的比例（基于原始上限）
+		#Range: 0.0 ~ 1.0
+		maxHpPercentPerStack = 0.02
+		#最大叠加层数
+		#Range: > 1
+		maxStacks = 5
+
+	#Iron's Spells 联动 — 密特拉斯自带法术（仅在安装 Iron's Spells 时生效）
+	[murasama_mithras.ironSpellsIntegration]
+		#是否启用 Iron's Spells 联动（为密特拉斯添加自带法术）
+		enabled = true
+		#神圣守护 (Fortify) 法术等级
+		#Range: 0 ~ 100
+		fortifyLevel = 10
+		#烈焰冲锋 (Burning Dash) 法术等级
+		#Range: 0 ~ 100
+		burningDashLevel = 10
+		#猩红斩击 (Blood Slash) 法术等级
+		#Range: 0 ~ 100
+		bloodSlashLevel = 5
+		#密特拉斯上法术的法力值消耗倍率（0.5=减半，1.0=不变）
+		#Range: 0.0 ~ 1.0
+		manaCostMultiplier = 0.5
+
+#谬误 — 深渊武器设置
+[murasama_abyssal]
+	#攻击伤害
+	#Range: 0.0 ~ 1.7976931348623157E308
+	damage = 32.0
+	#攻击速度
+	#Range: -10.0 ~ 10.0
+	speed = -2.0
+	#触及距离
+	#Range: 0.0 ~ 1.7976931348623157E308
+	reach = 2.0
+	#吸血比例（造成伤害的百分比，0.05=5%）
+	#Range: 0.0 ~ 1.0
+	lifestealPercent = 0.05
+

@@ -1,0 +1,25 @@
+filename = 'Cardiac-FORGE-0.5.3.2+1.20.1.jar'
+name = 'Cardiac'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Cardiac-FORGE-0.5.3.2+1.20.1.jar'
+
+[download]
+hash = 'f232ef17a254c16408207e3c2f5e9e01dd85edc5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5738873
+project-id = 968266
+
+[[x-prismlauncher-dependencies]]
+addonId = '916747'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'

@@ -1,0 +1,18 @@
+filename = 'archivist-forge-1.20.1-1.1.12.jar'
+name = 'Archivist'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Archivist 1.1.12'
+
+[download]
+hash = 'c7daa6fbc11c340c27be7e3c4b10116e52481edb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7979569
+project-id = 1513409

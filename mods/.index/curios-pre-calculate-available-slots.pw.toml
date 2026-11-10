@@ -1,0 +1,21 @@
+filename = 'saloeater_curios_fix-1.0.2.jar'
+name = 'Curios pre-calculate available slots'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'saloeater_curios_fix-1.0.2.jar'
+
+[download]
+hash = 'd4fe93747c98d4ac01a27988a62fed785feac38c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7730335
+project-id = 1414863
+
+[[x-prismlauncher-dependencies]]
+addonId = '309927'
+type = 'REQUIRED'

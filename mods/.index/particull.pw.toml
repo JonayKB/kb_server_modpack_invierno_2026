@@ -1,0 +1,18 @@
+filename = 'PartiCull-forge-1.20.x-v2.0.jar'
+name = 'PartiCull'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'PartiCull-forge-1.20.x-v2.0'
+
+[download]
+hash = '4c461e486f99d6508c04dcd5b937e0b68136e030'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7916724
+project-id = 1280903

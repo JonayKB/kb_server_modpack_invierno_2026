@@ -1,0 +1,786 @@
+{
+	autofocus_id: "19D7DDEA580BBD3A"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "deeper_and_darker_2"
+	group: "107C0A63AE152E28"
+	icon: "minecraft:sculk"
+	id: "1C0EC6C107B9C3D5"
+	images: [{
+		color: 244161
+		height: 2.7d
+		image: "celestisynth:textures/entity/visuals/rainfall_vanish.png"
+		rotation: 0.0d
+		width: 2.7d
+		x: 0.0d
+		y: 1.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["To activate the &bBig Portal&r in the Deep Dark, you'll need to slay the Warden and claim its &bheart.&r "]
+			icon_scale: 1.2d
+			id: "51EEA50609DFF126"
+			rewards: [
+				{
+					id: "052B8DE8C74C5285"
+					item: "deeperdarker:warden_carapace"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "42C13F14FE686D0B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1FBDBBEACD924AAB"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "terramity:warden_soul"
+				id: "29A910D7FD1C8445"
+				title: "Kill &bThe Warden"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51EEA50609DFF126"]
+			description: [
+				"Once you found the portal, light it up with &bHeart Of The Deep&r &8(Make sure theres no sculk veins around it)"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"&bOther&r&6side&r is a dimension below the bedrock, It has a cavernous landscape with some cool biomes!"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Here you will find bunch of &enew mobs and ores!&r If that doesn't sound good enough, you can even set your spawn point here with a bed."
+			]
+			icon: "deeperdarker:smooth_sculk_stone"
+			icon_scale: 1.35d
+			id: "449CBD47F373F9E2"
+			rewards: [
+				{
+					id: "53B316FFED1BF803"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5DD9ABB97AD48CCF"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "..."
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "deeperdarker:blooming_sculk_stone"
+				id: "3F5639D4F2C8EBF5"
+				title: "Visit the &bOther&r&6side&r"
+				type: "dimension"
+			}]
+			title: "Enter the &bOther&r&6side&r"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["449CBD47F373F9E2"]
+			description: [
+				"The &b&lBlooming Caverns&r is distinguished by its glowing vegetation and water pools, this biome offers a strikingly different atmosphere from the dark Sculk-dominated regions of the dimension."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"In here, you can find \"Sludge\" mobs. They drop &bResonarium&r which will be.. no it won't be important but if you are interested, with &bresonarium&r, you can make a armor and tools!"
+			]
+			icon: "deeperdarker:blooming_sculk_stone"
+			id: "0ED2EF4E6824B54A"
+			rewards: [
+				{
+					count: 3
+					id: "2715B632398EBAF1"
+					item: "deeperdarker:resonarium_plate"
+					type: "item"
+				}
+				{
+					id: "15B6271A60ED0FDC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5BAF280226CDEDCB"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				biome: "deeperdarker:blooming_caverns"
+				icon: "deeperdarker:blooming_sculk_stone"
+				id: "3DC19F5C997A0BDC"
+				title: "Explore &bBlooming Caverns"
+				type: "biome"
+			}]
+			title: "Explore &b&lBlooming Caverns"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["449CBD47F373F9E2"]
+			description: [
+				"The &lDeeplands&r are primarily composed of sculk and sculk stone."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"&3- In this biome, you will encounter:&r"
+				""
+				"Phantoms, sculk centipedes, sculk snappers, ground-dwelling sculk jaws, and infested sculk."
+			]
+			id: "405AA569B7ACE9AB"
+			rewards: [
+				{
+					id: "182AE7EC0D579C92"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "04F783D3FA529B51"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				biome: "deeperdarker:deeplands"
+				icon: "deeperdarker:sculk_gleam"
+				id: "58759106B2A3D11D"
+				title: "Explore &fDeeplands"
+				type: "biome"
+			}]
+			title: "Explore &f&lDeeplands"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["449CBD47F373F9E2"]
+			description: [
+				"The &d&lEchoing Forest&r is a beautiful biome."
+				""
+				"It generates with many echo trees and echo soil covering the ground."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Here, you will find shattered and sculk snappers, though they pose no threat."
+			]
+			id: "0286461494ADF352"
+			rewards: [
+				{
+					id: "1615A9C591792F6F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0235BC65738C4D84"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				biome: "deeperdarker:echoing_forest"
+				icon: "deeperdarker:echo_soil"
+				id: "3897F84E22991976"
+				title: "Explore &d&lEchoing Forest"
+				type: "biome"
+			}]
+			title: "Explore &d&lEchoing Forest"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["449CBD47F373F9E2"]
+			description: [
+				"The &6&lOvercast Columns&r"
+				""
+				"In this biome, you will find plenty of crystallized amber blocks and ember pillars."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"There are also geysers on the ground. When you walk over them, they'll shoot you upwards, though they don't deal any damage."
+			]
+			id: "1CCCCA7E20B877A7"
+			rewards: [
+				{
+					id: "7A48A9ED5C961065"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1C4C7A65F2DFFD45"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				biome: "deeperdarker:overcast_columns"
+				icon: "deeperdarker:gloomy_sculk"
+				id: "60452EE3EADE1395"
+				title: "Explore &6&lOvercast Columns&r"
+				type: "biome"
+			}]
+			title: "Explore &6&lOvercast Columns&r"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["449CBD47F373F9E2"]
+			description: ["&bAncient Temple&r is the only structure that this mod provides, It contains some mediocre loot in general but still, there's some important stuff!"]
+			icon: "minecraft:deepslate_bricks"
+			id: "3B1E28D454DCF8D4"
+			rewards: [
+				{
+					id: "69CE28032D704CAD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "484F4344BCB249A4"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "06C97CF6CF87C3AF"
+				structure: "deeperdarker:ancient_temple"
+				title: "Find &bAncient Temple&r"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3B1E28D454DCF8D4"]
+			description: [
+				"When &bsneaking and right-clicking&r a block, the Sculk Transmitter will be &nlinked&r to it. This can include &bCrafting Tables, Chests, Anvils, Looms, Enchanting Tables, Brewing Stands, and more.&r Essentially, it is any block that you can normally interact with."
+				""
+				"By holding the Sculk Transmitter and &bright-clicking,&r the linked blocks GUI will then be opened, allowing you to craft while on the move, and access distant inventories, among other useful features."
+				""
+				"The Sculk Transmitter works at huge distances, over hundreds of blocks. However, &nit doesn’t work across different dimensions.&r Doing so will cause the Sculk Transmitter to become unlinked, but this can also be done manually by sneaking and right-clicking."
+				""
+				"&8Can be found in the ancient temple structure."
+			]
+			id: "59FD763E876997B1"
+			rewards: [
+				{
+					id: "25D69511ADBCED7D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "710304664B1F4DB1"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "279D453B4F9AEC27"
+				item: "deeperdarker:sculk_transmitter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1C89B122F8DF31FA"]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "055A7F2EA6A0CEB7"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "23B3E2BB00B307A4"
+					item: "deeperdarker:reinforced_echo_shard"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "457B4D3A5D63C161"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1EE70C5D0FF1D73A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&fBetter Than Netherite&r"
+			tasks: [
+				{
+					id: "666C39F58B68B188"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56225C1C444BBD1F"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71545991E58FE12C"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "215A387CEBB98A2F"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "559603D6610463A9"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft Warden Toolset"
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0ED2EF4E6824B54A"]
+			id: "0452F9E4C192FA00"
+			rewards: [
+				{
+					count: 2
+					id: "30F155FD8DD0C880"
+					item: "deeperdarker:resonarium_plate"
+					type: "item"
+				}
+				{
+					id: "316E73605E9A2F56"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "71A96529385B720E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "Better Than Diamond"
+			tasks: [
+				{
+					id: "60E023AD771ACC0F"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53DE3850EA1CB507"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26BB98E759F243ED"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3949742A446AABA0"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5233646F9138795B"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0ED2EF4E6824B54A"]
+			id: "5FA3018980844CF5"
+			rewards: [
+				{
+					count: 2
+					id: "55728AD55B64A0BC"
+					item: "deeperdarker:resonarium_plate"
+					type: "item"
+				}
+				{
+					id: "03B5D184966057A4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "69AE38AAF42302A1"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "Better Than Diamond"
+			tasks: [
+				{
+					id: "4F728FE446D269B9"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D28A7E95E36FCCB"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22B7EE919640D363"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D7F6F354F38860B"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C89B122F8DF31FA"]
+			description: [
+				"&bThe Warden Helmet&r grants immunity to Darkness and Blindness effects."
+				""
+				"&bThe Warden Leggings&r grants speed boost."
+				""
+				"&bThe Warden Chestplate&r grants HP boost."
+				""
+				"&bThe Warden Boots&r &8grants.. &8nothing."
+			]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "44937B2D2EB38094"
+			optional: true
+			rewards: [
+				{
+					id: "1633463D870E60FE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4ECFD517D6E4038E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "42CA7AAF304767E7"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D5AC9AFB50D6C18"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51FA2803A0F48EC3"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BEB18A92D7ACD47"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft Warden Armor Set"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7BA06C91408097F3"]
+			description: [
+				"&bThe Soul Elytra&r can be equipped into the Chest slot, and compared to the regular Elytra, it offers &b+3&r armor points. "
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"It also comes with the ability to use a boost without Firework Rockets, which can be done every 30 seconds by pressing the &nchoose&r key."
+			]
+			id: "3625A4D55155720F"
+			rewards: [
+				{
+					id: "7763F9E2218C951D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "778D5D99EA93DC37"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5092663DB10E8A89"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "7D40DD4D3E42FCC6"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7BA06C91408097F3"]
+			description: [
+				"&bThe Sonorous Staff&r functions as a chargeable ranged weapon. Hold right-click to charge the staff, then release to fire a sonic boom in the direction you’re facing. "
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"The longer you charge, the more damage and range the attack gains. "
+			]
+			id: "7C18745F2E5B8E64"
+			rewards: [
+				{
+					id: "778F8C63379B8C6D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0A848A984D3400CD"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "3A5F7B7473A2021B"
+				item: {
+					Count: 1
+					id: "deeperdarker:sonorous_staff"
+					tag: {
+						Damage: 0
+						charged: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3B1E28D454DCF8D4"]
+			description: [
+				"Here is your straight-up upgrade! This smithing template is key to making &b\"Warden\"&r tools. "
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"They have special traits and are better than netherite!"
+				""
+				"&8Can be found in the ancient temple structure."
+			]
+			id: "1C89B122F8DF31FA"
+			rewards: [
+				{
+					id: "216FB166083D9BE2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1DC44FA254A8706E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "09B87EE74D15AB2C"
+				item: "deeperdarker:warden_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3B1E28D454DCF8D4"]
+			description: [
+				"&bStalker&r is a &cmini-boss&r that this mod offers. He can be summoned with a chance when breaking vases inside ancient temple."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"He is pretty easy to kill but can be annoying, depending on how much leeches that he will spawn."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Killing him drops &bsoul crystal&r which will be useful!"
+			]
+			icon: "deeperdarker:stalker_spawn_egg"
+			id: "7BA06C91408097F3"
+			rewards: [
+				{
+					id: "26F992C4CA7BAEDF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7BA772A5A33DD494"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: "deeperdarker:stalker_spawn_egg"
+				id: "63C00D89D1700637"
+				title: "Kill &bThe Stalker&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+	]
+	title: "Otherside"
+}

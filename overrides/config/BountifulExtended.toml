@@ -1,0 +1,5 @@
+#Set default bounty (decrees), that you need to make to unlock all other bounties.
+UseDefaultBounty = true
+#Default bounty (decrees) that you need to make before unlocking all other quests.
+DefaultBounty = "quest1"
+

@@ -1,0 +1,18 @@
+filename = 'blessfulled-0.6.jar'
+name = 'Blessfulled: Damage Indicators+'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'blessfulled-0.6.jar'
+
+[download]
+hash = 'a8a3ad55d993eea95ba4b4edbe0a7dafce897b39'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6624691
+project-id = 1182590

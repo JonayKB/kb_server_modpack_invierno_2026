@@ -1,0 +1,2556 @@
+
+#CLASS ENHANCEMENT CONFIGURATION
+[general]
+	#If true, disables the built-in classes (Warrior, Ranger, Tank, Civilian)
+	disableDefaultClasses = false
+	#Number of custom class slots (1-100). Restart required.
+	#Range: 1 ~ 100
+	customClassSlots = 10
+	#Allow players to change their class after they have already selected it. (OPs can always change)
+	allowClassReselection = false
+	#Delay before opening class selection menu on login (in ticks, 20 = 1 second)
+	#Range: 0 ~ 200
+	menuDelayTicks = 40
+
+["invulnerability stuff"]
+	#Enable invulnerability for players.
+	enableSetupImmunity = true
+	#Prevent incoming damage.
+	preventSetupDamage = true
+	#Regularly extinguish players.
+	clearSetupFire = true
+	#Reset accumulated fall distance.
+	resetSetupFall = true
+	#Regularly max out player oxygen level.
+	maxSetupAir = true
+	#Keep food level maxed out.
+	maxSetupFood = true
+	#Keep player health maxed out.
+	maxSetupHealth = true
+
+#Animation & Visual Settings
+[animations]
+	#Speed of fade-in animations (higher = faster, 0.01-1.0)
+	#Range: 0.01 ~ 1.0
+	fadeInSpeed = 0.09
+	#Speed of fade-out animations (higher = faster, 0.01-1.0)
+	#Range: 0.01 ~ 1.0
+	fadeOutSpeed = 0.12
+	#Smoothness of scrolling (higher = smoother but slower, 0.1-0.5)
+	#Range: 0.1 ~ 0.5
+	scrollSmoothness = 0.3
+	#Speed of button hover animations (0.01-0.5)
+	#Range: 0.01 ~ 0.5
+	buttonHoverSpeed = 0.22
+	#Enable particle effects in the GUI
+	enableParticles = true
+	#Maximum number of particles (0-500)
+	#Range: 0 ~ 500
+	particleCount = 100
+
+#Cross-Mod Integration Settings
+[integration]
+	#Wait for Difficulty Enhancement mod selection before opening (if installed)
+	waitForDifficultySelection = true
+	#Time to blend between difficulty and class selection screens (in seconds)
+	#Range: 0.1 ~ 3.0
+	transitionBlendTime = 0.8
+	#Enable smooth gradient transition between screens
+	smoothGradientTransition = true
+
+#Built-In Class Settings
+[classes]
+
+	[classes.warrior]
+		#Enable this class
+		enabled = true
+		#Display name shown in GUI. (Supports translation keys)
+		name = "Warrior"
+		#Lore text. (Supports translation keys & color codes).
+		description = "A mighty warrior with incomparable confidence and strength. Prove your worth!"
+		#Cosmetic stat lines.
+		stats = ["&a+50% Melee Damage", "&a+20% Health", "&a+5 Armor", "&a+3 Armor Toughness", "&a+30% Knockback Resist", "&c-15% Speed", "&c-15% Attack Speed", "&c-60% Ranged Damage", "&c-60% Max Mana"]
+		#Stat modifiers (format: attribute=value:operation).
+		attributes = ["puffish_attributes:melee_damage=0.50:multiply_base", "minecraft:generic.max_health=+0.20:multiply_base", "minecraft:generic.armor=5.0:addition", "minecraft:generic.armor_toughness=3.0:addition", "minecraft:generic.knockback_resistance=0.30:addition", "minecraft:generic.attack_speed=-0.15:multiply_base", "puffish_attributes:ranged_damage=-0.60:multiply_base", "irons_spellbooks:max_mana=-0.60:multiply_base", "minecraft:generic.movement_speed=-0.15:multiply_base"]
+		#Item to equip in Main Hand. Format: modid:item{nbt}=count
+		main_hand = "lfs_magic_fantasy:silver_katarina_sword"
+		#Item to equip in Off Hand. Format: modid:item{nbt}=count
+		off_hand = "minecraft:shield=1"
+		#Items to equip in Armor slots. Format: modid:item{nbt}=count
+		armor = ["minecraft:iron_helmet=1", "minecraft:iron_chestplate=1", "minecraft:iron_leggings=1", "minecraft:iron_boots=1"]
+		#Items to place in Inventory. Format: modid:item{nbt}=count
+		items = ["minecraft:bread=6", "terramity:power_bracelets=1"]
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = ["/power grant tiolevi2 flameheart_origin:ignition_punch"]
+
+	[classes.ranger]
+		#Enable this class
+		enabled = true
+		#Display name shown in GUI. (Supports translation keys)
+		name = "Ranger"
+		#Lore text. (Supports translation keys & color codes).
+		description = "class.linggango.class_enhancement.ranger.desc"
+		#Cosmetic stat lines.
+		stats = ["&a+25% Speed", "&a+65% Ranged Damage", "&a+30% Stealth", "&a+40% Crit Damage", "&a+40% Penetration", "&c-50% Melee Damage", "&c-40% Max Mana", "&c-30% Resistance"]
+		#Stat modifiers (format: attribute=value:operation).
+		attributes = ["minecraft:generic.movement_speed=0.25:multiply_base", "puffish_attributes:ranged_damage=0.65:multiply_base", "puffish_attributes:stealth=0.30:addition", "irons_spellbooks:max_mana=-0.40:multiply_base", "minecraft:generic.knockback_resistance=-0.30:addition", "puffish_attributes:melee_damage=-0.50:multiply_base", "pufferfish_attributes:critical_damage=0.40:addition", "apothic_attributes:armor_shred=0.4:addition"]
+		#Item to equip in Main Hand. Format: modid:item{nbt}=count
+		main_hand = "minecraft:bow=1"
+		#Item to equip in Off Hand. Format: modid:item{nbt}=count
+		off_hand = "minecraft:arrow=100"
+		#Items to equip in Armor slots. Format: modid:item{nbt}=count
+		armor = ["fantasy_armor:thief_helmet=1", "fantasy_armor:thief_leggings=1", "fantasy_armor:thief_chestplate=1", "fantasy_armor:thief_boots=1"]
+		#Items to place in Inventory. Format: modid:item{nbt}=count
+		items = ["terramity:rush_ring=1", "minecraft:bread=6"]
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[classes.tank]
+		#Enable this class
+		enabled = true
+		#Display name shown in GUI. (Supports translation keys)
+		name = "Paladin"
+		#Lore text. (Supports translation keys & color codes).
+		description = "class.linggango.class_enhancement.tank.desc"
+		#Cosmetic stat lines.
+		stats = ["&a+50% Max Health", "&a+0.8 Knockback Resistance", "&a+20% Damage Reflection", "&a+40% armor", "&c-20% Melee Damage", "&c-15% Speed", "&c-50% Max Mana", "&c-25% Attack Speed"]
+		#Stat modifiers (format: attribute=value:operation).
+		attributes = ["minecraft:generic.max_health=0.40:multiply_base", "minecraft:generic.movement_speed=-0.15:multiply_base", "minecraft:generic.knockback_resistance=0.7", "puffish_attributes:damage_reflection=0.30:addition", "minecraft:generic.attack_speed=-0.25:multiply_base", "irons_spellbooks:max_mana=-0.20:multiply_base", "minecraft:generic.armor=0.40:multiply_base", "puffish_attributes:melee_damage=-0.20:multiply_base"]
+		#Item to equip in Main Hand. Format: modid:item{nbt}=count
+		main_hand = ""
+		#Item to equip in Off Hand. Format: modid:item{nbt}=count
+		off_hand = "legendary_monsters:spiky_shield"
+		#Items to equip in Armor slots. Format: modid:item{nbt}=count
+		armor = ["block_factorys_bosses:knight_helmet=1", "block_factorys_bosses:knight_chestplate=1", "block_factorys_bosses:knight_leggings=1", "block_factorys_bosses:knight_boots=1"]
+		#Items to place in Inventory. Format: modid:item{nbt}=count
+		items = ["minecraft:bread=6"]
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[classes.none]
+		#Enable this class
+		enabled = false
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.civilian.name"
+		#Lore text. (Supports translation keys & color codes).
+		description = "class.linggango.class_enhancement.civilian.desc"
+		#Cosmetic stat lines.
+		stats = ["&7No stat changes."]
+		#Stat modifiers (format: attribute=value:operation).
+		attributes = []
+		#Item to equip in Main Hand. Format: modid:item{nbt}=count
+		main_hand = ""
+		#Item to equip in Off Hand. Format: modid:item{nbt}=count
+		off_hand = ""
+		#Items to equip in Armor slots. Format: modid:item{nbt}=count
+		armor = []
+		#Items to place in Inventory. Format: modid:item{nbt}=count
+		items = ["minecraft:bread=5"]
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+#Custom Class Slots
+#Configure your own classes below. Set 'id' to enable a slot.
+#Only the first N slots (set by customClassSlots) will be loaded.
+[custom_classes]
+
+	[custom_classes.custom_0]
+		#Unique internal ID. Leave empty to disable.
+		id = "1"
+		#Display name shown in GUI. (Supports translation keys)
+		name = "Mage"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "Channel your magic through your book and cast powerful spells!"
+		#Cosmetic stat summary lines.
+		stats = ["&a+150% Max Mana", "&a+150% Magic damage", "&a+10% Speed", "&a+20% Experience", "&a30% Cast Reduction", "&c-60% Melee Damage", "&c-75% Ranged Damage", "&c-5 Armor"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = ["irons_spellbooks:max_mana=+1.5:multiply_base", "puffish_attributes:magic_damage=+1.5:multiply_base", "minecraft:generic.movement_speed=+0.10:multiply_base", "puffish_attributes:experience=+0.20:multiply_base", "irons_spellbooks:cast_time_reduction=0.30:addition", "puffish_attributes:melee_damage=-0.60:multiply_base", "minecraft:generic.armor=-5.0:addition", "puffish_attributes:ranged_damage=-0.75:multiply_base", "irons_spellbooks:cooldown_reduction=+1.5:base:set", "apothic_attributes:armor_shred=0.4:addition"]
+		#Main hand item.
+		main_hand = "irons_spellbooks:twilight_gale"
+		#Off hand item.
+		off_hand = "irons_spellbooks:copper_spell_book"
+		#Armor items.
+		armor = ["irons_spellbooks:wandering_magician_helmet=1", "irons_spellbooks:wandering_magician_chestplate=1", "irons_spellbooks:wandering_magician_leggings=1", "irons_spellbooks:wandering_magician_boots=1"]
+		#Starting items.
+		items = ["minecraft:bread=6", "irons_spellbooks:instant_mana_two", "irons_spellbooks:blaze_storm"]
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_1]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_2]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_3]
+		#Unique internal ID. Leave empty to disable.
+		id = "4"
+		#Display name shown in GUI. (Supports translation keys)
+		name = "Bandit"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "Just a normal person...nothing to know about."
+		#Cosmetic stat summary lines.
+		stats = []
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_4]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_5]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_6]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_7]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_8]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_9]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_10]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_11]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_12]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_13]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_14]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_15]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_16]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_17]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_18]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_19]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_20]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_21]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_22]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_23]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_24]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_25]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_26]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_27]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_28]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_29]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_30]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_31]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_32]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_33]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_34]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_35]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_36]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_37]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_38]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_39]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_40]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_41]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_42]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_43]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_44]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_45]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_46]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_47]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_48]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_49]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_50]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_51]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_52]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_53]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_54]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_55]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_56]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_57]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_58]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_59]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_60]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_61]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_62]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_63]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_64]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_65]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_66]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_67]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_68]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_69]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_70]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_71]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_72]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_73]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_74]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_75]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_76]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_77]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_78]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_79]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_80]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_81]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_82]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_83]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_84]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_85]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_86]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_87]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_88]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_89]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_90]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_91]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_92]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_93]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_94]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_95]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_96]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_97]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_98]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+
+	[custom_classes.custom_99]
+		#Unique internal ID. Leave empty to disable.
+		id = ""
+		#Display name shown in GUI. (Supports translation keys)
+		name = "class.linggango.class_enhancement.custom.name"
+		#Lore text shown in the panel. (Supports translation keys)
+		description = "class.linggango.class_enhancement.custom.desc"
+		#Cosmetic stat summary lines.
+		stats = ["&a+20% Speed", "&c-2 Health"]
+		#Mechanical modifiers (format: attribute=value:operation).
+		attributes = []
+		#Main hand item.
+		main_hand = ""
+		#Off hand item.
+		off_hand = ""
+		#Armor items.
+		armor = []
+		#Starting items.
+		items = []
+		#Item ID for the class icon.
+		icon = "minecraft:paper"
+		#Commands to execute when this class is selected. Use %player% for player name.
+		commands = []
+

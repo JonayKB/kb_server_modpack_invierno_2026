@@ -1,0 +1,25 @@
+filename = 'fantasy_armor-forge-1.2.4-1.20.1.jar'
+name = 'Fantasy Armor (Medieval Series)'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fantasy_armor-forge-1.2.4-1.20.1.jar'
+
+[download]
+hash = '546cf8e9e7d047792c01f66e8c50d1e475fd1aad'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7850802
+project-id = 1083998
+
+[[x-prismlauncher-dependencies]]
+addonId = '1090102'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'EMBEDDED'

@@ -1,0 +1,18 @@
+filename = 'MCreatorMemFix-1.0.4.jar'
+name = 'MCreatorMemFix'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MCreatorMemFix-1.0.4.jar'
+
+[download]
+hash = '3a60262ac52bd49ea607ad8a9fd49d80d8267e4c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7150962
+project-id = 1310491

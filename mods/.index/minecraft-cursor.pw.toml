@@ -1,0 +1,18 @@
+filename = 'minecraft-cursor-forge-3.11.3+1.20.1.jar'
+name = 'Cursors Extended'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Minecraft Cursor for Forge v3.11.3+1.20.1'
+
+[download]
+hash = '9017140bcc8322c7311bffffde93b8f3fb6fc4c0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7963822
+project-id = 1184736

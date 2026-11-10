@@ -1,0 +1,18 @@
+filename = 'fastchunkgen-0.29-all.jar'
+name = 'FastChunkGen'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fastchunkgen-0.29-all.jar'
+
+[download]
+hash = 'da1bedb1d950b7f6146bba26c25e7af7c34a51e7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8963118
+project-id = 1628827

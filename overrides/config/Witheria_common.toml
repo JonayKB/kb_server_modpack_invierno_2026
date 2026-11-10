@@ -1,0 +1,13 @@
+
+[Spawning]
+	#Whether Witheria spawns after Wither's death
+	Spawning = true
+
+[Summon_Turrets]
+	#Whether Witheria summons Turrets (Works only for practice mode)
+	Summon_Turrets = true
+
+[Lore_accurate_Witheria]
+	#Whether Witheria protects specific anime-girl mobs
+	Lore_accurate_Witheria = true
+

@@ -1,0 +1,35 @@
+
+[particles]
+	"Blood Amount" = 10.0
+	"Blood Particles" = true
+	"Particle Threshold" = 200.0
+	"Sparkle Particles" = true
+	"Sparkle Amount" = 15.0
+
+[sound_effects]
+	"Hit Sound Effects" = true
+	"Kill Sound Effects" = true
+
+[death_particles]
+	"Death Particles" = true
+	"Death Particle Amount" = 50.0
+
+[screen_effects]
+	#Bloody screen effect when a mob is attacked
+	"Bloody Screen" = false
+	"Bloody Screen Mid Range" = 8.0
+	"Bloody Screen Close Range" = 3.0
+	#Control how fast blood dissapears from the screen (Default is -1% opacity per tick)
+	"Bloody Screen Opacity Rate" = 4.0
+
+[low_health_effects]
+	"Low Health Sound Effects" = true
+	"Low Health Screen Overlay" = true
+
+[entity_list]
+	#Uses registry name of the entity
+	"Entity Black List" = [" "]
+	"Nether Blood List" = [" "]
+	"Red Blood List" = [" "]
+	"End Blood List" = [" "]
+

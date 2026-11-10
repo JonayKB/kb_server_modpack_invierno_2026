@@ -1,0 +1,594 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: "107C0A63AE152E28"
+	icon: "aether:cold_aercloud"
+	id: "7B5D8031C68F0489"
+	images: [{
+		alpha: 100
+		height: 2.5d
+		image: "celestisynth:textures/entity/visuals/frostbound_slash.png"
+		rotation: 0.0d
+		width: 2.5d
+		x: -0.5d
+		y: 1.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["75D1E23B1635D0D4"]
+			description: ["&bAether:&r &9Redux&r has been added to provide a &dbetter exploration&r experience in the &bAether&r!"]
+			icon: "aether:aether_portal_frame"
+			id: "6EAB8124193B4DA5"
+			rewards: [
+				{
+					id: "6FBCF9604D3C7910"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3C1FE4DA219EF15F"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Explore the dimensions of the heavens in search of incredible challenges and rewards"
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "6EBAC07876A639A1"
+				title: "Visit the &bAether&r"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B73CFE27855F2F9"]
+			id: "3810E20FB85BC300"
+			rewards: [
+				{
+					id: "22D882675E516E8F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DABDE98DD759843"
+					table_id: 1037199146010425381L
+					type: "loot"
+				}
+				{
+					id: "36CB9CB4C51313E6"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "The key to receiving the rewards!"
+			tasks: [{
+				id: "4777C5038255E34C"
+				item: "aether:bronze_dungeon_key"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4495DF8C85DA9D55"]
+			id: "44429FF63FBB79A3"
+			rewards: [
+				{
+					id: "68CD6A0992E7A0DC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28EBF625699D6657"
+					table_id: 1037199146010425381L
+					type: "loot"
+				}
+				{
+					id: "7196B41CB11AC3AB"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "The key to receiving the rewards!"
+			tasks: [{
+				id: "35679347FFDA8C4D"
+				item: "aether:silver_dungeon_key"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["554F87CB8A30C8F5"]
+			id: "4B5EF7068AB92DC7"
+			rewards: [
+				{
+					id: "7AF611DDAF8D013F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "147A55634FCE9015"
+					table_id: 1037199146010425381L
+					type: "loot"
+				}
+				{
+					id: "288D70A517833494"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "The key to receiving the rewards!"
+			tasks: [{
+				id: "396A90E333F211F9"
+				item: "aether:gold_dungeon_key"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EAB8124193B4DA5"]
+			description: ["&6Bronze Dungeon&r: It is the first and most basic dungeon, located in the Skyroot biomes, containing the &3Slider&r boss."]
+			id: "7B73CFE27855F2F9"
+			rewards: [
+				{
+					id: "4E02AB4B0DD7D85B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "29E250ADDB071085"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "First Dungeon."
+			tasks: [{
+				entity: "aether:slider"
+				icon: "aether:carved_stone"
+				id: "421DCB5988FA35D6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EAB8124193B4DA5"]
+			description: ["&3Silver Dungeon&r: A more advanced structure that also appears in world generation."]
+			id: "4495DF8C85DA9D55"
+			rewards: [
+				{
+					id: "6A74EE3CB3BA22CA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0E9B7228DB07DBA4"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Second Dungeon."
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				icon: "aether:valkyrie_cape"
+				id: "476991317EF011B7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EAB8124193B4DA5"]
+			description: ["&eGold Dungeon&r: The dungeon with the highest &cdifficulty&r and &drarity&r among the three main ones."]
+			id: "554F87CB8A30C8F5"
+			rewards: [
+				{
+					id: "5C719B9AF3A413F7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "27254D2CBFA2D639"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Third Dungeon."
+			tasks: [{
+				entity: "aether:sun_spirit"
+				icon: "aether:golden_amber"
+				id: "16122FAB3E0B3935"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44429FF63FBB79A3"]
+			id: "49E719A0346F0F00"
+			rewards: [
+				{
+					id: "31477481A18A41CD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "486EDE2D5BAEA0E2"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E10DADD5C8DB439"
+				item: {
+					Count: 1
+					id: "aether:valkyrie_lance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3810E20FB85BC300"]
+			id: "03B87268783D4B3E"
+			rewards: [
+				{
+					id: "7C1150B053B88EDD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4690FBB1DE14FAF7"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27A2076897EE1DB8"
+				item: {
+					Count: 1
+					id: "aether:hammer_of_kingbdogz"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B5EF7068AB92DC7"]
+			id: "4CBA73FC7429B713"
+			rewards: [
+				{
+					id: "091EEB7C3423D08F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3EE7C2DD6D5BEEC3"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62E0818206B2190C"
+				item: {
+					Count: 1
+					id: "aether:phoenix_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			id: "75D1E23B1635D0D4"
+			rewards: [
+				{
+					id: "302E5C2CED60B3EB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3BDE033192BC7418"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Ingredient to create the portal to the &9Aether&r!"
+			tasks: [
+				{
+					count: 12L
+					id: "5C3045925F414838"
+					item: { Count: 12, id: "minecraft:glowstone" }
+					type: "item"
+				}
+				{
+					id: "32A8D31D91FB8699"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EAB8124193B4DA5"]
+			id: "3EBC7E3BF72DE834"
+			rewards: [
+				{
+					count: 3
+					id: "23673D692A8F090E"
+					item: "aether:zanite_block"
+					type: "item"
+				}
+				{
+					id: "62C42DC85434789F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5E9788EB9265F593"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Exclusive ore!"
+			tasks: [{
+				id: "246D83C65A543C22"
+				item: "aether:zanite_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6EAB8124193B4DA5"]
+			id: "5B1AC28EB3FDC5D8"
+			rewards: [
+				{
+					count: 3
+					id: "3FDD77F700A36E75"
+					item: "aether:enchanted_gravitite"
+					type: "item"
+				}
+				{
+					id: "6127CBCF5058E47B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "74FDBC8C2E57F6C5"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Exclusive ore!"
+			tasks: [{
+				id: "0E53F4511A857638"
+				item: "aether:enchanted_gravitite"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49E719A0346F0F00"]
+			id: "3CFEF660DFCB377D"
+			rewards: [
+				{
+					id: "5469E4A23DEDD119"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "57AFC532B961DAE0"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B80F4DF1C0612AC"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33E6229160001D29"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A8770779AF53B8D"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "765C6CD7EA53037A"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CBA73FC7429B713"]
+			id: "7D09098E8F8CDEAC"
+			rewards: [
+				{
+					id: "73A36BEBE10D52A0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "04A91323B71B38C0"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2119AAA5D9F26110"
+					item: {
+						Count: 1
+						id: "aether:phoenix_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0482308737580EDA"
+					item: {
+						Count: 1
+						id: "aether:phoenix_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14BE0CE69EDB9EE3"
+					item: {
+						Count: 1
+						id: "aether:phoenix_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28D98110D8D42981"
+					item: {
+						Count: 1
+						id: "aether:phoenix_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03B87268783D4B3E"]
+			id: "0CE69482AD40C449"
+			rewards: [
+				{
+					id: "09C2BBF50289DE25"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6EF26FCF80FDC4AE"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3C2A2AE855F90F6D"
+					item: {
+						Count: 1
+						id: "aether:neptune_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15FA4B117D03F44D"
+					item: {
+						Count: 1
+						id: "aether:neptune_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24F7C1F9178900A5"
+					item: {
+						Count: 1
+						id: "aether:neptune_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B634A8DA09B2EBC"
+					item: {
+						Count: 1
+						id: "aether:neptune_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+	]
+	title: "Aether"
+}

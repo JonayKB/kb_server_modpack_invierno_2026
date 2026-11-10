@@ -1,0 +1,1652 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trades"
+	group: "13458AFBA70AE825"
+	icon: "kubejs:coin"
+	id: "37167622525CE02D"
+	images: [
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/lunch_basket_side_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 4.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "kubejs:shop"
+			id: "56FD3CA6A8E96E55"
+			rewards: [{
+				id: "74FBE51557EF1D3E"
+				type: "xp"
+				xp: 20
+			}]
+			size: 2.0d
+			subtitle: "Hey! Let's buy something?"
+			tasks: [{
+				id: "3C722AD9C234E789"
+				type: "checkmark"
+			}]
+			title: "Gob's Trading Shop"
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["199658B468626F80"]
+			icon: {
+				Count: 1
+				id: "simplyswords:whisperwind"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "3D35A07BBB3ECC0B"
+			rewards: [{
+				id: "7FFC4628EE8F0F70"
+				item: {
+					Count: 1
+					id: "simplyswords:whisperwind"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The winds blew the fire through flesh and bone..."
+			tasks: [{
+				consume_items: true
+				count: 60L
+				id: "1F58CC921F066EC3"
+				item: "lethality:blood_coin"
+				type: "item"
+			}]
+			title: "Whisperwind"
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["199658B468626F80"]
+			icon: {
+				Count: 1
+				id: "simplyswords:ribboncleaver"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "7D25E0305E47123D"
+			rewards: [{
+				id: "0CD341ADC61F2455"
+				item: {
+					Count: 1
+					id: "simplyswords:ribboncleaver"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Forged with the blood of the innocent"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "016A5B38F19D91DB"
+				item: "lethality:blood_coin"
+				type: "item"
+			}]
+			title: "Ribboncleaver"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["199658B468626F80"]
+			icon: {
+				Count: 1
+				id: "simplyswords:toxic_longsword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "5097F7F7D6F08E2C"
+			rewards: [{
+				id: "101565C510844C2E"
+				item: {
+					Count: 1
+					id: "simplyswords:toxic_longsword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "It spread chaos, caused deaths, and spread a massive stain, they say the plague never sleeps..."
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "79CECF608A365DE0"
+				item: "lethality:blood_coin"
+				type: "item"
+			}]
+			title: "Longsword of the Plague"
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["56FD3CA6A8E96E55"]
+			hide_dependent_lines: true
+			icon: "lethality:blood_coin"
+			id: "199658B468626F80"
+			rewards: [
+				{
+					id: "37FC843CD1B03B33"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					id: "1869C50EA640376D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Trade Blood Coins to get unique items!"
+			tasks: [{
+				id: "7BBEA11A0F268A5E"
+				type: "checkmark"
+			}]
+			title: "Boss Trade"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["56FD3CA6A8E96E55"]
+			description: ["Buy some &ditems&r and &6ores&r that can help you and reduce your grind."]
+			hide_dependent_lines: true
+			icon: "kubejs:coin"
+			id: "5EB179CB8DB35E90"
+			rewards: [
+				{
+					id: "175AAF42F41851B3"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "54F8F83087E81082"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "A little help!"
+			tasks: [{
+				id: "1D5D86F9B593453B"
+				type: "checkmark"
+			}]
+			title: "Adventure Trade"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6CA4435E12DAFB96"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:fireball"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "4651F91F0D48E1A3"
+			rewards: [{
+				id: "6F24E72E1E144E7E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:fireball"
+								index: 0
+								level: 2
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "676B3FC12300D1DD"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 75L
+					id: "675A2604963C70FF"
+					item: { Count: 75, id: "kubejs:coin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "414961A1AFD0F30B"
+					item: "threateningly_mobs:firelizard_tail"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Fireball Scroll"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6CA4435E12DAFB96"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:thunderstorm"
+							index: 0
+							level: 3
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "68E5D93148A23E82"
+			rewards: [{
+				id: "7604506A92C57255"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:thunderstorm"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "21D15083ADDE381C"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 75L
+					id: "529A6D6285C29A59"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0ADEF498618CAAA3"
+					item: "cataclysm:essence_of_the_storm"
+					type: "item"
+				}
+			]
+			title: "Thunderstorm Scroll"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6CA4435E12DAFB96"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:fang_strike"
+							index: 0
+							level: 6
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "411D017124E84A49"
+			rewards: [{
+				id: "3159EAFB382A3073"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:fang_strike"
+								index: 0
+								level: 7
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "753BF92F3EFE5F81"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 75L
+					id: "300BD7BFA1317669"
+					item: { Count: 75, id: "kubejs:coin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0F53FCBC568AD9ED"
+					item: "forbidden_arcanus:whirlwind_prism"
+					type: "item"
+				}
+			]
+			title: "Fang Strike Scroll"
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6CA4435E12DAFB96"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:heal"
+							index: 0
+							level: 8
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "7130B076A90F8824"
+			rewards: [{
+				id: "004B69D1429D6AF3"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:heal"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "175D68C0BFCF073F"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 75L
+					id: "3F520837B54B3FA1"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "35E7341A9F75C05C"
+					item: "terramity:archangel_halo"
+					type: "item"
+				}
+			]
+			title: "Heal Scroll"
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6CA4435E12DAFB96"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:dragon_breath"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "217CD42AEDB7A79A"
+			rewards: [{
+				id: "111EA239A1F8BC25"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:dragon_breath"
+								index: 0
+								level: 7
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "336C857C29B895CB"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 75L
+					id: "2852974D63A319E6"
+					item: { Count: 75, id: "kubejs:coin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5CBE301B201203FC"
+					item: "apotheosis:infused_breath"
+					type: "item"
+				}
+			]
+			title: "Dragons Breath Scroll"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5EB179CB8DB35E90"]
+			icon: "minecraft:coal"
+			id: "1A3E975A22F9B414"
+			rewards: [{
+				count: 64
+				id: "332116FBD4F44961"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "794CF8090C67F77B"
+				item: { Count: 25, id: "kubejs:coin" }
+				type: "item"
+			}]
+			title: "32x Coal"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5EB179CB8DB35E90"
+				"784B05ECA732AF43"
+			]
+			icon: "minecraft:diamond"
+			id: "37BD500654D569A6"
+			rewards: [{
+				count: 20
+				id: "60C805BAE357B1BB"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 50L
+				id: "72C63A54DFD83C0A"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			title: "12x Diamond"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5EB179CB8DB35E90"]
+			icon: "minecraft:iron_ingot"
+			id: "0A46222DC3C481F1"
+			rewards: [{
+				count: 32
+				id: "1A9317635A100D93"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "6F19846C16881C0A"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			title: "32x Iron Bar"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5EB179CB8DB35E90"]
+			icon: "minecraft:copper_ingot"
+			id: "226DF1F9B4D241B2"
+			rewards: [{
+				count: 32
+				id: "1D46A403B4558590"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "58BC33B28970683C"
+				item: { Count: 20, id: "kubejs:coin" }
+				type: "item"
+			}]
+			title: "32x Cooper Ingot"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5EB179CB8DB35E90"]
+			icon: "minecraft:gold_ingot"
+			id: "7CA4D74D8B436974"
+			rewards: [{
+				count: 24
+				id: "6040B285C584AAC6"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 40L
+				id: "1FBECDAFFF21F40F"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			title: "24x Gold Bar"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5EB179CB8DB35E90"
+				"58AC203E33C4413F"
+			]
+			icon: "minecraft:amethyst_shard"
+			id: "265DA594FFBE0A8F"
+			rewards: [{
+				count: 12
+				id: "7546B80847E0B881"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 50L
+				id: "52DC8265D6E33A80"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			title: "12x Amethyst"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5EB179CB8DB35E90"
+				"076000E2328B98ED"
+			]
+			icon: "minecraft:quartz"
+			id: "10C1835402E80984"
+			rewards: [{
+				count: 20
+				id: "1A192A89187AD20C"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "388658708062AC34"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			title: "20x Quartz"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5EB179CB8DB35E90"
+				"40A1D90891DDB82D"
+			]
+			icon: "terramity:ruby"
+			id: "1B8363531A8F59FE"
+			rewards: [{
+				count: 10
+				id: "42A1E4BFCF234E82"
+				item: "terramity:ruby"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 25L
+				icon: "kubejs:coin"
+				id: "4D46B2B75F85EE47"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			title: "10x Ruby"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5EB179CB8DB35E90"
+				"30D415C56649D25A"
+			]
+			icon: "terramity:topaz"
+			id: "21C0A7B885CACAD6"
+			rewards: [{
+				count: 10
+				id: "6FE6F2537F3A1841"
+				item: "terramity:topaz"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 25L
+				icon: "kubejs:coin"
+				id: "16447A6BEF5158D3"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			title: "10x Topaz"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5EB179CB8DB35E90"
+				"1596A565BDB25FCF"
+			]
+			icon: "terramity:sapphire"
+			id: "1BF6A1EB9A110DFA"
+			rewards: [{
+				count: 10
+				id: "607687E3F29D1CB7"
+				item: "terramity:sapphire"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 25L
+				icon: "kubejs:coin"
+				id: "123A171A0C15958B"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			title: "10x Sapphire"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5EB179CB8DB35E90"]
+			icon: "explorerscompass:explorerscompass"
+			id: "5F861BF1E1C78C49"
+			rewards: [{
+				id: "2C19B892365B23CA"
+				item: "explorerscompass:explorerscompass"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 50L
+				icon: "kubejs:coin"
+				id: "0BDE5CDCF994F34D"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			title: "1x Explorer's Compass"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5EB179CB8DB35E90"
+				"30DDFD641FA05614"
+			]
+			icon: "minecraft:ghast_tear"
+			id: "5BC8796B86DFCDE1"
+			rewards: [{
+				count: 12
+				id: "04CB879964DD6B06"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "67B5676FCA386E76"
+				item: { Count: 24, id: "kubejs:coin" }
+				type: "item"
+			}]
+			title: "12x Ghast Tear"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5EB179CB8DB35E90"]
+			icon: "naturescompass:naturescompass"
+			id: "051F172186C4CE8D"
+			rewards: [{
+				id: "23886F8358FAD4FC"
+				item: "naturescompass:naturescompass"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 50L
+				id: "29C5003E5F5E3629"
+				item: { Count: 50, id: "kubejs:coin" }
+				type: "item"
+			}]
+			title: "1x Nature's Compass"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5EB179CB8DB35E90"
+				"4AFFA99CDF292A0D"
+			]
+			icon: "terramity:prismatic_jewel"
+			id: "3564C8875E6D65F0"
+			rewards: [{
+				count: 3
+				id: "760BF686682D9F43"
+				item: "terramity:prismatic_jewel"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 35L
+				id: "2C6987F8174F100C"
+				item: { Count: 35, id: "kubejs:coin" }
+				type: "item"
+			}]
+			title: "3x Prismatic Jewel"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5EB179CB8DB35E90"]
+			icon: "minecraft:netherite_ingot"
+			id: "303A2399C1326616"
+			rewards: [{
+				count: 6
+				id: "28B9FADF83E19E58"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 50L
+				icon: "kubejs:coin"
+				id: "323BF6F6649C1274"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			title: "6x Netherite Ingots"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["199658B468626F80"]
+			icon: "composite_material:enlightened_totem"
+			id: "1921FECE5BABE08D"
+			rewards: [{
+				id: "0ED68718B91AE417"
+				item: "composite_material:enlightened_totem"
+				type: "item"
+			}]
+			subtitle: "If you have trouble getting it the usual way, maybe you should buy it..."
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "6325D5B9499C1EE4"
+				item: "lethality:blood_coin"
+				type: "item"
+			}]
+			title: "1x Emblem of Hero"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["199658B468626F80"]
+			icon: {
+				Count: 1
+				id: "simplyswords:waxweaver"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "0BF05B160263BC6F"
+			rewards: [{
+				id: "529C4648B64B8683"
+				item: {
+					Count: 1
+					id: "simplyswords:waxweaver"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Oh, a lightning source!"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "245D85B7EEBB78BC"
+				item: { Count: 8, id: "lethality:blood_coin" }
+				type: "item"
+			}]
+			title: "Waxweaver"
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["199658B468626F80"]
+			icon: {
+				Count: 1
+				id: "simplyswords:shadowsting"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "6A383F63E42FF4E6"
+			rewards: [{
+				id: "1B3A14F2180105EA"
+				item: {
+					Count: 1
+					id: "simplyswords:shadowsting"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Soul Lord weapon, only the dark celestials can hold!"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "52DE1E91798A2D95"
+				item: { Count: 10, id: "lethality:blood_coin" }
+				type: "item"
+			}]
+			title: "Shadowsting"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["199658B468626F80"]
+			icon: {
+				Count: 1
+				id: "simplyswords:righteous_relic"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "1F36DD20E2610801"
+			rewards: [{
+				id: "4E2B81FABF2DE508"
+				item: {
+					Count: 1
+					id: "simplyswords:righteous_relic"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "06FB3B31961A4A31"
+				item: { Count: 6, id: "lethality:blood_coin" }
+				type: "item"
+			}]
+			title: "Righteous Relic"
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["199658B468626F80"]
+			icon: {
+				Count: 1
+				id: "simplyswords:stars_edge"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "4D42368BD85A1595"
+			rewards: [{
+				id: "14B249CD218CE198"
+				item: {
+					Count: 1
+					id: "simplyswords:stars_edge"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "57D873F8727A04D1"
+				item: "lethality:blood_coin"
+				type: "item"
+			}]
+			title: "Star's Edge"
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["199658B468626F80"]
+			icon: {
+				Count: 1
+				id: "simplyswords:icewhisper"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "15A02816D1272DDD"
+			rewards: [{
+				id: "2E4E7EF0FCDE453A"
+				item: {
+					Count: 1
+					id: "simplyswords:icewhisper"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "292A1D7008A6A68A"
+				item: "lethality:blood_coin"
+				type: "item"
+			}]
+			title: "Icewhisper"
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["56FD3CA6A8E96E55"]
+			hide_dependent_lines: true
+			icon: "goety:witch_hat_hedge"
+			id: "6CA4435E12DAFB96"
+			rewards: [
+				{
+					id: "6C07760F44DF842F"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "4ECBDDA9EC4DB4D5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Some magic scrolls!"
+			tasks: [{
+				id: "577C35EBAFEBC35A"
+				type: "checkmark"
+			}]
+			title: "Wizard Trade"
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5EB179CB8DB35E90"]
+			icon: "more_curios_slots:extra_bracelet_slot"
+			id: "6E46536AF952BB9A"
+			rewards: [{
+				id: "360A074FD025386B"
+				item: "more_curios_slots:extra_bracelet_slot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "21042352B2AE3047"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 60L
+					id: "7C84F4CED632B1CB"
+					item: { Count: 50, id: "kubejs:coin" }
+					type: "item"
+				}
+			]
+			title: "Extra Bracelet Slot"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5EB179CB8DB35E90"]
+			icon: "more_curios_slots:extra_necklace_slot"
+			id: "780BE08300183AF1"
+			rewards: [{
+				id: "3F4CAFCE9D3CE7FF"
+				item: "more_curios_slots:extra_necklace_slot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "220A2FAC89878D13"
+					item: { Count: 2, id: "lethality:blood_coin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 60L
+					id: "5FFF51E57A394751"
+					item: { Count: 60, id: "kubejs:coin" }
+					type: "item"
+				}
+			]
+			title: "Extra Necklace Slot"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5EB179CB8DB35E90"]
+			icon: "more_curios_slots:extra_charm_slot"
+			id: "176E036A2BF7FB41"
+			rewards: [{
+				id: "10D15667E7E4D31F"
+				item: "more_curios_slots:extra_charm_slot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "12711CB1E54FDFE4"
+					item: { Count: 2, id: "lethality:blood_coin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 60L
+					id: "21463AD1042B8CE8"
+					item: { Count: 60, id: "kubejs:coin" }
+					type: "item"
+				}
+			]
+			title: "Extra Charm Slot"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5EB179CB8DB35E90"]
+			icon: "more_curios_slots:extra_ring_slot"
+			id: "194E40F98C4AC1AA"
+			rewards: [{
+				id: "74E0E2361F4FD717"
+				item: "more_curios_slots:extra_ring_slot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "799600431E432562"
+					item: { Count: 2, id: "lethality:blood_coin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 60L
+					id: "5B1A4DE93EB62AFE"
+					item: { Count: 60, id: "kubejs:coin" }
+					type: "item"
+				}
+			]
+			title: "Extra Ring Slot"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5EB179CB8DB35E90"]
+			icon: "more_curios_slots:extra_curio_slot"
+			id: "68AC6863D1938590"
+			rewards: [{
+				id: "336B755A9592B2F3"
+				item: "more_curios_slots:extra_curio_slot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "1D3D146848F1796E"
+					item: "lethality:blood_coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 100L
+					id: "182A829D2D755D43"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			title: "Extra Curio Slot"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6CA4435E12DAFB96"]
+			icon: "skilltree:amnesia_scroll"
+			id: "02DC2098B0B926BE"
+			rewards: [{
+				id: "034A4E42AEF67C95"
+				item: "skilltree:amnesia_scroll"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 50L
+					id: "486A44B841365B3A"
+					item: { Count: 50, id: "lethality:blood_coin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 600L
+					id: "50D3AC1417C8C801"
+					item: { Count: 600, id: "kubejs:coin" }
+					type: "item"
+				}
+			]
+			title: "Amnesia Scroll"
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6CA4435E12DAFB96"]
+			description: [
+				"Be &6careful&r when changing &dclasses&r."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"Your armor will be &9swapped&r after selecting the &dnew class&r. Remove &call&r armor and items from your main hotbar before making the selection!"
+			]
+			icon: "kubejs:scroll_of_class_choice"
+			id: "43D4C2C53AFE5955"
+			rewards: [{
+				id: "2D4BC6910FB76E7F"
+				item: "kubejs:scroll_of_class_choice"
+				type: "item"
+			}]
+			subtitle: "Change your class!"
+			tasks: [{
+				count: 20L
+				id: "27F04FB499D24D7B"
+				item: { Count: 20, id: "lethality:blood_coin" }
+				type: "item"
+			}]
+			title: "Scroll of Class Choice"
+			x: 6.5d
+			y: 2.5d
+		}
+	]
+	title: "Gob's Trading Shop"
+}

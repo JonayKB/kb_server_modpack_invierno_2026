@@ -1,0 +1,21 @@
+filename = 'amber-forge-1.20.1-1.3.0-beta.2+1.20.1.jar'
+name = 'Amber Lib'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'amber-forge-1.20.1-1.3.0-beta.2+1.20.1'
+
+[download]
+hash = '634411bb649b04ccd723eb855bf83890c4ca64a9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5953912
+project-id = 1139910
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'

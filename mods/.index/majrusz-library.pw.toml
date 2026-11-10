@@ -1,0 +1,18 @@
+filename = 'majrusz-library-forge-1.20.1-7.0.8.jar'
+name = 'Majrusz Library'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Majrusz Library 7.0.8 (Forge)'
+
+[download]
+hash = 'be0e1b5808206abcc2ff6a369ce0c2ba53968c55'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5302100
+project-id = 437409

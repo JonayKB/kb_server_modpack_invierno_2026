@@ -1,0 +1,18 @@
+filename = 'cobweb-forge-1.20.1-1.0.1.jar'
+name = 'Cobweb'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Forge - 1.20.1] Cobweb v1.0.1'
+
+[download]
+hash = '607bbb82656d28ddfaa5ef2ec6e9c413859f5956'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6089406
+project-id = 968456

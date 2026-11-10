@@ -1,0 +1,18 @@
+filename = 'misanthropy_ftb_quest_additions-1.1.jar'
+name = "MQA - Misanthropy's FTB Quest Additions"
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'misanthropy_ftb_quest_additions-1.1.jar'
+
+[download]
+hash = '7a7196335ba86a61e73dc18d7d51bf2b2c7a85ed'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8468157
+project-id = 1559807

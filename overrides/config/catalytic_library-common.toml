@@ -1,0 +1,9 @@
+
+[phalanx]
+	#List of entity IDs (e.g. 'minecraft:zombie') that are immune to Phalanx retaliation damage.
+	retaliationBlacklist = ["minecraft:iron_golem"]
+
+[mob_effect_immunity]
+	#List of mappings from entity ID to comma-separated effect IDs. Format: 'entity=effect1,effect2,...'
+	immunity_list = ["minecraft:zombie=minecraft:resistance,minecraft:strength"]
+

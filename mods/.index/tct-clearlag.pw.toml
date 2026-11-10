@@ -1,0 +1,18 @@
+filename = 'clearlag-1.6-forge-1.20.1.jar'
+name = 'TCT ClearLag'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'clearlag'
+
+[download]
+hash = '17472472d8de46e38fec9ac6054094a1530c97d9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8623185
+project-id = 1063658

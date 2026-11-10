@@ -1,0 +1,18 @@
+filename = 'epicdeathscreen-forge-1.20.1-1.1.0-beta.2.jar'
+name = 'Epic Death Screen'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'EDS-1.20.1-forge-2.0-beta'
+
+[download]
+hash = 'ae28ae3a52f96469f89c5ecb929524681caba3dd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8851225
+project-id = 1484326

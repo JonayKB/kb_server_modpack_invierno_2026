@@ -1,0 +1,205 @@
+{
+  "performVersionCheck": true,
+  "origins": {
+    "origins:enderian": {
+      "enabled": true,
+      "origins:throw_ender_pearl": true,
+      "origins:water_vulnerability": true,
+      "origins:pumpkin_hate": true,
+      "origins:extra_reach": true,
+      "origins:ender_particles": true,
+      "origins:damage_from_potions": true
+    },
+    "cisco_rpg_origins:rastrayian_justicar": {
+      "enabled": true,
+      "cisco_rpg_origins:rastraiya_might": true,
+      "cisco_rpg_origins:ender_rebuke": true,
+      "cisco_rpg_origins:holy_blessing": true,
+      "cisco_rpg_origins:dl_blessing": true,
+      "cisco_rpg_origins:guiding_bolt_expert": true,
+      "cisco_rpg_origins:fortify": true,
+      "cisco_rpg_origins:righteous_respite": true
+    },
+    "origins:feline": {
+      "enabled": true,
+      "origins:fall_immunity": true,
+      "origins:sprint_jump": true,
+      "origins:velvet_paws": true,
+      "origins:nine_lives": true,
+      "origins:weak_arms": true,
+      "origins:scare_creepers": true,
+      "origins:cat_vision": true
+    },
+    "origins:elytrian": {
+      "enabled": true,
+      "origins:elytra": true,
+      "origins:launch_into_air": true,
+      "origins:aerial_combatant": true,
+      "origins:light_armor": true,
+      "origins:claustrophobia": true,
+      "origins:more_kinetic_damage": true
+    },
+    "cisco_rpg_origins:pyrios_pheonix_knight": {
+      "enabled": true,
+      "cisco_rpg_origins:infernal_blade": true,
+      "cisco_rpg_origins:damnation_of_pyr": true,
+      "cisco_rpg_origins:solar_eclipse": true,
+      "cisco_rpg_origins:pheonix_renewal": true,
+      "cisco_rpg_origins:endothermic": true,
+      "cisco_rpg_origins:flame_god_might": true,
+      "cisco_rpg_origins:burning_dash_expert": true,
+      "cisco_rpg_origins:flame_god_might2": true
+    },
+    "cisco_rpg_origins:boreas_blessing": {
+      "enabled": true,
+      "cisco_rpg_origins:boreas_boon_minor": true,
+      "cisco_rpg_origins:boreas_boon_major": true
+    },
+    "cisco_rpg_origins:vishnus_blessing": {
+      "enabled": true,
+      "cisco_rpg_origins:vishnu_boon_minor": true,
+      "cisco_rpg_origins:vishnu_boon_major": true,
+      "cisco_rpg_origins:vishnu_boon_major2": true
+    },
+    "cisco_rpg_origins:hobrosi_dark_mage": {
+      "enabled": true,
+      "cisco_rpg_origins:ender_affinity": true,
+      "cisco_rpg_origins:holy_rebuke": true,
+      "cisco_rpg_origins:dark_blessing": true,
+      "cisco_rpg_origins:dl_blessing": true,
+      "cisco_rpg_origins:magic_missle_expert": true,
+      "cisco_rpg_origins:ethereal_evasion": true,
+      "cisco_rpg_origins:profane_sacrifice": true
+    },
+    "origins:phantom": {
+      "enabled": true,
+      "origins:phantomize": true,
+      "origins:translucent": true,
+      "origins:phasing": true,
+      "origins:invisibility": true,
+      "origins:burn_in_daylight": true,
+      "origins:hunger_over_time": true,
+      "origins:fragile": true,
+      "origins:phantomize_overlay": true
+    },
+    "origins:blazeborn": {
+      "enabled": true,
+      "origins:fire_immunity": true,
+      "origins:nether_spawn": true,
+      "origins:burning_wrath": true,
+      "origins:hotblooded": true,
+      "origins:water_vulnerability": true,
+      "origins:flame_particles": true,
+      "origins:damage_from_snowballs": true,
+      "origins:damage_from_potions": true
+    },
+    "origins:avian": {
+      "enabled": true,
+      "origins:slow_falling": true,
+      "origins:fresh_air": true,
+      "origins:like_air": true,
+      "origins:tailwind": true,
+      "origins:lay_eggs": true,
+      "origins:vegetarian": true
+    },
+    "cisco_rpg_origins:susanoos_blessing": {
+      "enabled": true,
+      "cisco_rpg_origins:susanoos_boon_minor": true,
+      "cisco_rpg_origins:susanoos_boon_major": true,
+      "cisco_rpg_origins:susanoos_boon_major2": true
+    },
+    "cisco_rpg_origins:thors_blessing": {
+      "enabled": true,
+      "cisco_rpg_origins:thors_boon_minor": true,
+      "cisco_rpg_origins:thors_boon_major": true
+    },
+    "cisco_rpg_origins:ras_blessing": {
+      "enabled": true,
+      "cisco_rpg_origins:ras_boon_minor": true,
+      "cisco_rpg_origins:ras_boon_major": true
+    },
+    "cisco_rpg_origins:amaterasus_blessing": {
+      "enabled": true,
+      "cisco_rpg_origins:amaterasus_boon_minor": true,
+      "cisco_rpg_origins:amaterasus_boon_major": true,
+      "cisco_rpg_origins:amaterasus_boon_major2": true
+    },
+    "cisco_rpg_origins:arthurs_blessing": {
+      "enabled": true,
+      "cisco_rpg_origins:arthurs_boon_minor": true,
+      "cisco_rpg_origins:arthurs_boon_major": true,
+      "cisco_rpg_origins:arthurs_boon_major2": true,
+      "cisco_rpg_origins:arthurs_boon_major3": true
+    },
+    "origins:human": {
+      "enabled": true
+    },
+    "cisco_rpg_origins:venthari_sharpshooter": {
+      "enabled": true,
+      "cisco_rpg_origins:deadeye": true,
+      "cisco_rpg_origins:carnivore": true,
+      "cisco_rpg_origins:terrain": true,
+      "cisco_rpg_origins:terrain2": true,
+      "cisco_rpg_origins:fragility": true
+    },
+    "cisco_rpg_origins:babayaga_blessing": {
+      "enabled": true,
+      "cisco_rpg_origins:babayaga_boon_minor": true,
+      "cisco_rpg_origins:babayaga_boon_major": true
+    },
+    "origins:shulk": {
+      "enabled": true,
+      "origins:shulker_inventory": true,
+      "origins:natural_armor": true,
+      "origins:strong_arms": true,
+      "origins:strong_arms_break_speed": true,
+      "origins:no_shield": true,
+      "origins:more_exhaustion": true
+    },
+    "cisco_rpg_origins:nyxs_blessing": {
+      "enabled": true,
+      "cisco_rpg_origins:nyx_boon_minor": true,
+      "cisco_rpg_origins:nyx_boon_minor2": true,
+      "cisco_rpg_origins:ares_boon_major_": true,
+      "cisco_rpg_origins:ares_boon_major__": true
+    },
+    "origins:merling": {
+      "enabled": true,
+      "origins:water_breathing": true,
+      "origins:water_vision": true,
+      "origins:aqua_affinity": true,
+      "origins:swim_speed": true,
+      "origins:like_water": true,
+      "origins:aquatic": true,
+      "origins:conduit_power_on_land": true,
+      "origins:air_from_potions": true
+    },
+    "cisco_rpg_origins:astraeus__blessing": {
+      "enabled": true,
+      "cisco_rpg_origins:ares_boon_minor_": true,
+      "cisco_rpg_origins:astraeus_boon_major": true,
+      "cisco_rpg_origins:astraeus_boon_major2": true
+    },
+    "origins:arachnid": {
+      "enabled": true,
+      "origins:climbing": true,
+      "origins:master_of_webs": true,
+      "origins:carnivore": true,
+      "origins:fragile": true,
+      "origins:arthropod": true
+    },
+    "cisco_rpg_origins:hephaestus_blessing": {
+      "enabled": true,
+      "cisco_rpg_origins:hephaestus_boon_minor": true,
+      "cisco_rpg_origins:hephaestus_boon_major": true
+    },
+    "cisco_rpg_origins:lokis_blessing": {
+      "enabled": true,
+      "cisco_rpg_origins:lokis_boon_minor": true,
+      "cisco_rpg_origins:lokis_boon_minor2": true,
+      "cisco_rpg_origins:lokis_boon_minor3": true,
+      "cisco_rpg_origins:lokis_boon_major": true,
+      "cisco_rpg_origins:lokis_boon_major2": true
+    }
+  }
+}

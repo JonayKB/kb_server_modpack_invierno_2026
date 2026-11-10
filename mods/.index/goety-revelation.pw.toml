@@ -1,0 +1,25 @@
+filename = 'GoetyRevelation-2.3.3fix(1).jar'
+name = 'Goety Revelation'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'GoetyRevelation-2.3.3fix(1).jar'
+
+[download]
+hash = '7ce78249ac8b9cc206d677ee1050a8f934c93525'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8311906
+project-id = 1236817
+
+[[x-prismlauncher-dependencies]]
+addonId = '1471165'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '586095'
+type = 'REQUIRED'

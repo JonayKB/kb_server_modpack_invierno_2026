@@ -1,0 +1,34 @@
+{
+  "enabled_recipes": [
+    {
+      "blocks": [
+        "minecraft:crafting_table"
+      ],
+      "recipe_type": "minecraft:crafting"
+    },
+    {
+      "blocks": [
+        "minecraft:furnace"
+      ],
+      "recipe_type": "minecraft:smelting"
+    },
+    {
+      "blocks": [
+        "minecraft:blast_furnace"
+      ],
+      "recipe_type": "minecraft:blasting"
+    },
+    {
+      "blocks": [
+        "minecraft:campfire"
+      ],
+      "recipe_type": "minecraft:campfire_cooking"
+    },
+    {
+      "blocks": [
+        "minecraft:smoker"
+      ],
+      "recipe_type": "minecraft:smoking"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+
+[LootPlus]
+	#If true, enables the dropping of loot bags.
+	LootBagDropping = true
+	#The base chance of a loot bag even spawning. (Best kept at 100.)
+	BaseChance = 100.0
+	#If true, bosses will drop loot bags. (100% drop rate)
+	BossLootBags = true
+
+[LootBagDropRate]
+	#Chance of getting a common loot bag.
+	CommonLootBagDropChance = 60.0
+	#Chance of getting a uncommon loot bag.
+	UncommonLootBagDropChance = 15.0
+	#Chance of getting a rare loot bag.
+	RareLootBagDropChance = 10.0
+	#Chance of getting a epic loot bag.
+	EpicLootBagDropChance = 5.0
+
+["Loot Bag Drops"]
+
+	["Loot Bag Drops"."Boss Loot Bag Drops"]
+		#Most Common
+		Drop_1 = "minecraft:emerald"
+		Drop_1_Chance = 100.0
+		#Minimum Amount Dropped
+		Drop_1_Min = 15.0
+		#Maximum Amount Dropped
+		Drop_1_Max = 20.0
+		Drop_2 = "minecraft:diamond"
+		Drop_2_Chance = 40.0
+		#Minimum Amount Dropped
+		Drop_2_Min = 5.0
+		#Maximum Amount Dropped
+		Drop_2_Max = 6.0
+		Drop_3 = "minecraft:netherite_scrap"
+		Drop_3_Chance = 25.0
+		#Minimum Amount Dropped
+		Drop_3_Min = 4.0
+		Drop_4 = "minecraft:enchanted_golden_apple"
+		Drop_4_Chance = 15.0
+		#Minimum Amount Dropped
+		Drop_4_Min = 2.0
+		#Maximum Amount Dropped
+		Drop_4_Max = 3.0
+		#Most Rare
+		Drop_5 = "minecraft:netherite_ingot"
+		Drop_5_Chance = 10.0
+		#Minimum Amount Dropped
+		Drop_5_Min = 1.0
+		#Maximum Amount Dropped
+		Drop_5_Max = 1.0
+
+	["Loot Bag Drops"."Common Loot Bag Drops"]
+		#Most Common
+		Drop_1 = "minecraft:cookie"
+		Drop_1_Chance = 100.0
+		#Minimum Amount Dropped
+		Drop_1_Min = 3.0
+		#Maximum Amount Dropped
+		Drop_1_Max = 6.0
+		Drop_2 = "minecraft:bone"
+		Drop_2_Chance = 40.0
+		#Minimum Amount Dropped
+		Drop_2_Min = 2.0
+		#Maximum Amount Dropped
+		Drop_2_Max = 9.0
+		Drop_3 = "minecraft:iron_nugget"
+		Drop_3_Chance = 25.0
+		#Minimum Amount Dropped
+		Drop_3_Min = 4.0
+		Drop_4 = "minecraft:gold_nugget"
+		Drop_4_Chance = 15.0
+		#Minimum Amount Dropped
+		Drop_4_Min = 4.0
+		#Maximum Amount Dropped
+		Drop_4_Max = 9.0
+		#Most Rare
+		Drop_5 = "minecraft:gold_ingot"
+		Drop_5_Chance = 10.0
+		#Minimum Amount Dropped
+		Drop_5_Min = 1.0
+		#Maximum Amount Dropped
+		Drop_5_Max = 2.0
+
+	["Loot Bag Drops"."Uncommon Loot Bag Drops"]
+		#Most Common
+		Drop_1 = "minecraft:golden_carrot"
+		Drop_1_Chance = 100.0
+		#Minimum Amount Dropped
+		Drop_1_Min = 2.0
+		#Maximum Amount Dropped
+		Drop_1_Max = 4.0
+		Drop_2 = "minecraft:gold_nugget"
+		Drop_2_Chance = 40.0
+		#Minimum Amount Dropped
+		Drop_2_Min = 7.0
+		#Maximum Amount Dropped
+		Drop_2_Max = 4.0
+		Drop_3 = "minecraft:iron_ingot"
+		Drop_3_Chance = 25.0
+		#Minimum Amount Dropped
+		Drop_3_Min = 2.0
+		Drop_4 = "minecraft:gold_ingot"
+		Drop_4_Chance = 15.0
+		#Minimum Amount Dropped
+		Drop_4_Min = 3.0
+		#Maximum Amount Dropped
+		Drop_4_Max = 4.0
+		#Most Rare
+		Drop_5 = "minecraft:emerald"
+		Drop_5_Chance = 10.0
+		#Minimum Amount Dropped
+		Drop_5_Min = 1.0
+		#Maximum Amount Dropped
+		Drop_5_Max = 2.0
+
+	["Loot Bag Drops"."Rare Loot Bag Drops"]
+		#Most Common
+		Drop_1 = "minecraft:iron_ingot"
+		Drop_1_Chance = 100.0
+		#Minimum Amount Dropped
+		Drop_1_Min = 3.0
+		#Maximum Amount Dropped
+		Drop_1_Max = 5.0
+		Drop_2 = "minecraft:gold_ingot"
+		Drop_2_Chance = 40.0
+		#Minimum Amount Dropped
+		Drop_2_Min = 3.0
+		#Maximum Amount Dropped
+		Drop_2_Max = 3.0
+		Drop_3 = "minecraft:emerald"
+		Drop_3_Chance = 25.0
+		#Minimum Amount Dropped
+		Drop_3_Min = 2.0
+		Drop_4 = "minecraft:golden_apple"
+		Drop_4_Chance = 15.0
+		#Minimum Amount Dropped
+		Drop_4_Min = 1.0
+		#Maximum Amount Dropped
+		Drop_4_Max = 2.0
+		#Most Rare
+		Drop_5 = "minecraft:diamond"
+		Drop_5_Chance = 10.0
+		#Minimum Amount Dropped
+		Drop_5_Min = 1.0
+		#Maximum Amount Dropped
+		Drop_5_Max = 1.0
+
+	["Loot Bag Drops"."Epic Loot Bag Drops"]
+		#Most Common
+		Drop_1 = "minecraft:gold_ingot"
+		Drop_1_Chance = 100.0
+		#Minimum Amount Dropped
+		Drop_1_Min = 9.0
+		#Maximum Amount Dropped
+		Drop_1_Max = 12.0
+		Drop_2 = "minecraft:emerald"
+		Drop_2_Chance = 40.0
+		#Minimum Amount Dropped
+		Drop_2_Min = 3.0
+		#Maximum Amount Dropped
+		Drop_2_Max = 3.0
+		Drop_3 = "minecraft:golden_apple"
+		Drop_3_Chance = 25.0
+		#Minimum Amount Dropped
+		Drop_3_Min = 2.0
+		Drop_4 = "minecraft:diamond"
+		Drop_4_Chance = 15.0
+		#Minimum Amount Dropped
+		Drop_4_Min = 2.0
+		#Maximum Amount Dropped
+		Drop_4_Max = 3.0
+		#Most Rare
+		Drop_5 = "minecraft:netherite_scrap"
+		Drop_5_Chance = 10.0
+		#Minimum Amount Dropped
+		Drop_5_Min = 1.0
+		#Maximum Amount Dropped
+		Drop_5_Max = 2.0
+

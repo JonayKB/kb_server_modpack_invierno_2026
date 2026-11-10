@@ -1,0 +1,860 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "ore_progression"
+	group: "2D2E89DC5A7A91D8"
+	icon: "terramity:nyxium"
+	id: "541007B77C3B968E"
+	order_index: 2
+	parent: "6BF52126794D7192"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["62347EFF7A6E9E10"]
+			id: "6502032E63BC4087"
+			rewards: [{
+				id: "263CB8AE0C826F0E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0FA458F3DE6F89D5"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "Copper"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["62347EFF7A6E9E10"]
+			id: "14B92CF4169A7231"
+			rewards: [{
+				id: "0596175C91C81BA8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A838A561E24224A"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Iron"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4F62C09A9E2ADAF2"]
+			id: "1A655DB544EE9430"
+			rewards: [{
+				id: "2B537B4C5DBDBF07"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5F93BEC010754D42"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Diamond"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4F62C09A9E2ADAF2"]
+			id: "1BA9364A9533E9FB"
+			rewards: [{
+				id: "51B0506534B53361"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "15066A452D601ABA"
+				item: "terramity:sapphire"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4F62C09A9E2ADAF2"]
+			id: "442FC1BEECBCAC88"
+			rewards: [{
+				id: "141F45D63C1087F6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "21C4921684326D57"
+				item: "terramity:topaz"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4F62C09A9E2ADAF2"]
+			id: "0246662CA463E1B6"
+			rewards: [{
+				id: "2CEBA5791E0162AE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "53B5306DF17C31BC"
+				item: "terramity:ruby"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4F62C09A9E2ADAF2"]
+			id: "0F8DA025AF4558A5"
+			rewards: [{
+				id: "28C484BDB8BAB16E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "73FE1E4101C94FCE"
+				item: "terramity:onyx"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18714DB70864FE12"]
+			id: "48961585DF80C29B"
+			rewards: [{
+				id: "219BFAD7EAA13C8F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "479C68B83A284DEE"
+				item: "composite_material:obsidian_steel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18714DB70864FE12"]
+			id: "1A70876D8D464719"
+			rewards: [{
+				id: "7B369CE3A9FE410E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C3C47829871C6DB"
+				item: "composite_material:dungeon_steel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18714DB70864FE12"]
+			id: "289201A9BD2A8023"
+			rewards: [{
+				id: "0ADCC54A00565CAA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7E8C6A2EEE72C448"
+				item: "composite_material:allay_steel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["239B22084EFF5BB5"]
+			id: "3802F2CE120D4A12"
+			rewards: [{
+				id: "4026581DD94137AB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "189008C8ED176CD4"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["35E0807CC1BD764D"]
+			dependency_requirement: "one_completed"
+			id: "2FC24A19F5206884"
+			rewards: [{
+				id: "1E7969CDDAEC3C6B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7DA5E6B9054973AD"
+				item: "terramity:iridium"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["67E23A85A540099A"]
+			id: "1C0C207D185524E1"
+			rewards: [{
+				id: "50F042B7B0FDEE04"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26ACD35274507094"
+				item: "terramity:cosmilite_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["67E23A85A540099A"]
+			id: "2F760DC85795E5DD"
+			rewards: [{
+				id: "4CFF9A02CB03E499"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A344A9257FBB4D7"
+				item: "terramity:dimlite_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["67E23A85A540099A"]
+			id: "706E2F7DBE5FF899"
+			rewards: [{
+				id: "2405CCF17541D972"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3BA1E6D213EFF352"
+				item: "terramity:virentium_alloy_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["35E0807CC1BD764D"]
+			id: "66798D01F3B37701"
+			rewards: [{
+				id: "302E3FD1520C1211"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6D5EB4435B0941C7"
+				item: "terramity:conductite"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["35E0807CC1BD764D"]
+			id: "2900579356029183"
+			rewards: [{
+				id: "5DC45423D264DDF1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "407B852F3D62A7E6"
+				item: "terramity:void_alloy"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["35E0807CC1BD764D"]
+			id: "549ED07002F34E94"
+			rewards: [{
+				id: "17C13DBB1F4C9C29"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7F3E3781CEE0676F"
+				item: "terramity:hellspec_alloy"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["239B22084EFF5BB5"]
+			id: "23294B0FBC030AE7"
+			rewards: [{
+				id: "35EDB328360C8A27"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A40E42F82040869"
+				item: "composite_material:echoium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A8E722CADA130A3"]
+			id: "562617BF2195AA01"
+			rewards: [{
+				id: "2BB07AD5CB416915"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "46FFF4B6FBBECC04"
+				item: "composite_material:etherite_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["73C0E740318A65B7"]
+			id: "178B755F3861E525"
+			rewards: [{
+				id: "3A8E1547FD8C669C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E2551461A383B70"
+				item: "terramity:profanum"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["73C0E740318A65B7"]
+			id: "75482313B447CE60"
+			rewards: [{
+				id: "0B9C28FD5237B219"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6841FE721753A7AC"
+				item: "terramity:nyxium"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["73C0E740318A65B7"]
+			id: "01B43044C3C5F296"
+			rewards: [{
+				id: "578149BA4EA873E7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "08112580941480BB"
+				item: "terramity:reverium"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["73C0E740318A65B7"]
+			id: "17693E0EB10D7916"
+			rewards: [{
+				id: "5D6721314B18F1CF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7221EC16631A7A85"
+				item: "terramity:exodium_superalloy"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["62347EFF7A6E9E10"]
+			id: "765F49239C9A316A"
+			rewards: [{
+				id: "08BB6872ABEB4F05"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0D90D60959269CE9"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5006CF593016E45C"]
+			id: "356B7213BEED4DCF"
+			rewards: [{
+				id: "50E4E73E907BADA6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "285CD295D973F84E"
+				item: "dreadsteel:dreadsteel_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1A8E722CADA130A3"]
+			id: "0B9DD3E5C8FC71FE"
+			rewards: [{
+				id: "34880A1F23CC45E2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "57FFF5F2034FD056"
+				item: "goety_revelation:apocalyptium_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A8E722CADA130A3"]
+			id: "204FE88431EB91EB"
+			rewards: [{
+				id: "0E539B27CC5E1015"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E6104B5EAFB70C3"
+				item: "threateningly_mobs:ebonlord_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["67E23A85A540099A"]
+			id: "1055548BEDECB5F9"
+			rewards: [{
+				id: "163D726DBB759CB6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "48F52519DADEDE32"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35E0807CC1BD764D"]
+			id: "4EC9440174E1D467"
+			rewards: [{
+				id: "14DCC0445CE2CF54"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1E1A859F1AD96135"
+				item: "iceandfire:dragonsteel_fire_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["35E0807CC1BD764D"]
+			id: "7B9BFF369D2A82AD"
+			rewards: [{
+				id: "32CA3FB77C296884"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "75256D3C774098B9"
+				item: "iceandfire:dragonsteel_ice_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35E0807CC1BD764D"]
+			id: "05CE204EBED06D82"
+			rewards: [{
+				id: "62557EAEDD21C4A1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "019201D88DE6DED7"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18714DB70864FE12"]
+			id: "757C220F8D707E9C"
+			rewards: [{
+				id: "6DB3B64A84E06A60"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3777DEE54C8DEB05"
+				item: "goety:dark_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["67E23A85A540099A"]
+			id: "30758CA97D092091"
+			rewards: [{
+				id: "1BD06B9BFDD7B86E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "225C8612B6D1C7BF"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["67E23A85A540099A"]
+			id: "2539F06D1F8835C6"
+			rewards: [{
+				id: "4D6881C638B222C4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4ED746A6B7C0A446"
+				item: "traveloptics:tectonic_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["67E23A85A540099A"]
+			id: "5E3BC0AFDAF77590"
+			rewards: [{
+				id: "2EBE078C7ACD555A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7E936C749DD548E0"
+				item: "traveloptics:abyssal_spellweave_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["35E0807CC1BD764D"]
+			id: "5E7ED26272D26572"
+			rewards: [{
+				id: "6CE12DE7D9447351"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "02AEB105A1411325"
+				item: "hazennstuff:zenalite_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"The &dmodpack&r features a variety of new &6materials&r, so I put together this tier list to help players out."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"Not every single ingot may be included, but I’ve added the most &bimportant&r ones!"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
+				"The ingots were divided into &atiers&r to facilitate separation."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "62347EFF7A6E9E10"
+			rewards: [{
+				id: "00FD9ACB9046E946"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "2B7D65B52E2125FE"
+				type: "checkmark"
+			}]
+			title: "Materials Checklist"
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1A8E722CADA130A3"]
+			id: "7942A6C1437D5CAD"
+			rewards: [{
+				id: "16776B03E457FF60"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "125DB2733C0DCD49"
+				item: "lethality:annihilation_alloy"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["35E0807CC1BD764D"]
+			id: "76F237CED7878E74"
+			rewards: [{
+				id: "511B1A7973968D3C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6989DE2EEB87F217"
+				item: "lethality:pixie_alloy"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62347EFF7A6E9E10"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/numbers/1.png"
+				}
+			}
+			id: "4F62C09A9E2ADAF2"
+			rewards: [{
+				id: "4FFF91D0738B1599"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2071E7AA481D44C8"
+				type: "checkmark"
+			}]
+			title: "Tier I"
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4F62C09A9E2ADAF2"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/numbers/2.png"
+				}
+			}
+			id: "18714DB70864FE12"
+			rewards: [{
+				id: "63B6142E7563B50B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "496426E602C4560D"
+				type: "checkmark"
+			}]
+			title: "Tier II"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["18714DB70864FE12"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/numbers/3.png"
+				}
+			}
+			id: "239B22084EFF5BB5"
+			rewards: [{
+				id: "7D51813A93D6BBEC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1E65BFE794B08D68"
+				type: "checkmark"
+			}]
+			title: "Tier III"
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["239B22084EFF5BB5"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/numbers/4.png"
+				}
+			}
+			id: "67E23A85A540099A"
+			rewards: [{
+				id: "033544EFA9E347B6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2EC4F2D3EE8AE885"
+				type: "checkmark"
+			}]
+			title: "Tier IV"
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["67E23A85A540099A"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/numbers/5.png"
+				}
+			}
+			id: "35E0807CC1BD764D"
+			rewards: [{
+				id: "04B8CD348748AD1E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2EE86E95655A0CE2"
+				type: "checkmark"
+			}]
+			title: "Tier V"
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["35E0807CC1BD764D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/numbers/6.png"
+				}
+			}
+			id: "73C0E740318A65B7"
+			rewards: [{
+				id: "263310F72B418FB4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "73251B7F5419A6D0"
+				type: "checkmark"
+			}]
+			title: "Tier VI"
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["73C0E740318A65B7"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/numbers/7.png"
+				}
+			}
+			id: "1A8E722CADA130A3"
+			rewards: [{
+				id: "6C8A6ACA6C83801D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "297EF8B2BB2C3D98"
+				type: "checkmark"
+			}]
+			title: "Tier VII"
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1A8E722CADA130A3"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/numbers/8.png"
+				}
+			}
+			id: "5006CF593016E45C"
+			rewards: [{
+				id: "523FE4C2E6BF9ACB"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2A466CC493277E32"
+				type: "checkmark"
+			}]
+			title: "Tier VIII"
+			x: 12.0d
+			y: -7.0d
+		}
+	]
+	title: "Material's Tier"
+}

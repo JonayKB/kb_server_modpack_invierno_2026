@@ -1,0 +1,9 @@
+
+[spawn]
+	#Range: 0 ~ 100000
+	exclusion_radius = 1500
+	#Range: 0 ~ 100000
+	soft_radius = 2500
+	#Range: 0.0 ~ 1.0
+	base_chance = 0.35
+

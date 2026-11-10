@@ -1,0 +1,23 @@
+
+["Parry Shaders"]
+	"Apply Parry Shader" = false
+	"Shader to apply on parryflash" = "minecraft:shaders/post/Pencil.json"
+
+["Parry Overlay"]
+	"Enable White Parry Flash" = true
+	"Parry Flash Texture" = "just_parry:textures/whiteflash1.png"
+
+["Parry Stopframe"]
+	#you must restart the game to toggle the stopframe variable (time in milliseconds dosent need a restart when changed)
+	"Eanble Parry Stopframe" = false
+	"Parry stopframe time in milliseconds" = 90.0
+
+[GUI]
+	"enable Parry Gui" = true
+	"ParryShield XZ ScreenPosition" = -107.0
+	"ParryShield Y ScreenPosition" = 37.0
+	#Cooldown Method: 1 means the shield will not be visible when fully charged and 2 is the opposite
+	"cooldown type" = 1.0
+	"ParryShield XZ Size" = 16.0
+	"ParryShield Y Size" = 16.0
+

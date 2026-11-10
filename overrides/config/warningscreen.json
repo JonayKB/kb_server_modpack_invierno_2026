@@ -1,0 +1,13 @@
+{
+  "warnings": [
+    {
+      "title": "DISCLAIMER",
+      "warning": "This pack contains intense flashing lights and visual effects.",
+      "smallText": "We are not responsible if something happens, you have been warned.",
+      "forcePlayersToSee": true,
+      "fadeInMs": 1500,
+      "displayMs": 3500,
+      "fadeOutMs": 1500
+    }
+  ]
+}

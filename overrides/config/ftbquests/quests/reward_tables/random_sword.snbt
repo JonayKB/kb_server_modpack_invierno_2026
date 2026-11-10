@@ -1,0 +1,102 @@
+{
+	icon: "born_in_chaos_v1:krampuss_bag"
+	id: "2E964D7AB3B5A0D5"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"monsterexpansion:weapon_data": { }
+				}
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "block_factorys_bosses:knight_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dungeonnowloading:spawner_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "lfs_magic_fantasy:gilded_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "lfs_magic_fantasy:bonechain_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "lfs_magic_fantasy:bloodline_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "lfs_magic_fantasy:bone_ripper_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "threateningly_mobs:swordofcourage"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:diamond_longsword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:sword_on_a_stick"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Random Sword I"
+}

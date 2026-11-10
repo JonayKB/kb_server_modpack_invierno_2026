@@ -1,0 +1,2566 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "composite_materials"
+	group: "25569283B1B01A0F"
+	icon: "composite_material:etherite_ingot"
+	id: "72948B4161E0479A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Go beyond conventional ores, craft new armor, weapons, accessories, and much more!"]
+			id: "3DCEAB38E247355A"
+			rewards: [
+				{
+					id: "1897D8F3DFB3856B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "00FF481438497F92"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "A mod that will help you during the early/mid game, since Terramity only starts after netherite."
+			tasks: [{
+				id: "2A8F36FC39328BA6"
+				type: "checkmark"
+			}]
+			title: "Composite Materials"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47219711E0358692"]
+			id: "31384E06F069DF5C"
+			rewards: [
+				{
+					id: "7CA1D71CF7AFEC48"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "59D4F07BBA2A0920"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "48CCD6ACDEEF2EFF"
+					item: {
+						Count: 1
+						id: "composite_material:copper_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E1153A8541DF118"
+					item: {
+						Count: 1
+						id: "composite_material:copper_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12AF84A5D2EF447B"
+					item: {
+						Count: 1
+						id: "composite_material:copper_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0794975DB309B07A"
+					item: {
+						Count: 1
+						id: "composite_material:copper_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"31384E06F069DF5C"
+				"47219711E0358692"
+			]
+			id: "6FFD316451717518"
+			rewards: [
+				{
+					id: "0DF419663254B194"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "1A3B29F6296A670A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "39C792648B42F3F0"
+					item: {
+						Count: 1
+						id: "composite_material:copper_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01DDA733E898BD82"
+					item: {
+						Count: 1
+						id: "composite_material:copper_pickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6383B2A2532AA001"
+					item: {
+						Count: 1
+						id: "composite_material:copper_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CDF443E86EB6574"
+					item: {
+						Count: 1
+						id: "composite_material:copper_shovel"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"31384E06F069DF5C"
+				"6FFD316451717518"
+			]
+			id: "73144B282E42071C"
+			rewards: [
+				{
+					id: "39C4A64B0CAF0335"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "63B9624CB32075FA"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "507BE7291CC775E5"
+					item: {
+						Count: 1
+						id: "composite_material:amethyst_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FB73169BCA7B25E"
+					item: {
+						Count: 1
+						id: "composite_material:amethyst_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68E2E86D4E77DCCF"
+					item: {
+						Count: 1
+						id: "composite_material:amethyst_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "162679536778C50B"
+					item: {
+						Count: 1
+						id: "composite_material:amethyst_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73144B282E42071C"]
+			id: "56400D40AEF40BB7"
+			rewards: [
+				{
+					id: "138D3AB12B62800D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "6FBADB21542346A5"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2E35C0A5EE323D08"
+					item: {
+						Count: 1
+						id: "composite_material:amethyst_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6ABA26EEF69A94AC"
+					item: {
+						Count: 1
+						id: "composite_material:amethyst_pickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59AE75CD7BDA4864"
+					item: {
+						Count: 1
+						id: "composite_material:amethyst_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62A2AB9A9BD7B707"
+					item: {
+						Count: 1
+						id: "composite_material:amethyst_shovel"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73144B282E42071C"]
+			id: "5806C6A03658D3AD"
+			rewards: [
+				{
+					id: "5D685BCE27F975BA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0877B0F5F6DBC733"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2972E038F0A1409B"
+				item: {
+					Count: 1
+					id: "composite_material:amethyst_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54299E7B4C4C772D"]
+			id: "36A2283CAE8E35CF"
+			rewards: [
+				{
+					id: "60A1B4A98D3225F2"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "657D8166081DAE5D"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "311E6EF86DD34A1B"
+					item: {
+						Count: 1
+						id: "composite_material:obsidian_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01798510B6699967"
+					item: {
+						Count: 1
+						id: "composite_material:obsidian_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1082B1A27E1CB67E"
+					item: {
+						Count: 1
+						id: "composite_material:obsidian_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EA2E9F37A465D27"
+					item: {
+						Count: 1
+						id: "composite_material:obsidian_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36A2283CAE8E35CF"]
+			id: "712731AACA5956E0"
+			rewards: [
+				{
+					id: "66674B6F953D5467"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7ABAD36AD427C325"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "097E6ED78EFC2119"
+					item: {
+						Count: 1
+						id: "composite_material:obsidian_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F066EB70D365438"
+					item: {
+						Count: 1
+						id: "composite_material:obsidian_pickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47D91F50EB1B40BB"
+					item: {
+						Count: 1
+						id: "composite_material:obsidian_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B4D352E04556FBB"
+					item: {
+						Count: 1
+						id: "composite_material:obsidian_shovel"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36A2283CAE8E35CF"]
+			id: "6C22B57D2D5C14BF"
+			rewards: [
+				{
+					id: "470AE6BA8FB3C008"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3E9E0CA270534200"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "345459A19FC9B3F5"
+				item: {
+					Count: 1
+					id: "composite_material:obsidian_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["36A2283CAE8E35CF"]
+			id: "5D444431C7177973"
+			rewards: [
+				{
+					id: "460611401980FDDF"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "546CCD1544895E54"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "In Tier II your focus will be more on exploration, as most items are created through drops from bosses and dungeon items."
+			tasks: [{
+				count: 3L
+				id: "7505BE2AC68A0084"
+				item: "composite_material:dungeon_steel_ingot"
+				type: "item"
+			}]
+			title: "Tier II"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DCEAB38E247355A"]
+			id: "47219711E0358692"
+			rewards: [
+				{
+					id: "12972A03353175BE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1CAA7A6DD706A5EA"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier I is focused on early-game with basic materials, and each armor set has special abilities, some tools too!"
+			tasks: [{
+				count: 6L
+				id: "06C578CD2FCAA3AF"
+				item: { Count: 6, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			title: "Tier I"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D444431C7177973"]
+			id: "240705F50352F196"
+			rewards: [
+				{
+					id: "483A5BBF933DE82C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "41522CB3F04BA928"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1AF1E0CF6FCF4F88"
+				item: {
+					Count: 1
+					id: "composite_material:dungeon_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D444431C7177973"]
+			id: "5E8511C585582CD5"
+			rewards: [
+				{
+					id: "18462D696F4120F2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1E065870278E6D76"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E243FC544C782CD"
+				item: {
+					Count: 1
+					id: "composite_material:dungeon_hammer"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D444431C7177973"]
+			id: "0D8748DC9BF51A2A"
+			rewards: [
+				{
+					id: "3639AECA1A357777"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "490A04A93D749138"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "021CBFEF46E7FE4B"
+				item: {
+					Count: 1
+					id: "composite_material:dungeon_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D444431C7177973"]
+			id: "67F4A1D3E113B92D"
+			rewards: [
+				{
+					id: "109FBDC16B67AB78"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "45F442E3792102CE"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "380044ED2F43C111"
+				item: {
+					Count: 1
+					id: "composite_material:dungeon_axe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D444431C7177973"]
+			id: "6A32A1BB4CD09965"
+			rewards: [
+				{
+					id: "3B7E9C16E5E09F64"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "72CF43E85F16F8F6"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4BCB9C81ED23BDFB"
+				item: {
+					Count: 1
+					id: "composite_material:dungeon_sword_reinforced"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D444431C7177973"]
+			id: "3D0D0DB2051466AA"
+			rewards: [
+				{
+					id: "3DF041904DE736EC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "732376648ADEBF30"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04A75C9543E47E5F"
+				item: "composite_material:disenchanted_book"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["73144B282E42071C"]
+			id: "54299E7B4C4C772D"
+			rewards: [
+				{
+					count: 3
+					id: "49CCF5DB79EF9A81"
+					item: "composite_material:obsidian_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "7CAF90D54F53AFAB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3CEFEE3D6459A6CD"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				count: 3L
+				id: "1880DC127B716A2C"
+				item: "composite_material:obsidian_steel_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D444431C7177973"]
+			id: "6C6097F1F7CC21B9"
+			rewards: [
+				{
+					id: "2FA8E098C3218061"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "43AEA47AFA1CF662"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5099ECF952FD3650"
+				item: {
+					Count: 1
+					id: "composite_material:dungeon_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D444431C7177973"]
+			id: "6B5A8A296C64F42C"
+			rewards: [
+				{
+					id: "389BA29378F80480"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "47BBB43BE1A27D17"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B79A321DE38B537"
+				item: {
+					Count: 1
+					id: "composite_material:scapegoat"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DCEAB38E247355A"]
+			id: "2016269336ACC9E5"
+			rewards: [
+				{
+					id: "7D8131E6EA634CA2"
+					type: "xp"
+					xp: 1
+				}
+				{
+					id: "1E041D7465638978"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Bruh..."
+			tasks: [
+				{
+					id: "47F202158C78C3EC"
+					item: {
+						Count: 1
+						id: "composite_material:flint_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77780810B329A45D"
+					item: {
+						Count: 1
+						id: "composite_material:flint_pickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B25E61CC21E48C8"
+					item: {
+						Count: 1
+						id: "composite_material:flint_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07BC6B550B42BDD0"
+					item: {
+						Count: 1
+						id: "composite_material:flint_shovel"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Soooo smoool :("
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29974E15473617EF"]
+			id: "584385635086DE7A"
+			rewards: [
+				{
+					count: 6
+					id: "7EFD60C059AE47B6"
+					item: "composite_material:allay_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "033E6C864B76CE77"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "48F4EED13223EBD9"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "35D741947E1EA831"
+				item: "composite_material:allay_steel_ingot"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D444431C7177973"]
+			icon: "minecraft:dark_oak_planks"
+			id: "29974E15473617EF"
+			rewards: [
+				{
+					id: "6655D6E0105C29F5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0396E457CC5ADC3C"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "20B32992438AACD3"
+				structure: "minecraft:mansion"
+				type: "structure"
+			}]
+			title: "Found the Mansion"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["584385635086DE7A"]
+			id: "60F195294328DCF9"
+			rewards: [
+				{
+					id: "7FEE1FE47772D7B0"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "50C953E669617353"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "637EE7D47CD31A1D"
+					item: {
+						Count: 1
+						id: "composite_material:allay_steel_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F6F0ACDF3ABF3A3"
+					item: {
+						Count: 1
+						id: "composite_material:allay_steel_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A7CA525DE68DEE2"
+					item: {
+						Count: 1
+						id: "composite_material:allay_steel_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67CABF3D438B797C"
+					item: {
+						Count: 1
+						id: "composite_material:allay_steel_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["584385635086DE7A"]
+			id: "773AAE976D890A0D"
+			rewards: [
+				{
+					id: "5D1489C8AA073DE3"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "7B6EFD11F49DA362"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "27219208FF23644D"
+					item: {
+						Count: 1
+						id: "composite_material:allay_steel_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A41EA774B289FEE"
+					item: {
+						Count: 1
+						id: "composite_material:allay_steel_pickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50D030C407CCADDA"
+					item: {
+						Count: 1
+						id: "composite_material:allay_steel_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F60B1341B6B4EBA"
+					item: {
+						Count: 1
+						id: "composite_material:allay_steel_shovel"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["584385635086DE7A"]
+			id: "3DBAA24DBE43D61F"
+			rewards: [
+				{
+					id: "4607819F38AE1350"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7C4566221ABAB099"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BAF41571D10F397"
+				item: "composite_material:purifichanted_book"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["584385635086DE7A"]
+			id: "4FE39EE7AF4FCB30"
+			rewards: [
+				{
+					id: "49DCB3ADBC66D523"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "0F5E8020AD10B62D"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6CFD79FDB778FC49"
+				item: "composite_material:warden_hand"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["584385635086DE7A"]
+			id: "1516ED038C0EFF67"
+			rewards: [
+				{
+					id: "6E5EDAE4EBBED940"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "4B0B12077F10EE5E"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B7C1E8DA8C18AD1"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["584385635086DE7A"]
+			id: "48F7564EFB338EEF"
+			rewards: [
+				{
+					id: "09149FCEEC9085FE"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "5177B1CBCFC53144"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C761E04E7A6001F"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"48F7564EFB338EEF"
+				"4FE39EE7AF4FCB30"
+				"1516ED038C0EFF67"
+			]
+			id: "498A1EAB7B1F8D4A"
+			rewards: [
+				{
+					count: 6
+					id: "6BBC410C35266557"
+					item: "composite_material:echoium_ingot"
+					type: "item"
+				}
+				{
+					id: "53EFA9C53E575033"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "6E351BC185361F20"
+				item: "composite_material:echoium_ingot"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["498A1EAB7B1F8D4A"]
+			id: "4A4E230D6D50AC16"
+			rewards: [
+				{
+					id: "4E582A15BFA0FC34"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4DD1DCFF89C6F6B7"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "78091B9541DB543B"
+					item: {
+						Count: 1
+						id: "composite_material:echoium_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A6611769D41BCAE"
+					item: {
+						Count: 1
+						id: "composite_material:echoium_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40BFF4AD5E982DF5"
+					item: {
+						Count: 1
+						id: "composite_material:echoium_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E5A9085E2F0BE5C"
+					item: {
+						Count: 1
+						id: "composite_material:echoium_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["498A1EAB7B1F8D4A"]
+			id: "0E7F1AE044911621"
+			rewards: [
+				{
+					id: "77FDD310FD37EBA1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "384084053B53F1A3"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3590F2F9FCDC6503"
+					item: {
+						Count: 1
+						id: "composite_material:echoium_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F4FDDC1C18F6AF9"
+					item: {
+						Count: 1
+						id: "composite_material:echoium_pickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51AB657CE5FB342E"
+					item: {
+						Count: 1
+						id: "composite_material:echoium_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B707FF10B00A593"
+					item: {
+						Count: 1
+						id: "composite_material:echoium_shovel"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["498A1EAB7B1F8D4A"]
+			id: "0F8BBFB21444BE0E"
+			rewards: [
+				{
+					id: "76861553DF8294F8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7185970B72D8A196"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C69BC979B8CA6FC"
+				item: {
+					Count: 1
+					id: "composite_material:sonic_boom_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["498A1EAB7B1F8D4A"]
+			id: "06B8C81D0FE9F6A3"
+			rewards: [
+				{
+					id: "615BEB7AD4CF0CAA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3E7589C64F026EA8"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2910BB5CCA8118B8"
+				item: "composite_material:duplichanted_book"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["36A2283CAE8E35CF"]
+			id: "5C60B542BDBBFBD0"
+			rewards: [
+				{
+					id: "108C8B0573A8D041"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2EC921DE0B94CE30"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C0575274C57AD33"
+				item: "composite_material:sepachanted_book"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["498A1EAB7B1F8D4A"]
+			id: "73CC2523FE858991"
+			rewards: [
+				{
+					id: "1C8030E7A64261CD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "5013664A0D7931B8"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43375FF92C671CBB"
+				item: {
+					Count: 1
+					id: "composite_material:lacerator"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"498A1EAB7B1F8D4A"
+				"3A598A8750FF2C42"
+			]
+			id: "6DF6B3844D8CC14A"
+			rewards: [
+				{
+					id: "4BACB91394F6B76E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0A8734245A397985"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "64F8D272EA51F931"
+				item: {
+					Count: 1
+					id: "composite_material:echoium_sword_reinforced"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 26.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["24F66D3B011F6218"]
+			id: "3A598A8750FF2C42"
+			rewards: [
+				{
+					id: "6C923FA49EDD2A20"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "576544B2F660D27F"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2CB6459C9CC43AE7"
+				item: "composite_material:evolutium"
+				type: "item"
+			}]
+			x: 27.75d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"67BB53149C06D05B"
+				"0ED797290214A788"
+				"3052978B75026473"
+				"78452A7C39916453"
+			]
+			id: "24F66D3B011F6218"
+			rewards: [
+				{
+					count: 2
+					id: "4F64F6936118D701"
+					item: "composite_material:perkin"
+					type: "item"
+				}
+				{
+					id: "1A4D4FC5D6384F27"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5B2BFB96F04509C1"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "06A8D98A93ED8F3B"
+				item: "composite_material:perkin"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -4.5d
+		}
+		{
+			id: "0ED797290214A788"
+			rewards: [
+				{
+					id: "6B691E53CD4989CF"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "0E2E17874FA76804"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27B384C5A1F1FDBA"
+				item: "composite_material:strong_will"
+				type: "item"
+			}]
+			x: 32.5d
+			y: -6.5d
+		}
+		{
+			id: "3052978B75026473"
+			rewards: [
+				{
+					id: "506AA2E6AB532E42"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "42EE53F9555609EC"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46761337FAD56E36"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: 31.5d
+			y: -6.5d
+		}
+		{
+			id: "78452A7C39916453"
+			rewards: [
+				{
+					id: "18A458665B366F71"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "00042B899DB134E4"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38FE046627C43051"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			x: 29.5d
+			y: -6.5d
+		}
+		{
+			id: "67BB53149C06D05B"
+			rewards: [
+				{
+					id: "1D9B4DD6DFF05A6E"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "3C81B8EFB7F62291"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "264D916D7940EFCB"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			x: 30.5d
+			y: -6.5d
+		}
+		{
+			id: "32871EF77F456CEB"
+			rewards: [
+				{
+					id: "09EE812D34D3832C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "2DE46239F7884129"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "16DB96BCFAEA218C"
+				item: {
+					Count: 1
+					id: "composite_material:abyss_blade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 26.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["498A1EAB7B1F8D4A"]
+			id: "73F18ABEE42DF501"
+			rewards: [
+				{
+					id: "6EC3EF75AA488CD2"
+					item: "composite_material:etherite_ingot"
+					type: "item"
+				}
+				{
+					id: "12717A0FD6C6E759"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1DEEB51762E9B747"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "End-game tier basically, just for fun :)"
+			tasks: [{
+				count: 3L
+				id: "6AE12267C6E24A8F"
+				item: "composite_material:etherite_ingot"
+				type: "item"
+			}]
+			title: "Tier III"
+			x: 29.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73F18ABEE42DF501"]
+			id: "1611D946451D15DC"
+			rewards: [
+				{
+					id: "4768BE5959E7CBA4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "66585739F0D4A5A5"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4C63014982E298D7"
+					item: {
+						Count: 1
+						id: "composite_material:etherite_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21571F81FC05CF2D"
+					item: {
+						Count: 1
+						id: "composite_material:etherite_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FB313D98A13AA17"
+					item: {
+						Count: 1
+						id: "composite_material:etherite_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16A6596466EC766B"
+					item: {
+						Count: 1
+						id: "composite_material:etherite_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 29.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["73F18ABEE42DF501"]
+			id: "0658A8445805DBA9"
+			rewards: [
+				{
+					id: "738F0F75B5028B1D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "07392FDEE5B4E9FC"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0B376570CEBD8697"
+					item: {
+						Count: 1
+						id: "composite_material:etherite_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BF9FFFB9D753ABF"
+					item: {
+						Count: 1
+						id: "composite_material:etherite_pickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D6E2C665B38E27B"
+					item: {
+						Count: 1
+						id: "composite_material:etherite_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C5AD5DFE0451CFC"
+					item: {
+						Count: 1
+						id: "composite_material:etherite_shovel"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 28.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73F18ABEE42DF501"]
+			id: "7E7FEB3CFA0F5F60"
+			rewards: [
+				{
+					id: "0AB4F26FFB3F7AF8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "16FA4BB39921A71D"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "789C7DFD602BADCE"
+				item: {
+					Count: 1
+					id: "composite_material:etherite_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 30.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"73F18ABEE42DF501"
+				"24F66D3B011F6218"
+			]
+			id: "33054E504A18A468"
+			rewards: [
+				{
+					id: "2F9D710082BB4107"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "2CD3F3019B382FE6"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23F54F77392AE946"
+				item: {
+					Count: 1
+					id: "composite_material:etherite_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 31.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["73F18ABEE42DF501"]
+			id: "4A382CCCF9537348"
+			rewards: [
+				{
+					id: "41E83F23EE7647C7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "10164E3F16F561D6"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14148506C035978B"
+				item: "composite_material:reinforced_book"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["73F18ABEE42DF501"]
+			id: "052648584C631150"
+			rewards: [
+				{
+					id: "597E439F435F8810"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "5EA171D155AECD3A"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "4C126C99B3957729"
+				item: "composite_material:etherite_totem"
+				type: "item"
+			}]
+			x: 34.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["052648584C631150"]
+			id: "21949B4A09D31527"
+			rewards: [
+				{
+					id: "0D169FEE61BC5B31"
+					type: "xp"
+					xp: 800
+				}
+				{
+					id: "5C7F4651655F10F4"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "18C602D9B5164143"
+				item: "minecraft:torchflower"
+				type: "item"
+			}]
+			x: 36.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["052648584C631150"]
+			id: "62BDBD1FD2410E31"
+			rewards: [
+				{
+					id: "754E2486585E2EC5"
+					type: "xp"
+					xp: 800
+				}
+				{
+					id: "72A3A2C22301410B"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6520D9C15A2E223F"
+				item: "minecraft:pitcher_plant"
+				type: "item"
+			}]
+			x: 36.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["052648584C631150"]
+			id: "7D31F1EBC4E32648"
+			rewards: [
+				{
+					id: "4D3EDE3AE2D42532"
+					type: "xp"
+					xp: 800
+				}
+				{
+					id: "09D8AA2C663F24A4"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0BB5D91E07F1D466"
+				item: "minecraft:mangrove_roots"
+				type: "item"
+			}]
+			x: 36.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7D31F1EBC4E32648"
+				"62BDBD1FD2410E31"
+				"21949B4A09D31527"
+			]
+			id: "43FD2C5DDB580F5A"
+			rewards: [
+				{
+					count: 3
+					id: "770AC542E819BEE3"
+					item: "composite_material:primitive_tenacity"
+					type: "item"
+				}
+				{
+					id: "22708A828496FDD2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "14538C438D04642B"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				count: 3L
+				id: "2BE3861726E164A3"
+				item: "composite_material:primitive_tenacity"
+				type: "item"
+			}]
+			x: 39.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73F18ABEE42DF501"]
+			id: "4C33203248511CD8"
+			rewards: [
+				{
+					id: "0AD89F805D233537"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "54FC0DF675753384"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3783C4842F5C4B1D"
+				item: {
+					Count: 1
+					id: "composite_material:etherite_sword_reinforced"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 29.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["43FD2C5DDB580F5A"]
+			id: "2C784B13DDC4DBCC"
+			rewards: [
+				{
+					id: "095329AD1865077B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0942354D999F0621"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4067AEF8A0525022"
+					item: {
+						Count: 1
+						id: "composite_material:primitive_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EB8DC4EC2E16FA2"
+					item: {
+						Count: 1
+						id: "composite_material:primitive_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "468D453E01AD81B8"
+					item: {
+						Count: 1
+						id: "composite_material:primitive_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F6601FEBC3E8ACE"
+					item: {
+						Count: 1
+						id: "composite_material:primitive_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 42.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43FD2C5DDB580F5A"]
+			id: "0B0B4C7F4C986092"
+			rewards: [
+				{
+					id: "52A934540E57F084"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2679CE2981A149C6"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0B5E4173D88F4BC3"
+					item: {
+						Count: 1
+						id: "composite_material:primitive_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "103278EFB0543806"
+					item: {
+						Count: 1
+						id: "composite_material:primitive_pickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F0E7DE99E0D9744"
+					item: {
+						Count: 1
+						id: "composite_material:primitive_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5444D3014A99CEA8"
+					item: {
+						Count: 1
+						id: "composite_material:primitive_shovel"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 42.0d
+			y: -2.0d
+		}
+		{
+			id: "6B0B78137E744E7A"
+			rewards: [
+				{
+					id: "2ADD40829BD53DD1"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "040DF90965723A48"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "509276ABB02D75F7"
+				item: {
+					Count: 1
+					id: "composite_material:disc_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: 2.5d
+		}
+		{
+			id: "1CC3175A82B5A0DF"
+			rewards: [
+				{
+					id: "255348D932A73276"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "06D0EC23B7192ECB"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2276FF7648BE9D1E"
+				item: {
+					Count: 1
+					id: "composite_material:disc_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 2.5d
+		}
+		{
+			id: "1F14176E13BC9A37"
+			rewards: [
+				{
+					id: "7D6E789474FE8454"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "4A731FE20D9A2186"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "243815566BAA0C3D"
+				item: {
+					Count: 1
+					id: "composite_material:disc_mace"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 2.5d
+		}
+		{
+			id: "247D0F249EC5446E"
+			rewards: [
+				{
+					id: "71EEC09648D2414A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "0C44CB7B1671083D"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5858AB94E53E4FD4"
+				item: {
+					Count: 1
+					id: "composite_material:disc_axe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: 2.5d
+		}
+		{
+			id: "4DD8054E822B7D03"
+			rewards: [
+				{
+					id: "52F64FA0E70627F4"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "7B84461EDCD288D7"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7763062C3B29A888"
+				item: {
+					Count: 1
+					id: "composite_material:disc_hoe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D444431C7177973"]
+			id: "54257993A187DFA9"
+			rewards: [
+				{
+					id: "107682BFDD37D310"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "36168C6CB49F5A69"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7E4D81B0D44838BF"
+				item: "composite_material:dungeon_steel_totem"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3DCEAB38E247355A"]
+			description: ["You can read the &dability&r of each item in the &aitem description&r, and this also works if you want to find out how to get a certain item."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info"
+				}
+			}
+			id: "2FCA3F1DF7FA23C2"
+			rewards: [
+				{
+					id: "07B6BB1E561749CC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4C3632FAEA96B849"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Read this."
+			tasks: [{
+				id: "48211327C79CB878"
+				type: "checkmark"
+			}]
+			title: "Tips"
+			x: -2.0d
+			y: 3.0d
+		}
+	]
+	title: "Composite Materials"
+}

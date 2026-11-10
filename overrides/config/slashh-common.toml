@@ -1,0 +1,10 @@
+#Master toggle for the slash hit effect.
+enabled = true
+#Maximum slash effects handled per tick, to keep the game smooth when many
+#entities are hit at once (e.g. a sweeping-edge hit striking 30 mobs in a swing).
+#  - Server side: caps effects broadcast per attacking player per tick.
+#  - Client side: caps effects spawned per tick.
+#Lower this if large AoE hits cause frame drops.
+#Range: 1 ~ 128
+maxEffectsPerTick = 6
+

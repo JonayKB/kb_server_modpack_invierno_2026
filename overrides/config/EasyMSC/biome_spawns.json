@@ -1,0 +1,11 @@
+[
+  {
+    "name": "0_remove_default_biome_spawns",
+    "biomeIds": [],
+    "category": "misc",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1,
+    "type": "REMOVE_DEFAULT"
+  }
+]

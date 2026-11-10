@@ -1,0 +1,37 @@
+
+[do_fruit_effect_enable]
+	#Whether to enable the effect gameplay of fruit foods.
+	do_fruit_effect_enable = true
+
+[fruit_effect_config]
+
+	[fruit_effect_config.bTypeFoods]
+		#It must be divisible by 1200 (1200 tick=1 minute).
+		b_type_foods_effect_time = 14400.0
+
+	[fruit_effect_config.cTypeFoods]
+		#It must be divisible by 1200 (1200 tick=1 minute).
+		c_type_foods_effect_time = 7200.0
+
+	[fruit_effect_config.rareTypeFoods]
+		#It must be divisible by 1200 (1200 tick=1 minute).
+		rare_b_type_foods_effect_time = 21600.0
+		#It must be divisible by 1200 (1200 tick=1 minute).
+		rare_c_type_foods_effect_time = 10800.0
+
+[fruit_effect_amount_config]
+
+	[fruit_effect_amount_config.RutinLemoneneConfig]
+		#No comments
+		rutin_lemonene_max_level = 60.0
+
+	[fruit_effect_amount_config.MomentaryMeteorConfig]
+		#No comments
+		momentary_meteor_max_amount = 100.0
+
+	[fruit_effect_amount_config.OriginalEvolutionConfig]
+		#No comments
+		original_evolution_amount = 0.05
+		#No comments
+		original_evolution_metamorphosis_amount = 0.08
+

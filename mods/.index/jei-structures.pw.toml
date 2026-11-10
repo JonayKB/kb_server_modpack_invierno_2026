@@ -1,0 +1,21 @@
+filename = 'jei_structures-1.9.jar'
+name = 'JEI Structures(EMI/JEI)'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'jei_structures-1.9.jar'
+
+[download]
+hash = '2ffd53571ac5470dcb0e292b489246763065abf9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8803975
+project-id = 1568462
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'REQUIRED'

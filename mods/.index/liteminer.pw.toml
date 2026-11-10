@@ -1,0 +1,29 @@
+filename = 'liteminer-forge-1.20.1-1.0.0+1.20.1.jar'
+name = 'Liteminer'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'liteminer-forge-1.20.1-1.0.0+1.20.1'
+
+[download]
+hash = '4540cdf988379ee174216c9a429f735c05c5762f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6050320
+project-id = 1133225
+
+[[x-prismlauncher-dependencies]]
+addonId = '547434'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1139910'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'

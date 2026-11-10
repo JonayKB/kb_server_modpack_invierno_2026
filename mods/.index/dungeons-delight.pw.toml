@@ -1,0 +1,21 @@
+filename = 'forge-dungeonsdelight-1.20.1-1.3.1.jar'
+name = 'Dungeons Delight'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'forge-dungeonsdelight-1.20.1-1.3.1.jar'
+
+[download]
+hash = 'd410667917646604c4acb7b2c183f9e95d636cc9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8873259
+project-id = 1258923
+
+[[x-prismlauncher-dependencies]]
+addonId = '880879'
+type = 'REQUIRED'

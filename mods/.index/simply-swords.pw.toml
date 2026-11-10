@@ -1,0 +1,33 @@
+filename = 'simplyswords-forge-neoforge-1.70.2-1.20.1.jar'
+name = 'Simply Swords [Fabric & Forge]'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'simplyswords-forge-neoforge-1.70.2-1.20.1.jar'
+
+[download]
+hash = '7e8b9cc255f57df9ed00b507435308d600aebc24'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8746028
+project-id = 659887
+
+[[x-prismlauncher-dependencies]]
+addonId = '639842'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1475755'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1005914'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'

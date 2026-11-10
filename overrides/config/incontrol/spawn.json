@@ -1,0 +1,7 @@
+[
+  {
+    "mob": "threateningly_mobs:ore_drill",
+    "when": "onjoin",
+    "result": "deny"
+  }
+]
