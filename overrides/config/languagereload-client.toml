@@ -1,5 +1,5 @@
 multilingualItemSearch = true
-fallbacks = []
+fallbacks = ["en_us"]
 previousFallbacks = []
 language = "es_es"
 previousLanguage = "en_us"
