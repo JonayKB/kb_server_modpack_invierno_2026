@@ -22,7 +22,7 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			title: "Copper"
+			title: "{kbquests.chapter.6502032E63BC4087.title}"
 			x: -4.0d
 			y: -4.0d
 		}
@@ -39,7 +39,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			title: "Iron"
+			title: "{kbquests.chapter.14B92CF4169A7231.title}"
 			x: -4.0d
 			y: -5.0d
 		}
@@ -56,7 +56,7 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			title: "Diamond"
+			title: "{kbquests.chapter.1A655DB544EE9430.title}"
 			x: -2.0d
 			y: -3.0d
 		}
@@ -608,11 +608,11 @@
 		}
 		{
 			description: [
-				"The &dmodpack&r features a variety of new &6materials&r, so I put together this tier list to help players out."
+				"{kbquests.chapter.62347EFF7A6E9E10.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"Not every single ingot may be included, but I’ve added the most &bimportant&r ones!"
+				"{kbquests.chapter.62347EFF7A6E9E10.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"The ingots were divided into &atiers&r to facilitate separation."
+				"{kbquests.chapter.62347EFF7A6E9E10.description.5}"
 			]
 			icon: {
 				Count: 1
@@ -635,7 +635,7 @@
 				id: "2B7D65B52E2125FE"
 				type: "checkmark"
 			}]
-			title: "Materials Checklist"
+			title: "{kbquests.chapter.62347EFF7A6E9E10.title}"
 			x: -4.0d
 			y: -7.0d
 		}
@@ -690,7 +690,7 @@
 				id: "2071E7AA481D44C8"
 				type: "checkmark"
 			}]
-			title: "Tier I"
+			title: "{kbquests.chapter.4F62C09A9E2ADAF2.title}"
 			x: -2.0d
 			y: -7.0d
 		}
@@ -713,7 +713,7 @@
 				id: "496426E602C4560D"
 				type: "checkmark"
 			}]
-			title: "Tier II"
+			title: "{kbquests.chapter.18714DB70864FE12.title}"
 			x: 0.0d
 			y: -7.0d
 		}
@@ -736,7 +736,7 @@
 				id: "1E65BFE794B08D68"
 				type: "checkmark"
 			}]
-			title: "Tier III"
+			title: "{kbquests.chapter.239B22084EFF5BB5.title}"
 			x: 2.0d
 			y: -7.0d
 		}
@@ -759,7 +759,7 @@
 				id: "2EC4F2D3EE8AE885"
 				type: "checkmark"
 			}]
-			title: "Tier IV"
+			title: "{kbquests.chapter.67E23A85A540099A.title}"
 			x: 4.0d
 			y: -7.0d
 		}
@@ -782,7 +782,7 @@
 				id: "2EE86E95655A0CE2"
 				type: "checkmark"
 			}]
-			title: "Tier V"
+			title: "{kbquests.chapter.35E0807CC1BD764D.title}"
 			x: 6.0d
 			y: -7.0d
 		}
@@ -805,7 +805,7 @@
 				id: "73251B7F5419A6D0"
 				type: "checkmark"
 			}]
-			title: "Tier VI"
+			title: "{kbquests.chapter.73C0E740318A65B7.title}"
 			x: 8.0d
 			y: -7.0d
 		}
@@ -828,7 +828,7 @@
 				id: "297EF8B2BB2C3D98"
 				type: "checkmark"
 			}]
-			title: "Tier VII"
+			title: "{kbquests.chapter.1A8E722CADA130A3.title}"
 			x: 10.0d
 			y: -7.0d
 		}
@@ -851,10 +851,10 @@
 				id: "2A466CC493277E32"
 				type: "checkmark"
 			}]
-			title: "Tier VIII"
+			title: "{kbquests.chapter.5006CF593016E45C.title}"
 			x: 12.0d
 			y: -7.0d
 		}
 	]
-	title: "Material's Tier"
+	title: "{kbquests.chapter.541007B77C3B968E.title}"
 }

@@ -480,10 +480,10 @@
 						value: "too_many_bows:bows"
 					}
 				}
-				title: "Any #too_many_bows:bows"
+				title: "{kbquests.chapter.46C6114DB1D98373.title}"
 				type: "item"
 			}]
-			title: "Any Too Many Bows bow!"
+			title: "{kbquests.chapter.351B790A8A00460E.title}"
 			x: 7.5d
 			y: 0.5d
 		}
@@ -504,10 +504,10 @@
 						value: "forge:guns"
 					}
 				}
-				title: "Any #forge:guns"
+				title: "{kbquests.chapter.0FC6653E5BF9846F.title}"
 				type: "item"
 			}]
-			title: "Any Gun!"
+			title: "{kbquests.chapter.4E20E7A0645B420C.title}"
 			x: 7.5d
 			y: 4.5d
 		}
@@ -978,15 +978,15 @@
 				xp: 100
 			}]
 			size: 2.0d
-			subtitle: "See a little about classes."
+			subtitle: "{kbquests.chapter.3ADD8352E1453008.subtitle}"
 			tasks: [{
 				id: "4F9308592274023D"
 				type: "checkmark"
 			}]
-			title: "Guide about classes"
+			title: "{kbquests.chapter.3ADD8352E1453008.title}"
 			x: 8.5d
 			y: -5.5d
 		}
 	]
-	title: "Weapons Guide"
+	title: "{kbquests.chapter.0D7762FFE656E231.title}"
 }

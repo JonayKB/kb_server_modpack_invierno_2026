@@ -170,9 +170,9 @@
 	quests: [
 		{
 			description: [
-				"Explore the underground in search of caves hidden for ages."
+				"{kbquests.chapter.7CCCBC0188A03C32.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"To begin, you will need a &6Spelunkery Table&r, a &9Cave Tablet&r, and some &epaper&r. Good luck!"
+				"{kbquests.chapter.7CCCBC0188A03C32.description.3}"
 			]
 			icon: "alexscaves:spelunkery_table"
 			id: "7CCCBC0188A03C32"
@@ -189,7 +189,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "Too many caves, haha"
+			subtitle: "{kbquests.chapter.7CCCBC0188A03C32.subtitle}"
 			tasks: [
 				{
 					id: "11491D66EE7436E8"
@@ -213,13 +213,13 @@
 					type: "item"
 				}
 			]
-			title: "Explore all caves!"
+			title: "{kbquests.chapter.7CCCBC0188A03C32.title}"
 			x: -1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["7CCCBC0188A03C32"]
-			description: ["Find the magnetic caves!"]
+			description: ["{kbquests.chapter.7F0B0ED11CADA788.description.1}"]
 			id: "7F0B0ED11CADA788"
 			rewards: [
 				{
@@ -235,15 +235,15 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Opposites Attract"
+			subtitle: "{kbquests.chapter.7F0B0ED11CADA788.subtitle}"
 			tasks: [{
 				biome: "alexscaves:magnetic_caves"
 				icon: "alexscaves:scarlet_magnet"
 				id: "2ECD8E4BF12EB2F2"
-				title: "Find Magnetic Caves"
+				title: "{kbquests.chapter.2ECD8E4BF12EB2F2.title}"
 				type: "biome"
 			}]
-			title: "&4&lMagnetic &1Caves"
+			title: "{kbquests.chapter.7F0B0ED11CADA788.title}"
 			x: -1.0d
 			y: -2.0d
 		}
@@ -268,7 +268,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Collect Both Types of Neodymium"
+			subtitle: "{kbquests.chapter.4EBF40A979B1A2EC.subtitle}"
 			tasks: [
 				{
 					id: "09ECD12FC6B95007"
@@ -281,7 +281,7 @@
 					type: "item"
 				}
 			]
-			title: "Push and Pull"
+			title: "{kbquests.chapter.4EBF40A979B1A2EC.title}"
 			x: -2.5d
 			y: -4.5d
 		}
@@ -306,7 +306,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Make Neodymium Ingots"
+			subtitle: "{kbquests.chapter.4D155F72DCDA2E4E.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/neodymium_ingot"
 				criterion: ""
@@ -331,7 +331,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Construct a Magnetic Quarry"
+			subtitle: "{kbquests.chapter.13568C79A039E88D.subtitle}"
 			tasks: [{
 				id: "384DF41EEC839190"
 				item: "alexscaves:quarry_smasher"
@@ -358,12 +358,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "Slay a Creature with the Galena Gauntlet from over 20 Blocks Away"
+			subtitle: "{kbquests.chapter.7E05A4F64F9A9EFD.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/galena_gauntlet_challenge"
 				criterion: ""
 				id: "41E168F8AEC3CFB4"
-				title: "Mind Over Magnet"
+				title: "{kbquests.chapter.41E168F8AEC3CFB4.title}"
 				type: "advancement"
 			}]
 			x: -1.0d
@@ -389,7 +389,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Slay a Boundroid"
+			subtitle: "{kbquests.chapter.79131E308CAC0660.subtitle}"
 			tasks: [{
 				id: "6A8469B56B175B78"
 				item: "alexscaves:heavyweight"
@@ -413,7 +413,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Defeat a Magnetron"
+			subtitle: "{kbquests.chapter.4A63A3FBD4792738.subtitle}"
 			tasks: [{
 				id: "6688FA484C0A2904"
 				item: "alexscaves:heart_of_iron"
@@ -449,7 +449,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A Magnetic Defender"
+			subtitle: "{kbquests.chapter.4749EBE31B7C9FA1.subtitle}"
 			tasks: [{
 				id: "2A3A8217D7767B2D"
 				item: {
@@ -466,7 +466,7 @@
 		}
 		{
 			dependencies: ["7CCCBC0188A03C32"]
-			description: ["Find the primordial caves!"]
+			description: ["{kbquests.chapter.7996507FE1F8709F.description.1}"]
 			id: "7996507FE1F8709F"
 			rewards: [
 				{
@@ -481,12 +481,12 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "The Cave that Time Forgot"
+			subtitle: "{kbquests.chapter.7996507FE1F8709F.subtitle}"
 			tasks: [{
 				biome: "alexscaves:primordial_caves"
 				icon: "alexscaves:flytrap"
 				id: "32DC5E81495C2502"
-				title: "Find Primordial Caves"
+				title: "{kbquests.chapter.32DC5E81495C2502.title}"
 				type: "biome"
 			}]
 			x: 3.8005952380952195d
@@ -507,7 +507,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft an Ominous Catalyst"
+			subtitle: "{kbquests.chapter.0A6BFF07EDE10A6E.subtitle}"
 			tasks: [{
 				id: "42121F061D51B6A1"
 				item: "alexscaves:ominous_catalyst"
@@ -518,7 +518,7 @@
 		}
 		{
 			dependencies: ["7996507FE1F8709F"]
-			description: ["Would recommend have decent gear for this objective. They bite..."]
+			description: ["{kbquests.chapter.1D86377C62795FC9.description.1}"]
 			id: "1D86377C62795FC9"
 			rewards: [
 				{
@@ -532,13 +532,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Slay a Large Dinosaur within the Cave"
+			subtitle: "{kbquests.chapter.1D86377C62795FC9.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/defeat_big_dinosaur"
 				criterion: ""
 				icon: "alexscaves:heavy_bone"
 				id: "05CAA3022281E012"
-				title: "Re-Extinct"
+				title: "{kbquests.chapter.05CAA3022281E012.title}"
 				type: "advancement"
 			}]
 			x: 3.8005952380952195d
@@ -564,7 +564,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A primal weapon."
+			subtitle: "{kbquests.chapter.45C34B8DDA15563F.subtitle}"
 			tasks: [{
 				id: "29BEEE31A8D572DF"
 				item: "alexscaves:limestone_spear"
@@ -578,7 +578,7 @@
 				"0A6BFF07EDE10A6E"
 				"45C34B8DDA15563F"
 			]
-			description: ["Extinction spear? is this the spear that killed the the the yk the the the the"]
+			description: ["{kbquests.chapter.3D7335089B69354F.description.1}"]
 			id: "3D7335089B69354F"
 			rewards: [
 				{
@@ -621,7 +621,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Even more primal.."
+			subtitle: "{kbquests.chapter.428ACDCCDC29708A.subtitle}"
 			tasks: [{
 				id: "74DA0BB559D134A5"
 				item: {
@@ -638,7 +638,7 @@
 		}
 		{
 			dependencies: ["7CCCBC0188A03C32"]
-			description: ["Find the forlorn caves!"]
+			description: ["{kbquests.chapter.77161FAA53643F22.description.1}"]
 			id: "77161FAA53643F22"
 			rewards: [
 				{
@@ -654,21 +654,21 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Forlornliest Day of My Life"
+			subtitle: "{kbquests.chapter.77161FAA53643F22.subtitle}"
 			tasks: [{
 				biome: "alexscaves:forlorn_hollows"
 				icon: "alexscaves:pure_darkness"
 				id: "07151242D227DA3A"
-				title: "Find Forlorn Hollows"
+				title: "{kbquests.chapter.07151242D227DA3A.title}"
 				type: "biome"
 			}]
-			title: "&8&lForlorn Hollows"
+			title: "{kbquests.chapter.77161FAA53643F22.title}"
 			x: -5.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["77161FAA53643F22"]
-			description: ["Discover the Underzealots&r, mole-like servants&r of a dark master&r."]
+			description: ["{kbquests.chapter.04C3320A5EDCBFF1.description.1}"]
 			id: "04C3320A5EDCBFF1"
 			rewards: [
 				{
@@ -688,7 +688,7 @@
 				criterion: ""
 				icon: "alexscaves:occult_gem"
 				id: "09D8AF2278BBAE72"
-				title: "The Underzealots"
+				title: "{kbquests.chapter.09D8AF2278BBAE72.title}"
 				type: "advancement"
 			}]
 			x: -5.0d
@@ -696,7 +696,7 @@
 		}
 		{
 			dependencies: ["04C3320A5EDCBFF1"]
-			description: ["Witness the Underzealots&r sacrificing a creature to their profane god&r, and it turn into something unholy..."]
+			description: ["{kbquests.chapter.3849A2E20966ED4E.description.1}"]
 			icon: {
 				Count: 1
 				id: "alexscaves:desolate_dagger"
@@ -718,13 +718,13 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Witness an Underzealot's Sacrifice"
+			subtitle: "{kbquests.chapter.3849A2E20966ED4E.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/underzealot_sacrifice"
 				criterion: ""
 				icon: "alexscaves:pure_darkness"
 				id: "1A184C4101CFADE0"
-				title: "The Black Parade"
+				title: "{kbquests.chapter.1A184C4101CFADE0.title}"
 				type: "advancement"
 			}]
 			x: -5.0d
@@ -732,7 +732,7 @@
 		}
 		{
 			dependencies: ["77161FAA53643F22"]
-			description: ["Craft a Burrowing Arrow&r, which can break up to 5 blocks&r when fired by a bow&r."]
+			description: ["{kbquests.chapter.6E23D9E092DE5A10.description.1}"]
 			id: "6E23D9E092DE5A10"
 			rewards: [
 				{
@@ -762,7 +762,7 @@
 		}
 		{
 			dependencies: ["6E23D9E092DE5A10"]
-			description: ["The Totem of Possession&r can temporarily control&r a monster of your choice."]
+			description: ["{kbquests.chapter.4E8CC910E436EAF7.description.1}"]
 			id: "4E8CC910E436EAF7"
 			rewards: [
 				{
@@ -782,7 +782,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "You are under my control now!"
+			subtitle: "{kbquests.chapter.4E8CC910E436EAF7.subtitle}"
 			tasks: [{
 				id: "2F806F8C4A590FA7"
 				item: {
@@ -799,7 +799,7 @@
 		}
 		{
 			dependencies: ["4E8CC910E436EAF7"]
-			description: ["Dreadbow is a extremely powerful bow that can shoot tons of arrows at once!"]
+			description: ["{kbquests.chapter.55FDC375B83CB18A.description.1}"]
 			id: "55FDC375B83CB18A"
 			rewards: [
 				{
@@ -814,7 +814,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Blot Out the Sun"
+			subtitle: "{kbquests.chapter.55FDC375B83CB18A.subtitle}"
 			tasks: [{
 				id: "44BB12F45567EFB0"
 				item: {
@@ -826,13 +826,13 @@
 				}
 				type: "item"
 			}]
-			title: "&l&7Dreadbow"
+			title: "{kbquests.chapter.55FDC375B83CB18A.title}"
 			x: -10.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["77161FAA53643F22"]
-			description: ["Craft a Hood and Cloak of Darkness&r that, when combined, will allow you to temporarily become Darkness Incarnate&r."]
+			description: ["{kbquests.chapter.198DA29A3677241D.description.1}"]
 			icon: "alexscaves:dark_tatters"
 			id: "198DA29A3677241D"
 			rewards: [
@@ -848,7 +848,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "&8[Click to read]"
+			subtitle: "{kbquests.chapter.198DA29A3677241D.subtitle}"
 			tasks: [{
 				id: "26EC1DBA74DDC260"
 				item: "alexscaves:pure_darkness"
@@ -888,7 +888,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lThe Hood of Darkness"
+			title: "{kbquests.chapter.0EFC5FD9DFF010A0.title}"
 			x: -10.5d
 			y: 1.0d
 		}
@@ -923,13 +923,13 @@
 				}
 				type: "item"
 			}]
-			title: "&l&7The Cloak of Darkness"
+			title: "{kbquests.chapter.66E61FBA03E135FA.title}"
 			x: -9.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["7CCCBC0188A03C32"]
-			description: ["Find the toxic caves!"]
+			description: ["{kbquests.chapter.12251DF6B529B713.description.1}"]
 			id: "12251DF6B529B713"
 			rewards: [
 				{
@@ -945,15 +945,15 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Radiation Vibe"
+			subtitle: "{kbquests.chapter.12251DF6B529B713.subtitle}"
 			tasks: [{
 				biome: "alexscaves:toxic_caves"
 				icon: "alexscaves:waste_drum"
 				id: "1212B32E9F0EF4CF"
-				title: "Find Toxic Caves"
+				title: "{kbquests.chapter.1212B32E9F0EF4CF.title}"
 				type: "biome"
 			}]
-			title: "So &aToxic!"
+			title: "{kbquests.chapter.12251DF6B529B713.title}"
 			x: -4.252678571428575d
 			y: 4.528571428571439d
 		}
@@ -983,16 +983,16 @@
 					type: "item"
 				}
 			]
-			subtitle: "Enter Acid While Wearing Armour"
+			subtitle: "{kbquests.chapter.70D6BA3908F691A8.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/enter_acid_with_armor"
 				criterion: ""
 				icon: "alexscaves:acid_bucket"
 				id: "45998B87293A94ED"
-				title: "Bath Bomb"
+				title: "{kbquests.chapter.45998B87293A94ED.title}"
 				type: "advancement"
 			}]
-			title: "Tank a acid bath"
+			title: "{kbquests.chapter.70D6BA3908F691A8.title}"
 			x: -4.229166666666664d
 			y: 8.476190476190482d
 		}
@@ -1011,13 +1011,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Can be obtained from sulfur clusts."
+			subtitle: "{kbquests.chapter.635E15DCD1640A07.subtitle}"
 			tasks: [{
 				id: "0B220A9C4CBFEBF8"
 				item: "alexscaves:sulfur_dust"
 				type: "item"
 			}]
-			title: "Sulfur Dust"
+			title: "{kbquests.chapter.635E15DCD1640A07.title}"
 			x: -4.229166666666664d
 			y: 6.976190476190482d
 		}
@@ -1047,7 +1047,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in Geothermal Vents"
+			subtitle: "{kbquests.chapter.3F65CB6279E012E2.subtitle}"
 			tasks: [{
 				id: "2047C91E03CA67CC"
 				item: "alexscaves:radon_bottle"
@@ -1071,13 +1071,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtain Toxic Paste"
+			subtitle: "{kbquests.chapter.7590BEDEE02367A1.subtitle}"
 			tasks: [{
 				id: "690B1D9872C3A173"
 				item: "alexscaves:toxic_paste"
 				type: "item"
 			}]
-			title: "Toxic goo"
+			title: "{kbquests.chapter.7590BEDEE02367A1.title}"
 			x: -4.229166666666664d
 			y: 9.976190476190482d
 		}
@@ -1090,22 +1090,22 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			subtitle: "Feed a Spelunkie to a Gammaroach"
+			subtitle: "{kbquests.chapter.17AFD44F8D796840.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/feed_gammaroach"
 				criterion: ""
 				icon: "alexscaves:spelunkie"
 				id: "1505AAF69E71C3E3"
-				title: "Feed a Spelunkie to a Gammaroach"
+				title: "{kbquests.chapter.1505AAF69E71C3E3.title}"
 				type: "advancement"
 			}]
-			title: "Radioactive Friend"
+			title: "{kbquests.chapter.17AFD44F8D796840.title}"
 			x: -4.229166666666664d
 			y: 11.476190476190482d
 		}
 		{
 			dependencies: ["12251DF6B529B713"]
-			description: ["&lUltimate destruction is at your fingertips&r. KAOBMMMOMO9329057482398753!!!!!!!!!!!"]
+			description: ["{kbquests.chapter.085C541B7764319E.description.1}"]
 			id: "085C541B7764319E"
 			rewards: [
 				{
@@ -1120,13 +1120,13 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "Craft a Nuclear Bomb"
+			subtitle: "{kbquests.chapter.085C541B7764319E.subtitle}"
 			tasks: [{
 				id: "2919D06B0C8F4CF0"
 				item: "alexscaves:nuclear_bomb"
 				type: "item"
 			}]
-			title: "&a&lI Have Become Death"
+			title: "{kbquests.chapter.085C541B7764319E.title}"
 			x: -10.729166666666664d
 			y: 4.476190476190482d
 		}
@@ -1145,7 +1145,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A fucking raygun"
+			subtitle: "{kbquests.chapter.15C843788077D8FE.subtitle}"
 			tasks: [{
 				id: "01FBF2F660654BE3"
 				item: {
@@ -1178,13 +1178,13 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Crafting Material"
+			subtitle: "{kbquests.chapter.6F437C9CC017AAB9.subtitle}"
 			tasks: [{
 				id: "1823EAEA670DA6E1"
 				item: "alexscaves:polymer_plate"
 				type: "item"
 			}]
-			title: "Polymer Plate"
+			title: "{kbquests.chapter.6F437C9CC017AAB9.title}"
 			x: -6.729166666666664d
 			y: 4.476190476190482d
 		}
@@ -1266,7 +1266,7 @@
 		}
 		{
 			dependencies: ["7CCCBC0188A03C32"]
-			description: ["Find the candy cavity caves!"]
+			description: ["{kbquests.chapter.67743B706D4142D5.description.1}"]
 			icon: {
 				Count: 1
 				id: "alexscaves:sugar_staff"
@@ -1288,15 +1288,15 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Pure Imagination"
+			subtitle: "{kbquests.chapter.67743B706D4142D5.subtitle}"
 			tasks: [{
 				biome: "alexscaves:candy_cavity"
 				icon: "alexscaves:candy_cane"
 				id: "0D21DE7C54256A60"
-				title: "Visit Candy Cavity"
+				title: "{kbquests.chapter.0D21DE7C54256A60.title}"
 				type: "biome"
 			}]
-			title: "Candy Cavity!"
+			title: "{kbquests.chapter.67743B706D4142D5.title}"
 			x: 4.0d
 			y: 1.0d
 		}
@@ -1322,15 +1322,15 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Too much candy.."
+			subtitle: "{kbquests.chapter.653030E5724707BF.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/sugar_rush"
 				criterion: ""
 				id: "20E0D78F832771BA"
-				title: "Sugar Rush"
+				title: "{kbquests.chapter.20E0D78F832771BA.title}"
 				type: "advancement"
 			}]
-			title: "Sugar Rush Effect"
+			title: "{kbquests.chapter.653030E5724707BF.title}"
 			x: 4.0d
 			y: 3.0d
 		}
@@ -1350,22 +1350,22 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Oh Little Town"
+			subtitle: "{kbquests.chapter.070201A579C266F6.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/gingerbread_town"
 				criterion: ""
 				icon: "alexscaves:confection_oven"
 				id: "26AE9BF6842AAB85"
-				title: "Gingerbread Town"
+				title: "{kbquests.chapter.26AE9BF6842AAB85.title}"
 				type: "advancement"
 			}]
-			title: "Discover a Gingerbread Town&r."
+			title: "{kbquests.chapter.070201A579C266F6.title}"
 			x: 5.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["67743B706D4142D5"]
-			description: ["Obtain Gingerbread Crumbs&r from hurting a gingerbread.."]
+			description: ["{kbquests.chapter.38B7B1FADE6BC4B0.description.1}"]
 			id: "38B7B1FADE6BC4B0"
 			rewards: [
 				{
@@ -1380,16 +1380,16 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Wow.."
+			subtitle: "{kbquests.chapter.38B7B1FADE6BC4B0.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/gingerbread_crumbs"
 				criterion: ""
 				icon: "alexscaves:gingerbread_crumbs"
 				id: "19E8EB1EC53E3F5D"
-				title: "You're a Monster"
+				title: "{kbquests.chapter.19E8EB1EC53E3F5D.title}"
 				type: "advancement"
 			}]
-			title: "Kill a Gingerbread.."
+			title: "{kbquests.chapter.38B7B1FADE6BC4B0.title}"
 			x: 4.0d
 			y: -1.0d
 		}
@@ -1409,13 +1409,13 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Minty Impalement"
+			subtitle: "{kbquests.chapter.339C9BCAD0865692.subtitle}"
 			tasks: [{
 				id: "574AD7F5E32CB1DD"
 				item: "alexscaves:frostmint_spear"
 				type: "item"
 			}]
-			title: "Spear Mint"
+			title: "{kbquests.chapter.339C9BCAD0865692.title}"
 			x: 3.0d
 			y: -1.0d
 		}
@@ -1436,13 +1436,13 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Obtain the Ginger Armoury"
+			subtitle: "{kbquests.chapter.33BA359B116305D1.subtitle}"
 			tasks: [{
 				id: "6BE25B6B17200352"
-				title: "Really"
+				title: "{kbquests.chapter.6BE25B6B17200352.title}"
 				type: "checkmark"
 			}]
-			title: "Doesn't really feel protective."
+			title: "{kbquests.chapter.33BA359B116305D1.title}"
 			x: 6.0d
 			y: 1.0d
 		}
@@ -1479,7 +1479,7 @@
 				}
 				type: "item"
 			}]
-			title: "&l&dGingerbread Helmet"
+			title: "{kbquests.chapter.501771BFDA9735B3.title}"
 			x: 7.5d
 			y: 1.0d
 		}
@@ -1516,7 +1516,7 @@
 				}
 				type: "item"
 			}]
-			title: "&l&dGingerbread Chestplate"
+			title: "{kbquests.chapter.4AEC431A08AF0C2C.title}"
 			x: 9.0d
 			y: 1.0d
 		}
@@ -1553,7 +1553,7 @@
 				}
 				type: "item"
 			}]
-			title: "&l&dGingerbread Leggings"
+			title: "{kbquests.chapter.291B0D3426A1EF98.title}"
 			x: 10.5d
 			y: 1.0d
 		}
@@ -1590,7 +1590,7 @@
 				}
 				type: "item"
 			}]
-			title: "&l&dGingerbread Boots"
+			title: "{kbquests.chapter.74EC39754A1701B9.title}"
 			x: 12.0d
 			y: 1.0d
 		}
@@ -1610,22 +1610,22 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Discover a Licowitch Tower"
+			subtitle: "{kbquests.chapter.78D5702DE3FF6CA2.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/licowitch_tower"
 				criterion: ""
 				icon: "alexscaves:licoroot_sprout"
 				id: "4215F7C498CBF3A8"
-				title: "The Dark (Chocolate) Tower"
+				title: "{kbquests.chapter.4215F7C498CBF3A8.title}"
 				type: "advancement"
 			}]
-			title: "The Dark (Chocolate) Tower"
+			title: "{kbquests.chapter.78D5702DE3FF6CA2.title}"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["78D5702DE3FF6CA2"]
-			description: ["You can obtain Radiant Essence&r from defeating the Licowitch!"]
+			description: ["{kbquests.chapter.5977CD7D6FCCF2CE.description.1}"]
 			id: "5977CD7D6FCCF2CE"
 			rewards: [
 				{
@@ -1639,19 +1639,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtain Radiant Essence"
+			subtitle: "{kbquests.chapter.5977CD7D6FCCF2CE.subtitle}"
 			tasks: [{
 				id: "04E469C51BF08200"
 				item: "alexscaves:radiant_essence"
 				type: "item"
 			}]
-			title: "The Secret Ingredient"
+			title: "{kbquests.chapter.5977CD7D6FCCF2CE.title}"
 			x: 9.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5977CD7D6FCCF2CE"]
-			description: ["A cauldron of &limmense power&r, able to &lconvert one biome into another&r."]
+			description: ["{kbquests.chapter.3181A05FFB5D465C.description.1}"]
 			icon: "alexscaves:conversion_crucible"
 			id: "3181A05FFB5D465C"
 			rewards: [
@@ -1679,19 +1679,19 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "Obtain A Conversion Crucible"
+			subtitle: "{kbquests.chapter.3181A05FFB5D465C.subtitle}"
 			tasks: [{
 				id: "4B5057B7A432D386"
 				item: "alexscaves:conversion_crucible"
 				type: "item"
 			}]
-			title: "Biome Reactors"
+			title: "{kbquests.chapter.3181A05FFB5D465C.title}"
 			x: 12.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["7CCCBC0188A03C32"]
-			description: ["Find the abyssal chasm!"]
+			description: ["{kbquests.chapter.06477537EAFC321F.description.1}"]
 			id: "06477537EAFC321F"
 			rewards: [
 				{
@@ -1706,12 +1706,12 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Beyond the Ocean"
+			subtitle: "{kbquests.chapter.06477537EAFC321F.subtitle}"
 			tasks: [{
 				biome: "alexscaves:abyssal_chasm"
 				icon: "alexscaves:submarine"
 				id: "7D057B8A6E2F9704"
-				title: "Find Abyssal Chasm"
+				title: "{kbquests.chapter.7D057B8A6E2F9704.title}"
 				type: "biome"
 			}]
 			x: 1.0d
@@ -1732,12 +1732,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "Slay an Explosive Foe"
+			subtitle: "{kbquests.chapter.198DEF6C9D3ACCC7.subtitle}"
 			tasks: [{
 				entity: "alexscaves:mine_guardian"
 				icon: "alexscaves:depth_charge"
 				id: "143EAE05D597AA8A"
-				title: "Mine Guardian"
+				title: "{kbquests.chapter.143EAE05D597AA8A.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1746,7 +1746,7 @@
 		}
 		{
 			dependencies: ["06477537EAFC321F"]
-			description: ["Obtained by trading with creatures in the deep."]
+			description: ["{kbquests.chapter.4A1C1CCA25648B59.description.1}"]
 			id: "4A1C1CCA25648B59"
 			rewards: [
 				{
@@ -1810,13 +1810,13 @@
 					type: "item"
 				}
 			]
-			title: "Powers Of The Deep Ocean!"
+			title: "{kbquests.chapter.4A1C1CCA25648B59.title}"
 			x: 3.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["06477537EAFC321F"]
-			description: ["Break sum mussles"]
+			description: ["{kbquests.chapter.7E646765E175FE1C.description.1}"]
 			id: "7E646765E175FE1C"
 			rewards: [
 				{
@@ -1830,13 +1830,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Diamonds of the Sea"
+			subtitle: "{kbquests.chapter.7E646765E175FE1C.subtitle}"
 			tasks: [{
 				id: "26844AFDF179E060"
 				item: "alexscaves:pearl"
 				type: "item"
 			}]
-			title: "Find A Pearl"
+			title: "{kbquests.chapter.7E646765E175FE1C.title}"
 			x: 1.0d
 			y: 7.0d
 		}
@@ -1855,12 +1855,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "An Offering"
+			subtitle: "{kbquests.chapter.2865E3CECFB1A27B.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/pearl_on_abyssal_altar"
 				criterion: ""
 				id: "7E10C19BBF4B3515"
-				title: "Place a Pearl on an Abyssal Altar"
+				title: "{kbquests.chapter.7E10C19BBF4B3515.title}"
 				type: "advancement"
 			}]
 			x: -1.0d
@@ -1868,7 +1868,7 @@
 		}
 		{
 			dependencies: ["2865E3CECFB1A27B"]
-			description: ["They're not that bad after all"]
+			description: ["{kbquests.chapter.71CED34A1AE4ABEA.description.1}"]
 			id: "71CED34A1AE4ABEA"
 			rewards: [
 				{
@@ -1886,7 +1886,7 @@
 				advancement: "alexscaves:alexscaves/trade_with_deep_one"
 				criterion: ""
 				id: "5E35019E41BB9AC4"
-				title: "Trade with the Deep Ones"
+				title: "{kbquests.chapter.5E35019E41BB9AC4.title}"
 				type: "advancement"
 			}]
 			x: -1.0d
@@ -1907,12 +1907,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "They come for your help now i guess!"
+			subtitle: "{kbquests.chapter.0FC75DE56C010977.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/deep_ones_become_helpful"
 				criterion: ""
 				id: "2CD08C0FD11F7105"
-				title: "Buddies Now"
+				title: "{kbquests.chapter.2CD08C0FD11F7105.title}"
 				type: "advancement"
 			}]
 			x: 1.0d
@@ -1995,5 +1995,5 @@
 			y: 7.0d
 		}
 	]
-	title: "Alex Caves"
+	title: "{kbquests.chapter.31A23408FE6F2DE7.title}"
 }

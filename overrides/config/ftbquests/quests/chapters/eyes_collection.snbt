@@ -130,7 +130,7 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Found in Bastion Remnant Treasure chests (50% chance)."
+			subtitle: "{kbquests.chapter.372593ED57EA4D37.subtitle}"
 			tasks: [{
 				id: "6FA1E94D57CEEF6D"
 				item: {
@@ -162,7 +162,7 @@
 			]
 			shape: "none"
 			size: 1.0d
-			subtitle: "Found in Buried Treasure chests (30% chance)."
+			subtitle: "{kbquests.chapter.41A696D20445A033.subtitle}"
 			tasks: [{
 				id: "2F055F5B8D889A37"
 				item: {
@@ -193,7 +193,7 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Found in Mineshaft chests (20% chance)."
+			subtitle: "{kbquests.chapter.0074BD139069E76A.subtitle}"
 			tasks: [{
 				id: "657ADDBBF158D502"
 				item: {
@@ -224,7 +224,7 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Found in Igloo chests (70% chance)."
+			subtitle: "{kbquests.chapter.1279CB9A1AD49797.subtitle}"
 			tasks: [{
 				id: "2E1BF81A3E4E60BF"
 				item: {
@@ -255,7 +255,7 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Found in Pillager Outpost chests (30% chance)."
+			subtitle: "{kbquests.chapter.07744B4083616E1D.subtitle}"
 			tasks: [{
 				id: "5CF15896076A271C"
 				item: {
@@ -286,7 +286,7 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Found in Nether Fortress chests (30% chance)."
+			subtitle: "{kbquests.chapter.5B938A9A5E1E1EEA.subtitle}"
 			tasks: [{
 				id: "0EFE78005D61DB2C"
 				item: {
@@ -317,7 +317,7 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Found in Desert Pyramid chests (10% chance)."
+			subtitle: "{kbquests.chapter.4C7AC2C4BFD660D6.subtitle}"
 			tasks: [{
 				id: "2509D988DC550B9A"
 				item: {
@@ -348,7 +348,7 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Found in Jungle Pyramid chests (40% chance)."
+			subtitle: "{kbquests.chapter.07BB03F6C059C45B.subtitle}"
 			tasks: [{
 				id: "7B6A6364B33E85BA"
 				item: {
@@ -379,7 +379,7 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Dropped by Elder Guardians (30% chance, unaffected by Looting or cause of death)."
+			subtitle: "{kbquests.chapter.40BECF10545AF56E.subtitle}"
 			tasks: [{
 				id: "2E48D71ED30156D4"
 				item: {
@@ -410,7 +410,7 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Found in Woodland Mansion chests (10% chance) and dropped by Evokers (5% chance, unaffected by Looting or cause of death)."
+			subtitle: "{kbquests.chapter.6E90ABFCD4BF1F41.subtitle}"
 			tasks: [{
 				id: "09009AF55FBF290D"
 				item: {
@@ -441,7 +441,7 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Dropped by Wither."
+			subtitle: "{kbquests.chapter.5B18DA0CEA5A5C0B.subtitle}"
 			tasks: [{
 				id: "1714414DF5CC3CDB"
 				item: {
@@ -472,7 +472,7 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Crafted with 1 Phantom Membrane, 1 Bone, 1 Rotten Flesh, 1 Ghast Tear, and 1 Undead Soul (25% chance Skeleton Horse drop, unaffected by Looting or cause of death)."
+			subtitle: "{kbquests.chapter.231D76E6ABA7E26B.subtitle}"
 			tasks: [{
 				id: "79946B332BBF2A57"
 				item: {
@@ -488,5 +488,5 @@
 			y: -4.5d
 		}
 	]
-	title: "Eyes Collection"
+	title: "{kbquests.chapter.6A9275C00B6CD384.title}"
 }

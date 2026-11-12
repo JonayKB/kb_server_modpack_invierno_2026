@@ -18,7 +18,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["You can find them in &avillages&r and other &6structures&r while exploring."]
+			description: ["{kbquests.chapter.3DAF11C8367041D8.description.1}"]
 			id: "3DAF11C8367041D8"
 			rewards: [
 				{
@@ -33,7 +33,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "Teleport between Waystones!"
+			subtitle: "{kbquests.chapter.3DAF11C8367041D8.subtitle}"
 			tasks: [{
 				id: "47A99C705DC4AC97"
 				item: {
@@ -43,16 +43,16 @@
 						value: "waystones:waystones"
 					}
 				}
-				title: "Waystone"
+				title: "{kbquests.chapter.47A99C705DC4AC97.title}"
 				type: "item"
 			}]
-			title: "Find a Waystne"
+			title: "{kbquests.chapter.3DAF11C8367041D8.title}"
 			x: 0.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["3DAF11C8367041D8"]
-			description: ["Use this to access all your &dwaypoints&r and &bteleport&r freely."]
+			description: ["{kbquests.chapter.3FC7A947E1CE3049.description.1}"]
 			icon: {
 				Count: 1
 				id: "waystones:warp_stone"
@@ -73,7 +73,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A beautiful purple stone."
+			subtitle: "{kbquests.chapter.3FC7A947E1CE3049.subtitle}"
 			tasks: [{
 				id: "430F41D7EC68D095"
 				item: {
@@ -85,10 +85,10 @@
 				}
 				type: "item"
 			}]
-			title: "Warp Stone"
+			title: "{kbquests.chapter.3FC7A947E1CE3049.title}"
 			x: 2.5d
 			y: 0.5d
 		}
 	]
-	title: "Waystones"
+	title: "{kbquests.chapter.70CD91BDC18AE054.title}"
 }

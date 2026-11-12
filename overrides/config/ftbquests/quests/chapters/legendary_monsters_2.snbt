@@ -45,7 +45,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Use creature eye to locate."
+			subtitle: "{kbquests.chapter.1C468768243CE551.subtitle}"
 			tasks: [
 				{
 					id: "0E584143B2978898"
@@ -56,12 +56,12 @@
 					entity: "legendary_monsters:frostbitten_golem"
 					icon: "legendary_monsters:frozen_rune"
 					id: "1AF3A2E706D390FA"
-					title: "Defeat Frostbitten Golem"
+					title: "{kbquests.chapter.1AF3A2E706D390FA.title}"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "Frosty"
+			title: "{kbquests.chapter.1C468768243CE551.title}"
 			x: -1.5d
 			y: -1.0d
 		}
@@ -87,7 +87,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Use creature eye to locate."
+			subtitle: "{kbquests.chapter.14548E0E21A7E283.subtitle}"
 			tasks: [
 				{
 					id: "504164C1A65A68BC"
@@ -98,7 +98,7 @@
 					entity: "legendary_monsters:posessed_paladin"
 					icon: "legendary_monsters:corrupted_soul"
 					id: "2299768E69B33E23"
-					title: "Defeat Possessed Paladin"
+					title: "{kbquests.chapter.2299768E69B33E23.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -114,7 +114,7 @@
 					type: "item"
 				}
 			]
-			title: "Possessed"
+			title: "{kbquests.chapter.14548E0E21A7E283.title}"
 			x: -0.5d
 			y: -1.0d
 		}
@@ -140,7 +140,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Use creature eye to locate."
+			subtitle: "{kbquests.chapter.32EE49E726B81C86.subtitle}"
 			tasks: [
 				{
 					id: "5E4BE1EC457A30F9"
@@ -157,12 +157,12 @@
 						}
 					}
 					id: "20E729591FF1FCE7"
-					title: "Defeat Ancient Guardian"
+					title: "{kbquests.chapter.20E729591FF1FCE7.title}"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "Sunky"
+			title: "{kbquests.chapter.32EE49E726B81C86.title}"
 			x: 0.5d
 			y: -1.0d
 		}
@@ -188,7 +188,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Use creature eye to locate."
+			subtitle: "{kbquests.chapter.2A347F37517380FF.subtitle}"
 			tasks: [
 				{
 					id: "4A0E274F843A15DF"
@@ -199,12 +199,12 @@
 					entity: "legendary_monsters:cloud_golem"
 					icon: "legendary_monsters:air_rune"
 					id: "630C41BDB3163CAC"
-					title: "Defeat Cloud Golem"
+					title: "{kbquests.chapter.630C41BDB3163CAC.title}"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "Cloudy"
+			title: "{kbquests.chapter.2A347F37517380FF.title}"
 			x: 1.5d
 			y: -1.0d
 		}
@@ -230,7 +230,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Use creature eye to locate."
+			subtitle: "{kbquests.chapter.703EE69C5D8050DC.subtitle}"
 			tasks: [
 				{
 					id: "3A17C5A433762410"
@@ -241,12 +241,12 @@
 					entity: "legendary_monsters:dune_sentinel"
 					icon: "legendary_monsters:crystal_of_sandstorm"
 					id: "0C368D03C97F776C"
-					title: "Defeat Dune Sentinel"
+					title: "{kbquests.chapter.0C368D03C97F776C.title}"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "Sandy"
+			title: "{kbquests.chapter.703EE69C5D8050DC.title}"
 			x: 2.5d
 			y: -1.0d
 		}
@@ -272,7 +272,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Use creature eye to locate."
+			subtitle: "{kbquests.chapter.7BEB2CEFD962AF91.subtitle}"
 			tasks: [
 				{
 					id: "518B08EDFEA52F92"
@@ -283,12 +283,12 @@
 					entity: "legendary_monsters:overgrown_colossus"
 					icon: "legendary_monsters:nature_crystal"
 					id: "71B68E1C7AD9DD4C"
-					title: "Defeat Overgrown Colossus"
+					title: "{kbquests.chapter.71B68E1C7AD9DD4C.title}"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "Mossy"
+			title: "{kbquests.chapter.7BEB2CEFD962AF91.title}"
 			x: 3.5d
 			y: -1.0d
 		}
@@ -314,7 +314,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Use creature eye to locate."
+			subtitle: "{kbquests.chapter.179CA1964C40F7CF.subtitle}"
 			tasks: [
 				{
 					id: "79119364FD8855B1"
@@ -333,12 +333,12 @@
 						id: "legendary_monsters:dinosaur_bone"
 					}
 					id: "37016C451F6E8902"
-					title: "Defeat Skeletosaurus"
+					title: "{kbquests.chapter.37016C451F6E8902.title}"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "Bones"
+			title: "{kbquests.chapter.179CA1964C40F7CF.title}"
 			x: -1.5d
 			y: 1.0d
 		}
@@ -364,7 +364,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Use creature eye to locate."
+			subtitle: "{kbquests.chapter.159680B9EF82CBD3.subtitle}"
 			tasks: [
 				{
 					id: "3084DF6B0F49A180"
@@ -383,12 +383,12 @@
 						id: "legendary_monsters:withered_horn"
 					}
 					id: "45AD8CDD6603A79A"
-					title: "Defeat Withered Abomination"
+					title: "{kbquests.chapter.45AD8CDD6603A79A.title}"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "Soul"
+			title: "{kbquests.chapter.159680B9EF82CBD3.title}"
 			x: -0.5d
 			y: 1.0d
 		}
@@ -414,7 +414,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Use creature eye to locate."
+			subtitle: "{kbquests.chapter.23E1D5A84854309F.subtitle}"
 			tasks: [
 				{
 					id: "657D06C89DCF4FD0"
@@ -425,12 +425,12 @@
 					entity: "legendary_monsters:lava_eater"
 					icon: "legendary_monsters:lava_eaters_skin"
 					id: "44BC28D4AD90F3FF"
-					title: "Defeat Lava Eater"
+					title: "{kbquests.chapter.44BC28D4AD90F3FF.title}"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "Magma"
+			title: "{kbquests.chapter.23E1D5A84854309F.title}"
 			x: 0.5d
 			y: 1.0d
 		}
@@ -456,7 +456,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Use creature eye to locate."
+			subtitle: "{kbquests.chapter.2A68F8D51F2714E1.subtitle}"
 			tasks: [
 				{
 					id: "235C4E0DDC8811A1"
@@ -467,12 +467,12 @@
 					entity: "legendary_monsters:annihilation_pursuer"
 					icon: "legendary_monsters:eye_crystal"
 					id: "2DA2A19A662ED229"
-					title: "Defeat Annihilation Pursuer"
+					title: "{kbquests.chapter.2DA2A19A662ED229.title}"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "Annihilation"
+			title: "{kbquests.chapter.2A68F8D51F2714E1.title}"
 			x: -1.5d
 			y: 3.0d
 		}
@@ -498,16 +498,16 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Use creature eye to locate."
+			subtitle: "{kbquests.chapter.476238FFD929AB9F.subtitle}"
 			tasks: [{
 				entity: "legendary_monsters:the_obliterator"
 				icon: "legendary_monsters:portal_shard"
 				id: "6AAA3046E89F42A4"
-				title: "Defeat The Obliterator"
+				title: "{kbquests.chapter.6AAA3046E89F42A4.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Obliterator"
+			title: "{kbquests.chapter.476238FFD929AB9F.title}"
 			x: -0.5d
 			y: 3.0d
 		}
@@ -533,7 +533,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Use creature eye to locate."
+			subtitle: "{kbquests.chapter.5B4CF0AD0A31C2CB.subtitle}"
 			tasks: [
 				{
 					id: "3ED0E9B6F948BCAD"
@@ -552,12 +552,12 @@
 						id: "legendary_monsters:large_shulker_shell"
 					}
 					id: "793CCC48DE51BF0D"
-					title: "Defeat Shulker Mimic"
+					title: "{kbquests.chapter.793CCC48DE51BF0D.title}"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "Shulker"
+			title: "{kbquests.chapter.5B4CF0AD0A31C2CB.title}"
 			x: 0.5d
 			y: 3.0d
 		}
@@ -583,7 +583,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Use creature eye to locate."
+			subtitle: "{kbquests.chapter.2BF3BB1258CC95F8.subtitle}"
 			tasks: [
 				{
 					id: "27BD76757DEBEBEC"
@@ -602,12 +602,12 @@
 						id: "legendary_monsters:chorus_crystal"
 					}
 					id: "47182149EC27B582"
-					title: "Defeat Endersent"
+					title: "{kbquests.chapter.47182149EC27B582.title}"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "Chorus"
+			title: "{kbquests.chapter.2BF3BB1258CC95F8.title}"
 			x: 1.5d
 			y: 3.0d
 		}
@@ -627,15 +627,15 @@
 			]
 			shape: "none"
 			size: 2.0d
-			subtitle: "Face legendary creatures around the surface"
+			subtitle: "{kbquests.chapter.6CCC0D919C339A9D.subtitle}"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				icon: "minecraft:grass_block"
 				id: "77A6070F1E9BB471"
-				title: "Visite &aOverworld&r!"
+				title: "{kbquests.chapter.77A6070F1E9BB471.title}"
 				type: "dimension"
 			}]
-			title: "&aOverworld&r &6Challenges&r"
+			title: "{kbquests.chapter.6CCC0D919C339A9D.title}"
 			x: -3.0d
 			y: -1.0d
 		}
@@ -656,15 +656,15 @@
 			]
 			shape: "none"
 			size: 2.0d
-			subtitle: "Find creatures swimming in lava pools or hiding in structures... stay alert!"
+			subtitle: "{kbquests.chapter.3A434E6D6C87249F.subtitle}"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				icon: "minecraft:netherrack"
 				id: "31A25C872853FF14"
-				title: "Visite the &cNether&r"
+				title: "{kbquests.chapter.31A25C872853FF14.title}"
 				type: "dimension"
 			}]
-			title: "&cNether&r &6Challenges&r"
+			title: "{kbquests.chapter.3A434E6D6C87249F.title}"
 			x: -3.0d
 			y: 1.0d
 		}
@@ -685,18 +685,18 @@
 			]
 			shape: "none"
 			size: 2.0d
-			subtitle: "For your greatest challenge among all the creatures, make sure you are powerful enough."
+			subtitle: "{kbquests.chapter.697A6EC01C2C4A61.subtitle}"
 			tasks: [{
 				dimension: "minecraft:the_end"
 				icon: "minecraft:end_stone"
 				id: "69DC3F3C4D6390DA"
-				title: "Visit the &dEnd&r!"
+				title: "{kbquests.chapter.69DC3F3C4D6390DA.title}"
 				type: "dimension"
 			}]
-			title: "&dEnd&r &6Challenges&r"
+			title: "{kbquests.chapter.697A6EC01C2C4A61.title}"
 			x: -3.0d
 			y: 3.0d
 		}
 	]
-	title: "Legendary Monsters"
+	title: "{kbquests.chapter.7C909A959A60F0B5.title}"
 }

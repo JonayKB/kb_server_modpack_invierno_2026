@@ -110,11 +110,11 @@
 		{
 			dependencies: ["4EF580AC5FCD5F9B"]
 			description: [
-				"Discover a new way of crafting powerful weapons."
+				"{kbquests.chapter.62CBC92E2098C4F3.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Use &dHeated Celestial Core&r to supply the &dStarlit Factory&r."
+				"{kbquests.chapter.62CBC92E2098C4F3.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Additionally you can use amethyst shards too but it's &nPAINFULLY&r slow.."
+				"{kbquests.chapter.62CBC92E2098C4F3.description.5}"
 			]
 			hide_until_deps_complete: false
 			id: "62CBC92E2098C4F3"
@@ -131,7 +131,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "About fabrication."
+			subtitle: "{kbquests.chapter.62CBC92E2098C4F3.subtitle}"
 			tasks: [{
 				id: "740FC3B872ABA194"
 				item: {
@@ -145,7 +145,7 @@
 				}
 				type: "item"
 			}]
-			title: "Starlit Factory"
+			title: "{kbquests.chapter.62CBC92E2098C4F3.title}"
 			x: -3.5d
 			y: 2.0d
 		}
@@ -167,13 +167,13 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Celestisynth weapons are harder to craft, they use a special workbench to be assembled.  "
+			subtitle: "{kbquests.chapter.0D211706C748C3DF.subtitle}"
 			tasks: [{
 				id: "11F849758B2291D8"
-				title: "Oki bro!"
+				title: "{kbquests.chapter.11F849758B2291D8.title}"
 				type: "checkmark"
 			}]
-			title: "Welcome to Celestisynth!"
+			title: "{kbquests.chapter.0D211706C748C3DF.title}"
 			x: -3.5d
 			y: -2.5d
 		}
@@ -194,7 +194,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Can fuel the starlit factory significantly, also a important item for making celestisynth weapons."
+			subtitle: "{kbquests.chapter.11B848D1C9A86444.subtitle}"
 			tasks: [{
 				id: "562BE0AC1951A6F3"
 				item: {
@@ -228,7 +228,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Can fuel more. has a recipe for a magical book!"
+			subtitle: "{kbquests.chapter.4EF580AC5FCD5F9B.subtitle}"
 			tasks: [{
 				id: "38F6563ADB5F4A48"
 				item: {
@@ -261,7 +261,7 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "A Dagger from The Hell itself."
+			subtitle: "{kbquests.chapter.1524A4297ACCA718.subtitle}"
 			tasks: [{
 				id: "5CB38A8AFDB9C299"
 				item: {
@@ -298,7 +298,7 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "Light as a feather, Sharp as a razor."
+			subtitle: "{kbquests.chapter.3348DC8BA9B603F5.subtitle}"
 			tasks: [{
 				id: "59974C498051DA1F"
 				item: {
@@ -336,7 +336,7 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "Flashy! (That's it)"
+			subtitle: "{kbquests.chapter.46E66D4893EDC597.subtitle}"
 			tasks: [{
 				id: "2D51EF0C61905619"
 				item: {
@@ -373,7 +373,7 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "Devastation."
+			subtitle: "{kbquests.chapter.249D0167FBF7B6B4.subtitle}"
 			tasks: [{
 				id: "453029AB3DCE695D"
 				item: {
@@ -420,7 +420,7 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "This Greataxe has merged with a vile thing."
+			subtitle: "{kbquests.chapter.7192D0E7214BE36F.subtitle}"
 			tasks: [{
 				id: "7CDC00175A699D7D"
 				item: {
@@ -467,7 +467,7 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "Lightspeed"
+			subtitle: "{kbquests.chapter.785392DECB5F6627.subtitle}"
 			tasks: [{
 				id: "1902A7A5FBC71C7F"
 				item: {
@@ -504,7 +504,7 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "Headshot"
+			subtitle: "{kbquests.chapter.714EF0551098E46D.subtitle}"
 			tasks: [{
 				id: "7753558EAFCEE36A"
 				item: {
@@ -545,7 +545,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "A craft material for weapons in celestisynth mod."
+			subtitle: "{kbquests.chapter.084A80F90D32E2F5.subtitle}"
 			tasks: [{
 				id: "3589DD4E1E029494"
 				item: {
@@ -579,7 +579,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "A craft material for weapons in celestisynth mod."
+			subtitle: "{kbquests.chapter.303BDFA774DB5275.subtitle}"
 			tasks: [{
 				id: "771188E5F094F4F1"
 				item: {
@@ -612,7 +612,7 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "A Frostbitten Scythe."
+			subtitle: "{kbquests.chapter.55D1E5C62B2716D3.subtitle}"
 			tasks: [{
 				id: "2F66572FD3884892"
 				item: {
@@ -638,5 +638,5 @@
 			y: 4.0d
 		}
 	]
-	title: "Celestisynth"
+	title: "{kbquests.chapter.7FDC64785184682B.title}"
 }

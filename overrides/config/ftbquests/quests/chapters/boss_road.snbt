@@ -165,13 +165,13 @@
 				id: "5CA37FD56B4D2E2F"
 				type: "checkmark"
 			}]
-			title: "Lv 10-19"
+			title: "{kbquests.chapter.1475C97DAF880FFD.title}"
 			x: -6.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["25427F141D91C484"]
-			description: ["Found prowling the dunes of Desert biomes naturally, or can be forcefully summoned using a Sandworm Gauntlet."]
+			description: ["{kbquests.chapter.5DC1CC4AD8FB8149.description.1}"]
 			icon: {
 				Count: 1
 				id: "block_factorys_bosses:sandworm_gauntlet"
@@ -193,7 +193,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Don't desert this fight! A giant worm lurking in the sands."
+			subtitle: "{kbquests.chapter.5DC1CC4AD8FB8149.subtitle}"
 			tasks: [{
 				entity: "block_factorys_bosses:sandworm"
 				icon: {
@@ -207,13 +207,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Sirok, the Sandworm"
+			title: "{kbquests.chapter.5DC1CC4AD8FB8149.title}"
 			x: -0.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1475C97DAF880FFD"]
-			description: ["Generates in Savanna biomes around a specific altar. Bring an offering of Sunblock to initiate the battle and dodge its solar strikes."]
+			description: ["{kbquests.chapter.670818F8234F7142.description.1}"]
 			id: "670818F8234F7142"
 			rewards: [
 				{
@@ -227,7 +227,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Praise the sun! A divine avian worshipped in the savanna."
+			subtitle: "{kbquests.chapter.670818F8234F7142.subtitle}"
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
 				icon: {
@@ -241,13 +241,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Umvuthi, the Sunbird"
+			title: "{kbquests.chapter.670818F8234F7142.title}"
 			x: -6.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0A10B3D60AFE5D1E"]
-			description: ["Rests within unique underground metallic chambers. It's completely immune to frontal attacks; you must strike its exposed back after it misses a swing!"]
+			description: ["{kbquests.chapter.25427F141D91C484.description.1}"]
 			id: "25427F141D91C484"
 			rewards: [
 				{
@@ -261,7 +261,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "A knight to remember. A heavily armored, stationary sentinel."
+			subtitle: "{kbquests.chapter.25427F141D91C484.subtitle}"
 			tasks: [{
 				entity: "mowziesmobs:ferrous_wroughtnaut"
 				icon: "mowziesmobs:wrought_helmet"
@@ -269,13 +269,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Ferrous Wroughnaut"
+			title: "{kbquests.chapter.25427F141D91C484.title}"
 			x: -2.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["670818F8234F7142"]
-			description: ["Found sleeping in snowy and icy biomes clutching a precious crystal. Steal the crystal or attack it directly to wake up this icy behemoth."]
+			description: ["{kbquests.chapter.0A10B3D60AFE5D1E.description.1}"]
 			id: "0A10B3D60AFE5D1E"
 			rewards: [
 				{
@@ -289,7 +289,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Ice to meet you! A dormant beast guarding a frozen treasure."
+			subtitle: "{kbquests.chapter.0A10B3D60AFE5D1E.subtitle}"
 			tasks: [{
 				entity: "mowziesmobs:frostmaw"
 				icon: {
@@ -303,7 +303,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Frostmaw"
+			title: "{kbquests.chapter.0A10B3D60AFE5D1E.title}"
 			x: -4.5d
 			y: 1.5d
 		}
@@ -317,16 +317,16 @@
 			}]
 			tasks: [{
 				id: "643DDA49C6BBE165"
-				title: "Lv20 29"
+				title: "{kbquests.chapter.643DDA49C6BBE165.title}"
 				type: "checkmark"
 			}]
-			title: "Lv 20-29"
+			title: "{kbquests.chapter.13C31F826917CE7E.title}"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["13EDC39AB9F8CCBA"]
-			description: ["Wanders the decks of Ghost Ships that spawn frequently in frozen ocean biomes. Bring a warm jacket and a sharp blade."]
+			description: ["{kbquests.chapter.5FD0C013FE4831D6.description.1}"]
 			id: "5FD0C013FE4831D6"
 			rewards: [
 				{
@@ -340,7 +340,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Ship just got real. The spectral captain of a frozen galleon."
+			subtitle: "{kbquests.chapter.5FD0C013FE4831D6.subtitle}"
 			tasks: [{
 				entity: "aquamirae:captain_cornelia"
 				icon: {
@@ -354,13 +354,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Ghost of Captain Cornelia"
+			title: "{kbquests.chapter.5FD0C013FE4831D6.title}"
 			x: 5.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["5FD0C013FE4831D6"]
-			description: ["Found at the very bottom of Lush Caves inside a massive, hollowed-out cavern structure. Watch out for its toxic attacks and hazardous flora."]
+			description: ["{kbquests.chapter.185C47D66C58EA95.description.1}"]
 			id: "185C47D66C58EA95"
 			rewards: [
 				{
@@ -374,7 +374,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "A bloomin' nightmare. A massive, carnivorous flower deep underground."
+			subtitle: "{kbquests.chapter.185C47D66C58EA95.subtitle}"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:void_blossom"
 				icon: "bosses_of_mass_destruction:crystal_fruit"
@@ -382,13 +382,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Void Blossom"
+			title: "{kbquests.chapter.185C47D66C58EA95.title}"
 			x: 7.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["13C31F826917CE7E"]
-			description: ["Spawns within specific overgrown botanical structures commonly found in Swamps and Jungles."]
+			description: ["{kbquests.chapter.6BAF9F3CB8DB3B7D.description.1}"]
 			id: "6BAF9F3CB8DB3B7D"
 			rewards: [
 				{
@@ -402,7 +402,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Petal to the metal. A floral monarch with a deadly sting."
+			subtitle: "{kbquests.chapter.6BAF9F3CB8DB3B7D.subtitle}"
 			tasks: [{
 				entity: "oddities:queen_of_orchid"
 				icon: "oddities:orchid_heart"
@@ -410,13 +410,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Queen Of Orchid"
+			title: "{kbquests.chapter.6BAF9F3CB8DB3B7D.title}"
 			x: 5.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["13C31F826917CE7E"]
-			description: ["Found at the peak of Lich Towers, which generate exclusively in cold biomes. Break its floating altars first to render it vulnerable!"]
+			description: ["{kbquests.chapter.13EDC39AB9F8CCBA.description.1}"]
 			id: "13EDC39AB9F8CCBA"
 			rewards: [
 				{
@@ -430,7 +430,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Bone to be wild. An undead sorcerer mastering the dark arts."
+			subtitle: "{kbquests.chapter.13EDC39AB9F8CCBA.subtitle}"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:lich"
 				icon: "bosses_of_mass_destruction:ancient_anima"
@@ -438,13 +438,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Night Lich"
+			title: "{kbquests.chapter.13EDC39AB9F8CCBA.title}"
 			x: 3.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["13C31F826917CE7E"]
-			description: ["Found wandering naturally in lush Jungles and dense forest biomes, blending in with the overgrown environment."]
+			description: ["{kbquests.chapter.610670CDF9702240.description.1}"]
 			id: "610670CDF9702240"
 			rewards: [
 				{
@@ -458,7 +458,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Moss definitely a threat. A giant animated statue of nature."
+			subtitle: "{kbquests.chapter.610670CDF9702240.subtitle}"
 			tasks: [{
 				entity: "legendary_monsters:overgrown_colossus"
 				icon: "legendary_monsters:totem_of_moss"
@@ -466,7 +466,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Overgrown Colossus"
+			title: "{kbquests.chapter.610670CDF9702240.title}"
 			x: 3.5d
 			y: 1.5d
 		}
@@ -480,7 +480,7 @@
 			}]
 			tasks: [{
 				id: "4C00EE953DF6CEAF"
-				title: "Lv 30-39"
+				title: "{kbquests.chapter.4C00EE953DF6CEAF.title}"
 				type: "checkmark"
 			}]
 			x: 9.5d
@@ -488,7 +488,7 @@
 		}
 		{
 			dependencies: ["31A40E2344744736"]
-			description: ["Found within large floating blackened arenas high up in the Nether skies."]
+			description: ["{kbquests.chapter.503A8FD77DDCBC57.description.1}"]
 			id: "503A8FD77DDCBC57"
 			rewards: [
 				{
@@ -502,7 +502,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Gotta hand it to him. A massive floating fist ablaze."
+			subtitle: "{kbquests.chapter.503A8FD77DDCBC57.subtitle}"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
 				icon: "bosses_of_mass_destruction:blazing_eye"
@@ -510,13 +510,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Nether Gauntlet"
+			title: "{kbquests.chapter.503A8FD77DDCBC57.title}"
 			x: 11.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["31A40E2344744736"]
-			description: ["Awakened in the Aether's Bronze Dungeons. Conventional weapons are useless; you must bring a strong Pickaxe to deal damage!"]
+			description: ["{kbquests.chapter.192D490E8E800C5A.description.1}"]
 			id: "192D490E8E800C5A"
 			rewards: [
 				{
@@ -530,7 +530,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Sliding into your DMs. A blocky labyrinth guardian."
+			subtitle: "{kbquests.chapter.192D490E8E800C5A.subtitle}"
 			tasks: [{
 				entity: "aether:slider"
 				icon: "aether:carved_stone"
@@ -538,13 +538,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Slider"
+			title: "{kbquests.chapter.192D490E8E800C5A.title}"
 			x: 11.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["31A40E2344744736"]
-			description: ["Rules the Silver Dungeons in the Aether. You must first prove your worth by defeating 10 regular Valkyries before she accepts your challenge."]
+			description: ["{kbquests.chapter.757366ED457DA077.description.1}"]
 			id: "757366ED457DA077"
 			rewards: [
 				{
@@ -558,7 +558,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "A divine intervention. A fierce winged warrior of the skies."
+			subtitle: "{kbquests.chapter.757366ED457DA077.subtitle}"
 			tasks: [{
 				entity: "aether:valkyrie_queen"
 				icon: "aether:valkyrie_cape"
@@ -566,13 +566,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Valkyrie Queen"
+			title: "{kbquests.chapter.757366ED457DA077.title}"
 			x: 13.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["31A40E2344744736"]
-			description: ["The core of the floating Gold Dungeons in the Aether. It cannot be hit directly; you must deflect its own ice projectiles back at it!"]
+			description: ["{kbquests.chapter.55FC48AB6217C5CD.description.1}"]
 			icon: "aether:golden_amber"
 			id: "55FC48AB6217C5CD"
 			rewards: [
@@ -587,7 +587,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Feeling hot, hot, hot! The blazing core of the gold dungeon."
+			subtitle: "{kbquests.chapter.55FC48AB6217C5CD.subtitle}"
 			tasks: [{
 				entity: "aether:sun_spirit"
 				icon: "aether:golden_amber"
@@ -595,13 +595,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Sun Spirit"
+			title: "{kbquests.chapter.55FC48AB6217C5CD.title}"
 			x: 15.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7FE44A00526A128C"]
-			description: ["Summoned by triggering a naturally generated Sculk Shrieker multiple times in the Deep Dark biome. Be very, very quiet."]
+			description: ["{kbquests.chapter.577BBB7F707328CB.description.1}"]
 			id: "577BBB7F707328CB"
 			rewards: [
 				{
@@ -615,7 +615,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Hear no evil. A blind powerhouse of the deep dark."
+			subtitle: "{kbquests.chapter.577BBB7F707328CB.subtitle}"
 			tasks: [{
 				entity: "minecraft:warden"
 				icon: "terramity:warden_soul"
@@ -623,13 +623,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Warden"
+			title: "{kbquests.chapter.577BBB7F707328CB.title}"
 			x: 15.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["503A8FD77DDCBC57"]
-			description: ["Found roaming snowy and mountainous biomes, or summoned directly via its specific ice gauntlet item."]
+			description: ["{kbquests.chapter.7FE44A00526A128C.description.1}"]
 			id: "7FE44A00526A128C"
 			rewards: [
 				{
@@ -643,7 +643,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Snow joke! A massive beast of the frozen peaks."
+			subtitle: "{kbquests.chapter.7FE44A00526A128C.subtitle}"
 			tasks: [{
 				id: "471D6BE93B493AE9"
 				item: {
@@ -658,7 +658,7 @@
 				}
 				type: "item"
 			}]
-			title: "Skor, The Yeti"
+			title: "{kbquests.chapter.7FE44A00526A128C.title}"
 			x: 13.5d
 			y: 5.5d
 		}
@@ -672,7 +672,7 @@
 			}]
 			tasks: [{
 				id: "63FB97BC16E25A15"
-				title: "Lv 40-49"
+				title: "{kbquests.chapter.63FB97BC16E25A15.title}"
 				type: "checkmark"
 			}]
 			x: 17.5d
@@ -680,7 +680,7 @@
 		}
 		{
 			dependencies: ["1C454E8894755A9B"]
-			description: ["Prowls the pitch-black waters of the Abyssal Chasm biome. Beware of its sheer size and destructive capabilities."]
+			description: ["{kbquests.chapter.50FC727AA8D7E462.description.1}"]
 			id: "50FC727AA8D7E462"
 			rewards: [
 				{
@@ -694,7 +694,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Making waves. A gargantuan deep-sea predator."
+			subtitle: "{kbquests.chapter.50FC727AA8D7E462.subtitle}"
 			tasks: [{
 				entity: "alexscaves:hullbreaker"
 				icon: "alexscaves:immortal_embryo"
@@ -702,13 +702,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Hullbreaker"
+			title: "{kbquests.chapter.50FC727AA8D7E462.title}"
 			x: 19.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["1C454E8894755A9B"]
-			description: ["Lurks in the depths of ocean biomes, or can be forcefully summoned via the Undying Tentacle item."]
+			description: ["{kbquests.chapter.61DE82C206333837.description.1}"]
 			id: "61DE82C206333837"
 			rewards: [
 				{
@@ -723,7 +723,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Release the Kraken! A legendary terror of the seas."
+			subtitle: "{kbquests.chapter.61DE82C206333837.subtitle}"
 			tasks: [{
 				entity: "block_factorys_bosses:kraken"
 				icon: {
@@ -737,13 +737,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Nerakyss, The Kraken"
+			title: "{kbquests.chapter.61DE82C206333837.title}"
 			x: 19.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["61DE82C206333837"]
-			description: ["Summoned using the Knight Sword or occasionally found within deep subterranean combat arenas."]
+			description: ["{kbquests.chapter.29068D975C6758C6.description.1}"]
 			id: "29068D975C6758C6"
 			rewards: [
 				{
@@ -758,7 +758,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "A hell of a fight. An armored champion of the depths."
+			subtitle: "{kbquests.chapter.29068D975C6758C6.subtitle}"
 			tasks: [{
 				entity: "block_factorys_bosses:underworld_knight"
 				icon: {
@@ -772,13 +772,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Helvar, The Underworld Knight"
+			title: "{kbquests.chapter.29068D975C6758C6.title}"
 			x: 21.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["29068D975C6758C6"]
-			description: ["Found commanding forces in Gnome villages or summoned via unique gnome-related headgear."]
+			description: ["{kbquests.chapter.618AD2222447B2F1.description.1}"]
 			id: "618AD2222447B2F1"
 			rewards: [
 				{
@@ -793,7 +793,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Gnome more Mr. Nice Guy. The ruler of the small folk."
+			subtitle: "{kbquests.chapter.618AD2222447B2F1.subtitle}"
 			tasks: [{
 				entity: "terramity:gob"
 				icon: {
@@ -807,13 +807,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Gob, King of Gnomes"
+			title: "{kbquests.chapter.618AD2222447B2F1.title}"
 			x: 23.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["1C454E8894755A9B"]
-			description: ["Summoned through dark rituals and unholy structures using specific magical items."]
+			description: ["{kbquests.chapter.36E5CACBA08985D2.description.1}"]
 			id: "36E5CACBA08985D2"
 			rewards: [
 				{
@@ -827,7 +827,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Preaching to the choir. A dark cult leader."
+			subtitle: "{kbquests.chapter.36E5CACBA08985D2.subtitle}"
 			tasks: [{
 				entity: "goety:minister"
 				icon: "goety:unholy_hat"
@@ -835,13 +835,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Minister"
+			title: "{kbquests.chapter.36E5CACBA08985D2.title}"
 			x: 21.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["618AD2222447B2F1"]
-			description: ["Found haunting ruined castles and decayed holy structures in the overworld."]
+			description: ["{kbquests.chapter.3335135F481A059F.description.1}"]
 			id: "3335135F481A059F"
 			rewards: [
 				{
@@ -856,7 +856,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Spirit in the sky. A fallen holy knight."
+			subtitle: "{kbquests.chapter.3335135F481A059F.subtitle}"
 			tasks: [{
 				entity: "legendary_monsters:posessed_paladin"
 				icon: {
@@ -870,7 +870,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Possessed Paladin"
+			title: "{kbquests.chapter.3335135F481A059F.title}"
 			x: 25.5d
 			y: 7.5d
 		}
@@ -883,7 +883,7 @@
 				{
 					id: "3886DCB4218CB587"
 					table_id: 3356955761647657173L
-					title: "Random Sword I"
+					title: "{kbquests.chapter.3886DCB4218CB587.title}"
 					type: "random"
 				}
 				{
@@ -894,12 +894,12 @@
 			]
 			shape: "none"
 			size: 1.0d
-			subtitle: "A reward for your bravery."
+			subtitle: "{kbquests.chapter.6E598301D62B54B6.subtitle}"
 			tasks: [{
 				id: "34A80AD6490DEBE3"
 				type: "checkmark"
 			}]
-			title: "Take a gift!"
+			title: "{kbquests.chapter.6E598301D62B54B6.title}"
 			x: 1.5d
 			y: 3.5d
 		}
@@ -912,7 +912,7 @@
 				{
 					id: "1863276368C11895"
 					table_id: 4475023216791381966L
-					title: "Random Sword II"
+					title: "{kbquests.chapter.1863276368C11895.title}"
 					type: "random"
 				}
 				{
@@ -923,12 +923,12 @@
 			]
 			shape: "none"
 			size: 1.0d
-			subtitle: "A reward for your bravery."
+			subtitle: "{kbquests.chapter.4088BBB6631B9D25.subtitle}"
 			tasks: [{
 				id: "4324654F27A0458C"
 				type: "checkmark"
 			}]
-			title: "Take a gift!"
+			title: "{kbquests.chapter.4088BBB6631B9D25.title}"
 			x: 9.5d
 			y: 5.5d
 		}
@@ -941,7 +941,7 @@
 				{
 					id: "24F6660ACC4C4B58"
 					table_id: 1957120154826369091L
-					title: "Random Bow I"
+					title: "{kbquests.chapter.24F6660ACC4C4B58.title}"
 					type: "random"
 				}
 				{
@@ -952,12 +952,12 @@
 			]
 			shape: "none"
 			size: 1.0d
-			subtitle: "A reward for your bravery."
+			subtitle: "{kbquests.chapter.134ED626AD6A25DC.subtitle}"
 			tasks: [{
 				id: "33C4DEF8E5959059"
 				type: "checkmark"
 			}]
-			title: "Take a gift!"
+			title: "{kbquests.chapter.134ED626AD6A25DC.title}"
 			x: 17.5d
 			y: 7.5d
 		}
@@ -971,7 +971,7 @@
 					exclude_from_claim_all: true
 					id: "5C87635DEAA4CE66"
 					table_id: 1114044601276008518L
-					title: "Random Sword III"
+					title: "{kbquests.chapter.5C87635DEAA4CE66.title}"
 					type: "loot"
 				}
 				{
@@ -982,18 +982,18 @@
 			]
 			shape: "none"
 			size: 1.0d
-			subtitle: "A reward for your bravery."
+			subtitle: "{kbquests.chapter.208E73A402725198.subtitle}"
 			tasks: [{
 				id: "68E00755C95A35DE"
 				type: "checkmark"
 			}]
-			title: "Take a gift!"
+			title: "{kbquests.chapter.208E73A402725198.title}"
 			x: 27.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["3756016A510625CA"]
-			description: ["Found in The End dimension by locating a Stronghold and jumping through the activated portal."]
+			description: ["{kbquests.chapter.39F3A7512F634270.description.1}"]
 			id: "39F3A7512F634270"
 			rewards: [
 				{
@@ -1008,7 +1008,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Dragon your feet? The ultimate void wyrm."
+			subtitle: "{kbquests.chapter.39F3A7512F634270.subtitle}"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
@@ -1016,13 +1016,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Ender Dragon"
+			title: "{kbquests.chapter.39F3A7512F634270.title}"
 			x: 35.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["6CDFFE8B982F6984"]
-			description: ["Summoned anywhere by placing 4 Soul Sand in a T-shape and topping them with 3 Wither Skeleton Skulls."]
+			description: ["{kbquests.chapter.3756016A510625CA.description.1}"]
 			id: "3756016A510625CA"
 			rewards: [
 				{
@@ -1037,7 +1037,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Wither or not you're ready. A three-headed undead menace."
+			subtitle: "{kbquests.chapter.3756016A510625CA.subtitle}"
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: "minecraft:wither_skeleton_skull"
@@ -1045,13 +1045,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Wither"
+			title: "{kbquests.chapter.3756016A510625CA.title}"
 			x: 33.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["7889EF6977D3C614"]
-			description: ["Found deep inside the Ancient Catacombs resting in his throne room."]
+			description: ["{kbquests.chapter.74AFBEA46768692C.description.1}"]
 			icon: "irons_spellbooks:blood_staff"
 			id: "74AFBEA46768692C"
 			rewards: [
@@ -1067,7 +1067,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Long live the king. An ancient ruler of magic and bone."
+			subtitle: "{kbquests.chapter.74AFBEA46768692C.subtitle}"
 			tasks: [{
 				entity: "irons_spellbooks:dead_king"
 				icon: "irons_spellbooks:blood_staff"
@@ -1075,13 +1075,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "The Dead King"
+			title: "{kbquests.chapter.74AFBEA46768692C.title}"
 			x: 29.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["7889EF6977D3C614"]
-			description: ["Found lurking in generated graveyards or summoned via specific withered manuscripts."]
+			description: ["{kbquests.chapter.7F06C6F9949E88B3.description.1}"]
 			id: "7F06C6F9949E88B3"
 			rewards: [
 				{
@@ -1096,7 +1096,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Raising the stakes. A dark summoner of skeletal hordes."
+			subtitle: "{kbquests.chapter.7F06C6F9949E88B3.subtitle}"
 			tasks: [{
 				entity: "goety:wither_necromancer"
 				icon: "goety:withered_manuscript"
@@ -1104,7 +1104,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Wither Necromancer"
+			title: "{kbquests.chapter.7F06C6F9949E88B3.title}"
 			x: 31.5d
 			y: 7.5d
 		}
@@ -1118,7 +1118,7 @@
 			}]
 			tasks: [{
 				id: "60FDC12C15238656"
-				title: "Lv 50-59"
+				title: "{kbquests.chapter.60FDC12C15238656.title}"
 				type: "checkmark"
 			}]
 			x: 27.5d
@@ -1126,7 +1126,7 @@
 		}
 		{
 			dependencies: ["7889EF6977D3C614"]
-			description: ["Found in modified mineshafts or underground lairs guarding precious ores."]
+			description: ["{kbquests.chapter.519E26E0E2EFD927.description.1}"]
 			id: "519E26E0E2EFD927"
 			rewards: [
 				{
@@ -1141,7 +1141,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Wired for combat. A mechanical behemoth."
+			subtitle: "{kbquests.chapter.519E26E0E2EFD927.subtitle}"
 			tasks: [{
 				entity: "goety:hostile_redstone_golem"
 				icon: "goety:redstone_golem_skull"
@@ -1149,13 +1149,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Redstone Golem"
+			title: "{kbquests.chapter.519E26E0E2EFD927.title}"
 			x: 33.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["7889EF6977D3C614"]
-			description: ["Found sleeping in the Soul Blacksmith structure generated within the Nether."]
+			description: ["{kbquests.chapter.65E8D90FDCF12040.description.1}"]
 			id: "65E8D90FDCF12040"
 			rewards: [
 				{
@@ -1170,7 +1170,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "A heavy metal fan. A towering beast of magma and alloy."
+			subtitle: "{kbquests.chapter.65E8D90FDCF12040.subtitle}"
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
 				icon: "cataclysm:blazing_grips"
@@ -1178,13 +1178,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Netherite Monstrosity"
+			title: "{kbquests.chapter.65E8D90FDCF12040.title}"
 			x: 29.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["65E8D90FDCF12040"]
-			description: ["Summoned using dedicated altar blocks and an Eye Block offering."]
+			description: ["{kbquests.chapter.6CDFFE8B982F6984.description.1}"]
 			id: "6CDFFE8B982F6984"
 			rewards: [
 				{
@@ -1199,13 +1199,13 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Wheels of fire. A bizarre unearthly entity."
+			subtitle: "{kbquests.chapter.6CDFFE8B982F6984.subtitle}"
 			tasks: [{
 				id: "25C9351913B8235B"
 				item: "netherman:azazel_trophy"
 				type: "item"
 			}]
-			title: "The Divine Chariot Azazel"
+			title: "{kbquests.chapter.6CDFFE8B982F6984.title}"
 			x: 31.5d
 			y: 9.5d
 		}
@@ -1219,7 +1219,7 @@
 			}]
 			tasks: [{
 				id: "68EFA1152C3F44C1"
-				title: "Lv 60-69"
+				title: "{kbquests.chapter.68EFA1152C3F44C1.title}"
 				type: "checkmark"
 			}]
 			x: 37.5d
@@ -1253,18 +1253,18 @@
 			]
 			shape: "none"
 			size: 1.0d
-			subtitle: "A reward for your bravery."
+			subtitle: "{kbquests.chapter.249940148B5021F7.subtitle}"
 			tasks: [{
 				id: "640353635478BFB2"
 				type: "checkmark"
 			}]
-			title: "Take a gift!"
+			title: "{kbquests.chapter.249940148B5021F7.title}"
 			x: 37.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["59EC9A799091F450"]
-			description: ["Summoned using cursed rituals or locating corrupted altars hidden in the world."]
+			description: ["{kbquests.chapter.795E407A6C5D46EB.description.1}"]
 			id: "795E407A6C5D46EB"
 			rewards: [
 				{
@@ -1279,19 +1279,19 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "A leap of faith. A zealous master of dark magic."
+			subtitle: "{kbquests.chapter.795E407A6C5D46EB.subtitle}"
 			tasks: [{
 				id: "2D50EA82F5C511B4"
 				item: "goety:unholy_blood"
 				type: "item"
 			}]
-			title: "Apostle"
+			title: "{kbquests.chapter.795E407A6C5D46EB.title}"
 			x: 39.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["59EC9A799091F450"]
-			description: ["Infiltrate their imposing generated structures and use a Soul Ruby to awaken them."]
+			description: ["{kbquests.chapter.627B15C7A59959FB.description.1}"]
 			id: "627B15C7A59959FB"
 			rewards: [
 				{
@@ -1306,7 +1306,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Seeing red. A corrupted illager noble."
+			subtitle: "{kbquests.chapter.627B15C7A59959FB.subtitle}"
 			tasks: [{
 				entity: "goety:vizier"
 				icon: "goety:soul_ruby"
@@ -1314,13 +1314,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Vizier"
+			title: "{kbquests.chapter.627B15C7A59959FB.title}"
 			x: 39.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["795E407A6C5D46EB"]
-			description: ["Found dormant in the Ancient Factory structure in the Overworld. Requires a Nether Star offering to awaken."]
+			description: ["{kbquests.chapter.1F2494F41A0DC0EB.description.1}"]
 			id: "1F2494F41A0DC0EB"
 			rewards: [
 				{
@@ -1335,7 +1335,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Bringing the boom. A mechanical warlord of witherite."
+			subtitle: "{kbquests.chapter.1F2494F41A0DC0EB.subtitle}"
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
 				icon: "cataclysm:witherite_ingot"
@@ -1343,13 +1343,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "The Harbinger"
+			title: "{kbquests.chapter.1F2494F41A0DC0EB.title}"
 			x: 41.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["1F2494F41A0DC0EB"]
-			description: ["Found deep underground in primordial ruins or ancient arenas. Prepare for an intense skeleton battle."]
+			description: ["{kbquests.chapter.16DEC14A0737E586.description.1}"]
 			id: "16DEC14A0737E586"
 			rewards: [
 				{
@@ -1364,13 +1364,13 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Dust in the wind. A primeval skeletal survivor."
+			subtitle: "{kbquests.chapter.16DEC14A0737E586.subtitle}"
 			tasks: [{
 				id: "75F40B4D1B8C4CC2"
 				item: "cataclysm:remnant_skull"
 				type: "item"
 			}]
-			title: "Ancient Remnant"
+			title: "{kbquests.chapter.16DEC14A0737E586.title}"
 			x: 43.5d
 			y: 11.5d
 		}
@@ -1402,20 +1402,20 @@
 			]
 			shape: "none"
 			size: 2.0d
-			subtitle: "Thanks to playing!"
+			subtitle: "{kbquests.chapter.1C375E2A546CFA85.subtitle}"
 			tasks: [{
 				id: "10514B140B96833D"
 				type: "checkmark"
 			}]
-			title: "Ultimate Gift!"
+			title: "{kbquests.chapter.1C375E2A546CFA85.title}"
 			x: 88.0d
 			y: 16.0d
 		}
 		{
 			description: [
-				"Welcome to the &cBoss Path&r!"
+				"{kbquests.chapter.1873B71EF151D369.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"Beat each level to earn amazing &drewards&r and reach the end!"
+				"{kbquests.chapter.1873B71EF151D369.description.3}"
 			]
 			icon: "born_in_chaos_v1:nightmare_stalker_skull"
 			id: "1873B71EF151D369"
@@ -1425,12 +1425,12 @@
 				xp_levels: 5
 			}]
 			size: 2.0d
-			subtitle: "Prove your worth, become the strongest and most feared hero..."
+			subtitle: "{kbquests.chapter.1873B71EF151D369.subtitle}"
 			tasks: [{
 				id: "571AB337D7B53997"
 				type: "checkmark"
 			}]
-			title: "Boss Path"
+			title: "{kbquests.chapter.1873B71EF151D369.title}"
 			x: -9.5d
 			y: -0.5d
 		}
@@ -1462,18 +1462,18 @@
 			]
 			shape: "none"
 			size: 1.0d
-			subtitle: "A reward for your bravery."
+			subtitle: "{kbquests.chapter.4AC3CE0204A62AD1.subtitle}"
 			tasks: [{
 				id: "1996B15E02E4BFBB"
 				type: "checkmark"
 			}]
-			title: "Take a gift!"
+			title: "{kbquests.chapter.4AC3CE0204A62AD1.title}"
 			x: 45.5d
 			y: 13.5d
 		}
 		{
 			dependencies: ["31C6E45E57D00683"]
-			description: ["Spawns randomly at night near crossroads or can be invoked through localized myth events."]
+			description: ["{kbquests.chapter.6AB55C1E944FA7DB.description.1}"]
 			id: "6AB55C1E944FA7DB"
 			rewards: [
 				{
@@ -1488,7 +1488,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "A dark horse. A spectral rider seeking souls."
+			subtitle: "{kbquests.chapter.6AB55C1E944FA7DB.subtitle}"
 			tasks: [{
 				entity: "mythsandlegends:black_charro"
 				icon: "realmrpg_skeletons:dragon_burnt_skeleton"
@@ -1496,13 +1496,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "The Black Charro"
+			title: "{kbquests.chapter.6AB55C1E944FA7DB.title}"
 			x: 47.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["31C6E45E57D00683"]
-			description: ["Encountered in dense pumpkin patches or specific autumnal biomes during the night."]
+			description: ["{kbquests.chapter.43FE20318883BDE9.description.1}"]
 			id: "43FE20318883BDE9"
 			rewards: [
 				{
@@ -1517,7 +1517,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Squashing the competition. A nightmare from the patch."
+			subtitle: "{kbquests.chapter.43FE20318883BDE9.subtitle}"
 			tasks: [{
 				entity: "born_in_chaos_v1:lord_pumpkinhead_head"
 				icon: {
@@ -1534,7 +1534,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Lord Pumpkinhead"
+			title: "{kbquests.chapter.43FE20318883BDE9.title}"
 			x: 47.5d
 			y: 13.5d
 		}
@@ -1548,7 +1548,7 @@
 			}]
 			tasks: [{
 				id: "03DE2E40F8468AAE"
-				title: "Lv 70-79"
+				title: "{kbquests.chapter.03DE2E40F8468AAE.title}"
 				type: "checkmark"
 			}]
 			x: 45.5d
@@ -1556,7 +1556,7 @@
 		}
 		{
 			dependencies: ["43FE20318883BDE9"]
-			description: ["Found resting in the Sunken City structure deep within ocean biomes. Awaken it with an Abyssal Sacrifice."]
+			description: ["{kbquests.chapter.4B873972975B076B.description.1}"]
 			id: "4B873972975B076B"
 			rewards: [
 				{
@@ -1571,7 +1571,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Out of your depth. A colossal abyssal guardian."
+			subtitle: "{kbquests.chapter.4B873972975B076B.subtitle}"
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
 				icon: "cataclysm:abyssal_sacrifice"
@@ -1579,13 +1579,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "The Leviathan"
+			title: "{kbquests.chapter.4B873972975B076B.title}"
 			x: 49.5d
 			y: 13.5d
 		}
 		{
 			dependencies: ["31C6E45E57D00683"]
-			description: ["Summoned by interacting with the unique Boss Altar found in the Primordial Caves biome."]
+			description: ["{kbquests.chapter.247F4A75FB0CEB40.description.1}"]
 			id: "247F4A75FB0CEB40"
 			rewards: [
 				{
@@ -1600,7 +1600,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Extinction event. An apex volcanic dinosaur."
+			subtitle: "{kbquests.chapter.247F4A75FB0CEB40.subtitle}"
 			tasks: [{
 				entity: "alexscaves:luxtructosaurus"
 				icon: "alexscaves:tectonic_shard"
@@ -1608,13 +1608,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Luxtructosaurus"
+			title: "{kbquests.chapter.247F4A75FB0CEB40.title}"
 			x: 49.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["4B873972975B076B"]
-			description: ["Trial Guardian can be spawned by inserting a Spire Key at the lock at the basement of the Trial Tower."]
+			description: ["{kbquests.chapter.2C4C228396ADA5F4.description.1}"]
 			id: "2C4C228396ADA5F4"
 			rewards: [
 				{
@@ -1629,7 +1629,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Guilty as charged. The ultimate judge of the trials."
+			subtitle: "{kbquests.chapter.2C4C228396ADA5F4.subtitle}"
 			tasks: [{
 				entity: "terramity:trial_guardian"
 				icon: {
@@ -1643,13 +1643,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Trial Guardian"
+			title: "{kbquests.chapter.2C4C228396ADA5F4.title}"
 			x: 51.5d
 			y: 13.5d
 		}
 		{
 			dependencies: ["2C4C228396ADA5F4"]
-			description: ["Virtue can be summoned by throwing an Unholy Lance into the sky anywhere in the Overworld. Doing so destroys the lance, and, after a few seconds, spawns Virtue, who will immediately attack the player."]
+			description: ["{kbquests.chapter.5131B9302911E306.description.1}"]
 			id: "5131B9302911E306"
 			rewards: [
 				{
@@ -1664,7 +1664,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Patience is a virtue, this is not. An angelic entity."
+			subtitle: "{kbquests.chapter.5131B9302911E306.subtitle}"
 			tasks: [{
 				entity: "terramity:virtue"
 				icon: "terramity:angel_feather"
@@ -1672,7 +1672,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Virtue"
+			title: "{kbquests.chapter.5131B9302911E306.title}"
 			x: 53.5d
 			y: 13.5d
 		}
@@ -1686,7 +1686,7 @@
 			}]
 			tasks: [{
 				id: "6651FE3320BFD0BA"
-				title: "LV 80-89"
+				title: "{kbquests.chapter.6651FE3320BFD0BA.title}"
 				type: "checkmark"
 			}]
 			x: 55.5d
@@ -1717,18 +1717,18 @@
 			]
 			shape: "none"
 			size: 1.0d
-			subtitle: "A reward for your bravery."
+			subtitle: "{kbquests.chapter.0CCF2F22967C8296.subtitle}"
 			tasks: [{
 				id: "01096D09BE5F4045"
 				type: "checkmark"
 			}]
-			title: "Take a gift!"
+			title: "{kbquests.chapter.0CCF2F22967C8296.title}"
 			x: 55.5d
 			y: 15.5d
 		}
 		{
 			dependencies: ["62DE4C22B9511CC7"]
-			description: ["Found generating in alien-like floating structures over the void in The End."]
+			description: ["{kbquests.chapter.029AFBB9B7D1E308.description.1}"]
 			id: "029AFBB9B7D1E308"
 			rewards: [
 				{
@@ -1743,7 +1743,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Rock solid. A hovering monolithic obelisk."
+			subtitle: "{kbquests.chapter.029AFBB9B7D1E308.subtitle}"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:obsidilith"
 				icon: "bosses_of_mass_destruction:obsidian_heart"
@@ -1751,13 +1751,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Obsidilith"
+			title: "{kbquests.chapter.029AFBB9B7D1E308.title}"
 			x: 57.5d
 			y: 15.5d
 		}
 		{
 			dependencies: ["62DE4C22B9511CC7"]
-			description: ["Invoked using the Eye Crystal through dark rituals at designated monolithic structures."]
+			description: ["{kbquests.chapter.07D5144F82BC1F2F.description.1}"]
 			id: "07D5144F82BC1F2F"
 			rewards: [
 				{
@@ -1772,7 +1772,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Total wipeout. A monstrous eyeball of doom."
+			subtitle: "{kbquests.chapter.07D5144F82BC1F2F.subtitle}"
 			tasks: [{
 				entity: "legendary_monsters:the_obliterator"
 				icon: "legendary_monsters:eye_crystal"
@@ -1780,13 +1780,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "The Obliterator"
+			title: "{kbquests.chapter.07D5144F82BC1F2F.title}"
 			x: 57.5d
 			y: 13.5d
 		}
 		{
 			dependencies: ["029AFBB9B7D1E308"]
-			description: ["Found guarding the Ruined Citadel structure deeply hidden within The End dimension."]
+			description: ["{kbquests.chapter.1A7F24440AAE4D8F.description.1}"]
 			id: "1A7F24440AAE4D8F"
 			rewards: [
 				{
@@ -1801,7 +1801,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Voiding your warranty. A heavily armored void warrior."
+			subtitle: "{kbquests.chapter.1A7F24440AAE4D8F.subtitle}"
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
 				icon: "cataclysm:void_eye"
@@ -1809,13 +1809,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Ender Guardian"
+			title: "{kbquests.chapter.1A7F24440AAE4D8F.title}"
 			x: 59.5d
 			y: 15.5d
 		}
 		{
 			dependencies: ["1A7F24440AAE4D8F"]
-			description: ["Can be summoned by causing a lightning near a Sniffer, young or adult, transforming the sniffer into this boss. It's recommended to use the Lightning Staff and strike it near a Sniffer."]
+			description: ["{kbquests.chapter.1411FF1B4EDE608A.description.1}"]
 			id: "1411FF1B4EDE608A"
 			rewards: [
 				{
@@ -1830,7 +1830,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Smells like trouble. A mutated prehistoric beast."
+			subtitle: "{kbquests.chapter.1411FF1B4EDE608A.subtitle}"
 			tasks: [{
 				entity: "terramity:super_sniffer"
 				icon: "terramity:super_sniffers_pelt"
@@ -1838,13 +1838,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Super Sniffer"
+			title: "{kbquests.chapter.1411FF1B4EDE608A.title}"
 			x: 61.5d
 			y: 15.5d
 		}
 		{
 			dependencies: ["1411FF1B4EDE608A"]
-			description: ["Roams the darkest halls of specific sprawling dungeons. It drops the formidable Blade of Ender upon defeat."]
+			description: ["{kbquests.chapter.63CDC5D19A20EB2F.description.1}"]
 			id: "63CDC5D19A20EB2F"
 			rewards: [
 				{
@@ -1859,7 +1859,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Keeping it surreal. A tall dark and terrifying warden."
+			subtitle: "{kbquests.chapter.63CDC5D19A20EB2F.subtitle}"
 			tasks: [{
 				entity: "goety:ender_keeper"
 				icon: {
@@ -1876,7 +1876,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Ender Keeper"
+			title: "{kbquests.chapter.63CDC5D19A20EB2F.title}"
 			x: 63.5d
 			y: 15.5d
 		}
@@ -1890,7 +1890,7 @@
 			}]
 			tasks: [{
 				id: "1251E5E12F390B92"
-				title: "Lv 90-99"
+				title: "{kbquests.chapter.1251E5E12F390B92.title}"
 				type: "checkmark"
 			}]
 			x: 65.5d
@@ -1924,18 +1924,18 @@
 			]
 			shape: "none"
 			size: 1.0d
-			subtitle: "A reward for your bravery."
+			subtitle: "{kbquests.chapter.3215CFDDEF4F89E0.subtitle}"
 			tasks: [{
 				id: "70243825CE941AB6"
 				type: "checkmark"
 			}]
-			title: "Take a gift!"
+			title: "{kbquests.chapter.3215CFDDEF4F89E0.title}"
 			x: 65.5d
 			y: 17.5d
 		}
 		{
 			dependencies: ["7588CED81667BB97"]
-			description: ["Found in specific colossal aquatic ruins or summoned via specialized endgame artifacts over the seas."]
+			description: ["{kbquests.chapter.072A17F929905DC7.description.1}"]
 			id: "072A17F929905DC7"
 			rewards: [
 				{
@@ -1950,7 +1950,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "In deep water. A terrifying multi-headed sea monster."
+			subtitle: "{kbquests.chapter.072A17F929905DC7.subtitle}"
 			tasks: [{
 				entity: "cataclysm:scylla"
 				icon: "cataclysm:ceraunus"
@@ -1958,13 +1958,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Scylla"
+			title: "{kbquests.chapter.072A17F929905DC7.title}"
 			x: 67.5d
 			y: 17.5d
 		}
 		{
 			dependencies: ["072A17F929905DC7"]
-			description: ["Found in the massive Burning Arena structure in the Nether. Awaken him using the Altar of Fire in the center."]
+			description: ["{kbquests.chapter.308E27AC27C39565.description.1}"]
 			id: "308E27AC27C39565"
 			rewards: [
 				{
@@ -1979,7 +1979,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Playing with fire. The supreme lord of the flames."
+			subtitle: "{kbquests.chapter.308E27AC27C39565.subtitle}"
 			tasks: [{
 				entity: "cataclysm:ignis"
 				icon: "cataclysm:the_incinerator"
@@ -1987,13 +1987,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Ignis"
+			title: "{kbquests.chapter.308E27AC27C39565.title}"
 			x: 69.5d
 			y: 17.5d
 		}
 		{
 			dependencies: ["308E27AC27C39565"]
-			description: ["They can be summoned by using an Occult Fabric on an offering pedestal found in the middle of Chthonic Cathedrals on the Nether Roof."]
+			description: ["{kbquests.chapter.0DDF244AB413AA47.description.1}"]
 			id: "0DDF244AB413AA47"
 			rewards: [
 				{
@@ -2008,7 +2008,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "You shall not pass! A legendary spellcaster."
+			subtitle: "{kbquests.chapter.0DDF244AB413AA47.subtitle}"
 			tasks: [{
 				entity: "terramity:gundalf"
 				icon: {
@@ -2022,7 +2022,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Archmage Gundalf"
+			title: "{kbquests.chapter.0DDF244AB413AA47.title}"
 			x: 71.5d
 			y: 17.5d
 		}
@@ -2036,7 +2036,7 @@
 			}]
 			tasks: [{
 				id: "70E9749545DBB7CD"
-				title: "Lv 100+"
+				title: "{kbquests.chapter.70E9749545DBB7CD.title}"
 				type: "checkmark"
 			}]
 			x: 73.5d
@@ -2071,18 +2071,18 @@
 			]
 			shape: "none"
 			size: 1.0d
-			subtitle: "A reward for your bravery."
+			subtitle: "{kbquests.chapter.012247DBCED6E936.subtitle}"
 			tasks: [{
 				id: "7D5CD0E4714437A4"
 				type: "checkmark"
 			}]
-			title: "Take a gift!"
+			title: "{kbquests.chapter.012247DBCED6E936.title}"
 			x: 73.5d
 			y: 19.5d
 		}
 		{
 			dependencies: ["5012B9B0E44513D6"]
-			description: ["Found resting at the heavily guarded heart of the Cursed Pyramid structure."]
+			description: ["{kbquests.chapter.37B44DD890936D68.description.1}"]
 			id: "37B44DD890936D68"
 			rewards: [
 				{
@@ -2097,7 +2097,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Curse of the sands. An ancient pharaoh's nightmare."
+			subtitle: "{kbquests.chapter.37B44DD890936D68.subtitle}"
 			tasks: [{
 				entity: "cataclysm:maledictus"
 				icon: "cataclysm:wrath_of_the_desert"
@@ -2105,13 +2105,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Maledictus"
+			title: "{kbquests.chapter.37B44DD890936D68.title}"
 			x: 75.5d
 			y: 19.5d
 		}
 		{
 			dependencies: ["5F6592180F6196C9"]
-			description: ["The Ultra Sniffer can be summoned by causing a lightning strike to hit a Super Sniffer at Phase 2 while it is weakened at less than 10% of its HP."]
+			description: ["{kbquests.chapter.19ACFEBB62FD4E13.description.1}"]
 			id: "19ACFEBB62FD4E13"
 			rewards: [
 				{
@@ -2126,7 +2126,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Nose for danger. The apex of prehistoric evolution."
+			subtitle: "{kbquests.chapter.19ACFEBB62FD4E13.subtitle}"
 			tasks: [{
 				entity: "terramity:ultra_sniffer"
 				icon: "terramity:ultra_sniffers_pelt"
@@ -2134,13 +2134,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Ultra Sniffer"
+			title: "{kbquests.chapter.19ACFEBB62FD4E13.title}"
 			x: 79.5d
 			y: 19.5d
 		}
 		{
 			dependencies: ["37B44DD890936D68"]
-			description: ["Summoned using the Eye of Nothingness in darkened rifts or specific void-touched biomes."]
+			description: ["{kbquests.chapter.5F6592180F6196C9.description.1}"]
 			id: "5F6592180F6196C9"
 			rewards: [
 				{
@@ -2155,7 +2155,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Lights out. The watcher in the void."
+			subtitle: "{kbquests.chapter.5F6592180F6196C9.subtitle}"
 			tasks: [{
 				entity: "traveloptics:the_nightwarden"
 				icon: "traveloptics:eye_of_nothingness"
@@ -2163,13 +2163,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "The Nightwarden"
+			title: "{kbquests.chapter.5F6592180F6196C9.title}"
 			x: 77.5d
 			y: 19.5d
 		}
 		{
 			dependencies: ["19ACFEBB62FD4E13"]
-			description: ["Summoned directly using the Cosmic Worm item. Prepare for a bullet-hell experience and bring your best gear."]
+			description: ["{kbquests.chapter.4156A8EF4E8BF77E.description.1}"]
 			icon: "dog:cosmic_worm"
 			id: "4156A8EF4E8BF77E"
 			rewards: [
@@ -2186,7 +2186,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "A god-tier threat. The cosmic worm of annihilation."
+			subtitle: "{kbquests.chapter.4156A8EF4E8BF77E.subtitle}"
 			tasks: [{
 				entity: "dog:devourer_head"
 				icon: "dog:cosmic_worm"
@@ -2194,10 +2194,10 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Devourer of Gods"
+			title: "{kbquests.chapter.4156A8EF4E8BF77E.title}"
 			x: 84.0d
 			y: 16.0d
 		}
 	]
-	title: "Boss Path"
+	title: "{kbquests.chapter.1E9AC782CD16A672.title}"
 }

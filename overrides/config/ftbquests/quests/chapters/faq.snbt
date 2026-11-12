@@ -25,13 +25,13 @@
 	quests: [
 		{
 			description: [
-				"&dTerramity Awakened&r is basically an extension of the mod."
+				"{kbquests.chapter.3FB53C34B5244449.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"Merging other addons and small mods to &6enhance&r the gameplay, and also guide you through the mod."
+				"{kbquests.chapter.3FB53C34B5244449.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"You'll encounter new &4bosses&r, &9items&r, &aaccessories&r, and &edungeons&r to explore."
+				"{kbquests.chapter.3FB53C34B5244449.description.5}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"But don't forget, &dTerramity&r will still be the main mod of modpack!"
+				"{kbquests.chapter.3FB53C34B5244449.description.7}"
 			]
 			icon: "minecraft:book"
 			id: "3FB53C34B5244449"
@@ -42,18 +42,18 @@
 			}]
 			shape: "netheritetier"
 			size: 2.0d
-			subtitle: "Terramity but &bbetter&r!"
+			subtitle: "{kbquests.chapter.3FB53C34B5244449.subtitle}"
 			tasks: [{
 				id: "3567DD7B762CC033"
 				type: "checkmark"
 			}]
-			title: "About"
+			title: "{kbquests.chapter.3FB53C34B5244449.title}"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["3FB53C34B5244449"]
-			description: ["&dMobs&r can now range from level &61&r to &6150&r!"]
+			description: ["{kbquests.chapter.103471688C023248.description.1}"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -74,23 +74,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mobs gain stats based on their distance from the spawn point."
+			subtitle: "{kbquests.chapter.103471688C023248.subtitle}"
 			tasks: [{
 				id: "7DF53F16514789F1"
 				type: "checkmark"
 			}]
-			title: "Mobs Leveling"
+			title: "{kbquests.chapter.103471688C023248.title}"
 			x: 3.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["3FB53C34B5244449"]
 			description: [
-				"&cBosses&r with over &a1000 HP&r will no longer be susceptible to &4one-hit kills&r!"
+				"{kbquests.chapter.775F01B3ED89876E.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"All damage dealt will be &6split&r, ensuring gameplay doesn't revolve around &cboss&r spamming."
+				"{kbquests.chapter.775F01B3ED89876E.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"You can &dParry [Left-Alt]&r ranged and melee damages and you can &bRoll [R]&r too!"
+				"{kbquests.chapter.775F01B3ED89876E.description.5}"
 			]
 			icon: {
 				Count: 1
@@ -112,12 +112,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "Forget one-hit kills!"
+			subtitle: "{kbquests.chapter.775F01B3ED89876E.subtitle}"
 			tasks: [{
 				id: "38083C0541FE4837"
 				type: "checkmark"
 			}]
-			title: "Damage Cap and More!"
+			title: "{kbquests.chapter.775F01B3ED89876E.title}"
 			x: 5.0d
 			y: 2.0d
 		}
@@ -157,23 +157,23 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Just a little help to make getting around the map easier, enjoy!"
+			subtitle: "{kbquests.chapter.6BC163B6DD3373B3.subtitle}"
 			tasks: [{
 				id: "52D31A5984F2659B"
 				type: "checkmark"
 			}]
-			title: "A little gift!"
+			title: "{kbquests.chapter.6BC163B6DD3373B3.title}"
 			x: 0.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["3FB53C34B5244449"]
 			description: [
-				"Earn &dskill points&r by completing &amissions&r and use each &6skill&r carefully!"
+				"{kbquests.chapter.27F712F4C41822CA.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"You will be able to reset your &6skills&r later, but at a &bhigh cost&r."
+				"{kbquests.chapter.27F712F4C41822CA.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"Open your &dskill tree&r pressing [&9O&r]"
+				"{kbquests.chapter.27F712F4C41822CA.description.5}"
 			]
 			icon: "skilltree:wisdom_scroll"
 			id: "27F712F4C41822CA"
@@ -189,12 +189,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "Passively improve your evasion, defense, and attack!"
+			subtitle: "{kbquests.chapter.27F712F4C41822CA.subtitle}"
 			tasks: [{
 				id: "78DEA131C4BB435E"
 				type: "checkmark"
 			}]
-			title: "Passive Skill Tree"
+			title: "{kbquests.chapter.27F712F4C41822CA.title}"
 			x: 7.0d
 			y: 2.0d
 		}
@@ -207,7 +207,7 @@
 				xp: 10
 			}]
 			size: 1.5d
-			subtitle: "Combine this tome with the mod guidebooks to have them all in one place!"
+			subtitle: "{kbquests.chapter.128B7CF52A1956FE.subtitle}"
 			tasks: [{
 				id: "51ABDAD6634DAEE8"
 				item: {
@@ -239,12 +239,12 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Your best friend when building."
+			subtitle: "{kbquests.chapter.4D8BE4168A1DA9AB.subtitle}"
 			tasks: [{
 				id: "294E48B14E2D0CC3"
 				type: "checkmark"
 			}]
-			title: "Construction Wand!"
+			title: "{kbquests.chapter.4D8BE4168A1DA9AB.title}"
 			x: -0.5d
 			y: -0.5d
 		}
@@ -263,15 +263,15 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "A bunch of utility items that can help you!"
+			subtitle: "{kbquests.chapter.703BE49760A261E5.subtitle}"
 			tasks: [{
 				id: "45B0D974AC2E5239"
 				type: "checkmark"
 			}]
-			title: "Dark Utilities"
+			title: "{kbquests.chapter.703BE49760A261E5.title}"
 			x: 0.5d
 			y: -0.5d
 		}
 	]
-	title: "FAQ"
+	title: "{kbquests.chapter.0934D08CC4B1268C.title}"
 }

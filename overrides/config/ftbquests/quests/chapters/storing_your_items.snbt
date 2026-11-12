@@ -38,7 +38,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Remember, when playing a &bmodpack&r with &dcontent mods&r, large and organized storage is &cextremely&r important."]
+			description: ["{kbquests.chapter.6106F83AD9819CF7.description.1}"]
 			id: "6106F83AD9819CF7"
 			rewards: [
 				{
@@ -58,12 +58,12 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "Do a chest :D"
+			subtitle: "{kbquests.chapter.6106F83AD9819CF7.subtitle}"
 			tasks: [{
 				id: "0F66AA633B8CD359"
 				type: "checkmark"
 			}]
-			title: "Store your items!"
+			title: "{kbquests.chapter.6106F83AD9819CF7.title}"
 			x: -1.0d
 			y: 0.0d
 		}
@@ -82,7 +82,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Store your items."
+			subtitle: "{kbquests.chapter.0A15FC239CF49DD2.subtitle}"
 			tasks: [{
 				id: "1E47FC144A52571A"
 				item: {
@@ -92,10 +92,10 @@
 						value: "forge:chests/wooden"
 					}
 				}
-				title: "Any Chest"
+				title: "{kbquests.chapter.1E47FC144A52571A.title}"
 				type: "item"
 			}]
-			title: "Just a chest..."
+			title: "{kbquests.chapter.0A15FC239CF49DD2.title}"
 			x: 1.0d
 			y: 0.0d
 		}
@@ -125,7 +125,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Upgrade your chest."
+			subtitle: "{kbquests.chapter.0DF3534647C9404D.subtitle}"
 			tasks: [{
 				id: "3FD410764048375D"
 				item: {
@@ -135,10 +135,10 @@
 						value: "sophisticatedstorage:all_storage"
 					}
 				}
-				title: "Any upgraded chest"
+				title: "{kbquests.chapter.3FD410764048375D.title}"
 				type: "item"
 			}]
-			title: "Just a upgraded chest..."
+			title: "{kbquests.chapter.0DF3534647C9404D.title}"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -157,7 +157,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A...Backpack..."
+			subtitle: "{kbquests.chapter.2AA3D4376AF545CE.subtitle}"
 			tasks: [{
 				id: "17E55E4D070E5566"
 				item: "sophisticatedbackpacks:backpack"
@@ -181,7 +181,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Catch itens into your backpack."
+			subtitle: "{kbquests.chapter.220F83A41F0785A5.subtitle}"
 			tasks: [{
 				id: "0BE3F339576372F7"
 				item: "sophisticatedbackpacks:magnet_upgrade"
@@ -205,7 +205,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Auto-feed you."
+			subtitle: "{kbquests.chapter.7E4BF0D3012E8612.subtitle}"
 			tasks: [{
 				id: "4FDE2A7B4A93D5AD"
 				item: "sophisticatedbackpacks:feeding_upgrade"
@@ -229,7 +229,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Can craft items directly in backpack."
+			subtitle: "{kbquests.chapter.029AE399770A483C.subtitle}"
 			tasks: [{
 				id: "1C8B89388982F3F6"
 				item: "sophisticatedbackpacks:crafting_upgrade"
@@ -253,7 +253,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Connect all inventories in one."
+			subtitle: "{kbquests.chapter.2155AD279A8F96A2.subtitle}"
 			tasks: [{
 				id: "3D082E97BDEF7AE7"
 				item: "toms_storage:ts.inventory_connector"
@@ -277,7 +277,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Connect inventories across long distances."
+			subtitle: "{kbquests.chapter.0A0BF2A6FBDD499B.subtitle}"
 			tasks: [{
 				id: "4593D0AD1768891B"
 				item: "toms_storage:ts.inventory_cable"
@@ -301,7 +301,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Acess all items in one interface."
+			subtitle: "{kbquests.chapter.5C7F561D1CA1F025.subtitle}"
 			tasks: [{
 				id: "31BFEDB8FC42FBE6"
 				item: "toms_storage:ts.storage_terminal"
@@ -311,5 +311,5 @@
 			y: -3.5d
 		}
 	]
-	title: "Storage Management"
+	title: "{kbquests.chapter.088C702ABCA621A6.title}"
 }

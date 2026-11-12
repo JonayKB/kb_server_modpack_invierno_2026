@@ -269,7 +269,7 @@
 	quests: [
 		{
 			dependencies: ["77B2B97D07D0A8D7"]
-			description: ["Use to create &dALL&r items!"]
+			description: ["{kbquests.chapter.7C9424CCCFBC4802.description.1}"]
 			id: "7C9424CCCFBC4802"
 			rewards: [
 				{
@@ -286,7 +286,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Your best friend."
+			subtitle: "{kbquests.chapter.7C9424CCCFBC4802.subtitle}"
 			tasks: [{
 				id: "6BAF84F2CD9FDC81"
 				item: "minecraft:crafting_table"
@@ -297,7 +297,7 @@
 		}
 		{
 			dependencies: ["7C9424CCCFBC4802"]
-			description: ["&cBurn&r some ores and items."]
+			description: ["{kbquests.chapter.194CE242C4288216.description.1}"]
 			id: "194CE242C4288216"
 			rewards: [
 				{
@@ -314,19 +314,19 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Your second best friend."
+			subtitle: "{kbquests.chapter.194CE242C4288216.subtitle}"
 			tasks: [{
 				id: "39CC56CB4FC63DDA"
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			title: "Furnace"
+			title: "{kbquests.chapter.194CE242C4288216.title}"
 			x: -9.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["194CE242C4288216"]
-			description: ["Some &abasic resources&r are very useful at the &bbeginning&r of your &djourney&r."]
+			description: ["{kbquests.chapter.74905880EAD6FA02.description.1}"]
 			id: "74905880EAD6FA02"
 			rewards: [
 				{
@@ -355,7 +355,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Get some resources!"
+			subtitle: "{kbquests.chapter.74905880EAD6FA02.subtitle}"
 			tasks: [
 				{
 					count: 16L
@@ -376,13 +376,13 @@
 					type: "item"
 				}
 			]
-			title: "Go mining, now!"
+			title: "{kbquests.chapter.74905880EAD6FA02.title}"
 			x: -7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4F4D2CBF69E424F2"]
-			description: ["&bDiamonds&r are crucial for various crafting recipes; explore the recipes using &2JEI&r."]
+			description: ["{kbquests.chapter.091750C8B1109710.description.1}"]
 			id: "091750C8B1109710"
 			rewards: [
 				{
@@ -404,20 +404,20 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Your first major achievement..."
+			subtitle: "{kbquests.chapter.091750C8B1109710.subtitle}"
 			tasks: [{
 				count: 3L
 				id: "562EC0FE63576E43"
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			title: "Diamonds!"
+			title: "{kbquests.chapter.091750C8B1109710.title}"
 			x: -3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["74905880EAD6FA02"]
-			description: ["The basics done right, very well done."]
+			description: ["{kbquests.chapter.4F4D2CBF69E424F2.description.1}"]
 			id: "4F4D2CBF69E424F2"
 			rewards: [
 				{
@@ -438,7 +438,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Just iron tools."
+			subtitle: "{kbquests.chapter.4F4D2CBF69E424F2.subtitle}"
 			tasks: [
 				{
 					id: "00CDB87A9A684288"
@@ -474,7 +474,7 @@
 					type: "item"
 				}
 			]
-			title: "A little upgrade"
+			title: "{kbquests.chapter.4F4D2CBF69E424F2.title}"
 			x: -5.5d
 			y: 0.0d
 		}
@@ -509,7 +509,7 @@
 			]
 			shape: "none"
 			size: 1.0d
-			subtitle: "It's a bit hot in here, isn't it?"
+			subtitle: "{kbquests.chapter.6CCD542815FD89E4.subtitle}"
 			tasks: [
 				{
 					count: 12L
@@ -532,17 +532,17 @@
 					dimension: "minecraft:the_nether"
 					icon: "minecraft:netherrack"
 					id: "0E4CD5102FF70F69"
-					title: "Visite the &cNether&r"
+					title: "{kbquests.chapter.0E4CD5102FF70F69.title}"
 					type: "dimension"
 				}
 			]
-			title: "Burn your soul!"
+			title: "{kbquests.chapter.6CCD542815FD89E4.title}"
 			x: 0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["091750C8B1109710"]
-			description: ["With a &bdiamond pickaxe&r, you unlock various&d new ores&r and &astages&r of the modpack, go &6explore&r!"]
+			description: ["{kbquests.chapter.71445B1BC610A45E.description.1}"]
 			id: "71445B1BC610A45E"
 			rewards: [
 				{
@@ -564,7 +564,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Finally!"
+			subtitle: "{kbquests.chapter.71445B1BC610A45E.subtitle}"
 			tasks: [{
 				id: "73A2AE566C56F5BA"
 				item: {
@@ -596,7 +596,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Dont use beds. (trust me)"
+			subtitle: "{kbquests.chapter.32E3D26963D0F5B5.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "7F644B8106A6D2D0"
@@ -623,7 +623,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Upgrade your diamond gear."
+			subtitle: "{kbquests.chapter.2A070C8EEA7C7AF3.subtitle}"
 			tasks: [{
 				id: "696DE7FE37930563"
 				item: "minecraft:netherite_upgrade_smithing_template"
@@ -657,7 +657,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Core item for various improvements, check out &2JEI&r!"
+			subtitle: "{kbquests.chapter.38A830384E32F6D3.subtitle}"
 			tasks: [{
 				id: "025B6D3FFDF70295"
 				item: {
@@ -689,7 +689,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Enchance your items!"
+			subtitle: "{kbquests.chapter.54D3FBB78536D18C.subtitle}"
 			tasks: [{
 				id: "4F7F03DBA8203BCA"
 				item: "minecraft:enchanting_table"
@@ -723,20 +723,20 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Read ALL books, haha!"
+			subtitle: "{kbquests.chapter.51987FF2FA959F29.subtitle}"
 			tasks: [{
 				count: 18L
 				id: "62298DD59243FAE3"
 				item: "minecraft:bookshelf"
 				type: "item"
 			}]
-			title: "Get some books"
+			title: "{kbquests.chapter.51987FF2FA959F29.title}"
 			x: 2.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["6CCD542815FD89E4"]
-			description: ["Explore the &dEnd&r and find incredible loot, the &ebest items&r in the game are here!"]
+			description: ["{kbquests.chapter.50D59A2DE7998880.description.1}"]
 			icon: "minecraft:end_stone"
 			id: "50D59A2DE7998880"
 			rewards: [
@@ -760,13 +760,13 @@
 			]
 			shape: "none"
 			size: 1.0d
-			subtitle: "Beat the dragon!"
+			subtitle: "{kbquests.chapter.50D59A2DE7998880.subtitle}"
 			tasks: [
 				{
 					dimension: "minecraft:the_end"
 					icon: "minecraft:end_stone"
 					id: "0AA4FB86EEB926C8"
-					title: "Visit the &dEnd&r!"
+					title: "{kbquests.chapter.0AA4FB86EEB926C8.title}"
 					type: "dimension"
 				}
 				{
@@ -777,7 +777,7 @@
 					value: 1L
 				}
 			]
-			title: "Exploring the void"
+			title: "{kbquests.chapter.50D59A2DE7998880.title}"
 			x: 5.0d
 			y: 0.0d
 		}
@@ -809,7 +809,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Explore the legendary and unknown Aether!"
+			subtitle: "{kbquests.chapter.7F7A573AEF79E391.subtitle}"
 			tasks: [
 				{
 					count: 12L
@@ -826,11 +826,11 @@
 					dimension: "aether:the_aether"
 					icon: "aether:cold_aercloud"
 					id: "5DEB609B2A29137C"
-					title: "Visit the &bAether&r"
+					title: "{kbquests.chapter.5DEB609B2A29137C.title}"
 					type: "dimension"
 				}
 			]
-			title: "Wash your soul!"
+			title: "{kbquests.chapter.7F7A573AEF79E391.title}"
 			x: 0.5d
 			y: 2.0d
 		}
@@ -855,7 +855,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Use &dFarmer's Delight&r to make very useful foods."
+			subtitle: "{kbquests.chapter.523F2BA2CF8CE3B5.subtitle}"
 			tasks: [{
 				id: "67CC5350442C7E43"
 				item: {
@@ -867,13 +867,13 @@
 				}
 				type: "item"
 			}]
-			title: "Making food!"
+			title: "{kbquests.chapter.523F2BA2CF8CE3B5.title}"
 			x: -7.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["091750C8B1109710"]
-			description: ["Use &dSimply Swords&r to craft your primary weapons and progress throughout your &aadventure&r."]
+			description: ["{kbquests.chapter.5B3E7D7E75D96BF2.description.1}"]
 			id: "5B3E7D7E75D96BF2"
 			rewards: [
 				{
@@ -887,7 +887,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Forge your own weapon."
+			subtitle: "{kbquests.chapter.5B3E7D7E75D96BF2.subtitle}"
 			tasks: [{
 				id: "63DEF95821C22400"
 				item: {
@@ -897,16 +897,16 @@
 						value: "simplyswords:diamond_gear"
 					}
 				}
-				title: "Any #simplyswords:diamond_gear"
+				title: "{kbquests.chapter.63DEF95821C22400.title}"
 				type: "item"
 			}]
-			title: "Build your arsenal!"
+			title: "{kbquests.chapter.5B3E7D7E75D96BF2.title}"
 			x: -3.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["5B3E7D7E75D96BF2"]
-			description: ["Found exclusively in &eUmvuthana Groves&r, which generate naturally in &6Savanna biomes&r."]
+			description: ["{kbquests.chapter.22DEE9C6A682BCE5.description.1}"]
 			id: "22DEE9C6A682BCE5"
 			rewards: [
 				{
@@ -932,7 +932,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A &3bird&r? No, its your first &6challenge!&r"
+			subtitle: "{kbquests.chapter.22DEE9C6A682BCE5.subtitle}"
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
 				icon: "mowziesmobs:sol_visage"
@@ -940,7 +940,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Umvuthi, The Sunbird"
+			title: "{kbquests.chapter.22DEE9C6A682BCE5.title}"
 			x: -1.5d
 			y: 2.0d
 		}
@@ -959,7 +959,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Hm...books?"
+			subtitle: "{kbquests.chapter.788A7558B10A91D5.subtitle}"
 			tasks: [{
 				count: 12L
 				id: "09854DB2290C8DA2"
@@ -971,7 +971,7 @@
 		}
 		{
 			dependencies: ["788A7558B10A91D5"]
-			description: ["You can attach these &6scrolls&r to your &dspellbook&r and use them permanently."]
+			description: ["{kbquests.chapter.734B068CB0C50431.description.1}"]
 			id: "734B068CB0C50431"
 			rewards: [
 				{
@@ -985,7 +985,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found and keep magic scrolls."
+			subtitle: "{kbquests.chapter.734B068CB0C50431.subtitle}"
 			tasks: [{
 				id: "5EE735C16AABA56D"
 				item: "irons_spellbooks:inscription_table"
@@ -1009,7 +1009,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Your first &9spellbook&r!"
+			subtitle: "{kbquests.chapter.144CCB6D5383483B.subtitle}"
 			tasks: [{
 				id: "41506B126AFDC524"
 				item: {
@@ -1056,7 +1056,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Prove your worth and defeat the queen."
+			subtitle: "{kbquests.chapter.6BEEBB1F69EC619E.subtitle}"
 			tasks: [{
 				entity: "aether:valkyrie_queen"
 				icon: "aether:valkyrie_cape"
@@ -1064,16 +1064,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat the Valkyrie Queen!"
+			title: "{kbquests.chapter.6BEEBB1F69EC619E.title}"
 			x: 2.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["51987FF2FA959F29"]
 			description: [
-				"With &dApotheosis&r, you can manipulate your &aexperience&r and upgrade your items beyond vanilla limits."
+				"{kbquests.chapter.17DE96CAA6EB8982.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"Use superior &benchantments&r, socket gems into your gear, and &6max&r out your upgrades before facing any boss, trust me..."
+				"{kbquests.chapter.17DE96CAA6EB8982.description.3}"
 			]
 			id: "17DE96CAA6EB8982"
 			rewards: [
@@ -1094,21 +1094,21 @@
 					type: "item"
 				}
 			]
-			subtitle: "Welcome to Apotheosis"
+			subtitle: "{kbquests.chapter.17DE96CAA6EB8982.subtitle}"
 			tasks: [{
 				id: "0D9329E14E362496"
 				item: "apotheosis:hellshelf"
 				type: "item"
 			}]
-			title: "Upgrade your library!"
+			title: "{kbquests.chapter.17DE96CAA6EB8982.title}"
 			x: 4.5d
 			y: -4.0d
 		}
 		{
 			description: [
-				"This &aguide&r is only useful for a &enew player&r to modpacks."
+				"{kbquests.chapter.77B2B97D07D0A8D7.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"The guide goes through simple &6mechanics&r, &cbosses&r, &denchantments&r, new &bdimensions&r and &9items&r."
+				"{kbquests.chapter.77B2B97D07D0A8D7.description.3}"
 			]
 			icon: "minecraft:writable_book"
 			id: "77B2B97D07D0A8D7"
@@ -1131,12 +1131,12 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "You can ignore this"
+			subtitle: "{kbquests.chapter.77B2B97D07D0A8D7.subtitle}"
 			tasks: [{
 				id: "74AB5B90733B4814"
 				type: "checkmark"
 			}]
-			title: "A basic guide"
+			title: "{kbquests.chapter.77B2B97D07D0A8D7.title}"
 			x: -14.0d
 			y: 0.0d
 		}
@@ -1161,7 +1161,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Core item for various improvements, check out &2JEI&r!"
+			subtitle: "{kbquests.chapter.66820FB1AA5F5B88.subtitle}"
 			tasks: [{
 				id: "5365CFF139EC0212"
 				item: {
@@ -1191,7 +1191,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the &aitem description&r."
+			subtitle: "{kbquests.chapter.58752AD7F984066A.subtitle}"
 			tasks: [{
 				id: "4A31C7F262B62718"
 				item: "apotheosis:simple_reforging_table"
@@ -1305,7 +1305,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Campfires can &aheal&r you!"
+			subtitle: "{kbquests.chapter.4D84551E546D68CF.subtitle}"
 			tasks: [{
 				id: "5363700819EF28B6"
 				item: "minecraft:campfire"
@@ -1335,7 +1335,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found &dLife Bottle&r in dungeons and structures!"
+			subtitle: "{kbquests.chapter.5532A019DDBE92D8.subtitle}"
 			tasks: [{
 				id: "30B7825E99116ADC"
 				item: "cardiac:life_bottle"
@@ -1359,7 +1359,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Also you can upgrade your armor too!"
+			subtitle: "{kbquests.chapter.1A0205A7F70840AF.subtitle}"
 			tasks: [
 				{
 					id: "4C9BE964594AAD2F"
@@ -1411,20 +1411,20 @@
 		}
 		{
 			dependencies: ["66820FB1AA5F5B88"]
-			description: ["Feed &cGhastlys&r with &4Crimson Roots&r and they will point out the location of &6Azazel's Dungeon&r "]
+			description: ["{kbquests.chapter.3FC9D9D4559CFFA8.description.1}"]
 			id: "3FC9D9D4559CFFA8"
 			rewards: [{
 				id: "2C58DA2EE9A9F224"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Feed Ghastlys with Crimson Roots!"
+			subtitle: "{kbquests.chapter.3FC9D9D4559CFFA8.subtitle}"
 			tasks: [
 				{
 					icon: "minecraft:cracked_polished_blackstone_bricks"
 					id: "2C86842EE9D73908"
 					structure: "netherman:gast_chamber"
-					title: "Find the &cGast Chamber&r!"
+					title: "{kbquests.chapter.2C86842EE9D73908.title}"
 					type: "structure"
 				}
 				{
@@ -1434,7 +1434,7 @@
 					type: "item"
 				}
 			]
-			title: "Find the &cGast Chamber&r!"
+			title: "{kbquests.chapter.3FC9D9D4559CFFA8.title}"
 			x: -1.5d
 			y: -6.0d
 		}
@@ -1459,7 +1459,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Get &4Azazel Mask&r by killing &cAzazel&r!"
+			subtitle: "{kbquests.chapter.35D99B11EB282F11.subtitle}"
 			tasks: [{
 				id: "2AE45BB01F612004"
 				item: "netherman:azazel_trophy"
@@ -1483,7 +1483,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Use one Wisdom Scroll to get one skill point!"
+			subtitle: "{kbquests.chapter.1F803CA6119BF0DD.subtitle}"
 			tasks: [{
 				id: "012326C8A115B9D8"
 				item: "skilltree:wisdom_scroll"
@@ -1493,5 +1493,5 @@
 			y: -4.0d
 		}
 	]
-	title: "First Steps"
+	title: "{kbquests.chapter.5C87AEDF15C354F5.title}"
 }

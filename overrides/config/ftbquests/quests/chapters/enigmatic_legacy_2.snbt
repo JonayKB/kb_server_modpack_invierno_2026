@@ -55,15 +55,15 @@
 		{
 			dependencies: ["133154C8444D452C"]
 			description: [
-				"The Ring of Seven curses is a wearable item that can be equipped in the Curios ring slot."
+				"{kbquests.chapter.7C1409F2EE726A20.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Every player can get it in introducing questline."
+				"{kbquests.chapter.7C1409F2EE726A20.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Once it is put on it cannot be removed. (Can it? hmm)"
+				"{kbquests.chapter.7C1409F2EE726A20.description.5}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Wearing it significantly and permanently changes gameplay to be extremely challenging."
+				"{kbquests.chapter.7C1409F2EE726A20.description.7}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"You ean create and use unique relics."
+				"{kbquests.chapter.7C1409F2EE726A20.description.9}"
 			]
 			icon: "enigmaticlegacy:cursed_ring"
 			id: "7C1409F2EE726A20"
@@ -80,11 +80,11 @@
 					type: "item"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{kbquests.chapter.7C1409F2EE726A20.subtitle}"
 			tasks: [
 				{
 					id: "6400A9D62B87AE09"
-					title: "Mandatory Reading Checkpoint"
+					title: "{kbquests.chapter.6400A9D62B87AE09.title}"
 					type: "checkmark"
 				}
 				{
@@ -94,7 +94,7 @@
 					type: "advancement"
 				}
 			]
-			title: "Ring of Seven Curses"
+			title: "{kbquests.chapter.7C1409F2EE726A20.title}"
 			x: 9.0d
 			y: 0.5d
 		}
@@ -122,7 +122,7 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "Can only be found in End Cities."
+			subtitle: "{kbquests.chapter.29873F04DAC0C11B.subtitle}"
 			tasks: [{
 				id: "76AE933B8A4C5337"
 				item: "enigmaticlegacy:etherium_ingot"
@@ -147,7 +147,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Collecting the whole set might take time, you don't have to do this quest."
+			subtitle: "{kbquests.chapter.59B0C257FAC197C5.subtitle}"
 			tasks: [
 				{
 					id: "29EA8AB93AE7775C"
@@ -249,29 +249,29 @@
 					type: "item"
 				}
 			]
-			title: "Etherium Set"
+			title: "{kbquests.chapter.59B0C257FAC197C5.title}"
 			x: 14.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["133154C8444D452C"]
 			description: [
-				"Spellstones are different enough from most other wearables you may discover."
+				"{kbquests.chapter.1C5454142117BE3D.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"They are the source and vessel of powerful elemental magic bestowing their bearers powers beyond human reach."
+				"{kbquests.chapter.1C5454142117BE3D.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"In modern times there is no known ways to recreate them - origin of spellstones falls back to the first moments of creation when insane energies were released into the previously cold and dark nothingness."
+				"{kbquests.chapter.1C5454142117BE3D.description.5}"
 				""
 				"{@pagebreak}"
-				"&5&oInteracting fighting and consuming each other bringing an absolute chaos."
-				"&5&oIn that chaos they were born encapsulating it in form stable enough to survive eons."
-				"&5&oEons upon eons, until your advent..."
+				"{kbquests.chapter.1C5454142117BE3D.description.8}"
+				"{kbquests.chapter.1C5454142117BE3D.description.9}"
+				"{kbquests.chapter.1C5454142117BE3D.description.10}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"By now it's impossible to come across one naturally."
+				"{kbquests.chapter.1C5454142117BE3D.description.12}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"It seems all of them were located and claimed by some &oancient civilization &rthat now ceised to exist leaving behind only the &oruins &rof their creations."
+				"{kbquests.chapter.1C5454142117BE3D.description.14}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"And among that ruins they lie waiting for some brave explorer like you to harness their power."
+				"{kbquests.chapter.1C5454142117BE3D.description.16}"
 			]
 			id: "1C5454142117BE3D"
 			rewards: [
@@ -287,10 +287,10 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&8[Click to read]"
+			subtitle: "{kbquests.chapter.1C5454142117BE3D.subtitle}"
 			tasks: [{
 				id: "347388DA9D6C12A2"
-				title: "Okay man"
+				title: "{kbquests.chapter.347388DA9D6C12A2.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -298,9 +298,9 @@
 		}
 		{
 			description: [
-				"I don't very well know this mod, so if something doesn't work, you have to make your own research. Sorry."
+				"{kbquests.chapter.133154C8444D452C.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"&6You're required to turn in an iron ingot to make sure you read and understood!"
+				"{kbquests.chapter.133154C8444D452C.description.3}"
 			]
 			icon: "enigmaticlegacy:the_acknowledgment"
 			id: "133154C8444D452C"
@@ -318,7 +318,7 @@
 			]
 			shape: "woodtier"
 			size: 2.0d
-			subtitle: "Internal Wiki"
+			subtitle: "{kbquests.chapter.133154C8444D452C.subtitle}"
 			tasks: [
 				{
 					id: "4BF0AD9A5A00548A"
@@ -349,7 +349,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.54DB174C9E2E6996.subtitle}"
 			tasks: [{
 				id: "469B6B42EE14DD75"
 				item: "enigmaticlegacy:golem_heart"
@@ -372,7 +372,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.6F1C5054C3C81DAA.subtitle}"
 			tasks: [{
 				id: "6B8AE0BC58FDE246"
 				item: "enigmaticlegacy:eye_of_nebula"
@@ -396,7 +396,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.245BA026F5505847.subtitle}"
 			tasks: [{
 				id: "0CEB668AB1F275A9"
 				item: "enigmaticlegacy:blazing_core"
@@ -419,7 +419,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.1B9B8A279A8FB6FC.subtitle}"
 			tasks: [{
 				id: "318302FD9A254C6A"
 				item: "enigmaticlegacy:void_pearl"
@@ -443,7 +443,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.1CA24F481F9C64EB.subtitle}"
 			tasks: [{
 				id: "6B1677E529F76CDE"
 				item: "enigmaticlegacy:ocean_stone"
@@ -466,7 +466,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.321AE4E12EFAA623.subtitle}"
 			tasks: [{
 				id: "780D09A73A250E1F"
 				item: "enigmaticlegacy:angel_blessing"
@@ -490,7 +490,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Base material for few Arcane Scrolls."
+			subtitle: "{kbquests.chapter.6D90E585D2406F72.subtitle}"
 			tasks: [{
 				id: "6079CB0880B7608F"
 				item: "enigmaticlegacy:thicc_scroll"
@@ -517,7 +517,7 @@
 			tasks: [{
 				id: "0D17E99CEE9126EB"
 				item: "enigmaticlegacy:thicc_scroll"
-				title: "Arcane Scrolls"
+				title: "{kbquests.chapter.0D17E99CEE9126EB.title}"
 				type: "item"
 			}]
 			x: 9.0d
@@ -538,7 +538,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in Bastions"
+			subtitle: "{kbquests.chapter.453718D66065CA4A.subtitle}"
 			tasks: [{
 				id: "1C00411329331083"
 				item: "enigmaticlegacy:darkest_scroll"
@@ -562,7 +562,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.4EF80EAF25964BE6.subtitle}"
 			tasks: [{
 				id: "4AEB539432E655DF"
 				item: "enigmaticlegacy:heaven_scroll"
@@ -586,7 +586,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.071B31311EAC896B.subtitle}"
 			tasks: [{
 				id: "7748817D95D587F7"
 				item: "enigmaticlegacy:fabulous_scroll"
@@ -610,7 +610,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.18362E8AD6EE9A8C.subtitle}"
 			tasks: [{
 				id: "5E705F45FEECA425"
 				item: "enigmaticlegacy:escape_scroll"
@@ -634,7 +634,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.1CB5C629D6E2424A.subtitle}"
 			tasks: [{
 				id: "71FC854EA40D4E32"
 				item: "enigmaticlegacy:xp_scroll"
@@ -658,7 +658,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "One of the main Base material of the following items"
+			subtitle: "{kbquests.chapter.38D6971551A08950.subtitle}"
 			tasks: [{
 				id: "5519F75C71F4D908"
 				item: "enigmaticlegacy:twisted_heart"
@@ -682,7 +682,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.31E4F995010C8A09.subtitle}"
 			tasks: [{
 				id: "42049C03DFEA0540"
 				item: "enigmaticlegacy:curse_transposer"
@@ -706,7 +706,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.2BB232940C63270F.subtitle}"
 			tasks: [{
 				id: "4972078D456A7461"
 				item: "enigmaticlegacy:twisted_mirror"
@@ -731,7 +731,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.3CC6763FA003F3C9.subtitle}"
 			tasks: [{
 				id: "30EA6E2D6D4430DF"
 				item: "enigmaticlegacy:avarice_scroll"
@@ -755,7 +755,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.19907F8A484FA243.subtitle}"
 			tasks: [{
 				id: "3460A575E7F5272F"
 				item: "enigmaticlegacy:guardian_heart"
@@ -779,7 +779,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Adding a twist to things"
+			subtitle: "{kbquests.chapter.287C408CF9122F32.subtitle}"
 			tasks: [{
 				id: "3B20CFD3BA4C6B01"
 				item: "enigmaticlegacy:the_twist"
@@ -803,7 +803,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.0383ECA9EAB2D6CF.subtitle}"
 			tasks: [{
 				id: "430D600630BF88A5"
 				item: "enigmaticlegacy:evil_essence"
@@ -827,7 +827,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.6846117D4E5F8AE6.subtitle}"
 			tasks: [{
 				id: "417D53D18AEA7AA3"
 				item: "enigmaticlegacy:evil_ingot"
@@ -853,7 +853,7 @@
 			]
 			shape: "goldtier"
 			size: 1.5d
-			subtitle: "The end of the &4suffering&f."
+			subtitle: "{kbquests.chapter.79CAB265AED63D74.subtitle}"
 			tasks: [{
 				id: "1CA42B32C204C158"
 				item: "enigmaticlegacy:cursed_stone"
@@ -877,7 +877,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.788323CC97A47410.subtitle}"
 			tasks: [{
 				id: "2B466E7825C3989B"
 				item: "enigmaticlegacy:enchanter_pearl"
@@ -901,7 +901,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Check the book.."
+			subtitle: "{kbquests.chapter.278C4F6DAB3AE09C.subtitle}"
 			tasks: [{
 				id: "219431EDE8A84E11"
 				item: "enigmaticlegacy:twisted_potion"
@@ -925,7 +925,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.28FDD444CE05899B.subtitle}"
 			tasks: [{
 				id: "1CE47C4668CD40F1"
 				item: {
@@ -955,7 +955,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.07608E514D30A827.subtitle}"
 			tasks: [{
 				id: "106ED8D53A29396A"
 				item: "enigmaticlegacy:abyssal_heart"
@@ -979,7 +979,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in end city loot."
+			subtitle: "{kbquests.chapter.1C307E515AE26E6D.subtitle}"
 			tasks: [{
 				id: "1E35F0E36F407123"
 				item: "enigmaticlegacy:astral_fruit"
@@ -1010,7 +1010,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.052EE9CDC6A6415B.subtitle}"
 			tasks: [
 				{
 					id: "1B0B651545E1AF2C"
@@ -1025,7 +1025,7 @@
 				}
 				{
 					id: "744A32252DDBA13F"
-					title: "Reading Checkpoint"
+					title: "{kbquests.chapter.744A32252DDBA13F.title}"
 					type: "checkmark"
 				}
 			]
@@ -1047,7 +1047,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.4567F75D9DE55997.subtitle}"
 			tasks: [{
 				id: "1E57F2754C1D4415"
 				item: "enigmaticlegacy:desolation_ring"
@@ -1071,7 +1071,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.7CC0B4DA526C004E.subtitle}"
 			tasks: [{
 				id: "201D6046B0C75836"
 				item: "enigmaticlegacy:soul_compass"
@@ -1096,7 +1096,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.67F4986013062863.subtitle}"
 			tasks: [
 				{
 					id: "7B52A9FA2CA1AF5E"
@@ -1105,7 +1105,7 @@
 				}
 				{
 					id: "5A5B23CE2B1488DF"
-					title: "Reading Checkpoint"
+					title: "{kbquests.chapter.5A5B23CE2B1488DF.title}"
 					type: "checkmark"
 				}
 			]
@@ -1134,7 +1134,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.5D07C7FE38FBB7B9.subtitle}"
 			tasks: [{
 				id: "3BED049DBDAC2BCB"
 				item: {
@@ -1179,7 +1179,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Zenith of Spellstones!"
+			subtitle: "{kbquests.chapter.4DDBC1D61C892B9C.subtitle}"
 			tasks: [{
 				id: "71CDA0B3387C7A20"
 				item: "enigmaticlegacy:the_cube"
@@ -1203,7 +1203,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Path to Redemption"
+			subtitle: "{kbquests.chapter.09077C44A8234437.subtitle}"
 			tasks: [{
 				id: "2FE0D4917E0414FF"
 				item: "enigmaticaddons:pure_heart"
@@ -1227,7 +1227,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.759330FDA1A18091.subtitle}"
 			tasks: [{
 				id: "3CDD9773776FA95F"
 				item: "enigmaticaddons:bless_ring"
@@ -1251,7 +1251,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read Description!"
+			subtitle: "{kbquests.chapter.21197B5B13E35E9B.subtitle}"
 			tasks: [{
 				id: "61603697EE04D2EA"
 				item: "enigmaticaddons:ode_to_living"
@@ -1275,7 +1275,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in Dungeons. By use, will grant you +1 Arcane Slot!"
+			subtitle: "{kbquests.chapter.754C73E15C8C4080.subtitle}"
 			tasks: [{
 				id: "19EA112213E3097B"
 				item: "enigmaticaddons:void_tome"
@@ -1299,7 +1299,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.641D25CB71AFBBA7.subtitle}"
 			tasks: [{
 				id: "7178F2531EAFEA7A"
 				item: "enigmaticaddons:sanguinary_handbook"
@@ -1323,7 +1323,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.731C04D8C463341D.subtitle}"
 			tasks: [{
 				id: "231929E45BBBB95B"
 				item: "enigmaticaddons:the_bless"
@@ -1347,7 +1347,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.6F428D0D8AEAB48E.subtitle}"
 			tasks: [{
 				id: "3BDDB09B469EE530"
 				item: "enigmaticaddons:bless_amplifier"
@@ -1371,7 +1371,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in Dungeons, a carriable Ender Chest."
+			subtitle: "{kbquests.chapter.0983B03F01666BDB.subtitle}"
 			tasks: [{
 				id: "63BC8376EE1DF026"
 				item: "enigmaticaddons:antique_bag"
@@ -1394,7 +1394,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.53E8A78AE8D5F2A5.subtitle}"
 			tasks: [{
 				id: "0D002CF735F6BC0A"
 				item: "enigmaticaddons:revival_leaf"
@@ -1418,7 +1418,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read Description!"
+			subtitle: "{kbquests.chapter.20297C2EC88C27B3.subtitle}"
 			tasks: [{
 				id: "283A6A4166379289"
 				item: {
@@ -1448,7 +1448,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read Description!... wait "
+			subtitle: "{kbquests.chapter.2EE43ECF29ECB424.subtitle}"
 			tasks: [{
 				id: "244E9F6B5C8C0A06"
 				item: "enigmaticaddons:astral_potion"
@@ -1472,7 +1472,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read Description!"
+			subtitle: "{kbquests.chapter.1F46C47ECBA562CE.subtitle}"
 			tasks: [{
 				id: "6B44F53BE155855D"
 				item: {
@@ -1502,7 +1502,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read Description!"
+			subtitle: "{kbquests.chapter.71CB44574A4C6154.subtitle}"
 			tasks: [{
 				id: "7D4CE967AB7AFCC2"
 				item: {
@@ -1532,7 +1532,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read Description!"
+			subtitle: "{kbquests.chapter.3F5D66CB0B492314.subtitle}"
 			tasks: [{
 				id: "1FD59399D1EC9C3F"
 				item: "enigmaticaddons:ichor_spear"
@@ -1579,7 +1579,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.7A67BAB7C5773F43.subtitle}"
 			tasks: [{
 				id: "577ACAC7C2B7C357"
 				item: {
@@ -1609,7 +1609,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.696721016FE9651A.subtitle}"
 			tasks: [{
 				id: "1C3005811F7C185C"
 				item: "enigmaticaddons:bless_stone"
@@ -1633,7 +1633,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.2DD665F31FFAE675.subtitle}"
 			tasks: [{
 				id: "1AB51D54DB1B25A9"
 				item: "enigmaticaddons:scorched_charm"
@@ -1657,7 +1657,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.1DED07959F0A02FA.subtitle}"
 			tasks: [{
 				id: "7624E0F80430420F"
 				item: "enigmaticaddons:earth_promise"
@@ -1681,7 +1681,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.4ABA2708CB5FEBDD.subtitle}"
 			tasks: [{
 				id: "2CD86B1571718E60"
 				item: "enigmaticaddons:cursed_xp_scroll"
@@ -1705,7 +1705,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.044A5C64D492296E.subtitle}"
 			tasks: [{
 				id: "293234425849833E"
 				item: "enigmaticaddons:night_scroll"
@@ -1729,7 +1729,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.6596F8DEB197A294.subtitle}"
 			tasks: [{
 				id: "598D6AE70B99B84E"
 				item: {
@@ -1759,7 +1759,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.0DAF48EE877884F6.subtitle}"
 			tasks: [{
 				id: "681C41760910CA75"
 				item: "enigmaticaddons:forgotten_ice"
@@ -1783,7 +1783,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.595A6C06473E5F55.subtitle}"
 			tasks: [{
 				id: "4BC37BE4BE402DAE"
 				item: "enigmaticaddons:lost_engine"
@@ -1807,7 +1807,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.08333143C52BF4D7.subtitle}"
 			tasks: [{
 				id: "694675BDEADCCDB7"
 				item: "enigmaticaddons:illusion_lantern"
@@ -1831,7 +1831,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Already has a quest but had to put here"
+			subtitle: "{kbquests.chapter.140D0DCEB339EB60.subtitle}"
 			tasks: [{
 				id: "1C4D26CB36ED9441"
 				item: "enigmaticaddons:etherium_core"
@@ -1855,7 +1855,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.1509EAF477816471.subtitle}"
 			tasks: [{
 				id: "140EB3943E9C0A50"
 				item: "enigmaticaddons:totem_of_malice"
@@ -1879,7 +1879,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.2ABFBCB4B0EF777C.subtitle}"
 			tasks: [{
 				id: "644EA5B9A0B91FF9"
 				item: "enigmaticaddons:avarice_ring"
@@ -1932,7 +1932,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.506BE4F67E2F4AD6.subtitle}"
 			tasks: [{
 				id: "6713CD04B15611B4"
 				item: {
@@ -1962,7 +1962,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.34D444C73970B49C.subtitle}"
 			tasks: [{
 				id: "276B8D293CF69E41"
 				item: "enigmaticlegacy:extradimensional_eye"
@@ -1986,7 +1986,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.0AA1567557149D5C.subtitle}"
 			tasks: [{
 				id: "73AF42474FA9063C"
 				item: "enigmaticaddons:night_scroll"
@@ -2010,7 +2010,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.684D08CDB9CD24B2.subtitle}"
 			tasks: [{
 				id: "765EBB8F36745B1A"
 				item: "enigmaticaddons:violence_scroll"
@@ -2034,7 +2034,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.1D5A7FA7C73BA7AB.subtitle}"
 			tasks: [{
 				id: "062DDD7A61E9D782"
 				item: "enigmaticaddons:thunder_scroll"
@@ -2058,7 +2058,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.172C4ECEC40C15C7.subtitle}"
 			tasks: [{
 				id: "464E4B54D0D2A67B"
 				item: "enigmaticaddons:cursed_xp_scroll"
@@ -2082,7 +2082,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.2CFF45C0F75CAC47.subtitle}"
 			tasks: [{
 				id: "3FCC0C2C02715554"
 				item: "enigmaticaddons:quartz_ring"
@@ -2106,7 +2106,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.1F44B0BD026BAF6B.subtitle}"
 			tasks: [{
 				id: "7847503ECDE78553"
 				item: "enigmaticaddons:forger_gem"
@@ -2130,7 +2130,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.3F91057C358D8729.subtitle}"
 			tasks: [{
 				id: "594AD27D09C8A913"
 				item: "enigmaticlegacy:golden_ring"
@@ -2154,7 +2154,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.21F1B3153AC536EC.subtitle}"
 			tasks: [{
 				id: "5B480F09F1394A10"
 				item: "enigmaticaddons:hell_blade_charm"
@@ -2178,7 +2178,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.01CCD2471AB70E64.subtitle}"
 			tasks: [{
 				id: "0482563C1314438E"
 				item: "enigmaticaddons:false_justice"
@@ -2202,7 +2202,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.44E73F8F9B1EE438.subtitle}"
 			tasks: [{
 				id: "3F0935E5007B2783"
 				item: "enigmaticaddons:ode_to_living"
@@ -2226,7 +2226,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read The Description"
+			subtitle: "{kbquests.chapter.55734E38E104A8A3.subtitle}"
 			tasks: [{
 				id: "77F879CE039E2077"
 				item: "enigmaticlegacy:animal_guidebook"
@@ -2244,7 +2244,7 @@
 				xp_levels: 50
 			}]
 			size: 3.0d
-			subtitle: "Become a God!"
+			subtitle: "{kbquests.chapter.6F40CA5779B0B798.subtitle}"
 			tasks: [{
 				id: "14D419F550C32FCB"
 				item: "enigmaticlegacy:enigmatic_item"
@@ -2254,5 +2254,5 @@
 			y: -18.0d
 		}
 	]
-	title: "Enigmatic Legacy"
+	title: "{kbquests.chapter.13C235FE6C202559.title}"
 }

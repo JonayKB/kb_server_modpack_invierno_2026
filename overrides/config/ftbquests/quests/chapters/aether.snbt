@@ -19,7 +19,7 @@
 	quests: [
 		{
 			dependencies: ["75D1E23B1635D0D4"]
-			description: ["&bAether:&r &9Redux&r has been added to provide a &dbetter exploration&r experience in the &bAether&r!"]
+			description: ["{kbquests.chapter.6EAB8124193B4DA5.description.1}"]
 			icon: "aether:aether_portal_frame"
 			id: "6EAB8124193B4DA5"
 			rewards: [
@@ -35,12 +35,12 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Explore the dimensions of the heavens in search of incredible challenges and rewards"
+			subtitle: "{kbquests.chapter.6EAB8124193B4DA5.subtitle}"
 			tasks: [{
 				dimension: "aether:the_aether"
 				icon: "aether:aether_portal_frame"
 				id: "6EBAC07876A639A1"
-				title: "Visit the &bAether&r"
+				title: "{kbquests.chapter.6EBAC07876A639A1.title}"
 				type: "dimension"
 			}]
 			x: -0.5d
@@ -67,7 +67,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The key to receiving the rewards!"
+			subtitle: "{kbquests.chapter.3810E20FB85BC300.subtitle}"
 			tasks: [{
 				id: "4777C5038255E34C"
 				item: "aether:bronze_dungeon_key"
@@ -97,7 +97,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The key to receiving the rewards!"
+			subtitle: "{kbquests.chapter.44429FF63FBB79A3.subtitle}"
 			tasks: [{
 				id: "35679347FFDA8C4D"
 				item: "aether:silver_dungeon_key"
@@ -127,7 +127,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The key to receiving the rewards!"
+			subtitle: "{kbquests.chapter.4B5EF7068AB92DC7.subtitle}"
 			tasks: [{
 				id: "396A90E333F211F9"
 				item: "aether:gold_dungeon_key"
@@ -138,7 +138,7 @@
 		}
 		{
 			dependencies: ["6EAB8124193B4DA5"]
-			description: ["&6Bronze Dungeon&r: It is the first and most basic dungeon, located in the Skyroot biomes, containing the &3Slider&r boss."]
+			description: ["{kbquests.chapter.7B73CFE27855F2F9.description.1}"]
 			id: "7B73CFE27855F2F9"
 			rewards: [
 				{
@@ -152,7 +152,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "First Dungeon."
+			subtitle: "{kbquests.chapter.7B73CFE27855F2F9.subtitle}"
 			tasks: [{
 				entity: "aether:slider"
 				icon: "aether:carved_stone"
@@ -165,7 +165,7 @@
 		}
 		{
 			dependencies: ["6EAB8124193B4DA5"]
-			description: ["&3Silver Dungeon&r: A more advanced structure that also appears in world generation."]
+			description: ["{kbquests.chapter.4495DF8C85DA9D55.description.1}"]
 			id: "4495DF8C85DA9D55"
 			rewards: [
 				{
@@ -179,7 +179,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Second Dungeon."
+			subtitle: "{kbquests.chapter.4495DF8C85DA9D55.subtitle}"
 			tasks: [{
 				entity: "aether:valkyrie_queen"
 				icon: "aether:valkyrie_cape"
@@ -192,7 +192,7 @@
 		}
 		{
 			dependencies: ["6EAB8124193B4DA5"]
-			description: ["&eGold Dungeon&r: The dungeon with the highest &cdifficulty&r and &drarity&r among the three main ones."]
+			description: ["{kbquests.chapter.554F87CB8A30C8F5.description.1}"]
 			id: "554F87CB8A30C8F5"
 			rewards: [
 				{
@@ -206,7 +206,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Third Dungeon."
+			subtitle: "{kbquests.chapter.554F87CB8A30C8F5.subtitle}"
 			tasks: [{
 				entity: "aether:sun_spirit"
 				icon: "aether:golden_amber"
@@ -320,7 +320,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Ingredient to create the portal to the &9Aether&r!"
+			subtitle: "{kbquests.chapter.75D1E23B1635D0D4.subtitle}"
 			tasks: [
 				{
 					count: 12L
@@ -358,7 +358,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Exclusive ore!"
+			subtitle: "{kbquests.chapter.3EBC7E3BF72DE834.subtitle}"
 			tasks: [{
 				id: "246D83C65A543C22"
 				item: "aether:zanite_block"
@@ -388,7 +388,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Exclusive ore!"
+			subtitle: "{kbquests.chapter.5B1AC28EB3FDC5D8.subtitle}"
 			tasks: [{
 				id: "0E53F4511A857638"
 				item: "aether:enchanted_gravitite"
@@ -590,5 +590,5 @@
 			y: 0.0d
 		}
 	]
-	title: "Aether"
+	title: "{kbquests.chapter.7B5D8031C68F0489.title}"
 }

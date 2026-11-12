@@ -40,11 +40,11 @@
 	quests: [
 		{
 			description: [
-				"You can obtain &dgems&r in various ways,explore chests, slay creatures, and craft them; if you have any questions, use &2JEI&r."
+				"{kbquests.chapter.403801E59E080D82.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"You can upgrade your &dgems&r to boost their &cattributes&r, thereby enhancing your weapon and making it &bextremely powerful&r."
+				"{kbquests.chapter.403801E59E080D82.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"In the &6Apotheosis&r mod, the item rarity tiers are &3Common&r, &aUncommon&r, &9Rare&r, &dEpic&r, &bMythic&r, &cAncient&r, &5Esoteric&r and &4Fabled&r."
+				"{kbquests.chapter.403801E59E080D82.description.5}"
 			]
 			icon: {
 				Count: 1
@@ -84,23 +84,23 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "Use gems to maximize your attributes."
+			subtitle: "{kbquests.chapter.403801E59E080D82.subtitle}"
 			tasks: [{
 				id: "4129E54C145C55A9"
 				type: "checkmark"
 			}]
-			title: "The Gem Master!"
+			title: "{kbquests.chapter.403801E59E080D82.title}"
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["403801E59E080D82"]
 			description: [
-				"One of the mod key materials, use it to craft &dgems&r, &9items&r, and various other objects."
+				"{kbquests.chapter.36ED0E33193A0A93.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"To get &bdust&r, drop any gem and make an &6anvil&r block fall into it!"
+				"{kbquests.chapter.36ED0E33193A0A93.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"&6Always keep some in reserve...&r"
+				"{kbquests.chapter.36ED0E33193A0A93.description.5}"
 			]
 			id: "36ED0E33193A0A93"
 			rewards: [
@@ -115,7 +115,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Used in gem enhancement."
+			subtitle: "{kbquests.chapter.36ED0E33193A0A93.subtitle}"
 			tasks: [{
 				id: "4D21C098D3CFB391"
 				item: "apotheosis:gem_dust"
@@ -139,7 +139,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Use this to obtain the best possible attributes in gem enchancement!"
+			subtitle: "{kbquests.chapter.3744745379AB58B6.subtitle}"
 			tasks: [{
 				id: "029C57424777C3E7"
 				item: "apotheosis:mythic_material"
@@ -151,9 +151,9 @@
 		{
 			dependencies: ["3744745379AB58B6"]
 			description: [
-				"Follow the progression below to go through all available &dmaterial rarities&r!"
+				"{kbquests.chapter.237F9099BDEBFFB6.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Use them to improve and refine your &bgem&r."
+				"{kbquests.chapter.237F9099BDEBFFB6.description.3}"
 			]
 			id: "237F9099BDEBFFB6"
 			rewards: [
@@ -168,7 +168,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Gather some materials to create stronger gems."
+			subtitle: "{kbquests.chapter.237F9099BDEBFFB6.subtitle}"
 			tasks: [{
 				id: "5CED19D755A988E3"
 				item: "apotheosis:gem_cutting_table"
@@ -179,7 +179,7 @@
 		}
 		{
 			dependencies: ["36ED0E33193A0A93"]
-			description: ["Use this table to destroy certain items and obtain materials of varying rarities."]
+			description: ["{kbquests.chapter.40F813BC0B41A366.description.1}"]
 			id: "40F813BC0B41A366"
 			rewards: [
 				{
@@ -193,7 +193,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Transform gems and other items into useful resources."
+			subtitle: "{kbquests.chapter.40F813BC0B41A366.subtitle}"
 			tasks: [{
 				id: "278140F9610CD84D"
 				item: "apotheosis:salvaging_table"
@@ -220,7 +220,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Increase the number of gems your item can receive."
+			subtitle: "{kbquests.chapter.6F909941370216AA.subtitle}"
 			tasks: [{
 				id: "2434F9229A65A411"
 				item: "apotheosis:augmenting_table"
@@ -244,7 +244,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Increases the number of gem slots on your items."
+			subtitle: "{kbquests.chapter.755185D678ACA37C.subtitle}"
 			tasks: [{
 				id: "572F0AB563B2FA6F"
 				item: "apotheosis:sigil_of_socketing"
@@ -268,7 +268,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.1D70AC41751FBD43.subtitle}"
 			tasks: [{
 				id: "5DCC16F19F691DAD"
 				item: "apotheosis:simple_reforging_table"
@@ -292,7 +292,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.709DE5371645D717.subtitle}"
 			tasks: [{
 				id: "7816FD52C6D35599"
 				item: "apotheosis:reforging_table"
@@ -316,7 +316,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Use to equip gems."
+			subtitle: "{kbquests.chapter.51E659E73A7DE79B.subtitle}"
 			tasks: [{
 				id: "4AE158C5A91CFCE1"
 				item: "minecraft:smithing_table"
@@ -335,7 +335,7 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.29CD8764B85C7F48.subtitle}"
 			tasks: [
 				{
 					count: 6L
@@ -350,7 +350,7 @@
 					type: "item"
 				}
 			]
-			title: "Esoteric Reforging Table"
+			title: "{kbquests.chapter.29CD8764B85C7F48.title}"
 			x: 9.0d
 			y: 5.0d
 		}
@@ -369,7 +369,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.254B61BB73876A29.subtitle}"
 			tasks: [{
 				id: "05FB224DA5D5D755"
 				item: "apotheosis:common_material"
@@ -393,7 +393,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.1ECC03F053A4F971.subtitle}"
 			tasks: [{
 				id: "6F652C47762F07D8"
 				item: "apotheosis:uncommon_material"
@@ -417,7 +417,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.5E6A5E4DEB5B62B0.subtitle}"
 			tasks: [{
 				id: "463B75F6E11B7571"
 				item: "apotheosis:rare_material"
@@ -441,7 +441,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.786AE5E886D04A2B.subtitle}"
 			tasks: [{
 				id: "53F95AD55497A1E0"
 				item: "apotheosis:epic_material"
@@ -466,7 +466,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.62C13FF7EF164D98.subtitle}"
 			tasks: [{
 				id: "4DF0BEB19EA925AB"
 				item: "apotheosis:mythic_material"
@@ -490,7 +490,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.13ED890CC8896DB9.subtitle}"
 			tasks: [{
 				id: "23F4522F75896FB8"
 				item: "apotheotic_additions:esoteric_material"
@@ -514,7 +514,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.5B6E03C98AEA36D7.subtitle}"
 			tasks: [{
 				id: "034AC2FDA0A2DA09"
 				item: "apotheosis:ancient_material"
@@ -538,7 +538,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.0E836D2358DC2795.subtitle}"
 			tasks: [{
 				id: "4B93A61FFC7AF5A0"
 				item: "apotheotic_additions:artifact_material"
@@ -562,7 +562,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.7D673C8E747CA2DC.subtitle}"
 			tasks: [{
 				id: "6EF88D59D6817734"
 				item: "apotheotic_additions:heirloom_material"
@@ -586,7 +586,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.6FDF2585456896E1.subtitle}"
 			tasks: [{
 				id: "03B157CEB0F5CF27"
 				item: "fallen_gems_affixes:fabled_material"
@@ -614,7 +614,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.5E8138B5AA244372.subtitle}"
 			tasks: [{
 				id: "1FD76EF767A196E6"
 				item: "fallen_gems_affixes:fabled_reforging_table"
@@ -638,7 +638,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Store your gems!"
+			subtitle: "{kbquests.chapter.420210A2959AA7E9.subtitle}"
 			tasks: [{
 				id: "5B9554F6464DFADD"
 				item: "fallen_gems_affixes:gem_case"
@@ -650,13 +650,13 @@
 		{
 			dependencies: ["755185D678ACA37C"]
 			description: [
-				"&dAugments&r are a new tier of power above &agems&r. They're applied to &6Crest Slots&r (converted gem sockets)."
+				"{kbquests.chapter.64A0AAA11DD9D7D1.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"&6How to use:&r"
+				"{kbquests.chapter.64A0AAA11DD9D7D1.description.3}"
 				""
-				"1.  Obtain &dAugments&r from &4Fabled Universal Bosses&r with a &65% drop rate&r."
-				"2. Convert gem sockets to &dAugment Slots&r using &eSigil of Ascension&r in smithing table."
-				"3. Apply &daugments&r to &6Crest Slots&r via smithing table."
+				"{kbquests.chapter.64A0AAA11DD9D7D1.description.5}"
+				"{kbquests.chapter.64A0AAA11DD9D7D1.description.6}"
+				"{kbquests.chapter.64A0AAA11DD9D7D1.description.7}"
 			]
 			id: "64A0AAA11DD9D7D1"
 			rewards: [
@@ -671,7 +671,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.64A0AAA11DD9D7D1.subtitle}"
 			tasks: [{
 				id: "3BD4CDE7729E4EE1"
 				item: "fallen_gems_affixes:sigil_of_ascension"
@@ -695,7 +695,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.62CA22FE10AA2FD0.subtitle}"
 			tasks: [{
 				id: "4CF112A78D41EAF3"
 				item: "apotheosis:sigil_of_unnaming"
@@ -719,7 +719,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.59593383A71EAB72.subtitle}"
 			tasks: [{
 				id: "5A3AB96E31F4F657"
 				item: "apotheosis:sigil_of_withdrawal"
@@ -743,7 +743,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.4C0D082152AC6837.subtitle}"
 			tasks: [{
 				id: "51D11689994BB930"
 				item: "apotheosis:sigil_of_rebirth"
@@ -767,7 +767,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.28666975AA34A7C3.subtitle}"
 			tasks: [{
 				id: "17F16A87536DA64F"
 				item: "apotheosis:sigil_of_enhancement"
@@ -791,7 +791,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.773B6E974FE04E79.subtitle}"
 			tasks: [{
 				id: "213F112CDDDCF61F"
 				item: "fallen_gems_affixes:sigil_of_transmutation"
@@ -815,7 +815,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.26ADA0569CB546FB.subtitle}"
 			tasks: [{
 				id: "6BB404036EBBB7AA"
 				item: "fallen_gems_affixes:sigil_of_severance"
@@ -839,7 +839,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.69A3203BB152A8AC.subtitle}"
 			tasks: [{
 				id: "4CE4CF9503F5E943"
 				item: "fallen_gems_affixes:sigil_of_erasure"
@@ -863,7 +863,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.7DC51335856145D9.subtitle}"
 			tasks: [{
 				id: "0BA97E8407EFEE1A"
 				item: "fallen_gems_affixes:sigil_of_elevation"
@@ -911,7 +911,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Read the description."
+			subtitle: "{kbquests.chapter.49B5E1ADEF21F123.subtitle}"
 			tasks: [{
 				id: "3C8720FC665E435A"
 				item: "ancientreforging:ancient_reforging_table"
@@ -921,5 +921,5 @@
 			y: 4.0d
 		}
 	]
-	title: "Apotheosis Gems"
+	title: "{kbquests.chapter.086191A525E713AD.title}"
 }

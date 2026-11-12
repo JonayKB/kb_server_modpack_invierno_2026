@@ -21,9 +21,9 @@
 		{
 			dependencies: ["45F0280E0EE75C7B"]
 			description: [
-				"By right clicking the &cDragon&r corpse with an empty hand you will first get scales."
+				"{kbquests.chapter.3B4DA7EF08D1EC2F.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"Scales will be needed to make the &6Dragon Forges&r. Can only be obtained by killed dragons."
+				"{kbquests.chapter.3B4DA7EF08D1EC2F.description.3}"
 			]
 			id: "3B4DA7EF08D1EC2F"
 			rewards: [{
@@ -31,7 +31,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "How to get Scales."
+			subtitle: "{kbquests.chapter.3B4DA7EF08D1EC2F.subtitle}"
 			tasks: [{
 				id: "4019EE8D6049A177"
 				item: {
@@ -90,19 +90,19 @@
 						]
 					}
 				}
-				title: "Dragon Scales"
+				title: "{kbquests.chapter.4019EE8D6049A177.title}"
 				type: "item"
 			}]
-			title: "Scales"
+			title: "{kbquests.chapter.3B4DA7EF08D1EC2F.title}"
 			x: -8.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["67967612384A7AAD"]
 			description: [
-				"The &dDragon's Hearts&r are always dropped by &cDragons&r."
+				"{kbquests.chapter.45F0280E0EE75C7B.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"Obviously they'll only drop 1. Their hearts are used for the &6Dragon Forge Core&r and for the &9Ice&r and &cFire&r flowers."
+				"{kbquests.chapter.45F0280E0EE75C7B.description.3}"
 			]
 			id: "45F0280E0EE75C7B"
 			rewards: [
@@ -127,7 +127,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "How to get hearts."
+			subtitle: "{kbquests.chapter.45F0280E0EE75C7B.subtitle}"
 			tasks: [{
 				id: "19C32D099951607A"
 				item: {
@@ -150,19 +150,19 @@
 						]
 					}
 				}
-				title: "Dragon Hearts"
+				title: "{kbquests.chapter.19C32D099951607A.title}"
 				type: "item"
 			}]
-			title: "Dragon Heart"
+			title: "{kbquests.chapter.45F0280E0EE75C7B.title}"
 			x: -10.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["45F0280E0EE75C7B"]
 			description: [
-				"The &cDragon Flesh&r is a food source dropped from 3 and above &cDragons&r."
+				"{kbquests.chapter.13F8BD59613AC3FE.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"It's used for the &aLillys&r and for eating. Don't try feeding it to your own dragons, don't make them cannibals!"
+				"{kbquests.chapter.13F8BD59613AC3FE.description.3}"
 			]
 			id: "13F8BD59613AC3FE"
 			rewards: [{
@@ -192,19 +192,19 @@
 						]
 					}
 				}
-				title: "Dragon Flesh"
+				title: "{kbquests.chapter.3D767ED99127F326.title}"
 				type: "item"
 			}]
-			title: "Dragon Flesh"
+			title: "{kbquests.chapter.13F8BD59613AC3FE.title}"
 			x: -8.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["45F0280E0EE75C7B"]
 			description: [
-				"&cDragon blood&r can be obtained by right clicking a dragon corpse with an empty bottle."
+				"{kbquests.chapter.7DF4BD144CB89FB7.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"It will get rid of the corpse so you can not get both scales and blood. It will also be needed for the &6Dragon Forge&r."
+				"{kbquests.chapter.7DF4BD144CB89FB7.description.3}"
 			]
 			id: "7DF4BD144CB89FB7"
 			rewards: [{
@@ -213,7 +213,7 @@
 				item: "minecraft:glass_bottle"
 				type: "item"
 			}]
-			subtitle: "How to get Dragon Blood."
+			subtitle: "{kbquests.chapter.7DF4BD144CB89FB7.subtitle}"
 			tasks: [{
 				id: "5D1562E775B45AB7"
 				item: {
@@ -238,16 +238,16 @@
 				}
 				type: "item"
 			}]
-			title: "Dragon Blood"
+			title: "{kbquests.chapter.7DF4BD144CB89FB7.title}"
 			x: -8.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["45F0280E0EE75C7B"]
 			description: [
-				"&cDragon&r bones are the first that come off the skeleton."
+				"{kbquests.chapter.54306E8AB3574BC3.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"They're used to craft bone blocks which are needed for the &6Dragon Forge&r and they make different tools."
+				"{kbquests.chapter.54306E8AB3574BC3.description.3}"
 			]
 			id: "54306E8AB3574BC3"
 			rewards: [{
@@ -256,7 +256,7 @@
 				item: "iceandfire:dragonbone"
 				type: "item"
 			}]
-			subtitle: "How to get Dragon Bones."
+			subtitle: "{kbquests.chapter.54306E8AB3574BC3.subtitle}"
 			tasks: [{
 				id: "1433644BEFB894C1"
 				item: "iceandfire:dragonbone"
@@ -267,7 +267,7 @@
 		}
 		{
 			dependencies: ["54306E8AB3574BC3"]
-			description: ["The Dragon Skull is the final drop of a Dragon. Its used to craft the Dragon Command Staff. That's only for tamed dragons though. It's mainly for decoration."]
+			description: ["{kbquests.chapter.11512722F976909C.description.1}"]
 			id: "11512722F976909C"
 			rewards: [{
 				id: "48DE75324333022A"
@@ -311,7 +311,7 @@
 				}
 				type: "item"
 			}]
-			title: "Dragon Skulls"
+			title: "{kbquests.chapter.11512722F976909C.title}"
 			x: -8.0d
 			y: 1.0d
 		}
@@ -322,9 +322,9 @@
 				"7DF4BD144CB89FB7"
 			]
 			description: [
-				"Besides the biome the best way to tell a &cDragons&r type is by their color."
+				"{kbquests.chapter.03D776E331D95114.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"All 3 &cDragon&r types have 4 different colors they can come in."
+				"{kbquests.chapter.03D776E331D95114.description.3}"
 			]
 			icon: "iceandfire:shiny_scales"
 			id: "03D776E331D95114"
@@ -333,10 +333,10 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "About color dragons."
+			subtitle: "{kbquests.chapter.03D776E331D95114.subtitle}"
 			tasks: [{
 				id: "771A01EF27E80B42"
-				title: "Colors of Dragons"
+				title: "{kbquests.chapter.771A01EF27E80B42.title}"
 				type: "checkmark"
 			}]
 			x: -6.0d
@@ -344,7 +344,7 @@
 		}
 		{
 			dependencies: ["03D776E331D95114"]
-			description: ["&cFire Dragons&r come in: &4Red&r, &aEmerald&r, &6Bronze&r, and &8Gray&r."]
+			description: ["{kbquests.chapter.61C2732DC98234AD.description.1}"]
 			id: "61C2732DC98234AD"
 			rewards: [
 				{
@@ -359,7 +359,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "About dragon colors:"
+			subtitle: "{kbquests.chapter.61C2732DC98234AD.subtitle}"
 			tasks: [
 				{
 					id: "564232DC02B982C3"
@@ -382,13 +382,13 @@
 					type: "item"
 				}
 			]
-			title: "Fire Dragon Colors"
+			title: "{kbquests.chapter.61C2732DC98234AD.title}"
 			x: -4.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["03D776E331D95114"]
-			description: ["&bIce Dragons&r come in: &9Blue&r, White, &1Sapphire&r, and &3Silver&r."]
+			description: ["{kbquests.chapter.6D572E185AD81408.description.1}"]
 			id: "6D572E185AD81408"
 			rewards: [
 				{
@@ -403,7 +403,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "About dragon colors:"
+			subtitle: "{kbquests.chapter.6D572E185AD81408.subtitle}"
 			tasks: [
 				{
 					id: "24A1B566997C35EE"
@@ -426,13 +426,13 @@
 					type: "item"
 				}
 			]
-			title: "Ice Dragon Colors"
+			title: "{kbquests.chapter.6D572E185AD81408.title}"
 			x: -4.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["03D776E331D95114"]
-			description: ["&5Lightning Dragons&r come in: &bElectric Blue&r, &dAmethyst&r, &6Copper&r, and &0Black&r."]
+			description: ["{kbquests.chapter.1BA9D47B1026062F.description.1}"]
 			id: "1BA9D47B1026062F"
 			rewards: [
 				{
@@ -447,7 +447,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "About dragon colors:"
+			subtitle: "{kbquests.chapter.1BA9D47B1026062F.subtitle}"
 			tasks: [
 				{
 					id: "1780983DDAB5E417"
@@ -465,18 +465,18 @@
 					type: "item"
 				}
 			]
-			title: "Lightning Dragon Scales"
+			title: "{kbquests.chapter.1BA9D47B1026062F.title}"
 			x: -4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4617A1C9669B5909"]
 			description: [
-				"All nests have &emanuscripts&r in the chests."
+				"{kbquests.chapter.216A6EC6FE4E436E.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"&eManuscripts&r are needed for the &6bestiary&r and to upgrade it."
+				"{kbquests.chapter.216A6EC6FE4E436E.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"They can also be found in many other structures like &3Hydra&r homes, &cCyclops Caves&r, or &avillages&r."
+				"{kbquests.chapter.216A6EC6FE4E436E.description.5}"
 			]
 			id: "216A6EC6FE4E436E"
 			rewards: [{
@@ -495,9 +495,9 @@
 		{
 			dependencies: ["216A6EC6FE4E436E"]
 			description: [
-				"The &6Bestiary&r is the ingame guide book to &9Ice&r and &cFire&r."
+				"{kbquests.chapter.4EDEB83B4BDA8CD6.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"It tells you everything the &6quest&r says and more. You'll need &emanuscripts&r and a &3Bestiary Lectern&r to read and upgrade it."
+				"{kbquests.chapter.4EDEB83B4BDA8CD6.description.3}"
 			]
 			id: "4EDEB83B4BDA8CD6"
 			rewards: [{
@@ -566,7 +566,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Silver weapons deal extra damage to the undead."
+			subtitle: "{kbquests.chapter.67967612384A7AAD.subtitle}"
 			tasks: [
 				{
 					id: "005532427FC6A617"
@@ -632,7 +632,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Just a silver alternative, not too good..."
+			subtitle: "{kbquests.chapter.5795ECD75ACACD71.subtitle}"
 			tasks: [{
 				count: 9L
 				id: "4EE582FBE10D67CE"
@@ -721,7 +721,7 @@
 				type: "xp_levels"
 				xp_levels: 7
 			}]
-			subtitle: "You can read the &dability&r of each item in the &aitem description&r."
+			subtitle: "{kbquests.chapter.3E8C706478152E30.subtitle}"
 			tasks: [{
 				id: "205B6560298A8964"
 				item: "iceandfire:summoning_crystal_ice"
@@ -738,7 +738,7 @@
 				type: "xp_levels"
 				xp_levels: 7
 			}]
-			subtitle: "You can read the &dability&r of each item in the &aitem description&r."
+			subtitle: "{kbquests.chapter.62E2BFFEA137AA6C.subtitle}"
 			tasks: [{
 				id: "0EA789769A551919"
 				item: "iceandfire:summoning_crystal_lightning"
@@ -749,9 +749,9 @@
 		}
 		{
 			description: [
-				"Defeat &cdragons&r and collect their bones and powers! This will allow you to craft various &dpowerful items&r."
+				"{kbquests.chapter.4617A1C9669B5909.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"Find each &cdragon's&r nest and face them, become the greatest &4dragon hunter&r ever seen."
+				"{kbquests.chapter.4617A1C9669B5909.description.3}"
 			]
 			icon: "iceandfire:dragon_skull_fire"
 			id: "4617A1C9669B5909"
@@ -761,13 +761,13 @@
 				xp: 50
 			}]
 			size: 2.0d
-			subtitle: "Explore, fight, and kill dragons!"
+			subtitle: "{kbquests.chapter.4617A1C9669B5909.subtitle}"
 			tasks: [{
 				id: "5048340AAF7B1FEB"
-				title: "silver is the dragons best friend"
+				title: "{kbquests.chapter.5048340AAF7B1FEB.title}"
 				type: "checkmark"
 			}]
-			title: "Welcome to Ice and Fire!"
+			title: "{kbquests.chapter.4617A1C9669B5909.title}"
 			x: -16.0d
 			y: -3.0d
 		}
@@ -780,7 +780,7 @@
 				type: "xp_levels"
 				xp_levels: 30
 			}]
-			subtitle: "Collect all monster skulls!"
+			subtitle: "{kbquests.chapter.0DB417906F96C009.subtitle}"
 			tasks: [
 				{
 					id: "0D0CAC7907AD5E4F"
@@ -828,13 +828,13 @@
 					type: "item"
 				}
 			]
-			title: "Bone Collector"
+			title: "{kbquests.chapter.0DB417906F96C009.title}"
 			x: -14.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["03D776E331D95114"]
-			description: ["A horde of &cenemy&r types wich is found in the &6Mausoleum&r in wich a very needed crafting part is found."]
+			description: ["{kbquests.chapter.42DEAEAAEEF5424D.description.1}"]
 			icon: "born_in_chaos_v1:shattered_skull"
 			id: "42DEAEAAEEF5424D"
 			rewards: [{
@@ -842,22 +842,22 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Bones, bones, and more bones..."
+			subtitle: "{kbquests.chapter.42DEAEAAEEF5424D.subtitle}"
 			tasks: [{
 				id: "54C15D2BC7E60969"
-				title: "The undead"
+				title: "{kbquests.chapter.54C15D2BC7E60969.title}"
 				type: "checkmark"
 			}]
-			title: "The Undeads"
+			title: "{kbquests.chapter.42DEAEAAEEF5424D.title}"
 			x: -6.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["42DEAEAAEEF5424D"]
 			description: [
-				"&cMausoleums&r are dark complexes made of tough &4dreadstone&r that generates in cold biomes and is pretty spooky too! But the loot is worth it."
+				"{kbquests.chapter.2957649C45311405.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"You need a &dspecial something&r that drops from a &0dread lich&r, who spawns at night in &bsnowy thundra&r biomes at night, so get yourself a nice pair of socks!"
+				"{kbquests.chapter.2957649C45311405.description.3}"
 			]
 			id: "2957649C45311405"
 			rewards: [{
@@ -865,19 +865,19 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Booh!"
+			subtitle: "{kbquests.chapter.2957649C45311405.subtitle}"
 			tasks: [{
 				id: "2844A778EB79B352"
 				structure: "iceandfire:mausoleum"
 				type: "structure"
 			}]
-			title: "The Spooky House"
+			title: "{kbquests.chapter.2957649C45311405.title}"
 			x: -1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["2957649C45311405"]
-			description: ["Usefull for some blocks and an banner pattern"]
+			description: ["{kbquests.chapter.5DAC21343CEEE1BF.description.1}"]
 			id: "5DAC21343CEEE1BF"
 			rewards: [
 				{
@@ -892,7 +892,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "How to get."
+			subtitle: "{kbquests.chapter.5DAC21343CEEE1BF.subtitle}"
 			tasks: [{
 				id: "3D65873048C20D2F"
 				item: "iceandfire:dread_shard"
@@ -917,7 +917,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Show your courage!"
+			subtitle: "{kbquests.chapter.688F140757A418D0.subtitle}"
 			tasks: [
 				{
 					entity: "iceandfire:dread_scuttler"
@@ -949,7 +949,7 @@
 				type: "xp_levels"
 				xp_levels: 7
 			}]
-			subtitle: "You can read the &dability&r of each item in the &aitem description&r."
+			subtitle: "{kbquests.chapter.683BE7D5D9706983.subtitle}"
 			tasks: [{
 				id: "1FC1502EF0286483"
 				item: "iceandfire:summoning_crystal_fire"
@@ -961,9 +961,9 @@
 		{
 			dependencies: ["67967612384A7AAD"]
 			description: [
-				"&2Gorgons&r are &6minibosses&r that lurk in coastal underground lairs/can be located deep down in &3Gorgon Temples&r, gigantic, Greek-style crumbling stone temples which spawn randomly in &eBeach biomes&r."
+				"{kbquests.chapter.568DFAA06F431D4B.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"I wouldnt look at them but maybe a piece of cloth covering ur eyes would help?"
+				"{kbquests.chapter.568DFAA06F431D4B.description.3}"
 			]
 			id: "568DFAA06F431D4B"
 			rewards: [{
@@ -971,22 +971,22 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "About Gorgons."
+			subtitle: "{kbquests.chapter.568DFAA06F431D4B.subtitle}"
 			tasks: [{
 				id: "6EDF1D03E6D40259"
-				title: "gorgons"
+				title: "{kbquests.chapter.6EDF1D03E6D40259.title}"
 				type: "checkmark"
 			}]
-			title: "Gorgons"
+			title: "{kbquests.chapter.568DFAA06F431D4B.title}"
 			x: -14.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["37060BF95E5DE1E0"]
 			description: [
-				"You guesed it! only usable once per head tho so chose wisely."
+				"{kbquests.chapter.07739E12766B9A0A.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"&dSilktouch&r can mine the petrified mobs."
+				"{kbquests.chapter.07739E12766B9A0A.description.3}"
 			]
 			id: "07739E12766B9A0A"
 			rewards: [{
@@ -994,7 +994,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Freeze, haha, u are a stone now!"
+			subtitle: "{kbquests.chapter.07739E12766B9A0A.subtitle}"
 			tasks: [{
 				id: "08FD0D777572B6AD"
 				item: {
@@ -1006,7 +1006,7 @@
 				}
 				type: "item"
 			}]
-			title: "stone it!"
+			title: "{kbquests.chapter.07739E12766B9A0A.title}"
 			x: -12.0d
 			y: -7.0d
 		}
@@ -1029,10 +1029,10 @@
 			tasks: [{
 				id: "115E44961F98B610"
 				structure: "iceandfire:gorgon_temple"
-				title: "Find the &3Gorgon Temple&r."
+				title: "{kbquests.chapter.115E44961F98B610.title}"
 				type: "structure"
 			}]
-			title: "Gorgon Temple"
+			title: "{kbquests.chapter.37060BF95E5DE1E0.title}"
 			x: -14.0d
 			y: -7.0d
 		}
@@ -1044,7 +1044,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Use this to make &6Dragon Forge&r!"
+			subtitle: "{kbquests.chapter.692DF9395BF63138.subtitle}"
 			tasks: [{
 				id: "62A202B09E3D4E17"
 				item: "iceandfire:dragonforge_fire_core_disabled"
@@ -1061,7 +1061,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Use this to make &6Dragon Forge&r!"
+			subtitle: "{kbquests.chapter.0451E3C9CB20A121.subtitle}"
 			tasks: [{
 				id: "41FD63CE96C09CB4"
 				item: "iceandfire:dragonforge_ice_core_disabled"
@@ -1078,7 +1078,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Use this to make &6Dragon Forge&r!"
+			subtitle: "{kbquests.chapter.002B2CF0A1A2EC06.subtitle}"
 			tasks: [{
 				id: "723CC82419C9ED67"
 				item: "iceandfire:dragonforge_lightning_core_disabled"
@@ -1148,7 +1148,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Best ingot from &9Ice&r and &cFire&r!"
+			subtitle: "{kbquests.chapter.6F8F09FBA4FFAB39.subtitle}"
 			tasks: [{
 				id: "13C8F80C58DB2C4A"
 				item: "dreadsteel:dreadsteel_ingot"
@@ -1159,7 +1159,7 @@
 		}
 		{
 			dependencies: ["6F8F09FBA4FFAB39"]
-			description: ["Become an &dDread Warrior&r!"]
+			description: ["{kbquests.chapter.41BAE25D02C10F3D.description.1}"]
 			id: "41BAE25D02C10F3D"
 			rewards: [{
 				id: "5C5E11AE98D13579"
@@ -1200,10 +1200,10 @@
 					type: "item"
 				}
 			]
-			title: "Dread Warrior"
+			title: "{kbquests.chapter.41BAE25D02C10F3D.title}"
 			x: 5.0d
 			y: -3.0d
 		}
 	]
-	title: "Ice and Fire"
+	title: "{kbquests.chapter.2C9583921A9A561E.title}"
 }

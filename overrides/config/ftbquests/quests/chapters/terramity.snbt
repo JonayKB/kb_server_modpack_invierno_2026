@@ -213,7 +213,7 @@
 			]
 			shape: "netheritetier"
 			size: 2.0d
-			subtitle: "In-game Wiki"
+			subtitle: "{kbquests.chapter.43ACAF3A3EA50806.subtitle}"
 			tasks: [{
 				id: "6298A3FB5D09B054"
 				item: {
@@ -245,13 +245,13 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Netherite is used for a heap load of recipes inside the mod including things such as Advanced Gun Parts and every Tier 1 Bar."
+			subtitle: "{kbquests.chapter.4500DA650E70DC0A.subtitle}"
 			tasks: [{
 				id: "06C934B05C2A81DD"
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			title: "Tier 0.5"
+			title: "{kbquests.chapter.4500DA650E70DC0A.title}"
 			x: -6.5d
 			y: 0.0d
 		}
@@ -260,7 +260,7 @@
 				"4500DA650E70DC0A"
 				"52FBEC23EE6360A7"
 			]
-			description: ["&cGob, King of Gnomes&r can be summoned by using a &cRed Gnome Hat&r at the &6Golden Gnome Statue &rin the &aCourt of Gnomes&r."]
+			description: ["{kbquests.chapter.5BF85D0A3254B959.description.1}"]
 			id: "5BF85D0A3254B959"
 			rewards: [
 				{
@@ -275,7 +275,7 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "Your first Boss!"
+			subtitle: "{kbquests.chapter.5BF85D0A3254B959.subtitle}"
 			tasks: [{
 				entity: "terramity:gob"
 				icon: {
@@ -289,16 +289,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat Gob"
+			title: "{kbquests.chapter.5BF85D0A3254B959.title}"
 			x: -4.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["4500DA650E70DC0A"]
 			description: [
-				"&bSuper Sniffer&r can be summoned by causing a lightning near a &aSniffer&r young or adult transforming the sniffer into this boss."
+				"{kbquests.chapter.157C39FF1051EA3E.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"It's recommended to use the &eLightning Staff&r and strike it near a &aSniffer&r."
+				"{kbquests.chapter.157C39FF1051EA3E.description.3}"
 			]
 			id: "157C39FF1051EA3E"
 			rewards: [
@@ -314,7 +314,7 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "Your second Boss!"
+			subtitle: "{kbquests.chapter.157C39FF1051EA3E.subtitle}"
 			tasks: [{
 				entity: "terramity:super_sniffer"
 				icon: "terramity:kamehameha"
@@ -322,7 +322,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat Super Sniffer"
+			title: "{kbquests.chapter.157C39FF1051EA3E.title}"
 			x: -4.0d
 			y: -0.5d
 		}
@@ -333,11 +333,11 @@
 				"513DE75801CEBC92"
 			]
 			description: [
-				"Once you have acquired a Tier 1 Pickaxe you can now start mining Iridium."
+				"{kbquests.chapter.1A7701358F28775C.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"&dIridium &fsimilar to Netherite is needed a ton due to it being the base for items such as Spectral Souls which are used to duplicate Black Matter and every Tier 2 Bar."
+				"{kbquests.chapter.1A7701358F28775C.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"&dIridium &fgenerates in every dimension as well as being found in structures such as the Trial Spire and Chthonic Dungeon."
+				"{kbquests.chapter.1A7701358F28775C.description.5}"
 				"{@pagebreak}"
 			]
 			icon: "terramity:iridium"
@@ -374,18 +374,18 @@
 					type: "item"
 				}
 			]
-			title: "Tier 1.5"
+			title: "{kbquests.chapter.1A7701358F28775C.title}"
 			x: 3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2932C7DEBC10B9D3"]
 			description: [
-				"Found in the Nether's top Bedrock layer."
+				"{kbquests.chapter.2C6FC2D93C93E3DC.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Must be decayed using a Perish Staff given by the Trial Guardian then mined using any of the pickaxes mentioned before."
+				"{kbquests.chapter.2C6FC2D93C93E3DC.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Black Matter can also be duplicatable with Spectral Souls."
+				"{kbquests.chapter.2C6FC2D93C93E3DC.description.5}"
 			]
 			icon: "terramity:black_matter"
 			id: "2C6FC2D93C93E3DC"
@@ -415,23 +415,23 @@
 				}
 				{
 					id: "007DC78ED3C06BED"
-					title: "Ok!"
+					title: "{kbquests.chapter.007DC78ED3C06BED.title}"
 					type: "checkmark"
 				}
 			]
-			title: "Tier 2"
+			title: "{kbquests.chapter.2C6FC2D93C93E3DC.title}"
 			x: 6.50595238095238d
 			y: -1.8309523809524038d
 		}
 		{
 			dependencies: ["1A7701358F28775C"]
 			description: [
-				"Trial Guardian is the second Boss in Terramity's progression."
+				"{kbquests.chapter.2932C7DEBC10B9D3.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"It drops templates for the Tier 2 materials of Void Metal, Conductite and Hellspec as well as various "
-				"Gems and Souls."
+				"{kbquests.chapter.2932C7DEBC10B9D3.description.3}"
+				"{kbquests.chapter.2932C7DEBC10B9D3.description.4}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Trial Guardian can be spawned by inserting a Spire Key at the lock at the basement of the Trial Tower."
+				"{kbquests.chapter.2932C7DEBC10B9D3.description.6}"
 			]
 			id: "2932C7DEBC10B9D3"
 			rewards: [
@@ -459,16 +459,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat Trial Guardian"
+			title: "{kbquests.chapter.2932C7DEBC10B9D3.title}"
 			x: 6.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3699BCBBF3B6FD50"]
 			description: [
-				"Remember to come to this boss with your &6most powerful gear possible &fdue to it being a Super-Boss."
+				"{kbquests.chapter.05D0AF91008E3155.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"He can be summoned by striking the Super Sniffer with lightning while he's in phase 2 and under &610% &fhealth"
+				"{kbquests.chapter.05D0AF91008E3155.description.3}"
 			]
 			icon: "terramity:music_sheet_of_the_omnipotent_ultra_sniffer"
 			id: "05D0AF91008E3155"
@@ -493,7 +493,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat Ultra Sniffer"
+			title: "{kbquests.chapter.05D0AF91008E3155.title}"
 			x: 35.0d
 			y: 0.0d
 		}
@@ -504,15 +504,15 @@
 				"1F4C559AA247155B"
 			]
 			description: [
-				"Once you have gathered enough of those, you will then need to get a little bit harder materials to craft the proper ingots:"
+				"{kbquests.chapter.770BF6E8DA6010C0.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"4 &dIridium ingots&f 1 piece of Dark Matter and 4 pieces of the following items:"
+				"{kbquests.chapter.770BF6E8DA6010C0.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"4 &4Cthonic Crystals&f found in the Nether to craft Hellspec Ingots."
+				"{kbquests.chapter.770BF6E8DA6010C0.description.5}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"4 &eCircuit Boards&f crafted using vanilla and Terramity Items to get a Conductite Ingot."
+				"{kbquests.chapter.770BF6E8DA6010C0.description.7}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"4 &7Empty Essenses &fcreated by throwing Black Matter into stygian blood to get Void Alloy Ingots."
+				"{kbquests.chapter.770BF6E8DA6010C0.description.9}"
 			]
 			id: "770BF6E8DA6010C0"
 			rewards: [
@@ -549,18 +549,18 @@
 					type: "item"
 				}
 			]
-			title: "Tier 2"
+			title: "{kbquests.chapter.770BF6E8DA6010C0.title}"
 			x: 11.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["770BF6E8DA6010C0"]
 			description: [
-				"Once you have acquired a Tier 2 Pickaxe you can mine Profanum Ore."
+				"{kbquests.chapter.5D9252B669B888FE.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"&6Profanum &fis used as a base for every Tier 3 Bar as well as various other items and blocks such as the Moondrill Cannon."
+				"{kbquests.chapter.5D9252B669B888FE.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"&6Profanum Ore &fcan be found deep underground with the ore dropping Raw Profanum that burns the player if they hold it."
+				"{kbquests.chapter.5D9252B669B888FE.description.5}"
 			]
 			icon: "terramity:profanum"
 			id: "5D9252B669B888FE"
@@ -591,37 +591,37 @@
 				}
 				{
 					id: "06E82B89379E883D"
-					title: "You knew this was coming"
+					title: "{kbquests.chapter.06E82B89379E883D.title}"
 					type: "checkmark"
 				}
 			]
-			title: "Tier 2.5"
+			title: "{kbquests.chapter.5D9252B669B888FE.title}"
 			x: 17.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["14DDBB7CA3A71F56"]
 			description: [
-				"Good job at coming all the way here!"
+				"{kbquests.chapter.3699BCBBF3B6FD50.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"You have just reached the peak of Terramity but things will now get the hardest possible so make sure to prepare physically (&9and mentally&f)."
+				"{kbquests.chapter.3699BCBBF3B6FD50.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"To start with (&9and luckily for you&f) none of these armor sets require any upgrade trims."
+				"{kbquests.chapter.3699BCBBF3B6FD50.description.5}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Instead you will need Antiprism an item droped by Gundalf this mod's final (&9and maybe most difficult&f) boss."
+				"{kbquests.chapter.3699BCBBF3B6FD50.description.7}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Don't worry, you don't have to fight Gundalf a million times due to Antiprisms being duplicatable with Prismatic Jewels."
+				"{kbquests.chapter.3699BCBBF3B6FD50.description.9}"
 				"{@pagebreak}"
-				"Now, the ingots required to craft these three armor sets can be found by the following methods:"
+				"{kbquests.chapter.3699BCBBF3B6FD50.description.11}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"For &9Nyxium&f you'll need Opaline Moonstone."
+				"{kbquests.chapter.3699BCBBF3B6FD50.description.13}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"This item can only be found by striking the moon during a full moon using a Moondrill Cannon."
+				"{kbquests.chapter.3699BCBBF3B6FD50.description.15}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"For &eReverirum&f you will need Angel Feathers droped by Virtue an optional boss."
+				"{kbquests.chapter.3699BCBBF3B6FD50.description.17}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"For &5Exodium&f you will need Cracked Ectoprism."
-				"You can create this item by dropping Empty Essence into a blackhole."
+				"{kbquests.chapter.3699BCBBF3B6FD50.description.19}"
+				"{kbquests.chapter.3699BCBBF3B6FD50.description.20}"
 			]
 			id: "3699BCBBF3B6FD50"
 			rewards: [
@@ -655,7 +655,7 @@
 					type: "item"
 				}
 			]
-			title: "Tier 4"
+			title: "{kbquests.chapter.3699BCBBF3B6FD50.title}"
 			x: 26.5d
 			y: 0.0d
 		}
@@ -688,7 +688,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat Archmage Gundalf"
+			title: "{kbquests.chapter.0D5CDC97F5BF3D03.title}"
 			x: 22.0d
 			y: 0.0d
 		}
@@ -708,7 +708,7 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Optional Boss"
+			subtitle: "{kbquests.chapter.19CBC92610B35600.subtitle}"
 			tasks: [{
 				entity: "terramity:virtue"
 				icon: "terramity:archangel_halo"
@@ -716,7 +716,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat Virtue"
+			title: "{kbquests.chapter.19CBC92610B35600.title}"
 			x: 17.5d
 			y: 4.0d
 		}
@@ -736,13 +736,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Unlocking Dimlite!"
+			subtitle: "{kbquests.chapter.40BBD9C6074380BC.subtitle}"
 			tasks: [{
 				id: "71C514AA48A0357F"
 				item: "terramity:dimlite_upgrade_smithing_template"
 				type: "item"
 			}]
-			title: "Dimlite Smithing Template"
+			title: "{kbquests.chapter.40BBD9C6074380BC.title}"
 			x: -1.5d
 			y: 1.5d
 		}
@@ -765,13 +765,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Unlocking Virentium!"
+			subtitle: "{kbquests.chapter.23C114BD986A1D7B.subtitle}"
 			tasks: [{
 				id: "7609357ED987D4B6"
 				item: "terramity:virentium_upgrade_smithing_template"
 				type: "item"
 			}]
-			title: "Virentium Smithing Template"
+			title: "{kbquests.chapter.23C114BD986A1D7B.title}"
 			x: -1.5d
 			y: 0.0d
 		}
@@ -791,24 +791,24 @@
 					type: "item"
 				}
 			]
-			subtitle: "Unlocking Cosmolite!"
+			subtitle: "{kbquests.chapter.5EA2419F39442629.subtitle}"
 			tasks: [{
 				id: "631EFA224CE651A6"
 				item: "terramity:cosmilite_upgrade_smithing_template"
 				type: "item"
 			}]
-			title: "Cosmilite Smithing Template"
+			title: "{kbquests.chapter.5EA2419F39442629.title}"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5D9252B669B888FE"]
 			description: [
-				"They can be summoned by using occult fabric on an offering pedestal found in cthonian cathedrals above the nether."
+				"{kbquests.chapter.041A90EFD4A3D846.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"The shadow wizard boss fight boasts a whopping two phases with the first phase being a duo fight against &6Enchanter Merlin &fand &6Sorceress Circe&f."
+				"{kbquests.chapter.041A90EFD4A3D846.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Upon killing them both (and their corpses being within a certain range of each other) Merlin and Circe will combine causing &6Gundalf &fto spawn."
+				"{kbquests.chapter.041A90EFD4A3D846.description.5}"
 			]
 			id: "041A90EFD4A3D846"
 			rewards: [
@@ -852,13 +852,13 @@
 					value: 1L
 				}
 			]
-			title: "Shadow Wizards"
+			title: "{kbquests.chapter.041A90EFD4A3D846.title}"
 			x: 20.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0D5CDC97F5BF3D03"]
-			description: ["[ \"Drops from the \", { \"text\": \"Shadow Wizards\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"041A90EFD4A3D846\" } }, \" and can be used to craft ingots and other items of Tier 3.\" ]"]
+			description: ["[ { \"translate\": \"kbquests.chapter.14DDBB7CA3A71F56.description.1a\" }, { \"text\": \"Shadow Wizards\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"041A90EFD4A3D846\" } }, { \"translate\": \"kbquests.chapter.14DDBB7CA3A71F56.description.1b\" } ]"]
 			icon_scale: 1.2d
 			id: "14DDBB7CA3A71F56"
 			rewards: [
@@ -901,7 +901,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Throw it in the sky to pierce the heavens and summon it's wrath...."
+			subtitle: "{kbquests.chapter.06406B2D8A9A618D.subtitle}"
 			tasks: [{
 				id: "6C85DE5E7FCB2D1C"
 				item: {
@@ -959,7 +959,7 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "KABOOOOOOOOOOOOOOOOOOOOOOOOOOOOOM"
+			subtitle: "{kbquests.chapter.7699A48EA0F36CD5.subtitle}"
 			tasks: [{
 				id: "068EBA36E0C4E384"
 				item: "terramity:black_hole_bomb"
@@ -983,13 +983,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Hellspec Unlocked!"
+			subtitle: "{kbquests.chapter.5719F8A117BCD563.subtitle}"
 			tasks: [{
 				id: "1242E0161F72B197"
 				item: "terramity:hellspec_upgrade_smithing_template"
 				type: "item"
 			}]
-			title: "Hellspec Smithing Template"
+			title: "{kbquests.chapter.5719F8A117BCD563.title}"
 			x: 9.0d
 			y: -1.0d
 		}
@@ -1008,13 +1008,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Conductite Unlocked!"
+			subtitle: "{kbquests.chapter.1F4C559AA247155B.subtitle}"
 			tasks: [{
 				id: "701471AC92570611"
 				item: "terramity:conductite_upgrade_smithing_template"
 				type: "item"
 			}]
-			title: "Conductite Smithing Template"
+			title: "{kbquests.chapter.1F4C559AA247155B.title}"
 			x: 9.0d
 			y: 0.0d
 		}
@@ -1033,13 +1033,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Void Unlocked!"
+			subtitle: "{kbquests.chapter.647ED4D865B8F046.subtitle}"
 			tasks: [{
 				id: "5F2301A029B74BF1"
 				item: "terramity:void_upgrade_smithing_template"
 				type: "item"
 			}]
-			title: "Void Smithing Template"
+			title: "{kbquests.chapter.647ED4D865B8F046.title}"
 			x: 9.0d
 			y: 1.0d
 		}
@@ -1067,7 +1067,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Can duplicate black matter"
+			subtitle: "{kbquests.chapter.34C2AA103214C77F.subtitle}"
 			tasks: [{
 				id: "5E7EBFD54ED9E2B4"
 				item: "terramity:spectral_soul"
@@ -1091,7 +1091,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Topaz can be found in Warm Biomes (Badlands, Jungles, etc.)"
+			subtitle: "{kbquests.chapter.30D415C56649D25A.subtitle}"
 			tasks: [{
 				id: "4C6FF070CD8E7B6A"
 				item: "terramity:topaz"
@@ -1115,7 +1115,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ruby can be found in Nether wastelands, as well as in Scorched Caves, a unique biome in the Overworld found commonly below Deserts."
+			subtitle: "{kbquests.chapter.40A1D90891DDB82D.subtitle}"
 			tasks: [{
 				id: "0C58C137E61E5A6C"
 				item: "terramity:ruby"
@@ -1139,7 +1139,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Sapphire can be found in cold biomes, such as Snow Fields and Snowy Taigas."
+			subtitle: "{kbquests.chapter.1596A565BDB25FCF.subtitle}"
 			tasks: [{
 				id: "68AA329F0260F581"
 				item: "terramity:sapphire"
@@ -1163,7 +1163,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Onyx can be found in End Islands, in The End dimension."
+			subtitle: "{kbquests.chapter.158A25A5707F32B3.subtitle}"
 			tasks: [{
 				id: "5D3563BFA650B7E7"
 				item: "terramity:onyx"
@@ -1187,7 +1187,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Iridescent Shard can be found in deepslate layer."
+			subtitle: "{kbquests.chapter.399ACEE27CA1581C.subtitle}"
 			tasks: [{
 				id: "3038E63DBAD84492"
 				item: "terramity:iridescent_shard"
@@ -1211,7 +1211,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Diamond can be found in underworld caves."
+			subtitle: "{kbquests.chapter.784B05ECA732AF43.subtitle}"
 			tasks: [{
 				id: "7EEC547613CB016E"
 				item: "minecraft:diamond"
@@ -1235,7 +1235,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Emerald can be found in underworld caves."
+			subtitle: "{kbquests.chapter.0D15A40A42D7A9E7.subtitle}"
 			tasks: [{
 				id: "49C3274179BED33D"
 				item: "minecraft:emerald"
@@ -1259,7 +1259,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Amethyst can be found in geodes."
+			subtitle: "{kbquests.chapter.58AC203E33C4413F.subtitle}"
 			tasks: [{
 				id: "52CC3409C7775B59"
 				item: "minecraft:amethyst_shard"
@@ -1283,7 +1283,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Nether Quartz can be found in Nether."
+			subtitle: "{kbquests.chapter.076000E2328B98ED.subtitle}"
 			tasks: [{
 				id: "0B884E7FD5D43349"
 				item: "minecraft:quartz"
@@ -1308,10 +1308,10 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Topaz, Ruby, Sapphire, Iridescent Shard and Onyx."
+			subtitle: "{kbquests.chapter.7B4B1B36746A8DD9.subtitle}"
 			tasks: [{
 				id: "3F80FF5F27F1B70C"
-				title: "Tier 0"
+				title: "{kbquests.chapter.3F80FF5F27F1B70C.title}"
 				type: "checkmark"
 			}]
 			x: -14.0d
@@ -1344,7 +1344,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Can duplicade Antiprisms"
+			subtitle: "{kbquests.chapter.4AFFA99CDF292A0D.subtitle}"
 			tasks: [{
 				id: "243AEDE02F7061AA"
 				item: "terramity:prismatic_jewel"
@@ -1416,7 +1416,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Use to locate some structures"
+			subtitle: "{kbquests.chapter.41085D3D0D239428.subtitle}"
 			tasks: [{
 				id: "4A531B77E1B9C1EF"
 				item: "explorerscompass:explorerscompass"
@@ -1471,7 +1471,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&5Stellar Remnants &for &5Cosmic Scraps &fwhen mined, can be found in the lower section of End Islands and it can be used to craft Cosmilite ingots."
+			subtitle: "{kbquests.chapter.5A7CD539CBDEF234.subtitle}"
 			tasks: [{
 				id: "673455BA338D8113"
 				item: "terramity:raw_cosmilite"
@@ -1507,7 +1507,7 @@
 				id: "69025922435471C8"
 				type: "dimension"
 			}]
-			title: "Visit the &5End&r."
+			title: "{kbquests.chapter.62C6EE1D2C96AB3D.title}"
 			x: -1.5d
 			y: -4.5d
 		}
@@ -1555,7 +1555,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&aGaianite &fcan be found in Lush Caves and can be used to craft Virentium ingots."
+			subtitle: "{kbquests.chapter.3129432FD1376A4B.subtitle}"
 			tasks: [{
 				id: "2D9CFD7040C0F14A"
 				item: "terramity:gaianite_cluster"
@@ -1715,12 +1715,12 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			subtitle: "Use spectral souls to duplicate black matter."
+			subtitle: "{kbquests.chapter.1E86D4CCB6B5FA86.subtitle}"
 			tasks: [{
 				id: "556DCA2DB5A253F0"
 				type: "checkmark"
 			}]
-			title: "&4&lREAD THIS&r&r"
+			title: "{kbquests.chapter.1E86D4CCB6B5FA86.title}"
 			x: 6.5d
 			y: -3.5d
 		}
@@ -1740,7 +1740,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Profanum Ore can be found deep underground (Deepslate layer only), with the ore dropping Raw Profanum that burns the player if they hold it."
+			subtitle: "{kbquests.chapter.42F9EEB42D74995C.subtitle}"
 			tasks: [{
 				id: "565645431BCED679"
 				item: "terramity:raw_profanum"
@@ -2317,7 +2317,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Get empty essence by throwing black matter at stygian blood."
+			subtitle: "{kbquests.chapter.707E3BA7B1313F96.subtitle}"
 			tasks: [{
 				id: "12565BFA7FCEF6F1"
 				item: "terramity:empty_essence"
@@ -2696,5 +2696,5 @@
 			y: 6.0d
 		}
 	]
-	title: "Terramity"
+	title: "{kbquests.chapter.551FCD4C1DC51666.title}"
 }

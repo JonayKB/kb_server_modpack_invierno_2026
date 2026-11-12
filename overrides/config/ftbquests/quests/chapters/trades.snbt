@@ -339,12 +339,12 @@
 				xp: 20
 			}]
 			size: 2.0d
-			subtitle: "Hey! Let's buy something?"
+			subtitle: "{kbquests.chapter.56FD3CA6A8E96E55.subtitle}"
 			tasks: [{
 				id: "3C722AD9C234E789"
 				type: "checkmark"
 			}]
-			title: "Gob's Trading Shop"
+			title: "{kbquests.chapter.56FD3CA6A8E96E55.title}"
 			x: 1.0d
 			y: -5.0d
 		}
@@ -375,7 +375,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "The winds blew the fire through flesh and bone..."
+			subtitle: "{kbquests.chapter.3D35A07BBB3ECC0B.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 60L
@@ -383,7 +383,7 @@
 				item: "lethality:blood_coin"
 				type: "item"
 			}]
-			title: "Whisperwind"
+			title: "{kbquests.chapter.3D35A07BBB3ECC0B.title}"
 			x: -8.0d
 			y: 1.0d
 		}
@@ -414,7 +414,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Forged with the blood of the innocent"
+			subtitle: "{kbquests.chapter.7D25E0305E47123D.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 10L
@@ -422,7 +422,7 @@
 				item: "lethality:blood_coin"
 				type: "item"
 			}]
-			title: "Ribboncleaver"
+			title: "{kbquests.chapter.7D25E0305E47123D.title}"
 			x: -6.5d
 			y: -0.5d
 		}
@@ -453,7 +453,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "It spread chaos, caused deaths, and spread a massive stain, they say the plague never sleeps..."
+			subtitle: "{kbquests.chapter.5097F7F7D6F08E2C.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 5L
@@ -461,7 +461,7 @@
 				item: "lethality:blood_coin"
 				type: "item"
 			}]
-			title: "Longsword of the Plague"
+			title: "{kbquests.chapter.5097F7F7D6F08E2C.title}"
 			x: -8.0d
 			y: -0.5d
 		}
@@ -482,18 +482,18 @@
 					xp: 20
 				}
 			]
-			subtitle: "Trade Blood Coins to get unique items!"
+			subtitle: "{kbquests.chapter.199658B468626F80.subtitle}"
 			tasks: [{
 				id: "7BBEA11A0F268A5E"
 				type: "checkmark"
 			}]
-			title: "Boss Trade"
+			title: "{kbquests.chapter.199658B468626F80.title}"
 			x: -6.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["56FD3CA6A8E96E55"]
-			description: ["Buy some &ditems&r and &6ores&r that can help you and reduce your grind."]
+			description: ["{kbquests.chapter.5EB179CB8DB35E90.description.1}"]
 			hide_dependent_lines: true
 			icon: "kubejs:coin"
 			id: "5EB179CB8DB35E90"
@@ -509,12 +509,12 @@
 					xp: 20
 				}
 			]
-			subtitle: "A little help!"
+			subtitle: "{kbquests.chapter.5EB179CB8DB35E90.subtitle}"
 			tasks: [{
 				id: "1D5D86F9B593453B"
 				type: "checkmark"
 			}]
-			title: "Adventure Trade"
+			title: "{kbquests.chapter.5EB179CB8DB35E90.title}"
 			x: 1.0d
 			y: -2.5d
 		}
@@ -581,7 +581,7 @@
 					type: "item"
 				}
 			]
-			title: "Fireball Scroll"
+			title: "{kbquests.chapter.4651F91F0D48E1A3.title}"
 			x: 6.5d
 			y: 1.0d
 		}
@@ -647,7 +647,7 @@
 					type: "item"
 				}
 			]
-			title: "Thunderstorm Scroll"
+			title: "{kbquests.chapter.68E5D93148A23E82.title}"
 			x: 8.0d
 			y: 1.0d
 		}
@@ -713,7 +713,7 @@
 					type: "item"
 				}
 			]
-			title: "Fang Strike Scroll"
+			title: "{kbquests.chapter.411D017124E84A49.title}"
 			x: 8.0d
 			y: -0.5d
 		}
@@ -779,7 +779,7 @@
 					type: "item"
 				}
 			]
-			title: "Heal Scroll"
+			title: "{kbquests.chapter.7130B076A90F8824.title}"
 			x: 9.5d
 			y: -0.5d
 		}
@@ -845,7 +845,7 @@
 					type: "item"
 				}
 			]
-			title: "Dragons Breath Scroll"
+			title: "{kbquests.chapter.217CD42AEDB7A79A.title}"
 			x: 6.5d
 			y: -0.5d
 		}
@@ -867,7 +867,7 @@
 				item: { Count: 25, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "32x Coal"
+			title: "{kbquests.chapter.1A3E975A22F9B414.title}"
 			x: -2.0d
 			y: -0.5d
 		}
@@ -892,7 +892,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "12x Diamond"
+			title: "{kbquests.chapter.37BD500654D569A6.title}"
 			x: -0.5d
 			y: -0.5d
 		}
@@ -914,7 +914,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "32x Iron Bar"
+			title: "{kbquests.chapter.0A46222DC3C481F1.title}"
 			x: 1.0d
 			y: -0.5d
 		}
@@ -936,7 +936,7 @@
 				item: { Count: 20, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "32x Cooper Ingot"
+			title: "{kbquests.chapter.226DF1F9B4D241B2.title}"
 			x: 2.5d
 			y: -0.5d
 		}
@@ -958,7 +958,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "24x Gold Bar"
+			title: "{kbquests.chapter.7CA4D74D8B436974.title}"
 			x: 4.0d
 			y: -0.5d
 		}
@@ -983,7 +983,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "12x Amethyst"
+			title: "{kbquests.chapter.265DA594FFBE0A8F.title}"
 			x: -2.0d
 			y: 1.0d
 		}
@@ -1008,7 +1008,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "20x Quartz"
+			title: "{kbquests.chapter.10C1835402E80984.title}"
 			x: -0.5d
 			y: 1.0d
 		}
@@ -1034,7 +1034,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "10x Ruby"
+			title: "{kbquests.chapter.1B8363531A8F59FE.title}"
 			x: 1.0d
 			y: 1.0d
 		}
@@ -1060,7 +1060,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "10x Topaz"
+			title: "{kbquests.chapter.21C0A7B885CACAD6.title}"
 			x: 2.5d
 			y: 1.0d
 		}
@@ -1086,7 +1086,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "10x Sapphire"
+			title: "{kbquests.chapter.1BF6A1EB9A110DFA.title}"
 			x: 4.0d
 			y: 1.0d
 		}
@@ -1108,7 +1108,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "1x Explorer's Compass"
+			title: "{kbquests.chapter.5F861BF1E1C78C49.title}"
 			x: -0.5d
 			y: 2.5d
 		}
@@ -1133,7 +1133,7 @@
 				item: { Count: 24, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "12x Ghast Tear"
+			title: "{kbquests.chapter.5BC8796B86DFCDE1.title}"
 			x: 4.0d
 			y: 2.5d
 		}
@@ -1154,7 +1154,7 @@
 				item: { Count: 50, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "1x Nature's Compass"
+			title: "{kbquests.chapter.051F172186C4CE8D.title}"
 			x: 2.5d
 			y: 2.5d
 		}
@@ -1179,7 +1179,7 @@
 				item: { Count: 35, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "3x Prismatic Jewel"
+			title: "{kbquests.chapter.3564C8875E6D65F0.title}"
 			x: 1.0d
 			y: 2.5d
 		}
@@ -1202,7 +1202,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "6x Netherite Ingots"
+			title: "{kbquests.chapter.303A2399C1326616.title}"
 			x: -2.0d
 			y: 2.5d
 		}
@@ -1216,7 +1216,7 @@
 				item: "composite_material:enlightened_totem"
 				type: "item"
 			}]
-			subtitle: "If you have trouble getting it the usual way, maybe you should buy it..."
+			subtitle: "{kbquests.chapter.1921FECE5BABE08D.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 10L
@@ -1224,7 +1224,7 @@
 				item: "lethality:blood_coin"
 				type: "item"
 			}]
-			title: "1x Emblem of Hero"
+			title: "{kbquests.chapter.1921FECE5BABE08D.title}"
 			x: -5.0d
 			y: -0.5d
 		}
@@ -1255,7 +1255,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Oh, a lightning source!"
+			subtitle: "{kbquests.chapter.0BF05B160263BC6F.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 8L
@@ -1263,7 +1263,7 @@
 				item: { Count: 8, id: "lethality:blood_coin" }
 				type: "item"
 			}]
-			title: "Waxweaver"
+			title: "{kbquests.chapter.0BF05B160263BC6F.title}"
 			x: -6.5d
 			y: 1.0d
 		}
@@ -1294,7 +1294,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Soul Lord weapon, only the dark celestials can hold!"
+			subtitle: "{kbquests.chapter.6A383F63E42FF4E6.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 10L
@@ -1302,7 +1302,7 @@
 				item: { Count: 10, id: "lethality:blood_coin" }
 				type: "item"
 			}]
-			title: "Shadowsting"
+			title: "{kbquests.chapter.6A383F63E42FF4E6.title}"
 			x: -5.0d
 			y: 1.0d
 		}
@@ -1340,7 +1340,7 @@
 				item: { Count: 6, id: "lethality:blood_coin" }
 				type: "item"
 			}]
-			title: "Righteous Relic"
+			title: "{kbquests.chapter.1F36DD20E2610801.title}"
 			x: -8.0d
 			y: 2.5d
 		}
@@ -1378,7 +1378,7 @@
 				item: "lethality:blood_coin"
 				type: "item"
 			}]
-			title: "Star's Edge"
+			title: "{kbquests.chapter.4D42368BD85A1595.title}"
 			x: -6.5d
 			y: 2.5d
 		}
@@ -1416,7 +1416,7 @@
 				item: "lethality:blood_coin"
 				type: "item"
 			}]
-			title: "Icewhisper"
+			title: "{kbquests.chapter.15A02816D1272DDD.title}"
 			x: -5.0d
 			y: 2.5d
 		}
@@ -1437,12 +1437,12 @@
 					xp: 20
 				}
 			]
-			subtitle: "Some magic scrolls!"
+			subtitle: "{kbquests.chapter.6CA4435E12DAFB96.subtitle}"
 			tasks: [{
 				id: "577C35EBAFEBC35A"
 				type: "checkmark"
 			}]
-			title: "Wizard Trade"
+			title: "{kbquests.chapter.6CA4435E12DAFB96.title}"
 			x: 8.0d
 			y: -2.5d
 		}
@@ -1471,7 +1471,7 @@
 					type: "item"
 				}
 			]
-			title: "Extra Bracelet Slot"
+			title: "{kbquests.chapter.6E46536AF952BB9A.title}"
 			x: -0.5d
 			y: 4.0d
 		}
@@ -1500,7 +1500,7 @@
 					type: "item"
 				}
 			]
-			title: "Extra Necklace Slot"
+			title: "{kbquests.chapter.780BE08300183AF1.title}"
 			x: 1.0d
 			y: 4.0d
 		}
@@ -1529,7 +1529,7 @@
 					type: "item"
 				}
 			]
-			title: "Extra Charm Slot"
+			title: "{kbquests.chapter.176E036A2BF7FB41.title}"
 			x: -2.0d
 			y: 4.0d
 		}
@@ -1558,7 +1558,7 @@
 					type: "item"
 				}
 			]
-			title: "Extra Ring Slot"
+			title: "{kbquests.chapter.194E40F98C4AC1AA.title}"
 			x: 2.5d
 			y: 4.0d
 		}
@@ -1588,7 +1588,7 @@
 					type: "item"
 				}
 			]
-			title: "Extra Curio Slot"
+			title: "{kbquests.chapter.68AC6863D1938590.title}"
 			x: 4.0d
 			y: 4.0d
 		}
@@ -1618,16 +1618,16 @@
 					type: "item"
 				}
 			]
-			title: "Amnesia Scroll"
+			title: "{kbquests.chapter.02DC2098B0B926BE.title}"
 			x: 9.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["6CA4435E12DAFB96"]
 			description: [
-				"Be &6careful&r when changing &dclasses&r."
+				"{kbquests.chapter.43D4C2C53AFE5955.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"Your armor will be &9swapped&r after selecting the &dnew class&r. Remove &call&r armor and items from your main hotbar before making the selection!"
+				"{kbquests.chapter.43D4C2C53AFE5955.description.3}"
 			]
 			icon: "kubejs:scroll_of_class_choice"
 			id: "43D4C2C53AFE5955"
@@ -1636,17 +1636,17 @@
 				item: "kubejs:scroll_of_class_choice"
 				type: "item"
 			}]
-			subtitle: "Change your class!"
+			subtitle: "{kbquests.chapter.43D4C2C53AFE5955.subtitle}"
 			tasks: [{
 				count: 20L
 				id: "27F04FB499D24D7B"
 				item: { Count: 20, id: "lethality:blood_coin" }
 				type: "item"
 			}]
-			title: "Scroll of Class Choice"
+			title: "{kbquests.chapter.43D4C2C53AFE5955.title}"
 			x: 6.5d
 			y: 2.5d
 		}
 	]
-	title: "Gob's Trading Shop"
+	title: "{kbquests.chapter.37167622525CE02D.title}"
 }

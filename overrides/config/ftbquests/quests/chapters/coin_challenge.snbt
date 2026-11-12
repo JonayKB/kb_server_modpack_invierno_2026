@@ -392,12 +392,12 @@
 				xp: 50
 			}]
 			size: 2.0d
-			subtitle: "Complete some challenges to earn coins and use them in the shop!"
+			subtitle: "{kbquests.chapter.0CBA65DFA2D42D63.subtitle}"
 			tasks: [{
 				id: "6E0501D804294DCC"
 				type: "checkmark"
 			}]
-			title: "Coin Challenge"
+			title: "{kbquests.chapter.0CBA65DFA2D42D63.title}"
 			x: -1.0031865783869307d
 			y: -1.780581033831922d
 		}
@@ -549,5 +549,5 @@
 			y: 1.0d
 		}
 	]
-	title: "Getting Coins"
+	title: "{kbquests.chapter.753E15C2272593DB.title}"
 }

@@ -33,13 +33,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Modify spawners using some items."
+			subtitle: "{kbquests.chapter.36217808241D36D6.subtitle}"
 			tasks: [{
 				id: "1FE23BE1344F0F7A"
 				item: "minecraft:spawner"
 				type: "item"
 			}]
-			title: "Spawner Modifications"
+			title: "{kbquests.chapter.36217808241D36D6.title}"
 			x: 3.0d
 			y: -1.0d
 		}
@@ -58,7 +58,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ignore the light."
+			subtitle: "{kbquests.chapter.057DD9641103BB3A.subtitle}"
 			tasks: [{
 				id: "67C51A299FB81EBB"
 				item: "minecraft:soul_lantern"
@@ -82,7 +82,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "+1 Spawn Count."
+			subtitle: "{kbquests.chapter.23123B2B77C5F341.subtitle}"
 			tasks: [{
 				id: "6B7483742A283730"
 				item: "minecraft:fermented_spider_eye"
@@ -106,7 +106,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "+2 Max Entities."
+			subtitle: "{kbquests.chapter.5A07F180EF021313.subtitle}"
 			tasks: [{
 				id: "71622BDD9224D3F0"
 				item: "minecraft:ghast_tear"
@@ -130,7 +130,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Silence."
+			subtitle: "{kbquests.chapter.59DDAF7BE23EC6FD.subtitle}"
 			tasks: [{
 				id: "25DC298BBE477EA5"
 				item: "minecraft:white_wool"
@@ -154,7 +154,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "No AI."
+			subtitle: "{kbquests.chapter.69721F2C675F8795.subtitle}"
 			tasks: [{
 				id: "50A7AC019DBACED9"
 				item: "minecraft:chorus_fruit"
@@ -178,7 +178,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ignore players."
+			subtitle: "{kbquests.chapter.636771801FC09EBB.subtitle}"
 			tasks: [{
 				id: "6A49B69D4A33BD1E"
 				item: "minecraft:nether_star"
@@ -202,7 +202,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ignore spawn conditions."
+			subtitle: "{kbquests.chapter.4F6BBD73EB5E9EC8.subtitle}"
 			tasks: [{
 				id: "70CF4FE456171D0D"
 				item: "minecraft:dragon_egg"
@@ -226,7 +226,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "+1 Spawn Range."
+			subtitle: "{kbquests.chapter.46686F468D9DEDE5.subtitle}"
 			tasks: [{
 				id: "47774024974374EC"
 				item: "minecraft:blaze_rod"
@@ -236,5 +236,5 @@
 			y: -2.5d
 		}
 	]
-	title: "Apothic Spawners"
+	title: "{kbquests.chapter.757A0B8B241F7E32.title}"
 }

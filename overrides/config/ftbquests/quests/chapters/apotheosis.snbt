@@ -58,11 +58,11 @@
 	quests: [
 		{
 			description: [
-				"&aEterna&r acts as a modifier to the enchanting level, increasing the base \"level\" of enchantments beyond the vanilla cap of 30, allowing access to higher levels (up to 100) for enchants like Looting and Fortune."
+				"{kbquests.chapter.04649F59B16D90A3.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"&cQuanta&r represents the randomness or variance in the enchanting process; after selecting an enchant, Quanta can raise or lower its level, offering a chance to achieve levels higher than normally possible, though it risks lower outcomes. "
+				"{kbquests.chapter.04649F59B16D90A3.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"&dArcana&r modifies the probability of obtaining rare versus common enchantments.  At 0%, rare enchants are impossible; at high levels, common enchants become impossible."
+				"{kbquests.chapter.04649F59B16D90A3.description.5}"
 			]
 			icon: {
 				Count: 1
@@ -94,7 +94,7 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Use books and other materials to achieve incredible enchantments."
+			subtitle: "{kbquests.chapter.04649F59B16D90A3.subtitle}"
 			tasks: [{
 				id: "35B1B9C7A3CDC9F5"
 				item: {
@@ -104,10 +104,10 @@
 						value: "forge:books"
 					}
 				}
-				title: "Any enchanted book"
+				title: "{kbquests.chapter.35B1B9C7A3CDC9F5.title}"
 				type: "item"
 			}]
-			title: "Be Apotheotic"
+			title: "{kbquests.chapter.04649F59B16D90A3.title}"
 			x: -0.5d
 			y: 0.0d
 		}
@@ -153,13 +153,13 @@
 		{
 			dependencies: ["00AB9914B84051D1"]
 			description: [
-				"When using &dApotheosis&r in the enchantment sector, you will receive three new &6attributes&r linked to your bookshelf"
+				"{kbquests.chapter.1218A4B049CE9544.description.1}"
 				""
-				"Eterna acts as a modifier to the enchanting level, increasing the base \"level\" of enchantments beyond the vanilla cap of 30, allowing access to higher levels (up to 100) for enchants like Looting and Fortune."
+				"{kbquests.chapter.1218A4B049CE9544.description.3}"
 				""
-				"Quanta represents the randomness or variance in the enchanting process; after selecting an enchant, Quanta can raise or lower its level, offering a chance to achieve levels higher than normally possible, though it risks lower outcomes. "
+				"{kbquests.chapter.1218A4B049CE9544.description.5}"
 				""
-				"Arcana modifies the probability of obtaining rare versus common enchantments.  At 0%, rare enchants are impossible; at high levels, common enchants become impossible."
+				"{kbquests.chapter.1218A4B049CE9544.description.7}"
 			]
 			id: "1218A4B049CE9544"
 			rewards: [
@@ -715,7 +715,7 @@
 			]
 			shape: "irontier"
 			size: 2.0d
-			subtitle: "Store all your books!"
+			subtitle: "{kbquests.chapter.71F7127E924A78FA.subtitle}"
 			tasks: [{
 				id: "6ECAB01D0FCC277F"
 				item: "apotheosis:ender_library"
@@ -739,7 +739,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Use to combine enchantments"
+			subtitle: "{kbquests.chapter.0733891B86DCF876.subtitle}"
 			tasks: [{
 				id: "1DE7046EBA1DF449"
 				item: "minecraft:anvil"
@@ -751,9 +751,9 @@
 		{
 			dependencies: ["04649F59B16D90A3"]
 			description: [
-				"You can modify various &6attributes&r such as spawn time, quantity, speed, and much more, using just a few items."
+				"{kbquests.chapter.54AB0D4B8A358837.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center"
-				"Check out &2JEI&r!"
+				"{kbquests.chapter.54AB0D4B8A358837.description.3}"
 			]
 			id: "54AB0D4B8A358837"
 			rewards: [
@@ -773,7 +773,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Manipule your mob farm!"
+			subtitle: "{kbquests.chapter.54AB0D4B8A358837.subtitle}"
 			tasks: [{
 				id: "0C0C4D5E7387EC31"
 				item: "minecraft:spawner"
@@ -783,5 +783,5 @@
 			y: 3.0d
 		}
 	]
-	title: "Apothic Enchants"
+	title: "{kbquests.chapter.19C831F2462C70D2.title}"
 }

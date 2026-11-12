@@ -37,16 +37,16 @@
 				id: "658F9200D3642DFC"
 				type: "checkmark"
 			}]
-			title: "Have nothing here...the end"
+			title: "{kbquests.chapter.787C6C5F16255B54.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4B436E0FF4D1BF70"]
 			description: [
-				"A deceptive mimic disguised as a normal shulker; levitates and pulls wanderers with gravity tricks. "
+				"{kbquests.chapter.7A2FC21DE21B774F.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Resides in Shulker Towers in &dthe End."
+				"{kbquests.chapter.7A2FC21DE21B774F.description.3}"
 			]
 			id: "7A2FC21DE21B774F"
 			rewards: [
@@ -62,7 +62,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Shattering the Shulker"
+			subtitle: "{kbquests.chapter.7A2FC21DE21B774F.subtitle}"
 			tasks: [{
 				entity: "legendary_monsters:shulker_mimic"
 				icon: "legendary_monsters:large_shulker_shell"
@@ -70,16 +70,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Slay the Shulker Mimic"
+			title: "{kbquests.chapter.7A2FC21DE21B774F.title}"
 			x: 2.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["787C6C5F16255B54"]
 			description: [
-				"A powerful Endborne creature that teleports and inflicts “chorus infection” on wanderers. "
+				"{kbquests.chapter.5E9C4EAFC12EF77B.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Encountered deep in &dThe End."
+				"{kbquests.chapter.5E9C4EAFC12EF77B.description.3}"
 			]
 			id: "5E9C4EAFC12EF77B"
 			rewards: [
@@ -95,12 +95,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "Silencing the Scent"
+			subtitle: "{kbquests.chapter.5E9C4EAFC12EF77B.subtitle}"
 			tasks: [{
 				entity: "legendary_monsters:endersent"
 				icon: "legendary_monsters:void_entity_warper"
 				id: "6245028A5DABF3D8"
-				title: "Slay the Enderscent"
+				title: "{kbquests.chapter.6245028A5DABF3D8.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -127,7 +127,7 @@
 				structure: "legendary_monsters:shulker_tower"
 				type: "structure"
 			}]
-			title: "Find the Shulker Tower"
+			title: "{kbquests.chapter.4B436E0FF4D1BF70.title}"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -182,5 +182,5 @@
 			y: -2.25d
 		}
 	]
-	title: "End"
+	title: "{kbquests.chapter.53704A8A32984FAF.title}"
 }

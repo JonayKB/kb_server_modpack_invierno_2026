@@ -20,9 +20,9 @@
 		{
 			dependencies: ["700018280E05A119"]
 			description: [
-				"Wraith's spawn around the world, you can tell them by their blue shining appearance."
+				"{kbquests.chapter.3DF9C264C9CC600F.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Killing them will drop ectoplasm, an important material to get into the mod!"
+				"{kbquests.chapter.3DF9C264C9CC600F.description.3}"
 			]
 			icon: {
 				Count: 1
@@ -60,7 +60,7 @@
 					}
 				}
 				id: "72D9B45AE0FF4B09"
-				title: "Kill a Wraith"
+				title: "{kbquests.chapter.72D9B45AE0FF4B09.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -70,9 +70,9 @@
 		{
 			dependencies: ["3DF9C264C9CC600F"]
 			description: [
-				"Totem of roots is a charm that will store soul energy when on you."
+				"{kbquests.chapter.4600E42534E8887B.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Soul energy can be obtained by slaying mobs."
+				"{kbquests.chapter.4600E42534E8887B.description.3}"
 			]
 			id: "4600E42534E8887B"
 			rewards: [
@@ -130,7 +130,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Empty focus, yet to be filled"
+			subtitle: "{kbquests.chapter.16D4BC1E8EFA4A01.subtitle}"
 			tasks: [{
 				id: "779BAF790583F115"
 				item: "goety:empty_focus"
@@ -155,7 +155,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "A magical tree, once grown, cut it's logs!"
+			subtitle: "{kbquests.chapter.29F0677D413E135C.subtitle}"
 			tasks: [{
 				id: "47D88505FF4EB114"
 				item: "goety:haunted_sapling"
@@ -185,7 +185,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "A crafting material for the dark wand"
+			subtitle: "{kbquests.chapter.429B106ED9ECB71B.subtitle}"
 			tasks: [{
 				id: "4317A2D38CF0E9F5"
 				item: "goety:magic_fabric"
@@ -201,9 +201,9 @@
 				"29F0677D413E135C"
 			]
 			description: [
-				"Wands use \"focuses\" we will get into it now."
+				"{kbquests.chapter.0C1B8E8BBD3487DC.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Focuses can be inserted into wand by pressing \"Z\""
+				"{kbquests.chapter.0C1B8E8BBD3487DC.description.3}"
 			]
 			id: "0C1B8E8BBD3487DC"
 			rewards: [
@@ -239,7 +239,7 @@
 		}
 		{
 			dependencies: ["0C1B8E8BBD3487DC"]
-			description: ["Highlights enemies, can work as a lightning source aswell."]
+			description: ["{kbquests.chapter.56CDD75FB59D11B1.description.1}"]
 			id: "56CDD75FB59D11B1"
 			rewards: [
 				{
@@ -258,7 +258,7 @@
 				item: "goety:soul_light_focus"
 				type: "item"
 			}]
-			title: "Example Focus"
+			title: "{kbquests.chapter.56CDD75FB59D11B1.title}"
 			x: 6.5d
 			y: 3.0d
 		}
@@ -278,7 +278,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Switches between focuses"
+			subtitle: "{kbquests.chapter.43D3CAED7C1A76F7.subtitle}"
 			tasks: [{
 				id: "040AA9E02EB2FB07"
 				item: {
@@ -314,7 +314,7 @@
 			]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Upgraded version of the \"Totem of Roots\""
+			subtitle: "{kbquests.chapter.241F502E78E64A2A.subtitle}"
 			tasks: [{
 				id: "502E35300DB4E694"
 				item: {
@@ -332,7 +332,7 @@
 		}
 		{
 			dependencies: ["43D3CAED7C1A76F7"]
-			description: ["Some Other items work aswell, creating other items."]
+			description: ["{kbquests.chapter.0AE87CD9B3813DDD.description.1}"]
 			id: "0AE87CD9B3813DDD"
 			rewards: [
 				{
@@ -348,7 +348,7 @@
 			]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Can be placed on spawners, insert an emerald to imbue it with soul energy."
+			subtitle: "{kbquests.chapter.0AE87CD9B3813DDD.subtitle}"
 			tasks: [
 				{
 					id: "341E256043E9651E"
@@ -367,13 +367,13 @@
 		{
 			dependencies: ["241F502E78E64A2A"]
 			description: [
-				"&dRituals&r require specific block to be placed near your setup."
+				"{kbquests.chapter.2055CF5D47A48282.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Theres plenty of rituals and each of them requires different items."
+				"{kbquests.chapter.2055CF5D47A48282.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"A dark altar is the centerpiece of the most rituals, the altar must be places on a &acursed cage&r!"
+				"{kbquests.chapter.2055CF5D47A48282.description.5}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Here's some examples of the Rituals, check up!"
+				"{kbquests.chapter.2055CF5D47A48282.description.7}"
 			]
 			id: "2055CF5D47A48282"
 			rewards: [
@@ -408,7 +408,7 @@
 					type: "item"
 				}
 			]
-			title: "Performing Rituals"
+			title: "{kbquests.chapter.2055CF5D47A48282.title}"
 			x: 6.5d
 			y: -4.0d
 		}
@@ -440,7 +440,7 @@
 			]
 			shape: "netheritetier"
 			size: 1.0d
-			subtitle: "View the rituals here!"
+			subtitle: "{kbquests.chapter.2E356978A023344A.subtitle}"
 			tasks: [{
 				id: "48DB48262D6589F7"
 				item: {
@@ -458,12 +458,12 @@
 		{
 			dependencies: ["2055CF5D47A48282"]
 			description: [
-				"Creating a Forge around the Dark Altar allows you to craft certain items and upgrade your magical arsenal with it!"
+				"{kbquests.chapter.41D4918E2F707221.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"&8-Cauldron needs to be filled with lava."
-				"&8-Blast furnace works aswell."
+				"{kbquests.chapter.41D4918E2F707221.description.3}"
+				"{kbquests.chapter.41D4918E2F707221.description.4}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Here's an example of how it should look:"
+				"{kbquests.chapter.41D4918E2F707221.description.6}"
 				""
 				"{image:goety:textures/gui/entries/forge_ritual.png width:150 height:80 align:center}"
 			]
@@ -500,7 +500,7 @@
 					type: "item"
 				}
 			]
-			title: "Forge Ritual"
+			title: "{kbquests.chapter.41D4918E2F707221.title}"
 			x: 5.5d
 			y: -6.5d
 		}
@@ -526,7 +526,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Made by using iron on cursed infuser."
+			subtitle: "{kbquests.chapter.4B3B4D783EFF5801.subtitle}"
 			tasks: [{
 				id: "5A49EF6C32E9FB20"
 				item: "goety:cursed_ingot"
@@ -557,7 +557,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "We will be needing it later, keep it for now :)"
+			subtitle: "{kbquests.chapter.00A697F8ECBAE881.subtitle}"
 			tasks: [{
 				id: "72CC853A5C81B58A"
 				item: "goety:cursed_bars"
@@ -569,9 +569,9 @@
 		{
 			dependencies: ["2055CF5D47A48282"]
 			description: [
-				"Surrounding the Altar with large quantities of book will help us create certain magical Items!"
+				"{kbquests.chapter.160D4289E52FE7AE.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Here's an example of how it should look:"
+				"{kbquests.chapter.160D4289E52FE7AE.description.3}"
 				""
 				"{image:goety:textures/gui/entries/magic_ritual.png width:150 height:80 align:center}"
 			]
@@ -601,7 +601,7 @@
 							value: "forge:bookshelves"
 						}
 					}
-					title: "Any Bookshelf"
+					title: "{kbquests.chapter.4364ACEFCA10AD5A.title}"
 					type: "item"
 				}
 				{
@@ -620,16 +620,16 @@
 					type: "item"
 				}
 			]
-			title: "Magic Ritual"
+			title: "{kbquests.chapter.160D4289E52FE7AE.title}"
 			x: 5.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["2055CF5D47A48282"]
 			description: [
-				"The Dark Altar can enchant items using certain ingredients, such as soul energy and XP."
+				"{kbquests.chapter.74BB841941FB0850.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"The Rituals can even enchant already enchanted items!"
+				"{kbquests.chapter.74BB841941FB0850.description.3}"
 			]
 			id: "74BB841941FB0850"
 			rewards: [
@@ -651,26 +651,26 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{kbquests.chapter.74BB841941FB0850.subtitle}"
 			tasks: [{
 				id: "634747BCB343A28A"
 				item: "goety:dark_altar"
 				type: "item"
 			}]
-			title: "Enchanting with Rituals"
+			title: "{kbquests.chapter.74BB841941FB0850.title}"
 			x: 8.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["2055CF5D47A48282"]
 			description: [
-				"Placing The Altar deep beneath and surround it with deep slate and amethysts, you will be able to harness the earth to create all kinds of jewels and magics!"
+				"{kbquests.chapter.150D518ED673D840.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Here's an example of how it should look:"
+				"{kbquests.chapter.150D518ED673D840.description.3}"
 				""
 				"{image:goety:textures/gui/entries/geoturgy_ritual.png width:150 height:80 align:center}"
 				""
-				"Note: The Altar should be below Y=-32 and not exposed to sky."
+				"{kbquests.chapter.150D518ED673D840.description.7}"
 			]
 			icon: "minecraft:smithing_table"
 			id: "150D518ED673D840"
@@ -706,20 +706,20 @@
 					type: "item"
 				}
 			]
-			title: "Geoturgy Ritual"
+			title: "{kbquests.chapter.150D518ED673D840.title}"
 			x: 6.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["2055CF5D47A48282"]
 			description: [
-				"The power of the storm will power your magical skills like no other"
+				"{kbquests.chapter.55F0CEC030EE3C32.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Here's an example of how it should look:"
+				"{kbquests.chapter.55F0CEC030EE3C32.description.3}"
 				""
 				"{image:goety:textures/gui/entries/storm_ritual.png width:150 height:80 align:center}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Note: The Altar has to be exposed to a storm."
+				"{kbquests.chapter.55F0CEC030EE3C32.description.7}"
 			]
 			icon: "minecraft:copper_block"
 			id: "55F0CEC030EE3C32"
@@ -762,9 +762,9 @@
 		{
 			dependencies: ["2055CF5D47A48282"]
 			description: [
-				"From your studies, you figured out a way to make rituals that surrounds summoning and controlling creatures."
+				"{kbquests.chapter.01BCEC451EE7BF6B.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Here's an example of how it should look:"
+				"{kbquests.chapter.01BCEC451EE7BF6B.description.3}"
 				""
 				"{image:goety:textures/gui/entries/animalis_ritual.png width:150 height:80 align:center}"
 			]
@@ -807,16 +807,16 @@
 					type: "item"
 				}
 			]
-			title: "Animation Ritual"
+			title: "{kbquests.chapter.01BCEC451EE7BF6B.title}"
 			x: 6.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["56CDD75FB59D11B1"]
 			description: [
-				"Focuses have their own specialize enchantments, but not all Focuses can be enchanted nor accept every enchantments. "
+				"{kbquests.chapter.4E5A88029720C649.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"There are many enchantments that are only applicable to certain Focuses. Enchanted Focuses doubles the amount of Soul Energy needed to cast."
+				"{kbquests.chapter.4E5A88029720C649.description.3}"
 			]
 			icon: {
 				Count: 1
@@ -842,10 +842,10 @@
 			size: 1.0d
 			tasks: [{
 				id: "437BC7E49D25D67C"
-				title: "Woa "
+				title: "{kbquests.chapter.437BC7E49D25D67C.title}"
 				type: "checkmark"
 			}]
-			title: "Focus Enchanting"
+			title: "{kbquests.chapter.4E5A88029720C649.title}"
 			x: 9.5d
 			y: 3.0d
 		}
@@ -864,7 +864,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Increases the power of spells"
+			subtitle: "{kbquests.chapter.3768CAE4412F62DE.subtitle}"
 			tasks: [{
 				id: "08AAA577DC57F250"
 				item: {
@@ -905,7 +905,7 @@
 						]
 					}
 				}
-				title: "Potency"
+				title: "{kbquests.chapter.08AAA577DC57F250.title}"
 				type: "item"
 			}]
 			x: 10.5d
@@ -926,7 +926,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Makes the spells inflict burn"
+			subtitle: "{kbquests.chapter.6244384F09BE7177.subtitle}"
 			tasks: [{
 				id: "4A43F7C42E328EA3"
 				item: {
@@ -967,7 +967,7 @@
 						]
 					}
 				}
-				title: "Burning"
+				title: "{kbquests.chapter.4A43F7C42E328EA3.title}"
 				type: "item"
 			}]
 			x: 11.0d
@@ -988,7 +988,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Increases the radius of spells"
+			subtitle: "{kbquests.chapter.2EC6796441060EAA.subtitle}"
 			tasks: [{
 				id: "198CE18290813BFF"
 				item: {
@@ -1019,7 +1019,7 @@
 						]
 					}
 				}
-				title: "Radius"
+				title: "{kbquests.chapter.198CE18290813BFF.title}"
 				type: "item"
 			}]
 			x: 11.0d
@@ -1040,7 +1040,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Increases speed and velocity of projectile type spells"
+			subtitle: "{kbquests.chapter.6CB1057F13B52C54.subtitle}"
 			tasks: [{
 				id: "2C45D4B30AD638BC"
 				item: {
@@ -1101,7 +1101,7 @@
 						]
 					}
 				}
-				title: "Velocity"
+				title: "{kbquests.chapter.2C45D4B30AD638BC.title}"
 				type: "item"
 			}]
 			x: 10.5d
@@ -1122,7 +1122,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Causes healing when a spell hits a mob"
+			subtitle: "{kbquests.chapter.3C362F86AA4E0D75.subtitle}"
 			tasks: [{
 				id: "1ADAA02403EED0E7"
 				item: {
@@ -1137,7 +1137,7 @@
 				}
 				type: "item"
 			}]
-			title: "Life Absorb"
+			title: "{kbquests.chapter.3C362F86AA4E0D75.title}"
 			x: 9.5d
 			y: 1.5d
 		}
@@ -1157,7 +1157,7 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Causes blocks to be automatically pulled into inventory"
+			subtitle: "{kbquests.chapter.3FC5B7FB38D49057.subtitle}"
 			tasks: [{
 				id: "471F66025CED402A"
 				item: {
@@ -1172,7 +1172,7 @@
 				}
 				type: "item"
 			}]
-			title: "Magnetize"
+			title: "{kbquests.chapter.3FC5B7FB38D49057.title}"
 			x: 8.5d
 			y: 1.5d
 		}
@@ -1191,7 +1191,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Increases duration of spells"
+			subtitle: "{kbquests.chapter.35E51CCB0E9C2D86.subtitle}"
 			tasks: [{
 				id: "5131BB05C946CC62"
 				item: {
@@ -1232,7 +1232,7 @@
 						]
 					}
 				}
-				title: "Duration"
+				title: "{kbquests.chapter.5131BB05C946CC62.title}"
 				type: "item"
 			}]
 			x: 9.5d
@@ -1253,7 +1253,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Increases the detecting, range of the spells."
+			subtitle: "{kbquests.chapter.2972B6CB3E81FF25.subtitle}"
 			tasks: [{
 				id: "4BAD123A120769E4"
 				item: {
@@ -1364,7 +1364,7 @@
 						]
 					}
 				}
-				title: "Range"
+				title: "{kbquests.chapter.4BAD123A120769E4.title}"
 				type: "item"
 			}]
 			x: 8.5d
@@ -1410,7 +1410,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Allows you to change movement, stances of your servants."
+			subtitle: "{kbquests.chapter.4A56812A948C967D.subtitle}"
 			tasks: [{
 				id: "42547ACE83B0BBF3"
 				item: "goety:command_horn"
@@ -1436,13 +1436,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Check to unlock Goety: Revelation Questline!"
+			subtitle: "{kbquests.chapter.17AF3158B8034FF9.subtitle}"
 			tasks: [{
 				id: "2EAE747479991FC3"
-				title: "Unlock it NOW!"
+				title: "{kbquests.chapter.2EAE747479991FC3.title}"
 				type: "checkmark"
 			}]
-			title: "Goety: Revelation"
+			title: "{kbquests.chapter.17AF3158B8034FF9.title}"
 			x: -5.0d
 			y: 1.5d
 		}
@@ -1492,7 +1492,7 @@
 						]
 					}
 				}
-				title: "Any haunted wood"
+				title: "{kbquests.chapter.56AD3A30C1585D5B.title}"
 				type: "item"
 			}]
 			x: -6.5d
@@ -1697,7 +1697,7 @@
 				}
 			]
 			shape: "irontier"
-			subtitle: "Type: Master Forge"
+			subtitle: "{kbquests.chapter.2ADC8BF43DF57C08.subtitle}"
 			tasks: [{
 				id: "40922D4E1A8311B0"
 				item: {
@@ -1729,7 +1729,7 @@
 			]
 			shape: "netheritetier"
 			size: 1.0d
-			subtitle: "Divine Power"
+			subtitle: "{kbquests.chapter.0CB49402390C97BD.subtitle}"
 			tasks: [{
 				id: "0F6A3D39E3C0C3B1"
 				item: {
@@ -1823,7 +1823,7 @@
 			]
 			shape: "netheritetier"
 			size: 1.0d
-			subtitle: "Drops From Apollyon"
+			subtitle: "{kbquests.chapter.0B03F516CCA89421.subtitle}"
 			tasks: [{
 				id: "477E6ED7183B518F"
 				item: "goety_revelation:ascension_halo"
@@ -1849,7 +1849,7 @@
 			]
 			shape: "netheritetier"
 			size: 1.0d
-			subtitle: "Type: Master Forge"
+			subtitle: "{kbquests.chapter.69EF0627A75C969A.subtitle}"
 			tasks: [{
 				id: "49E3E573CE97DA9B"
 				item: "goety_revelation:apocalyptium_ingot"
@@ -1945,7 +1945,7 @@
 			]
 			shape: "netheritetier"
 			size: 1.0d
-			subtitle: "Type: Master Forge"
+			subtitle: "{kbquests.chapter.74DAE57D56804A8B.subtitle}"
 			tasks: [{
 				id: "73D4E4B266966FD0"
 				item: "goety_revelation:apocalyptium_upgrade_smithing_template"
@@ -1970,7 +1970,7 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "Sacrifice a apostle"
+			subtitle: "{kbquests.chapter.24879C2273C392BE.subtitle}"
 			tasks: [{
 				id: "295280773117108A"
 				item: {
@@ -2029,7 +2029,7 @@
 			]
 			shape: "netheritetier"
 			size: 2.0d
-			subtitle: "Type: Storm"
+			subtitle: "{kbquests.chapter.488312F3942094DA.subtitle}"
 			tasks: [{
 				id: "348C9BD1914C2BD6"
 				item: "goety_revelation:broken_halo"
@@ -2121,7 +2121,7 @@
 				}
 				type: "item"
 			}]
-			title: "Make a Black Iron Helmet"
+			title: "{kbquests.chapter.02EE448EFA576418.title}"
 			x: -10.5d
 			y: 7.0d
 		}
@@ -2183,7 +2183,7 @@
 				}
 				type: "item"
 			}]
-			title: "Make a Black Iron Chestplate"
+			title: "{kbquests.chapter.1FDACE431D8225E8.title}"
 			x: -9.0d
 			y: 7.0d
 		}
@@ -2245,7 +2245,7 @@
 				}
 				type: "item"
 			}]
-			title: "Make a Black Iron Leggings"
+			title: "{kbquests.chapter.1E13A4A86FB5A87C.title}"
 			x: -7.5d
 			y: 7.0d
 		}
@@ -2307,7 +2307,7 @@
 				}
 				type: "item"
 			}]
-			title: "Make a Black Iron Boots"
+			title: "{kbquests.chapter.36790986D7BD39E2.title}"
 			x: -6.0d
 			y: 7.0d
 		}
@@ -2421,7 +2421,7 @@
 			]
 			shape: "netheritetier"
 			size: 1.0d
-			subtitle: "Set complete!"
+			subtitle: "{kbquests.chapter.1A251E7CA7C348AE.subtitle}"
 			tasks: [{
 				id: "3C9F89FEB3F6693A"
 				item: {
@@ -2488,11 +2488,11 @@
 		{
 			dependencies: ["2E356978A023344A"]
 			description: [
-				"This ones a must for goety: revelation addon!"
+				"{kbquests.chapter.710F0D72F573E82D.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Nearly all op gears, etc are locked behind this ritual."
+				"{kbquests.chapter.710F0D72F573E82D.description.3}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Here's an example of how it should look:"
+				"{kbquests.chapter.710F0D72F573E82D.description.5}"
 				""
 				"{image:goety:textures/gui/entries/master_forge_ritual.png width:150 height:80 align:center}"
 			]
@@ -2534,15 +2534,15 @@
 					type: "item"
 				}
 			]
-			title: "Master Forge Ritual"
+			title: "{kbquests.chapter.710F0D72F573E82D.title}"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			description: [
-				"&0Goety&r is a mod centered around &5dark magic&r by using soul energy and rituals!"
+				"{kbquests.chapter.700018280E05A119.description.1}"
 				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Cast &9spells&r and explore the darkness, but be careful..."
+				"{kbquests.chapter.700018280E05A119.description.3}"
 			]
 			icon: "goety:witch_hat_hedge"
 			id: "700018280E05A119"
@@ -2561,7 +2561,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "092AACBB456F9041"
-				title: "Goety"
+				title: "{kbquests.chapter.092AACBB456F9041.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -2656,5 +2656,5 @@
 			y: 8.5d
 		}
 	]
-	title: "Goety"
+	title: "{kbquests.chapter.4E8B5FE547EA181F.title}"
 }

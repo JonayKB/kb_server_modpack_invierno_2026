@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Go beyond conventional ores, craft new armor, weapons, accessories, and much more!"]
+			description: ["{kbquests.chapter.3DCEAB38E247355A.description.1}"]
 			id: "3DCEAB38E247355A"
 			rewards: [
 				{
@@ -24,12 +24,12 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "A mod that will help you during the early/mid game, since Terramity only starts after netherite."
+			subtitle: "{kbquests.chapter.3DCEAB38E247355A.subtitle}"
 			tasks: [{
 				id: "2A8F36FC39328BA6"
 				type: "checkmark"
 			}]
-			title: "Composite Materials"
+			title: "{kbquests.chapter.3DCEAB38E247355A.title}"
 			x: -2.0d
 			y: 0.0d
 		}
@@ -569,14 +569,14 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "In Tier II your focus will be more on exploration, as most items are created through drops from bosses and dungeon items."
+			subtitle: "{kbquests.chapter.5D444431C7177973.subtitle}"
 			tasks: [{
 				count: 3L
 				id: "7505BE2AC68A0084"
 				item: "composite_material:dungeon_steel_ingot"
 				type: "item"
 			}]
-			title: "Tier II"
+			title: "{kbquests.chapter.5D444431C7177973.title}"
 			x: 16.0d
 			y: 0.0d
 		}
@@ -596,14 +596,14 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier I is focused on early-game with basic materials, and each armor set has special abilities, some tools too!"
+			subtitle: "{kbquests.chapter.47219711E0358692.subtitle}"
 			tasks: [{
 				count: 6L
 				id: "06C578CD2FCAA3AF"
 				item: { Count: 6, id: "minecraft:copper_ingot" }
 				type: "item"
 			}]
-			title: "Tier I"
+			title: "{kbquests.chapter.47219711E0358692.title}"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -900,7 +900,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bruh..."
+			subtitle: "{kbquests.chapter.2016269336ACC9E5.subtitle}"
 			tasks: [
 				{
 					id: "47F202158C78C3EC"
@@ -959,7 +959,7 @@
 					type: "item"
 				}
 			]
-			title: "Soooo smoool :("
+			title: "{kbquests.chapter.2016269336ACC9E5.title}"
 			x: 1.0d
 			y: 0.0d
 		}
@@ -1015,7 +1015,7 @@
 				structure: "minecraft:mansion"
 				type: "structure"
 			}]
-			title: "Found the Mansion"
+			title: "{kbquests.chapter.29974E15473617EF.title}"
 			x: 19.5d
 			y: 0.0d
 		}
@@ -1787,14 +1787,14 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "End-game tier basically, just for fun :)"
+			subtitle: "{kbquests.chapter.73F18ABEE42DF501.subtitle}"
 			tasks: [{
 				count: 3L
 				id: "6AE12267C6E24A8F"
 				item: "composite_material:etherite_ingot"
 				type: "item"
 			}]
-			title: "Tier III"
+			title: "{kbquests.chapter.73F18ABEE42DF501.title}"
 			x: 29.5d
 			y: -1.0d
 		}
@@ -2530,7 +2530,7 @@
 		}
 		{
 			dependencies: ["3DCEAB38E247355A"]
-			description: ["You can read the &dability&r of each item in the &aitem description&r, and this also works if you want to find out how to get a certain item."]
+			description: ["{kbquests.chapter.2FCA3F1DF7FA23C2.description.1}"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -2552,15 +2552,15 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "Read this."
+			subtitle: "{kbquests.chapter.2FCA3F1DF7FA23C2.subtitle}"
 			tasks: [{
 				id: "48211327C79CB878"
 				type: "checkmark"
 			}]
-			title: "Tips"
+			title: "{kbquests.chapter.2FCA3F1DF7FA23C2.title}"
 			x: -2.0d
 			y: 3.0d
 		}
 	]
-	title: "Composite Materials"
+	title: "{kbquests.chapter.72948B4161E0479A.title}"
 }

@@ -21,6 +21,6 @@
 	pause_game: false
 	progression_mode: "linear"
 	show_lock_icons: false
-	title: "&bTerramity Awakened&r"
+	title: "{kbquests.data.root.title}"
 	version: 13
 }

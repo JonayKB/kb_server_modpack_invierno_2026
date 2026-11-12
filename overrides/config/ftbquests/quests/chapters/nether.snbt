@@ -33,12 +33,12 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Be caution when exploring fire"
+			subtitle: "{kbquests.chapter.6C5EFE6CB1CC684A.subtitle}"
 			tasks: [{
 				id: "63509571768972F0"
 				type: "checkmark"
 			}]
-			title: "Explore the fire and the ashes"
+			title: "{kbquests.chapter.6C5EFE6CB1CC684A.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -86,7 +86,7 @@
 				structure: "legendary_monsters:soul_fortress_remains"
 				type: "structure"
 			}]
-			title: "Find the Fortress"
+			title: "{kbquests.chapter.1E4CFFA3151F5741.title}"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -135,7 +135,7 @@
 				id: "3803572A416B3E10"
 				type: "biome"
 			}]
-			title: "Find the Valley"
+			title: "{kbquests.chapter.50D976F303ED8C02.title}"
 			x: 4.0d
 			y: 0.0d
 		}
@@ -208,7 +208,7 @@
 				id: "4B082D7E27B470A1"
 				type: "biome"
 			}]
-			title: "Find the Warped Forest"
+			title: "{kbquests.chapter.363EF82E02E2270A.title}"
 			x: 5.5d
 			y: 0.0d
 		}
@@ -256,7 +256,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Use beds :)"
+			subtitle: "{kbquests.chapter.7A38D36AE6E4BF76.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "2AEBE69ADA489DFB"
@@ -281,7 +281,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft some netherites!"
+			subtitle: "{kbquests.chapter.1D8115EB3A2E93BC.subtitle}"
 			tasks: [{
 				id: "1873495E0EACAC6E"
 				item: "minecraft:netherite_ingot"
@@ -306,7 +306,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Craft a netherite sword."
+			subtitle: "{kbquests.chapter.18DBFC5C5E52C2D6.subtitle}"
 			tasks: [{
 				id: "453CDD4023D27BEA"
 				item: {
@@ -381,5 +381,5 @@
 			y: 3.0d
 		}
 	]
-	title: "Nether"
+	title: "{kbquests.chapter.343BA1D6CBAEB485.title}"
 }
