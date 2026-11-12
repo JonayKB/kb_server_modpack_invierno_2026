@@ -269,6 +269,70 @@
 	quests: [
 		{
 			dependencies: ["77B2B97D07D0A8D7"]
+			description: [
+				"{kbquests.chapter.CE8F526258C3D813.description.1}"
+				""
+				"{kbquests.chapter.CE8F526258C3D813.description.3}"
+				"{kbquests.chapter.CE8F526258C3D813.description.4}"
+				"{kbquests.chapter.CE8F526258C3D813.description.5}"
+				"{kbquests.chapter.CE8F526258C3D813.description.6}"
+				"{kbquests.chapter.CE8F526258C3D813.description.7}"
+				"{kbquests.chapter.CE8F526258C3D813.description.8}"
+				""
+				"{kbquests.chapter.CE8F526258C3D813.description.10}"
+				"{kbquests.chapter.CE8F526258C3D813.description.11}"
+				"{kbquests.chapter.CE8F526258C3D813.description.12}"
+				"{kbquests.chapter.CE8F526258C3D813.description.13}"
+				""
+				"{kbquests.chapter.CE8F526258C3D813.description.15}"
+				"{kbquests.chapter.CE8F526258C3D813.description.16}"
+			]
+			icon: "minecraft:shield"
+			id: "CE8F526258C3D813"
+			rewards: [{
+				id: "674B6E0DFDF8ED85"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{kbquests.chapter.CE8F526258C3D813.subtitle}"
+			tasks: [{
+				id: "BF60D51A537E0F22"
+				type: "checkmark"
+			}]
+			title: "{kbquests.chapter.CE8F526258C3D813.title}"
+			x: -14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77B2B97D07D0A8D7"]
+			description: [
+				"[{\"translate\": \"kbquests.chapter.98F8461820B82915.description.1\", \"color\": \"white\"}, {\"text\": \"minecraft.jonaykb.com\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://minecraft.jonaykb.com\"}}]"
+				""
+				"{kbquests.chapter.98F8461820B82915.description.3}"
+				"{kbquests.chapter.98F8461820B82915.description.4}"
+				"{kbquests.chapter.98F8461820B82915.description.5}"
+				"{kbquests.chapter.98F8461820B82915.description.6}"
+				""
+				"{kbquests.chapter.98F8461820B82915.description.8}"
+			]
+			icon: "minecraft:filled_map"
+			id: "98F8461820B82915"
+			rewards: [{
+				id: "3BF6F2E152F27F96"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{kbquests.chapter.98F8461820B82915.subtitle}"
+			tasks: [{
+				id: "3FDC4019B9BD018F"
+				type: "checkmark"
+			}]
+			title: "{kbquests.chapter.98F8461820B82915.title}"
+			x: -14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["77B2B97D07D0A8D7"]
 			description: ["{kbquests.chapter.7C9424CCCFBC4802.description.1}"]
 			id: "7C9424CCCFBC4802"
 			rewards: [
