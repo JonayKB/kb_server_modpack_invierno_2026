@@ -16,8 +16,10 @@ Salida (en lobby/salida/):
     lobby.nbt               la estructura suelta
 
 Colocar en el mundo (161 x 53 x 161): de pie en el punto que será el centro,
-    /place template kb:lobby ~-80 ~-4 ~-80
-    /setworldspawn ~ ~ ~37        (justo dentro de la puerta, mirando al árbol)
+    /function kb_lobby:colocar    (o colocar_90 / colocar_180 / colocar_270)
+Pone también el spawn (justo dentro de la puerta, mirando al árbol) y un muro de
+barrera alrededor que quita apertura:final. Se puede girar y deshacer: ver
+datapack_lobby.py.
 Alrededor de la ciudadela: foso helado, muralla exterior con barbacana, puerto
 con drakkars al este y bosque. Lleva bloques de luz invisibles (nivel 11).
 """
@@ -28,7 +30,8 @@ import math
 import os
 import random
 import struct
-import zipfile
+
+import datapack_lobby
 
 CORE = 101                    # ciudadela (muralla interior) en coordenadas 0..100
 M = 30                        # margen exterior: foso, muralla exterior, puerto y bosque
@@ -1749,9 +1752,7 @@ if __name__ == "__main__":
     data, palette = build_structure()
     with open(os.path.join(OUT, "lobby.nbt"), "wb") as f:
         f.write(data)
-    with zipfile.ZipFile(os.path.join(OUT, "kb_lobby_datapack.zip"), "w", zipfile.ZIP_DEFLATED) as z:
-        z.writestr("pack.mcmeta", json.dumps({"pack": {"pack_format": 15, "description": "KB Server - lobby de invierno"}}))
-        z.writestr("data/kb/structures/lobby.nbt", data)
+    datapack_lobby.write_zip(os.path.join(OUT, "kb_lobby_datapack.zip"), data)
     mods = sorted({p["Name"].split(":")[0] for p in palette})
     print(f"{N_LIGHTS} bloques de luz invisibles")
     print(f"{len(blocks)} bloques no-aire, {len(palette)} estados en la paleta, namespaces: {', '.join(mods)}")
