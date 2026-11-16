@@ -17,6 +17,7 @@ Cómo funciona:
 - Un marker (tag kb_lobby) guarda el centro. Las acciones cargan la zona con forceload,
   esperan a que esté cargada y luego actúan desde el marker.
 - Antes de colocar, el terreno original (161 x 53 x 161) se copia con clone a y -59..-7,
+  dentro de una carcasa de barrera (y -60..-6) para que no entren agua, lava ni bloques,
   justo debajo. deshacer y girar lo restauran desde ahí; deshacer y confirmar lo rellenan
   de deepslate. Así sobrevive a reinicios.
 - El muro de barrera va un bloque por fuera de la estructura, de la base a 127 bloques
@@ -30,7 +31,7 @@ HALF = 80                      # la estructura es de 161 x 161: centro ± 80
 Y0, Y1 = -4, 48                # capas de la estructura respecto a los pies (53 de alto)
 WALL = HALF + 1                # el muro va justo por fuera
 WALL_TOP = 123                 # 128 bloques de alto desde la base
-COPY_Y = -59                   # la copia del terreno ocupa y -59..-7 (encima de la bedrock)
+COPY_Y = -59                   # la copia del terreno ocupa y -59..-7, con una carcasa de barrera en -60..-6
 SLICE = 3                      # 161 x 53 x 3 = 25599 bloques por clone/fill (límite 32768)
 MIN_Y, MAX_Y = 4, 196          # alturas válidas del centro (copia debajo, muro por debajo de 320)
 
@@ -63,8 +64,22 @@ def slices():
         z += SLICE
 
 
+def copia_carcasa(block):
+    """Carcasa de un bloque alrededor de la copia: sin ella el agua y la lava de las cuevas
+    entran en el hueco de la copia y la grava o la arena se caen a las cuevas de debajo."""
+    w, lo, hi = WALL, COPY_Y - 1, COPY_Y + Y1 - Y0 + 1
+    return [
+        f"fill ~{-w} {lo} ~{-w} ~{w} {lo} ~{w} {block}",
+        f"fill ~{-w} {hi} ~{-w} ~{w} {hi} ~{w} {block}",
+        f"fill ~{-w} {lo} ~{-w} ~{-w} {hi} ~{w} {block}",
+        f"fill ~{w} {lo} ~{-w} ~{w} {hi} ~{w} {block}",
+        f"fill ~{-HALF} {lo} ~{-w} ~{HALF} {hi} ~{-w} {block}",
+        f"fill ~{-HALF} {lo} ~{w} ~{HALF} {hi} ~{w} {block}",
+    ]
+
+
 def copia_guardar():
-    return [f"clone ~{-HALF} ~{Y0} ~{a} ~{HALF} ~{Y1} ~{b} ~{-HALF} {COPY_Y} ~{a}" for a, b in slices()]
+    return copia_carcasa("minecraft:barrier") + [f"clone ~{-HALF} ~{Y0} ~{a} ~{HALF} ~{Y1} ~{b} ~{-HALF} {COPY_Y} ~{a}" for a, b in slices()]
 
 
 def copia_restaurar():
@@ -74,7 +89,8 @@ def copia_restaurar():
 
 def copia_borrar():
     top = COPY_Y + Y1 - Y0
-    return [f"fill ~{-HALF} {COPY_Y} ~{a} ~{HALF} {top} ~{b} minecraft:deepslate" for a, b in slices()]
+    return ([f"fill ~{-HALF} {COPY_Y} ~{a} ~{HALF} {top} ~{b} minecraft:deepslate" for a, b in slices()]
+            + copia_carcasa("minecraft:deepslate"))
 
 
 def muro(block, mode):
@@ -87,9 +103,15 @@ def muro(block, mode):
     ]
 
 
-def loaded_check():
-    pts = list(range(-WALL, WALL, 16)) + [WALL]
-    return " ".join(f"if loaded ~{x} ~ ~{z}" for x in pts for z in pts)
+def loaded_check(x0=-WALL, z0=-WALL, x1=WALL, z1=WALL):
+    xs = list(range(x0, x1, 16)) + [x1]
+    zs = list(range(z0, z1, 16)) + [z1]
+    return " ".join(f"if loaded ~{x} ~ ~{z}" for x in xs for z in zs)
+
+
+def place_rect(cx, cz):
+    """/place template comprueba que esté cargada la zona SIN girar: de la esquina a esquina + tamaño."""
+    return cx, cz, cx + 2 * HALF + 1, cz + 2 * HALF + 1
 
 
 def pedir(accion, needs_marker=True):
@@ -195,17 +217,32 @@ def functions():
         f"scoreboard players set #ocupado {OBJ} 1",
         f"scoreboard players set #intentos {OBJ} 0",
         f"execute at {MARKER} run forceload add ~{-WALL} ~{-WALL} ~{WALL} ~{WALL}",
+        f"execute if score #accion {OBJ} matches {COLOCAR}..{GIRAR} run function kb_lobby:interno/extra_cargar",
         "schedule function kb_lobby:interno/esperar 5t",
     ]
+    extra_add, extra_rm, listo = [], [], []
+    for i, (_, (cx, cz), _, _) in enumerate(ROTATIONS):
+        x0, z0, x1, z1 = place_rect(cx, cz)
+        cond = f"execute if score #rot_nueva {OBJ} matches {i} at {MARKER} run"
+        extra_add.append(f"{cond} forceload add ~{x0} ~{z0} ~{x1} ~{z1}")
+        extra_rm.append(f"{cond} forceload remove ~{x0} ~{z0} ~{x1} ~{z1}")
+        listo.append(f"execute if score #accion {OBJ} matches {COLOCAR}..{GIRAR} if score #rot_nueva {OBJ} matches {i} "
+                     f"at {MARKER} {loaded_check()} {loaded_check(x0, z0, x1, z1)} run scoreboard players set #listo {OBJ} 1")
+    f["interno/extra_cargar"] = ["# Zona que /place template comprueba con el giro nuevo."] + extra_add
+    f["interno/extra_soltar"] = extra_rm
     f["interno/esperar"] = [
         f"scoreboard players add #intentos {OBJ} 1",
-        f"execute at {MARKER} {loaded_check()} run function kb_lobby:interno/ejecutar",
+        f"scoreboard players set #listo {OBJ} 0",
+        f"execute unless score #accion {OBJ} matches {COLOCAR}..{GIRAR} at {MARKER} {loaded_check()} run scoreboard players set #listo {OBJ} 1",
+    ] + listo + [
+        f"execute if score #listo {OBJ} matches 1 at {MARKER} run function kb_lobby:interno/ejecutar",
         f"execute if score #ocupado {OBJ} matches 1 if score #intentos {OBJ} matches ..120 run schedule function kb_lobby:interno/esperar 10t",
         f"execute if score #ocupado {OBJ} matches 1 if score #intentos {OBJ} matches 121.. run function kb_lobby:interno/fallo",
     ]
     f["interno/fallo"] = [
         f"scoreboard players set #ocupado {OBJ} 0",
         f"execute at {MARKER} run forceload remove ~{-WALL} ~{-WALL} ~{WALL} ~{WALL}",
+        f"execute if score #accion {OBJ} matches {COLOCAR}..{GIRAR} run function kb_lobby:interno/extra_soltar",
         f"execute if score #accion {OBJ} matches {COLOCAR} run kill {MARKER}",
         msg("La zona no terminó de cargar en 60 s; no se ha hecho nada. Vuelve a intentarlo.", "red"),
     ]
@@ -221,6 +258,7 @@ def functions():
         f"execute if score #accion {OBJ} matches {CERRAR} run function kb_lobby:interno/barrera_poner",
         f"execute if score #accion {OBJ} matches {CERRAR} run " + msg("Muro de barrera puesto.", "green"),
         f"forceload remove ~{-WALL} ~{-WALL} ~{WALL} ~{WALL}",
+        f"execute if score #accion {OBJ} matches {COLOCAR}..{GIRAR} run function kb_lobby:interno/extra_soltar",
     ]
 
     # ---------------------------------------------------------------- acciones
