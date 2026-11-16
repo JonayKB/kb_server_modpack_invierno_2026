@@ -14,7 +14,9 @@ effect give @a minecraft:glowing 10 0 true
 
 tellraw @a ["",{"text":"[MCKB] ","color":"gold","bold":true},{"text":"El servidor ya esta abierto! Mucha suerte a todos.","color":"green"}]
 
-# >>> AQUI tu comando para dejarles salir del lobby <<<
-# Ejemplos (descomenta y ajusta el que uses):
+# Deja salir del lobby: quita el muro de barrera (kb_lobby:abrir, si esta el datapack del lobby)
+function #apertura:abrir
+
+# Mas cosas al abrir (descomenta y ajusta si las usas):
 # gamemode survival @a[tag=!staff]
 # tp @a[tag=!staff] 0 80 0
