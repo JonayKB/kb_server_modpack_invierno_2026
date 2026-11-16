@@ -317,3 +317,4 @@ key_key.goety.lich.lichForm:key.keyboard.n:NONE
 key_key.goety.lich.laugh:key.keyboard.k:NONE
 key_key.goety.activate_curio:key.keyboard.g:NONE
 key_key.goety.dismiss:key.keyboard.keypad.decimal:NONE
+key_key.mute_microphone:key.keyboard.f8:NONE
