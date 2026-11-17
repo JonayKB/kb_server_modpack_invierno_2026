@@ -4,7 +4,7 @@
 	#Show a warning when using the mod in singleplayer.
 	singleplayer-warning = true
 	#Enable automatic update checks.
-	automatic-updater = true
+	automatic-updater = false
 	#Enable or disable the mod entirely.
 	enabled = true
 

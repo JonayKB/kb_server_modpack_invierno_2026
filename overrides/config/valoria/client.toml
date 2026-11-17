@@ -2,7 +2,7 @@
 #Misc
 [misc]
 	showToasts = true
-	showUpdates = true
+	showUpdates = false
 	damageIndicator = false
 
 #Graphics
