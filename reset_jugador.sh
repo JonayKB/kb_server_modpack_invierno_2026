@@ -36,11 +36,17 @@ for arg in "$@"; do
 done
 [ "${#ARGS[@]}" -eq 2 ] || usage
 
+[ -d "${ARGS[0]}" ] || { echo "No existe la carpeta '${ARGS[0]}'" >&2; exit 1; }
 SERVER="$(cd "${ARGS[0]}" && pwd)"
 TARGET="${ARGS[1]}"
 command -v python3 >/dev/null || { echo "Hace falta python3" >&2; exit 1; }
+[ -f "$SERVER/server.properties" ] || {
+    echo "'$SERVER' no parece la carpeta del servidor (no tiene server.properties)." >&2
+    echo "Uso: $0 <carpeta_del_servidor> <nombre|uuid> [--dry-run]" >&2
+    exit 1
+}
 
-LEVEL="$(sed -n 's/^level-name=//p' "$SERVER/server.properties" 2>/dev/null | tr -d '\r')"
+LEVEL="$(sed -n 's/^level-name=//p' "$SERVER/server.properties" | tr -d '\r')"
 WORLD="$SERVER/${LEVEL:-world}"
 [ -d "$WORLD" ] || { echo "No encuentro el mundo en $WORLD" >&2; exit 1; }
 LINKS="$SERVER/config/kb_discord_auth/links.json"
@@ -183,7 +189,11 @@ if mode == "has-raw":
     except OSError:
         sys.exit(1)
 
-t, name, root = load(path)
+try:
+    t, name, root = load(path)
+except Exception as e:
+    print("No se pudo leer %s: %r" % (path, e), file=sys.stderr)
+    sys.exit(2)
 data = root.get("data", (10, {}))[1]
 classes = data.get("playerClasses", (10, {}))[1]
 keys = [k for k in classes if k.lower() == uuid]
@@ -200,7 +210,15 @@ PY
 CLASS_DAT="$WORLD/data/class_enhancement_data.dat"
 CLASS_NAME=""
 if [ -f "$CLASS_DAT" ]; then
-    CLASS_NAME="$(python3 -I "$NBT_PY" class-get "$CLASS_DAT" "$UUID" || true)"
+    rc=0
+    CLASS_NAME="$(python3 -I "$NBT_PY" class-get "$CLASS_DAT" "$UUID")" || rc=$?
+    if [ "$rc" -ge 2 ]; then
+        echo "No he podido leer ${CLASS_DAT#"$SERVER/"}; su clase NO se quitará." >&2
+    elif [ "$rc" -eq 1 ] && python3 -I "$NBT_PY" has-raw "$CLASS_DAT" "$UUID"; then
+        echo "Aviso: su UUID aparece en ${CLASS_DAT#"$SERVER/"} pero no como clase reconocible; no se quitará." >&2
+    fi
+else
+    echo "Aviso: no existe ${CLASS_DAT#"$SERVER/"} (¿la clase se guarda en otro sitio?)." >&2
 fi
 
 OTHER_DAT=()
