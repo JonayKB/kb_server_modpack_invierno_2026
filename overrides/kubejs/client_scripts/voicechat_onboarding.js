@@ -1,30 +1,47 @@
 // Obliga a pasar por el asistente de configuración de Simple Voice Chat
-// (micrófono, altavoz y modo de activación) en el primer arranque.
+// (micrófono, altavoz y modo de activación) la primera vez que se entra.
 //
 // De serie el mod solo avisa por chat al conectarse ("pulsa V para
-// configurarlo"). Aquí se abre en la pantalla de título, antes de entrar al
-// servidor, para no pisarse con los menús de dificultad y clase.
+// configurarlo"). Aquí se abre dentro del servidor, pero solo después de todas
+// las pantallas de entrada: login de Discord (KB Discord Auth), dificultad
+// (difficulty_enhancement), clase (class_enhancement) y bienvenida. Para eso
+// espera a que el jugador tenga clase (el servidor la sincroniza al entrar, o
+// al elegirla) y lleve unos segundos jugando sin ninguna pantalla abierta.
 //
-// Mientras no se complete, vuelve a abrirse cada vez que se llega a la
-// pantalla de título. Dentro del propio asistente está la opción de saltarlo
-// ("I Know What I Am Doing - Skip"), que también cuenta como completado.
-// Queda guardado en config/voicechat/voicechat-client.properties
-// (onboarding_finished=true); poniéndolo a false vuelve a salir.
+// Mientras no se complete, vuelve a salir en cada conexión. Dentro del propio
+// asistente está la opción de saltarlo ("I Know What I Am Doing - Skip"), que
+// también cuenta como completado. Queda guardado en
+// config/voicechat/voicechat-client.properties (onboarding_finished=true);
+// poniéndolo a false vuelve a salir.
 
-const TitleScreen = Java.loadClass('net.minecraft.client.gui.screens.TitleScreen')
 const OnboardingManager = Java.loadClass('de.maxhenkel.voicechat.gui.onboarding.OnboardingManager')
+const ClassAccess = Java.loadClass('com.misanthropy.linggango.class_enhancement.client.ClientAccess')
 
-let lastScreen = null
+// Ticks seguidos sin pantallas antes de abrirlo (20 = 1 s). Da margen a que
+// el servidor abra la siguiente pantalla de la cadena.
+const IDLE_TICKS = 60
+
+let idleTicks = 0
+let done = false
+
+ClientEvents.loggedIn(event => {
+    idleTicks = 0
+    done = false
+})
 
 ClientEvents.tick(event => {
-    const screen = Client.screen
-    if (screen === lastScreen) return
-    lastScreen = screen
+    if (done) return
+    if (Client.screen != null || ClassAccess.clientClassId == null) {
+        idleTicks = 0
+        return
+    }
+    if (++idleTicks < IDLE_TICKS) return
 
-    if (!(screen instanceof TitleScreen)) return
+    done = true
     try {
         if (OnboardingManager.isOnboarding()) {
-            Client.setScreen(OnboardingManager.getOnboardingScreen(screen))
+            console.info('[voicechat_onboarding] Abriendo el asistente de Voice Chat')
+            Client.setScreen(OnboardingManager.getOnboardingScreen(null))
         }
     } catch (e) {
         console.error('No se pudo abrir el asistente de Voice Chat: ' + e)
