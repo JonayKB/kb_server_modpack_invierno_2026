@@ -205,7 +205,7 @@
     "screenshotDefaultScreenBackgroundMode": "TRANSPARENT",
     "screenshotDefaultScreenShotWindowsMode": "SPLIT",
     "screenshotChatTextBarElementEnabled": true,
-    "playerHeadChatDisplayEnabled": false,
+    "playerHeadChatDisplayEnabled": true,
     "playerHeadChatDisplayShowOnWrapped": false,
     "playerHeadChatDisplayOffsetNonHeadMessages": false,
     "playerHeadChatDisplayOffsetNonHeadMessagesShowOnWrapped": true,
