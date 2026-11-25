@@ -14,6 +14,10 @@
 # manifiesto (manifest-<versión>.json) lista cada ruta con su hash y tamaño; el
 # launcher lo compara con lo instalado y solo baja lo que cambia.
 #
+# ajustes-jugador.txt dice qué overrides son ajustes del jugador (configs de
+# cliente...): esos se respetan si los cambia. El resto se deja siempre como
+# lo publica el modpack.
+#
 # Orden de subida: objetos nuevos a .incoming/, se comprueba su hash en el
 # servidor y se mueven a objects/; luego el manifiesto, y latest.json el último:
 # hasta ese momento los jugadores siguen viendo la versión anterior. Se conservan
@@ -44,7 +48,7 @@ for arg in "$@"; do
         --force) FORCE=1 ;;
         --con-zips) WITH_ZIPS=1 ;;
         --verificar-todo) VERIFY_ALL=1 ;;
-        -h|--help) sed -n '2,20p' "$0" | sed 's/^# \{0,1\}//'; exit 0 ;;
+        -h|--help) sed -n '2,24p' "$0" | sed 's/^# \{0,1\}//'; exit 0 ;;
         [0-9]*.[0-9]*.[0-9]*) VERSION="$arg" ;;
         *) echo "Argumento desconocido: $arg" >&2; exit 1 ;;
     esac
@@ -124,8 +128,19 @@ info "Versión: ${CURRENT:-ninguna} -> $VERSION"
 MANIFEST="manifest-$VERSION.json"
 info "Calculando el hash de cada archivo"
 python3 - "$REPO" "$WORK" "$MANIFEST" "$MODPACK_ID" "$VERSION" <<'EOF'
-import hashlib, json, os, sys
+import fnmatch, hashlib, json, os, sys
 repo, work, manifest_name, modpack_id, version = sys.argv[1:]
+
+settings_file = f"{repo}/ajustes-jugador.txt"
+player_patterns = []
+if os.path.exists(settings_file):
+    for line in open(settings_file, encoding="utf-8"):
+        line = line.strip()
+        if line and not line.startswith("#"):
+            player_patterns.append(line.lower())
+
+def is_player_setting(rel):
+    return not rel.startswith("mods/") and any(fnmatch.fnmatchcase(rel.lower(), p) for p in player_patterns)
 
 def sha256(path):
     h = hashlib.sha256()
@@ -153,7 +168,10 @@ for rel, local in sources:
         sys.exit(f"ruta repetida sin distinguir mayúsculas (en Windows chocan): {rel}")
     seen.add(rel.lower())
     digest, size = sha256(local), os.path.getsize(local)
-    files.append({"path": rel, "sha256": digest, "size": size})
+    entry = {"path": rel, "sha256": digest, "size": size}
+    if is_player_setting(rel):
+        entry["playerSetting"] = True
+    files.append(entry)
     objects.setdefault(digest, (local, size))
 
 manifest = {
@@ -174,6 +192,7 @@ total = sum(size for _, size in objects.values())
 dupes = sum(f["size"] for f in files) - total
 print(f"    {len(files)} archivos, {len(objects)} distintos, {total / 2**30:.2f} GiB"
       + (f" ({dupes / 2**20:.0f} MiB repetidos se guardan una vez)" if dupes else ""))
+print(f"    {sum(1 for f in files if f.get('playerSetting'))} son ajustes del jugador (ajustes-jugador.txt)")
 
 # Diferencias con el manifiesto publicado
 try:
