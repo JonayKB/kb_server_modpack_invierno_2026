@@ -1,0 +1,14 @@
+# Archivos de overrides que son ajustes del jugador (patrones sobre la ruta
+# dentro de la instancia; `*` vale también para subcarpetas, sin distinguir
+# mayúsculas).
+#
+# Si el jugador cambia uno de estos, el launcher respeta su versión mientras tú
+# no publiques una nueva de ese archivo; si la publicas, gana la tuya.
+# Todo lo que no esté aquí (configs comunes, kubejs, resourcepacks...) se deja
+# siempre como lo publica el modpack, aunque lo cambie el jugador o el juego.
+config/*client*
+config/embeddium-options.json
+options.txt
+optionsof.txt
+optionsshaders.txt
+servers.dat
